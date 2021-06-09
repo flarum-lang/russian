@@ -1,4 +1,4 @@
-name: GitLab Sync
+name: GitHub PkgStore Sync
 
 on:
   - push
