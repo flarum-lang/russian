@@ -1,0 +1,59 @@
+{
+  "name": "flarum-lang/russian",
+  "description": "Russian language pack for Flarum.",
+  "type": "flarum-extension",
+  "license": "MIT",
+  "homepage": "https://github.com/flarum-lang",
+  "keywords": [
+    "extension",
+    "flarum",
+    "russian",
+    "language",
+    "locale",
+    "localization",
+    "translation"
+  ],
+  "authors": [
+    {
+      "name": "Kitsune Solar",
+      "email": "kitsune.solar@gmail.com",
+      "homepage": "https://kitsune.solar/",
+      "role": "Translator"
+    }
+  ],
+  "support": {
+    "source": "https://github.com/flarum-lang/russian",
+    "issues": "https://github.com/flarum-lang/russian/issues",
+    "docs": "https://github.com/flarum-lang/russian/blob/main/README.md",
+    "forum": "https://discuss.flarum.org/d/1545"
+  },
+  "require": {
+    "flarum/core": "^1.0"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    },
+    "flarum-extension": {
+      "title": "Русский",
+      "category": "language",
+      "info": {
+        "website": "https://github.com/flarum-lang",
+        "support": "https://discuss.flarum.org/d/1545"
+      },
+      "icon": {
+        "image": "icon.svg",
+        "backgroundColor": "#ffffff",
+        "backgroundSize": "cover",
+        "backgroundPosition": "center"
+      }
+    },
+    "flarum-locale": {
+      "code": "ru",
+      "title": "Русский"
+    },
+    "extiverse": {
+      "discuss": "https://discuss.flarum.org/d/1545"
+    }
+  }
+}
