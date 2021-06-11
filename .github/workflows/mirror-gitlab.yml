@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: pkgstore/github-action-mirror@main
         with:
-          source_repo: "https://github.com/${{ github.repository }}"
+          source_repo: "https://github.com/${{ github.repository }}.git"
           source_user: "${{ secrets.MIRROR_SOURCE_USER_GITHUB }}"
           source_token: "${{ secrets.MIRROR_SOURCE_TOKEN_GITHUB }}"
           target_repo: "${{ secrets.MIRROR_TARGET_URL_GITLAB }}"
