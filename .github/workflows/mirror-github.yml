@@ -5,6 +5,7 @@ on:
 
 jobs:
   mirror:
+    if: ${{ github.repository == 'flarum-lang/russian' }}
     runs-on: ubuntu-latest
     name: "Mirror"
     steps:
