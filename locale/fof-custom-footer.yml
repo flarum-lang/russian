@@ -1,0 +1,7 @@
+fof-custom-footer:
+  admin:
+    settings:
+      css: "CSS"
+      height: "Высота подвала (px)"
+      js: "JS"
+      text: "Текст подвала"
