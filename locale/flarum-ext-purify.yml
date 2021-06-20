@@ -1,0 +1,10 @@
+flarum-ext-purify:
+  forum:
+    obscure: '[Очищено]'
+  admin:
+    additem: "Добавить слово в массив"
+    additemdesc: "разделять каждое слово запятой (например, word1,word2,word3,)"
+    hidemail: "Автоматически скрывать адрес e-mail"
+    customreg: "Использовать собственное регулярное выражение"
+    customregexp: "Использовать собственное Regexp"
+    customregexpdesc: "Введите своё регулярное выражение (например, (flarum|best|extension) для скрытия этих трёх слов)"
