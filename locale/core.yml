@@ -457,6 +457,7 @@ core:
     change_email: 'Изменить e-mail'
     change_password: 'Изменить пароль'
     color: Цвет
+    confirm_email: 'Подтвердить адрес электронной почты'
     confirm_password: 'Подтвердить пароль'
     confirmation_email_sent: 'Мы отправили письмо с подтверждением на адрес {email}. Если Вы не получите письмо в ближайшее время, проверьте папку со спамом.'
     custom_footer_text: 'HTML, который будет отображаться в самой нижней части страницы.'
@@ -469,6 +470,7 @@ core:
     edit: Править
     edit_user: 'Изменить пользователя'
     email: E-mail
+    extensions: Расширения
     icon: Иконка
     icon_text: 'Введите название любого класса иконки <a>Font Awesome</a>, <em>включая</em> префикс <code>fas fa-</code>.'
     load_more: 'Загрузить ещё'
@@ -500,11 +502,20 @@ core:
   views:
     admin:
       extensions:
+        caption: '=> core.ref.extensions'
+        disable: Запретить
+        empty: 'Нет установленных расширений'
+        enable: Разрешить
         name: 'Название расширения'
         package_name: 'Имя пакета'
         version: Версия
       info:
         caption: 'Сведения о приложении'
+      title: Администрирование
+    confirm_email:
+      submit_button: '=> core.ref.confirm_email'
+      text: 'Щелкните по кнопке ниже для подтверждения своей электронной почты.'
+      title: '=> core.ref.confirm_email'
     content:
       javascript_disabled_message: 'Этот сайт лучше всего просматривать в современном браузере с включённым JavaScript.'
       load_error_message: 'Что-то пошло не так при попытке загрузить полную версию этого сайта. Попробуйте обновить страницу с удалением кэша браузера (CTRL+F5) для решения этой проблемы.'
