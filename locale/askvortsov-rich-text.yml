@@ -6,7 +6,39 @@ askvortsov-rich-text:
   admin:
     settings:
       toggle_on_editor: 'Показать переключатель расширенного текстового режима в редакторе?'
+  forum:
+    settings:
+      composer_heading: Composer
+      rich_text_compact_paragraphs_label: 'Не разделяйте параграфы новой линией.'
+      use_rich_text_editor_label: 'Использовать расширенный редактор текста?'
   lib:
     composer:
+      additional_items_tooltip: 'Дополнительные элементы управления'
+      bold_tooltip: 'Полужирный шрифт <{modifierKey}-b>'
+      code_block_tooltip: 'Введите участок кода'
+      code_tooltip: 'Поле кода <{modifierKey}-`>'
+      header_tooltip: 'Изменить на заголовок {level} <shift-{modifierKey}-{level}>'
+      horizontal_rule_tooltip: 'Вставить горизонтальную линейку'
+      image_tooltip: 'Добавить изображение'
       insert_button: Вставить
+      insert_image:
+        src_placeholder: Ссылка
+        title_placeholder: Заголовок
+      insert_link:
+        href_placeholder: URL
+        remove_button: Убрать
+        text_placeholder: Текст
+        title_placeholder: 'Заголовок (показывается в окошке подсказки)'
+      italic_tooltip: 'Курсив <{modifierKey}-i>'
+      link_tooltip: 'Вставить ссылку'
+      ordered_list_tooltip: 'Нумерованный список <shift-{modifierKey}-9>'
+      paragraph_tooltip: 'Изменить на параграф <shift-{modifierKey}-0>'
+      quote_tooltip: 'Вставить цитату <{modifierKey}-q>'
+      spoiler_block_tooltip: 'Спойлер/выпадающий фрагмент'
+      spoiler_inline_tooltip: 'Спойлер  <{modifierKey}-;>'
+      strike_tooltip: 'Зачеркнутый <alt-shift-5>'
+      sub_tooltip: 'Подстрочный <{modifierKey}-,>'
+      sup_tooltip: 'Надстрочный <{modifierKey}-.>'
+      text_type_tooltip: 'Выберите тип текста'
       toggle_button: 'Переключить в расширенный текстовый режим'
+      unordered_list_tooltip: 'Маркированный список <shift-{modifierKey}-8>'
