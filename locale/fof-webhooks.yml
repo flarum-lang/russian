@@ -9,6 +9,11 @@ fof-webhooks:
       posted: 'Новое сообщение в `{1}`'
       revised: 'Исправлено сообщение в `{1}`'
     user:
+      deleted: 'Удален пользователь `{1}`'
       registered: 'Зарегистрирован новый пользователь'
       renamed:
+        description: 'Новое имя пользователя: {1}'
         title: 'Имя пользователя изменено в `{1}`'
+  admin:
+    settings:
+      debug_label: Отладка
