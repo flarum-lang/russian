@@ -11,11 +11,15 @@ fof-analytics:
         googleGTMCode: 'Идентификатор GTM кода (опционально)'
         googleTrackingCode: 'Идентификатор кода отслеживания'
         optTrackingCode: 'Оптимизировать код отслеживания (опционально)'
+        piwikAuthToken: 'Ключ аутентификации'
         piwikSiteId: 'ID сайта'
+        piwikTrackAccounts: 'Отслеживать отдельные пользовательские аккаунты'
         piwikTrackSubdomain: 'Отслеживать посетителей по всем поддоменам Flarum'
         piwikUrl: 'Matomo домен или URL'
         statusGoogle: 'Разрешить Аналитику Google'
         statusPiwik: 'Разрешить Matomo'
+      placeholder:
+        piwikAuthToken: "Заполните этот ключ для включения виджета статистики Matomo в административной панели.\nВы можете найти его здесь: Настройки > Личные > Ключ API аутентификации.\n"
       section:
         googleAnalytics: 'Аналитика Google'
         piwik: Matomo
