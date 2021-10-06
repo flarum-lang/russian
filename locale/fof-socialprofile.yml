@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 fof-socialprofile:
+  admin:
+    settings:
+      allow_external_favicons_label: 'Разрешить иконки с внешних сайтов'
   forum:
     edit:
       add: Добавить
