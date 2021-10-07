@@ -4,6 +4,8 @@
 
 fof-socialprofile:
   admin:
+    permissions:
+      view: 'Просмотр профиля в соцсетях'
     settings:
       allow_external_favicons_label: 'Разрешить иконки с внешних сайтов'
   forum:
