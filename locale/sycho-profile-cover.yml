@@ -7,6 +7,7 @@ sycho-profile-cover:
     max_size: 'Максимальный размер изображения для обложки профиля (в кБ)'
     permission:
       set_cover: 'Установить обложку профиля'
+    thumbnails: 'Создать миниатюры'
   forum:
     added:
       error: 'Не удалось загрузить изображение.'
