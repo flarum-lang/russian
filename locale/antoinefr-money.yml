@@ -4,5 +4,21 @@
 
 antoinefr-money:
   admin:
+    permissions:
+      edit_money_label: 'Править монетки'
     settings:
+      helpextensionlikes: 'Требуется расширение <code>flarum/likes</code>'
+      moneyfordiscussion: 'Монеток получено за новую дискуссию'
+      moneyforlike: 'Монеток получено если сообщение одобрили'
+      moneyforpost: 'Монеток получено за новое сообщение'
+      moneyname: 'Название монеток (например: [money] очков)'
+      noshowzero: 'Не отображать нулевое значение'
+      postminimumlength: 'Минимальная длина сообщения для получения монеток (0 - запретить)'
       title: Настройки
+  forum:
+    modal:
+      current: 'Текущие:'
+      submit_button: '=> core.ref.save_changes'
+      title: 'монеток у {username}'
+    user_controls:
+      money_button: 'Править монетки'
