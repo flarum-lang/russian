@@ -17,6 +17,7 @@ datitisev-backup:
             description: 'Ключ доступа AWS'
             label: Ключ
         version:
+          description: 'Укажите версию или оставьте пустой для использования самой последней.'
           label: Версия
       azure:
         container:
