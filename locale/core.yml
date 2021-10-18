@@ -428,6 +428,7 @@ core:
       email_heading: '=> core.ref.email'
       email_label: '=> core.ref.email'
       groups_heading: Группы
+      nothing_available: 'Вы не можете править этого пользователя.'
       password_heading: '=> core.ref.password'
       password_label: '=> core.ref.password'
       set_password_label: 'Установить новый пароль'
@@ -443,6 +444,7 @@ core:
       payload_too_large_message: 'Длина запроса слишком велика.'
       permission_denied_message: 'У Вас нет прав доступа для выполнения этого действия.'
       rate_limit_exceeded_message: 'Вы размещаете сообщения слишком часто. Пожалуйста, попробуйте ещё раз через несколько секунд.'
+      render_failed_message: 'Извините, при отображении этого контента возникли ошибки. Если вы простой пользователь, повторите попытку позднее. Если вы администратор, посмотрите детали в лог-файлах Фларума.'
     loading_indicator:
       accessible_label: '=> core.ref.loading'
     number_suffix:
