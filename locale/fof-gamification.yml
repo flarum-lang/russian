@@ -6,9 +6,12 @@ core:
   forum:
     index_sort:
       hot_button: 'Набирающее популярность'
+      votes_button: Одобрения
 fof-gamification:
   admin:
     page:
+      alt_votes:
+        icon_name: 'Имя иконки альтернативной раскладки'
       convert:
         button: 'Преобразовать лайки в одобрения'
         converted: 'Успешно конвертированы все {number} лайки'
@@ -45,6 +48,7 @@ fof-gamification:
         points_title: 'Поле отображения очков'
         rate_limit: 'Установить предел частоты голосования (10 сек)'
         title: Голосов
+        upvotes_only: 'Разрешены только одобрения'
         vote_color: 'Цвет голоса'
     permissions:
       see_ranking_page: 'Посмотреть страницу рангов'
