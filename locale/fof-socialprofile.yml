@@ -6,8 +6,12 @@ fof-socialprofile:
   admin:
     permissions:
       view: 'Просмотр профиля в соцсетях'
+      editOwn: 'Редактировать собственный социальный профиль'
+      editAny: 'Редактировать любой социальный профиль'
+
     settings:
       allow_external_favicons_label: 'Разрешить иконки с внешних сайтов'
+
   forum:
     edit:
       add: Добавить
@@ -19,3 +23,5 @@ fof-socialprofile:
       submit: Сохранить
       title: Заголовок
       url: URL
+      favicon: Фавикон
+      grey_favicon: 'Серый фавикон'
