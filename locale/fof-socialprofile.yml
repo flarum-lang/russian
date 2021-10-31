@@ -23,5 +23,5 @@ fof-socialprofile:
       submit: Сохранить
       title: Заголовок
       url: URL
-      favicon: Фавикон
-      grey_favicon: 'Серый фавикон'
+      favicon: Favicon
+      grey_favicon: 'Серый Favicon'
