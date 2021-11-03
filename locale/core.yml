@@ -112,6 +112,10 @@ core:
       open_modal: 'Открыть настройки'
       permissions_title: Разрешения
       purge_button: Очистка
+      readme:
+        button_label: README
+        no_readme: 'У этого расширения нет файла README'
+        title: 'Документация на {extName}'
       uninstall_button: Удалить
     header:
       get_help: Помощь
@@ -423,6 +427,7 @@ core:
   lib:
     badge:
       hidden_tooltip: Скрыто
+    debug_button: Отладка
     dropdown:
       toggle_dropdown_accessible_label: 'Выпадающее меню'
     edit_user:
