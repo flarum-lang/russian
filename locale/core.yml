@@ -454,6 +454,8 @@ core:
       render_failed_message: 'Извините, при отображении этого контента возникли ошибки. Если вы простой пользователь, повторите попытку позднее. Если вы администратор, посмотрите детали в лог-файлах Фларума.'
     loading_indicator:
       accessible_label: '=> core.ref.loading'
+    nav:
+      drawer_button: 'Открыть Навигационную секцию'
     number_suffix:
       kilo_text: K
       mega_text: M

@@ -38,6 +38,8 @@ fof-linguist:
       download: Загрузка
       include-all: 'Включить переводы, определенные для "Всех" языков'
       include-originals: 'Включить исходные переводы'
+      locale: Язык
+      locale-all: 'Псевдо-язык "Все"'
       namespace-all: Все
       output: Вывод
       output-empty: 'Пустой вывод'
@@ -65,6 +67,7 @@ fof-linguist:
     import:
       input: Ввод
       input-placeholder: 'Перетащите или вставьте сюда Yaml-файл'
+      locale: Язык
       locale-all: 'Псевдо-локаль "Все"'
       override-existing: 'Перезаписать мои существующие пользовательские переводы'
       results: "Импорт завершен. {imported} было импортировано, {identical} одинаковых строк пропущено. Страница сейчас будет обновлена, чтобы увидеть новые переводы.\n"
@@ -76,6 +79,7 @@ fof-linguist:
       api: API
       forum: Форум
       lib: 'Библиотека (используется как форумом, так и Администратором)'
+      ref: 'Ссылка (переопределяется в других ключах)'
     known-namespace:
       core: 'Ядро Flarum'
       validation: 'Ошибки проверки'
