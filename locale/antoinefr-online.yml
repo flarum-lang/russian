@@ -9,4 +9,5 @@ antoinefr-online:
       titleoflist: 'Заголовок, отображаемый над списком'
   forum:
     andmore: 'и {more} еще...'
+    online_users: '{more, plural, one {# user сейчас в сети} other {# users пользователей сейчас в сети}}'
     title: 'Кто онлайн?'
