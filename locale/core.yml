@@ -415,6 +415,8 @@ core:
       alert_message: '=> core.ref.confirmation_email_sent'
       resend_button: 'Повторно отправить подтверждение по e-mail'
       sent_message: Отправлено
+    welcome_hero:
+      hide: 'Скрыть приветственное сообщение'
   group:
     admin: Админ
     admins: Админы
@@ -454,6 +456,8 @@ core:
       render_failed_message: 'Извините, при отображении этого контента возникли ошибки. Если вы простой пользователь, повторите попытку позднее. Если вы администратор, посмотрите детали в лог-файлах Фларума.'
     loading_indicator:
       accessible_label: '=> core.ref.loading'
+    modal:
+      close: Закрыть
     nav:
       drawer_button: 'Открыть Навигационную секцию'
     number_suffix:
