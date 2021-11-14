@@ -18,3 +18,4 @@ clarkwinkelmann-status:
       clear: Очистить
       submit: Отправить
       text-placeholder: 'Что происходит?'
+      title: 'Установить статус'

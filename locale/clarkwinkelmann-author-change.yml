@@ -23,5 +23,5 @@ clarkwinkelmann-author-change:
       user: Автор
     search:
       no-results: 'Нет результатов'
-      placeholder: 'Поиск пользователей...'
+      placeholder: 'Поиск пользователей'
       type-more: 'Введите 3 символа для поиска в базе данных'
