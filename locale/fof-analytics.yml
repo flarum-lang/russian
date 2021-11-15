@@ -11,7 +11,9 @@ fof-analytics:
         googleGTMCode: 'Идентификатор GTM кода (опционально)'
         googleTrackingCode: 'Идентификатор кода отслеживания'
         optTrackingCode: 'Оптимизировать код отслеживания (опционально)'
+        piwikAliasUrl: Псевдо-URL
         piwikAuthToken: 'Ключ аутентификации'
+        piwikPrependDomain: 'Подменять домен сайта названием страницы при отслеживании'
         piwikSiteId: 'ID сайта'
         piwikTrackAccounts: 'Отслеживать отдельные пользовательские аккаунты'
         piwikTrackSubdomain: 'Отслеживать посетителей по всем поддоменам Flarum'

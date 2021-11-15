@@ -5,6 +5,8 @@
 fof-socialprofile:
   admin:
     permissions:
+      editAny: 'Править любой профиль соцсетей'
+      editOwn: 'Править свой профиль соцсетей'
       view: 'Просмотр профиля в соцсетях'
     settings:
       allow_external_favicons_label: 'Разрешить иконки с внешних сайтов'
@@ -14,6 +16,8 @@ fof-socialprofile:
       delete: Удалить
       deletetitle: 'Удаление кнопки'
       edit: Править
+      favicon: Иконка-заголовок
+      grey_favicon: 'Затемнить иконку'
       headtitle: 'Редактирование кнопок'
       save_disabled_fetching_favicons: 'Идёт процесс извлечения иконок. Пожалуйста, подождите.'
       submit: Сохранить
