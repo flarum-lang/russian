@@ -10,6 +10,7 @@ fof-mason:
       delete-answer: 'Удалить ответ'
       delete-field: 'Удалить поле'
       edit-answer: 'Править ответ'
+      edit-answer-prompt: 'Править содержимое везде, где оно используется'
       edit-field: 'Щелкните, чтобы править поле'
       new-field: 'Новое поле'
       save-answer: 'Сохранить изменения ответа'

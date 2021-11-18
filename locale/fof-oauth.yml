@@ -4,6 +4,7 @@
 
 fof-oauth:
   admin:
+    configure_button_label: 'Конфигурировать через FoF OAuth'
     settings:
       only_icons_label: 'Отображать только иконки на кнопках входа (альтернативный макет)'
       providers:
@@ -58,6 +59,8 @@ fof-oauth:
       google: '=> fof-oauth.lib.providers.google'
       linkedin: '=> fof-oauth.lib.providers.linkedin'
       twitter: '=> fof-oauth.lib.providers.twitter'
+    signup:
+      username_help: 'Пожалуйста выберите имя пользователя, которое будет использоваться здесь'
   lib:
     providers:
       discord: Discord

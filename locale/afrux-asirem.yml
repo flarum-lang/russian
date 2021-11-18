@@ -17,6 +17,8 @@ afrux-theme-base:
       edit_footer_links: 'Править ссылки нижнего колонтитула'
       footer_bottom_line: 'Линия подчеркивания нижнего колонтитула'
       footer_description: 'Описание нижнего колонтитула'
+      hero_banner: 'Приветственное изображение на главной странице'
+      hero_banner_position: 'CSS-код положения изображения главной страницы (например: ''center top'' или ''center 20%'')'
       links_modal:
         add_group: 'Новая группа ссылок'
         add_link: 'Добавить ссылку'

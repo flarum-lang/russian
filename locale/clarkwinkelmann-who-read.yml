@@ -13,7 +13,7 @@ clarkwinkelmann-who-read:
       ignoring: '=> flarum-subscriptions.forum.badge.ignoring_tooltip'
       unread: 'Помечено как непрочтенное'
     controls:
-      remove-unread: 'Удалить непрочтенное'
+      remove-unread: 'Удалить непрочтенные'
       set-unread: 'Пометить как непрочтенное'
     modal:
       behind: 'Пользователи, не дочитавшие до конца'

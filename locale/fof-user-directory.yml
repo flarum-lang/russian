@@ -8,6 +8,7 @@ fof-user-directory:
       view_user_directory: 'Смотреть список участников'
     settings:
       default-sort: 'Сортировка по умолчанию'
+      disable-global-search-source: 'Не добавлять пользовательский каталог в поле глобального поиска Фларума'
       link: 'Ссылка на главной странице форума'
       use-small-cards: 'Использовать небольшие карточки участников'
   forum:
