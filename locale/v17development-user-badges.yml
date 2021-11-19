@@ -15,6 +15,7 @@ v17development-flarum-badges:
       metric_drivers:
         badges_received: 'получено жетонов'
       not_installed:
+        content: 'Это расширение предлагает больше функциональности при установленном и активированном <a>Auto Moderator</a>. Когда вы установите это расширение, пользователи могут получать жетоны в автоматическом режиме, без вмешательства модераторов и администрации форума!'
         dismiss: 'Не показывать вновь'
         install: Установить
         title: 'Автоматически присваивать жетоны пользователям'
@@ -27,6 +28,8 @@ v17development-flarum-badges:
       visible: Видимый
       visible_description: 'Разрешить этот жетон. Если запретить, жетон не будет видимым.'
     badge_category:
+      blockview: 'Блочный вид'
+      blockview_description: 'Показать жетоны категорий в блочном виде на сводке жетонов. Если запрещено, все жетоны будут отображаться в виде таблицы.'
       description: 'Описание категории'
       enabled: Разрешить
       enabled_description: 'Разрешить эту категорию. Если запретить, все её жетоны будут запрещены и категория будет скрыта.'
@@ -58,6 +61,7 @@ v17development-flarum-badges:
       badges: Жетоны
       category: 'Категория жетона'
       description: 'Описание жетона'
+      earned_by_count: '{count, plural, one {награжден <b># user</b>} other {награждены <b># users</b>}}'
       earned_count: '{count, plural, one {<b># user</b> присвоен это жетон} other {<b># users</b> присвоен это жетон}}'
       earned_on: 'Жетон присвоен'
       earning_reason: 'Причина присвоения жетона'
