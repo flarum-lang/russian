@@ -23,6 +23,7 @@ sycho-move-posts:
       discussion_help: 'Теги исходной дискуссии сохранятся, и могут быть изменены после создания.'
       discussion_name: '=> core.forum.composer_discussion.title_placeholder'
       new_discussion: 'Новая дискуссия'
+      selected_posts: '{count, plural, one {Одно сообщение выбрано} other {{count} Сообщений выбрано}}'
       status:
         complex_move: 'Сложное перемещение, сообщения будут вставлены между другими сообщениями, старые URL ссылки на сообщения в "целевой" дискуссии будут также изменены.'
         old_to_new_move: '=> sycho-move-posts.ref.status.old_to_new_move'
@@ -35,6 +36,8 @@ sycho-move-posts:
       move: 'Выберите для перемещения'
       moving: 'Переместить сообщение'
       unmove: 'Снимите выбор для перемещения'
+    post_stream:
+      post_moved: '{count, plural, one {{username} переместил сообщение в дискуссию {target_discussion}.} other {{username} переместил {count} сообщений в дискуссию {target_discussion}.}}'
   lib:
     discussion:
       first_post:
