@@ -29,6 +29,12 @@ malago-achievements:
       row_placeholder: '0'
       submit_button: '=> core.ref.save_changes'
       title: 'Создать достижение'
+      tooltip:
+        discussions: 'Минимальное число созданных дискуссий (т.е., 10) или диапазон значений (т.е., 10,19)'
+        edits: 'Минимальное число исправленных сообщений (т.е., 10) или диапазон значений (т.е., 10,19)'
+        likes: 'Минимальное число оставленных одобрений (т.е., 10) или диапазон значений (т.е., 10,19)'
+        posts: 'Минимальное число сообщений (т.е., 10) или диапазон значений (т.е., 10,19)'
+        selflikes: 'Минимальное число полученных одобрений (т.е., 10) или диапазон значений (т.е., 10,19)'
       username: Участник
       username_placeholder: Участник
       variable:
@@ -47,6 +53,10 @@ malago-achievements:
       variable_label: Переменная
       width_label: 'Ширина изображения'
       width_placeholder: '32'
+    achievements_page:
+      create_achievement_button: 'Создать новое достижение'
+      instructions_header: Инструкции
+      list_heading: Достижения
   forum:
     achievement_points: Очков
     achievement_total_points: Всего
