@@ -56,6 +56,11 @@ fof-gamification:
       see_voters_label: 'Посмотреть кто голосовал'
       see_votes_label: 'Посмотреть одобрения/неодобрения сообщения'
       vote_label: 'Одобренные/Неодобренные сообщения'
+  email:
+    body:
+      postVoted: "Привет {recipient_display_name},\n\n{actor_display_name} только что проголосовал за/против вашего сообщения в теме {discussion_title}.\n\nПросмотрите здесь: {discussion_url}\n"
+    subject:
+      postVoted: 'На ваше сообщение получен голос от {display_name}'
   forum:
     mod_item: 'Просмотреть голосовавших'
     modal:
@@ -65,6 +70,8 @@ fof-gamification:
       name: Ранги
     notification:
       downvote: '{username} неодобрил ваше сообщение'
+      prefrences:
+        vote: 'Когда проголосовали за/против одного из моих сообщений'
       upvote: '{username} одобрил ваше сообщение'
     ranking:
       amount: Очков

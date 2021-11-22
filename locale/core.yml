@@ -288,6 +288,7 @@ core:
       replied_text: '{username} ответил(а) {ago}'
       started_text: '{username} создал(а) {ago}'
       total_replies_a11y_label: '{count, plural, one {# reply} other {# replies}}'
+      unread_replies_a11y_label: '{count, plural, one {# непрочтенный ответ} other {# непрочтенных ответов}}. Отметить непрочтенные {count, plural, one {ответ} other {ответов}} как прочтенные.'
     forgot_password:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'
