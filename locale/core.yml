@@ -476,7 +476,7 @@ core:
     change_email: 'Изменить e-mail'
     change_password: 'Изменить пароль'
     color: Цвет
-    confirm_email: 'Подтвердить адрес электронной почты'
+    confirm_email: 'Подтвердить email'
     confirm_password: 'Подтвердить пароль'
     confirmation_email_sent: 'Мы отправили письмо с подтверждением на адрес {email}. Если Вы не получите письмо в ближайшее время, проверьте папку со спамом.'
     custom_footer_text: 'HTML, который будет отображаться в самой нижней части страницы.'
