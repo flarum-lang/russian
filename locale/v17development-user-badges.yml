@@ -22,8 +22,15 @@ v17development-flarum-badges:
       requirement_drivers:
         has_badge: 'имеет жетон'
     badge:
+      background_color: 'Цвет фона'
       description: 'Описание жетона'
       icon: 'Иконка жетона'
+      icon_color: 'Цвет иконки'
+      image: 'URL изображения жетона'
+      image_placeholder: 'Введите URL изображения жетона'
+      is_image: 'Жетон в виде изображения'
+      is_image_description: 'Использовать изображение вместо символьного жетона по умолчанию'
+      label_color: 'Цвет текста'
       name: 'Название жетона'
       visible: Видимый
       visible_description: 'Разрешить этот жетон. Если запретить, жетон не будет видимым.'
