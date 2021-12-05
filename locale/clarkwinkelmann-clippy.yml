@@ -11,7 +11,7 @@ clarkwinkelmann-clippy:
     settings:
       agent: Агент
       agent-help: 'У каждого агента свой набор анимаций. Смена агента удалит все несовместимые анимации из ваших настроек.'
-      cdn: CDN
+      cdn: 'Настройки CDN'
       cdn-options:
         custom: 'Не обычный'
         jsdelivr: jsDelivr
