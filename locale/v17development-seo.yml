@@ -4,5 +4,5 @@
 
 v17development-flarum-seo:
   forum:
-    profile_description: 'Профиль пользователя {username} | {discussion_count} дискуссий | {comment_count} сообщений'
-    profile_title: 'Профиль пользователя {username}'
+    profile_description: 'Профиль {username} | {discussion_count} дискуссий | {comment_count} сообщений'
+    profile_title: 'Профиль {username}'
