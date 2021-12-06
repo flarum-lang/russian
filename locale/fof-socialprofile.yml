@@ -5,19 +5,19 @@
 fof-socialprofile:
   admin:
     permissions:
-      editAny: 'Править любой профиль соцсетей'
-      editOwn: 'Править свой профиль соцсетей'
-      view: 'Просмотр профиля в соцсетях'
+      editAny: 'Редактировать любой социальный профиль'
+      editOwn: 'Редактировать свой социальный профиль'
+      view: 'Смотреть социальный профиль'
     settings:
-      allow_external_favicons_label: 'Разрешить иконки с внешних сайтов'
+      allow_external_favicons_label: 'Разрешить значки внешних сайтов'
   forum:
     edit:
       add: Добавить
       delete: Удалить
       deletetitle: 'Удаление кнопки'
       edit: Править
-      favicon: Иконка-заголовок
-      grey_favicon: 'Затемнить иконку'
+      favicon: Favicon
+      grey_favicon: 'Серый Favicon'
       headtitle: 'Редактирование кнопок'
       save_disabled_fetching_favicons: 'Идёт процесс извлечения иконок. Пожалуйста, подождите.'
       submit: Сохранить

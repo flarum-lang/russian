@@ -9,6 +9,7 @@ fof-merge-discussions:
   api:
     error:
       deleting_failed: 'Не удалось удалить пустые дискуссии.'
+      fixing_posts_number_failed: 'Не удалось исправить номера сообщений.'
       merging_failed: 'Не удалось объединить дискуссии.'
       updating_failed: 'Не удалось обновить информацию о дискуссии.'
   forum:

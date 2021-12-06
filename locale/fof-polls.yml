@@ -7,9 +7,9 @@ fof-polls:
     permissions:
       change_vote: 'Изменять голос'
       moderate: 'Редактировать / удалять опросы'
-      self_edit: 'Разрешить пользователям редактировать свои опросы'
+      self_edit: 'Редактировать свои опросы'
       start: 'Создавать опросы'
-      view_results_without_voting: 'Смотреть результат без голосования'
+      view_results_without_voting: 'Смотреть результаты без голосования'
       vote: 'Голосовать в опросах'
   forum:
     composer_discussion:
@@ -32,7 +32,7 @@ fof-polls:
       submit: Сохранить
     moderation:
       delete: 'Удалить опрос'
-      delete_confirm: 'Вы уверены, что хотите удалить опрос?'
+      delete_confirm: 'Вы уверены, что хотите удалить этот опрос?'
       edit: 'Изменить опрос'
     no_permission: 'У Вас нет прав доступа на голосование в опросе'
     poll_ended: 'Опрос завершён.'

@@ -4,16 +4,92 @@
 
 fof-webhooks:
   actions:
-    post:
-      deleted: 'Удалено сообщение в `{1}`'
-      posted: 'Новое сообщение в `{1}`'
-      revised: 'Исправлено сообщение в `{1}`'
-    user:
-      deleted: 'Удален пользователь `{1}`'
-      registered: 'Зарегистрирован новый пользователь'
+    discussion:
+      deleted: 'Удаление дискуссии `{1}`'
+      hidden: 'Скрытие дискуссии `{1}`'
       renamed:
-        description: 'Новое имя пользователя: {1}'
-        title: 'Имя пользователя изменено в `{1}`'
+        description: 'Новое название: {1}'
+        title: 'Изменение дискуссии `{1}`'
+      restored: 'Восстановление дискуссии `{1}`'
+      started: 'Создание дискуссии `{1}`'
+    group:
+      created: 'Создание группы `{1}`'
+      deleted: 'Удаление группы `{1}`'
+      renamed: 'Изменение группы на `{1}`'
+    post:
+      deleted: 'Удаление сообщения в `{1}`'
+      hidden: 'Скрытие сообщения в `{1}`'
+      posted: 'Новое сообщение в `{1}`'
+      restored: 'Восстановление сообщения в `{1}`'
+      revised: 'Изменение сообщения в `{1}`'
+    user:
+      deleted: 'Удаление пользователя `{1}`'
+      registered: 'Регистрация нового пользователя'
+      renamed:
+        description: 'Новое имя: {1}'
+        title: 'Изменение имени пользователя `{1}`'
+  adapters:
+    errors:
+      404: 'Webhook не найден'
   admin:
+    errors:
+      service_not_found: 'Сервис "{service}" не найден.'
+      tag_invalid: 'Этот webhook ограничен некорректным тегом. Ограничение не применяется. Убедитесь, что это сделано специально.'
+      url_invalid: 'Для выбранного сервиса введён некорректный URL.'
+    nav:
+      desc: 'Настройка исходящих webhook''ов для форума.'
     settings:
+      actions:
+        flarum:
+          discussion:
+            deleted: '=> fof-webhooks.ref.deleted'
+            hidden: '=> fof-webhooks.ref.hidden'
+            renamed: '=> fof-webhooks.ref.renamed'
+            restored: '=> fof-webhooks.ref.restored'
+            started: Создание
+            title: Дискуссия
+          group:
+            created: Создание
+            deleted: '=> fof-webhooks.ref.deleted'
+            renamed: '=> fof-webhooks.ref.renamed'
+            title: Группа
+          post:
+            deleted: '=> fof-webhooks.ref.deleted'
+            hidden: '=> fof-webhooks.ref.hidden'
+            posted: Публикация
+            restored: '=> fof-webhooks.ref.restored'
+            revised: Изменение
+            title: Сообщение
+          user:
+            deleted: '=> fof-webhooks.ref.deleted'
+            registered: Регистрация
+            renamed: '=> fof-webhooks.ref.renamed'
+            title: Пользователь
+      debug_help: 'Добавление дополнительной информации в журналы Flarum для обнаружения и исправления проблем, связанных с webhook''ами и событиями.'
       debug_label: Отладка
+      help:
+        disabled: 'Этот webhook выключен, так как для него отсутствуют активные события.'
+        general: 'Здесь Вы можете создавать, редактировать и удалять различные webhook''и своего сообщества.'
+        url: 'Конечная точка webhook''а, которая будет выполняться'
+      item:
+        tag_any_label: Любой
+      modal:
+        description: 'Здесь Вы можете настроить события, на которые будет реагировать webhook.'
+        events_label: События
+        extra_text_help: 'Текст, который будет добавлен при отправки webhook''а.'
+        extra_text_label: 'Дополнительный текст'
+        group_help: 'Отправка ресурсов, которые будут видны только этой группе.'
+        group_label: Группа
+        max_post_content_length_help: 'Укажите число для ограничения содержания сообщения во всех событиях, связанных с публикацией. Укажите 0 или оставьте пустым для снятия ограничения.'
+        max_post_content_length_label: 'Максимальная длина сообщения'
+        title: 'Настройки webhook''а'
+        use_plain_text_label: 'Использовать простой текст (без форматирования) в содержимом сообщения'
+      services:
+        discord: Discord
+        microsoft-teams: 'Microsoft Teams'
+        slack: Slack
+  ref:
+    deleted: Удаление
+    hidden: Скрытие
+    renamed: Изменение
+    restored: Восстановление

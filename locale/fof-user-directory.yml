@@ -8,9 +8,9 @@ fof-user-directory:
       view_user_directory: 'Смотреть список участников'
     settings:
       default-sort: 'Сортировка по умолчанию'
-      disable-global-search-source: 'Не добавлять пользовательский каталог в поле глобального поиска Фларума'
-      link: 'Ссылка на главной странице форума'
-      use-small-cards: 'Использовать небольшие карточки участников'
+      disable-global-search-source: 'Не добавлять каталог участников в поле глобального поиска'
+      link: 'Ссылка на странице форума'
+      use-small-cards: 'Маленькие карточки участников'
   forum:
     header:
       back_to_user_directory_tooltip: 'Назад к списку участников'

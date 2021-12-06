@@ -5,7 +5,7 @@
 fof-share-social:
   admin:
     settings:
-      canonical-urls: 'Использовать канонические адреса URL'
+      canonical-urls: 'Использовать канонические URL'
   forum:
     discussion:
       share_button: Поделиться
@@ -15,12 +15,12 @@ fof-share-social:
     networks:
       facebook: Facebook
       linkedin: LinkedIn
-      my_mail: 'My World'
-      odnoklassniki: Odnoklassniki
+      my_mail: 'Мой мир'
+      odnoklassniki: Одноклассники
       qq: QQ
       qzone: QZone
       reddit: Reddit
       telegram: Telegram
       twitter: Twitter
-      vkontakte: VKontakte
+      vkontakte: ВКонтакте
       whatsapp: WhatsApp

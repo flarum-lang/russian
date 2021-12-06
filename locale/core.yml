@@ -431,7 +431,7 @@ core:
   lib:
     badge:
       hidden_tooltip: Скрыто
-    debug_button: Debug
+    debug_button: Отладка
     dropdown:
       toggle_dropdown_accessible_label: 'Выпадающее меню'
     edit_user:
