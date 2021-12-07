@@ -7,10 +7,10 @@ clarkwinkelmann-emojionearea:
     settings:
       enableRecent: 'Включить недавнее'
       enableSearch: 'Включить поиск'
-      enableTones: 'Включить звуковые сигналы'
+      enableTones: 'Включить тона'
       filtersPosition: 'Переместить категории вниз'
-      hideFlarumButton: 'Скрыть кнопку выбора смайлов Flarum'
-      searchPosition: 'Переместить поиск и звуковые сигналы вниз'
+      hideFlarumButton: 'Скрыть стандартную кнопку выбора emoji от Flarum'
+      searchPosition: 'Переместить строку поиска и выбор тонов вниз'
   forum:
-    picker_button: 'Выбор Смайлов'
+    picker_button: 'Выбор emoji'
     search_placeholder: Поиск...

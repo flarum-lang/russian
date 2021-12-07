@@ -8,24 +8,25 @@ fof-analytics:
       title: Matomo
     popup:
       field:
-        googleGTMCode: 'Идентификатор GTM кода (опционально)'
-        googleTrackingCode: 'Идентификатор кода отслеживания'
+        googleGTMCode: 'ID GTM кода (опционально)'
+        googleTrackingCode: 'ID кода отслеживания'
         optTrackingCode: 'Оптимизировать код отслеживания (опционально)'
-        piwikAliasUrl: Псевдо-URL
-        piwikAuthToken: 'Ключ аутентификации'
-        piwikPrependDomain: 'Подменять домен сайта названием страницы при отслеживании'
+        piwikAliasUrl: 'Псевдоним URL'
+        piwikAuthToken: 'Токен аутентификации'
+        piwikHideAliasUrl: 'Скрыть клики по известным псевдонимам URL в отчёте "Исходящие ссылки"'
+        piwikPrependDomain: 'Добавлять домен сайта к заголовку страницы при отслеживании'
         piwikSiteId: 'ID сайта'
-        piwikTrackAccounts: 'Отслеживать отдельные пользовательские аккаунты'
-        piwikTrackSubdomain: 'Отслеживать посетителей по всем поддоменам Flarum'
-        piwikUrl: 'Matomo домен или URL'
-        statusGoogle: 'Разрешить Аналитику Google'
-        statusPiwik: 'Разрешить Matomo'
+        piwikTrackAccounts: 'Отслеживать аккаунты пользователей'
+        piwikTrackSubdomain: 'Отслеживать посетителей по всем суб-доменам Flarum'
+        piwikUrl: 'Домен Matomo или URL'
+        statusGoogle: 'Включить аналитику Google'
+        statusPiwik: 'Включить Matomo'
       placeholder:
-        piwikAuthToken: "Заполните этот ключ для включения виджета статистики Matomo в административной панели.\nВы можете найти его здесь: Настройки > Личные > Ключ API аутентификации.\n"
+        piwikAuthToken: "Укажите токен для активации виджета статистики Matomo в панели управления.\nНайти токен можно в Settings > Personal > API Authentication Token.\n"
       section:
         googleAnalytics: 'Аналитика Google'
         piwik: Matomo
       trackAccounts:
-        email: 'Отслеживать по адресу эл.почты'
+        email: 'Отслеживать по адресу e-mail'
         none: 'Не отслеживать'
-        username: 'Отслеживать по имени пользователя (логину)'
+        username: 'Отслеживать по имени пользователя'
