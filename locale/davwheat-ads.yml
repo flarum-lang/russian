@@ -26,5 +26,6 @@ davwheat:
         between_posts: 'Между сообщениями'
         discussion_header: 'Страница обсуждения (под заголовком)'
         discussion_sidebar: 'Боковая панель обсуждения [ТОЛЬКО НА DESKTOP]'
-        header: Заголовок
+        footer: 'Нижний колонтитул'
+        header: 'Верхний колонтитул'
         sidebar: 'Боковая навигация [ТОЛЬКО НА DESKTOP]'
