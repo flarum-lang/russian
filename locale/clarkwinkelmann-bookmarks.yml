@@ -5,7 +5,7 @@
 clarkwinkelmann-bookmarks:
   admin:
     settings:
-      independentButton: 'Отображать управление закладкой в боковой панели дискуссии вместо выпадающего списка.'
+      independentButton: 'Отображать панель управления закладкой в боковой панели дискуссии вместо выпадающего списка.'
   forum:
     badge: 'В закладках'
     dropdownButton:
