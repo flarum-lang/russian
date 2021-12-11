@@ -6,4 +6,15 @@ askvortsov-markdown-tables:
   lib:
     composer:
       table_menu:
-        num_cols: 'Число столбцов'
+        column: Столбец
+        insert_column_after: 'Вставить столбец после'
+        insert_column_before: 'Вставить столбец перед'
+        insert_row_after: 'Вставить строку ниже'
+        insert_row_before: 'Вставить строку выше'
+        label_cells: '# Обозначить ячейки?'
+        num_cols: '# Столбцов'
+        num_rows: '# Строк (включая заголовок)'
+        remove_column: 'Удалить столбец'
+        remove_row: 'Удалить строку'
+        row: Строка
+      table_tooltip: Таблица
