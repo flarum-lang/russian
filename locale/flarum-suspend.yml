@@ -6,18 +6,34 @@ flarum-suspend:
   admin:
     permissions:
       suspend_users_label: 'Блокировать пользователей'
+  email:
+    suspended:
+      body: "Привет {recipient_display_name},\n\nВас заблокировали по следующей причине:\n\n---\n{suspension_message}\n---\n"
+      subject: 'Ваш аккаунт заблокирован'
+    unsuspended:
+      body: "Привет {recipient_display_name},\n\nВы били разблокированы. Вы можете перейти на форум, щелкнув по следующей ссылке:\n\n{forum_url}\n"
+      subject: 'Ваш аккаунт разблокирован'
   forum:
     notifications:
+      user_suspended_indefinite_text: 'Вы заблокированы на неопределенный срок'
       user_suspended_text: '{username} заблокировал Вас на {timeReadable}'
       user_unsuspended_text: '{username} разблокировал Вас'
     suspend_user:
+      display_message: 'Отобразить сообщение для пользователя'
       indefinitely_label: 'Заблокирован навсегда'
       limited_time_days_text: ' дней'
       limited_time_label: 'Заблокирован на период...'
       not_suspended_label: 'Не заблокирован'
+      placeholder_optional: Опционально
+      reason: 'Причина блокировки'
       status_heading: 'Статус блокировки'
       submit_button: '=> core.ref.save_changes'
       title: 'Блокировка {username}'
+    suspension_info:
+      dismiss_button: Отменить
+      indefinite: 'Эта блокировка действует на неопределенный срок'
+      limited: 'Эта блокировка действует до {date}'
+      title: 'Этот аккаунт заблокирован'
     user_badge:
       suspended_tooltip: Заблокирован
     user_controls:
