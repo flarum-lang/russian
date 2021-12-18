@@ -6,4 +6,5 @@ afrux-news-widget:
   admin:
     settings:
       add_line: 'Добавить строку Новостей'
+      html_warning: 'Будьте внимательны, HTML код будет обработан.'
       lines: 'Строки Новостей'
