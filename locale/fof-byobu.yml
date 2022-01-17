@@ -10,9 +10,11 @@ fof-byobu:
       create_private_discussions_with_users: 'Создавать переписки с участниками'
       edit_group_recipients: 'Изменять список групп в переписках'
       edit_user_recipients: 'Изменять список участников в переписках'
+      make_private_into_public: 'Преобразовать закрытую дискуссию в публичную'
       view_private_discussions-when-flagged: 'Смотреть переписки других участников при поступлении жалобы'
     settings:
       badge-icon: 'Иконка переписки'
+      enable-make-public-option: 'Разрешить возможность "сделать публичной"'
       post-event-icon: 'Иконка события'
   email:
     body:
@@ -33,12 +35,15 @@ fof-byobu:
       add_recipients: Участники
       cancel: Отмена
       edit_recipients: 'Изменить участников'
+      make_public: 'Сделать эту дискуссию публичной'
       remove_from_discussion: 'Покинуть переписку'
       send_pd: Переписка
       submit: ОК
     composer_private_discussion:
       submit_button: Отправить
       title_placeholder: 'Название переписки...'
+    confirm:
+      make_public: 'Вы уверены, что хотите удалить получателей и сделать эту дискуссию видимой для всех имеющих право просмотра назначенного тега?'
     input:
       search_recipients: 'Поиск участников, указав первые три символа...'
     labels:
@@ -71,6 +76,7 @@ fof-byobu:
       recipients_modified:
         added: '{username} добавил(а) участников: {added}.'
         added_and_removed: '{username} добавил(а) {added} и удалил(а) {removed} участников.'
+        made_public: '{username} удалил всех получателей и сделал дискуссию публичной'
         removed: '{username} удалил(а) участников: {removed}.'
         removed_self: '{username} покинул(а) переписку.'
     search:
