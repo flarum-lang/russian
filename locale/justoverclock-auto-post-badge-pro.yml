@@ -4,6 +4,9 @@
 
 justoverclock-auto-post-badge-pro:
   admin:
+    cologBackg: 'Цвет фона'
+    colorBg: 'Фон индикатора прогресса'
+    colorBgTwo: Фон
     fromPost: 'От сообщения номера'
     icon: Иконка
     levelEight: 'Уровень 8'
@@ -28,4 +31,5 @@ justoverclock-auto-post-badge-pro:
     toPost: 'До сообщения номер'
   forum:
     hasWritten: 'Этот пользователь написал'
+    nextBadge: 'Следующий жетон в'
     posts: сообщений

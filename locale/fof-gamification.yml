@@ -65,6 +65,7 @@ fof-gamification:
   forum:
     mod_item: 'Просмотреть голосовавших'
     modal:
+      downvotes_label: 'Голосовавшие против:'
       title: Голосовавшие
       upvotes_label: 'Одобрившие:'
     nav:

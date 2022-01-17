@@ -7,6 +7,9 @@ clarkwinkelmann-who-read:
     permissions:
       see-read: 'Смотреть статус прочтения'
       see-subscription: 'Смотреть статус подписки'
+      see-unread: 'Смотреть статус непрочтения других пользователей'
+    settings:
+      show-in-discussion-list: 'Показать читающих в списке дискуссий'
   forum:
     badges:
       following: '=> flarum-subscriptions.forum.badge.following_tooltip'
@@ -15,6 +18,10 @@ clarkwinkelmann-who-read:
     controls:
       remove-unread: 'Удалить непрочтенные'
       set-unread: 'Пометить как непрочтенное'
+    footer:
+      read-no-further: '{count, plural, =0 {Все читали далее} one {Один пользователь не читал далее} other {# не читали далее}}'
+      read-this-post: '{count, plural, =0 {Сообщение не прочитано} one {Один пользователь прочитал сообщение} other {# пользователей прочитали сообщение}}'
+      read-to-end: '{count, plural, =0 {Никто не прочитал до конца} one {Один пользователь прочитал до конца} other {# пользователей прочитало до конца}}'
     modal:
       behind: 'Пользователи, не дочитавшие до конца'
       past-this-post: 'Пользователи, прочитавшие далее этого сообщения'
