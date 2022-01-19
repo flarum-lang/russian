@@ -3,8 +3,30 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 clarkwinkelmann-group-invitation:
+  admin:
+    permissions:
+      use: 'Используйте ссылки приглашения в группу'
+    settings:
+      create: Создать
+      delete: Удалить
+      empty: 'Приглашений пока не создано.'
+      head:
+        code: Код
+        group: Группа
+        usage: Использование
+      placeholder:
+        code: Авто-сгенерированное
+        group: Выберите...
+        usage: 'Неограниченно если пустое'
+      unlimited: неограниченно
+  api:
+    error:
+      no-usages-left: 'Приглашение более не может быть использовано'
+      not-found: 'Код приглашения не найден'
   forum:
+    apply: 'Вступить в группу'
     generic-title: 'Приглашение в группу'
+    success-alert: 'Вы успешно вступили в группу!'
     title: 'Вас пригласили вступить в группу {group}!'
     user:
       already-connected: "Мы добавили в группу {group} пользователя {username}. Не тот пользователь? <a>Войдите под другим аккаунтом</a>.\n"

@@ -5,5 +5,11 @@
 itnt-uitab:
   admin:
     settings:
+      composer_icon_label: 'Иконка редактора'
+      discussions_icon_label: Иконкадискуссий
       help_text: 'Если ваш Flarum установлен в подкаталоге, пожалуйста далее укажите путь к нему (завершая слэшем), в противном случае оставьте значение по умолчанию, т.е. <code>/sub/</code>'
       home_page_label: Подкаталог
+      icon_help: 'Оставьте пустым для использования иконки по умолчанию.'
+      notifications_icon_label: 'Иконка уведомлений'
+      settings_icon_label: 'Иконка настроек'
+      tags_icon_label: 'Иконка тегов'

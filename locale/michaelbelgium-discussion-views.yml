@@ -15,9 +15,12 @@ michaelbelgium-discussion-views:
     settings:
       abbr_numbers_label: 'Компактное отображение числа просмотров'
       max_viewcount_label: 'Максимум элементов списка просмотров'
+      max_viewcount_text: 'Применимо к спискам просмотров в нижнем колонтитуле и в боковом меню'
       show_filter_label: 'Включить поле сортировки по популярности'
+      show_footer_viewlist_label: 'Включить список просмотров в нижнем колонтитуле'
       show_viewlist_label: 'Включить список просмотров'
       title: 'Настройка просмотров обсуждения'
+      track_guests: 'Отслеживать гостей'
       track_unique_label: 'Отслеживать уникальные просмотры'
   forum:
     discussion_controls:
@@ -26,6 +29,11 @@ michaelbelgium-discussion-views:
       label: '{count, plural, one {Это удалит {count} просмотров обсуждения. Продолжить?} other {Это удалит {count} просмотров обсуждения. Продолжить?}}'
       submit_button: 'Да, удалить все'
       title: 'Сбросить счетчик числа просмотров'
+    post:
+      modal_title_text: 'Пользователи, последними посмотревшие эту дискуссию'
+      others_link: '=> core.ref.some_others'
+      viewed_by: '{users} это посмотрели.'
+      you: '=> core.ref.you'
     viewlist:
       guest: Гость
       title: 'Последние просмотревшие'
