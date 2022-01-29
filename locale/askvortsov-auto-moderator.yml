@@ -6,3 +6,43 @@ askvortsov-auto-moderator:
   admin:
     action_drivers:
       activate_email: 'Активировать эл.почту'
+      add_to_group: 'Добавить в группу'
+      remove_from_group: 'Удалить из группы'
+      suspend: Деактивировать
+      unsuspend: Активировать
+    criterion_page:
+      actions_help: 'Действия "по достижению" выполняются, когда пользователь достигает нового критерия. Действия "по снижению" выполняются, когда пользователь перестает соответствовать критерию.'
+      actions_label: Действия
+      actions_on_gain_heading: 'Действия по достижению'
+      actions_on_loss_heading: 'Действия по снижению'
+      add_action: 'Добавить действие'
+      add_metric: 'Добавить показатель'
+      delete_button: '=> core.ref.delete'
+      description_label: Описание
+      icon_label: Иконка
+      loading: '=> core.ref.loading'
+      metrics_and_requirements_label: 'Показатели и требования'
+      metrics_heading: Показатели
+      name_label: Имя
+      new_criterion: 'Создать критерий'
+      requirements_heading: Требования
+    criterion_status:
+      heading: 'Проверка статуса'
+    group_selector:
+      placeholder: 'Выберите группу'
+    metric_drivers:
+      best_answers: 'Лучшие ответы'
+      discussions_entered: 'Прочитано дискуссий'
+      discussions_participated: 'Участие в дискуссиях'
+      discussions_started: 'Открыто дискуссий'
+      likes_given: 'Оставлено одобрений'
+      likes_received: 'Получено одобрений'
+      moderator_strikes: 'Получено предупреждений модератора'
+      posts_made: 'Отправлено сообщений'
+    requirement_drivers:
+      email_confirmed: 'Эл.почта подтверждена'
+      in_group: 'В группе'
+      suspended: Деактивирован
+    suspend_selector:
+      days: 'Деактивировать на... (дней)'
+      indefinitely: 'Деактивировать навсегда?'
