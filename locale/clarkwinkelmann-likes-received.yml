@@ -6,3 +6,6 @@ clarkwinkelmann-likes-received:
   admin:
     permission:
       view: 'Посмотреть полученные лайки'
+  forum:
+    user-card:
+      likes: '{likes, plural, one {# одобрение получено} other {# одобрений получено}}'
