@@ -6,3 +6,21 @@ davwheat-virtual-authors:
   admin:
     permissions:
       set_virtual_authors: 'Добавить виртуальных авторов в дискуссии'
+    settings:
+      create_new: 'Создать нового виртуального автора'
+      next: 'Следующая страница'
+      prev: 'Предыдущая страница'
+    virtual_author_item:
+      delete_a11y_tooltip: Удалить
+      delete_confirmation: 'Удалить виртуального автора?'
+      description: Описание
+      edit: 'Править виртуального автора'
+      id: ID
+      name: 'Отображаемое имя'
+      no_description: '=> davwheat-virtual-authors.ref.no_description'
+  lib:
+    edit_modal:
+      submit_edit: 'Сохранить изменения'
+      submit_new: 'Создать виртуального автора'
+      title_edit: 'Править виртуального автора'
+      title_new: 'Новый виртуальный автор'
