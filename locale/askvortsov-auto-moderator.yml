@@ -17,8 +17,10 @@ askvortsov-auto-moderator:
       actions_on_loss_heading: 'Действия по снижению'
       add_action: 'Добавить действие'
       add_metric: 'Добавить показатель'
+      back: 'Вернуться к списку критериев'
       delete_button: '=> core.ref.delete'
       description_label: Описание
+      driver_missing_ext: 'Этот драйвер зависит от расширений, которые не активированы.'
       icon_label: Иконка
       loading: '=> core.ref.loading'
       metrics_and_requirements_label: 'Показатели и требования'
@@ -28,8 +30,14 @@ askvortsov-auto-moderator:
       requirements_heading: Требования
     criterion_status:
       heading: 'Проверка статуса'
+      invalid: 'Этот критерий сейчас недействителен. Проверьте драверы ниже на ошибки.'
+      no_actions: 'Для этого критерия не определены действия. Если пользователь достигнет критерия или перестанет ему соответствовать, ничего не произойдёт.'
+      no_metrics_or_reqs: 'Для этого критерия не определены показатели/требования. Это означает, что ВСЕ пользователи удовлетворяют этому критерию.'
+      valid: 'Этот критерий действителен!'
     group_selector:
       placeholder: 'Выберите группу'
+    in_group_settings:
+      regex: 'Шаблон для корректных эл.почт (без слэшей)'
     metric_drivers:
       best_answers: 'Лучшие ответы'
       discussions_entered: 'Прочитано дискуссий'
@@ -41,6 +49,7 @@ askvortsov-auto-moderator:
       posts_made: 'Отправлено сообщений'
     requirement_drivers:
       email_confirmed: 'Эл.почта подтверждена'
+      email_matches_regex: 'Шаблон совпадения эл.почты'
       in_group: 'В группе'
       suspended: Деактивирован
     suspend_selector:

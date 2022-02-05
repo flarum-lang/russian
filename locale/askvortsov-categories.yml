@@ -6,3 +6,30 @@ askvortsov-categories:
   admin:
     basics:
       categories_label: Категории
+    headings:
+      layout: Раскладка
+      nav: Навигация
+      parent_display: 'Отображение родительской категории'
+      performance: Производительность
+    labels:
+      compact_mobile_mode: 'Компактный режим для мобильных устройств'
+      full_page_desktop: 'Полностраничный для ПК?'
+      keep_tags_nav: 'Оставить ссылку на страницу тегов в боковом меню навигации?'
+      parent_remove_icon: 'Скрывать иконки тегов верхнего уровня?'
+      small_forum_optimized: 'Оптимизировать для малых форумов?'
+    title: 'Настройки категорий'
+  forum:
+    all_categories:
+      meta_description_text: 'Все категории'
+      meta_title_text: '=> askvortsov-categories.ref.categories'
+    header:
+      back_to_categories_tooltip: 'Вернуться к категориям'
+    index:
+      categories_link: '=> askvortsov-categories.ref.categories'
+    last_discussion_widget:
+      no_discussions: 'Дискуссий (пока) нет'
+    stat-widgets:
+      discussion_label: Дискуссии
+      post_label: Сообщения
+  ref:
+    categories: Категории
