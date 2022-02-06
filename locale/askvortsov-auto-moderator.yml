@@ -55,3 +55,8 @@ askvortsov-auto-moderator:
     suspend_selector:
       days: 'Деактивировать на... (дней)'
       indefinitely: 'Деактивировать навсегда?'
+  lib:
+    group_id: 'ID группы'
+    managed_groups:
+      group_item: '<badge></badge> {groupName}'
+      header: 'Управляемые группы:'
