@@ -10,6 +10,12 @@ askvortsov-auto-moderator:
       remove_from_group: 'Удалить из группы'
       suspend: Деактивировать
       unsuspend: Активировать
+    automoderator_instructions:
+      header: 'Инструкции к расширению'
+    automoderator_page:
+      create_criterion_button: 'Создать новый критерий'
+      criterion_invalid: 'Этот критерий в настоящее время неприменим. Пожалуйста, проверьте его настройки'
+      list_heading: Критерии
     criterion_page:
       actions_help: 'Действия "по достижению" выполняются, когда пользователь достигает нового критерия. Действия "по снижению" выполняются, когда пользователь перестает соответствовать критерию.'
       actions_label: Действия
