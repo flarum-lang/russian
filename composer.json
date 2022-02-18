@@ -4,20 +4,17 @@
   "type": "flarum-extension",
   "license": "MIT",
   "homepage": "https://github.com/flarum-lang",
-  "keywords": [
-    "extension",
-    "flarum",
-    "russian",
-    "language",
-    "locale",
-    "localization",
-    "translation"
-  ],
+  "keywords": ["extension", "flarum", "russian", "language", "locale", "localization", "translation"],
   "authors": [
     {
-      "name": "Kitsune Solar",
-      "email": "kitsune.solar@gmail.com",
-      "homepage": "https://kitsune.solar/",
+      "name": "z17 CX",
+      "email": "mail@z17.cx",
+      "homepage": "https://z17.cx/",
+      "role": "Translator"
+    },
+    {
+      "name": "Flarum Russian Community",
+      "homepage": "https://discuss.flarum.org/d/1545",
       "role": "Translator"
     }
   ],
