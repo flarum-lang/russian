@@ -430,7 +430,7 @@ core:
     mods: Модеры
   lib:
     alert:
-      dismiss_a11y_label: 'Пропустить предупреждение'
+      dismiss_a11y_label: Закрыть
     badge:
       hidden_tooltip: Скрыто
     debug_button: Отладка
