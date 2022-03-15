@@ -53,9 +53,11 @@ fof-gamification:
         upvotes_only: 'Разрешены только одобрения'
         vote_color: 'Цвет голоса'
     permissions:
+      downvote_notifications: 'Получать уведомления о неодобрениях'
       see_ranking_page: 'Посмотреть страницу рангов'
       see_voters_label: 'Посмотреть кто голосовал'
       see_votes_label: 'Посмотреть одобрения/неодобрения сообщения'
+      upvote_notifications: 'Получать уведомления об одобрениях'
       vote_label: 'Одобренные/Неодобренные сообщения'
   email:
     body:
