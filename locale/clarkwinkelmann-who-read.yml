@@ -9,7 +9,12 @@ clarkwinkelmann-who-read:
       see-subscription: 'Смотреть статус подписки'
       see-unread: 'Смотреть статус непрочтения других пользователей'
     settings:
+      only-groups: 'Показать статус прочтения только для пользователей из указанных групп'
+      show-between-posts: 'Показать статус прочтения между строк'
+      show-count-of-readers-who-stopped: 'Показать число пользователей, прекративших чтение, вместо общего числа прочтений, между сообщениями'
       show-in-discussion-list: 'Показать читающих в списке дискуссий'
+      show-in-hero: 'Показать читающих на главной странице дискуссии'
+      unread-icon: 'Иконка жетона "непрочтенное"'
   forum:
     badges:
       following: '=> flarum-subscriptions.forum.badge.following_tooltip'
