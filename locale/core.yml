@@ -451,6 +451,7 @@ core:
       username_label: '=> core.ref.username'
     error:
       dependent_extensions_message: 'Невозможно отключить {extension}, пока не будут отключены следующие зависимые расширения: {extensions}'
+      extension_initialiation_failed_message: '{extension} не удалось запустить, проверьте детальную информацию в консоли браузера.'
       generic_message: 'Упс! Что-то пошло не так. Пожалуйста, обновите страницу и попробуйте ещё раз.'
       missing_dependencies_message: 'Невозможно включить {extension}, пока не будут включены следующие зависимые расширения: {extensions}'
       not_found_message: 'Запрашиваемый ресурс не найден.'
