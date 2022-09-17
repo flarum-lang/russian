@@ -4,12 +4,32 @@
   "type": "flarum-extension",
   "license": "MIT",
   "homepage": "https://github.com/flarum-lang",
-  "keywords": ["extension", "flarum", "russian", "language", "locale", "localization", "translation"],
+  "keywords": [
+    "extension",
+    "flarum",
+    "russian",
+    "language",
+    "locale",
+    "ru-locale",
+    "localization",
+    "translation"
+  ],
   "authors": [
+    {
+      "name": "z17 Dev",
+      "email": "mail@z17.dev",
+      "homepage": "https://z17.dev/",
+      "role": "Translator"
+    },
+    {
+      "name": "z17 CX",
+      "email": "mail@z17.cx",
+      "homepage": "https://z17.cx/",
+      "role": "Translator"
+    },
     {
       "name": "Kitsune Solar",
       "email": "kitsune.solar@gmail.com",
-      "homepage": "https://kitsune.solar/",
       "role": "Translator"
     },
     {
@@ -25,12 +45,11 @@
     "forum": "https://discuss.flarum.org/d/1545"
   },
   "require": {
-    "flarum/core": "^1.1"
+    "flarum/core": "^1.4"
   },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "extra": {
-    "branch-alias": {
-      "dev-master": "1.x-dev"
-    },
     "flarum-extension": {
       "title": "Русский",
       "category": "language",
