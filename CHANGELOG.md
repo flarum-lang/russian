@@ -14,7 +14,7 @@ CHANGELOG
 All changes: [1.5.0-p1...1.5.1](https://github.com/flarum-lang/russian/compare/1.5.0-p1...1.5.1).
 
 
-1.5.0-p1 (1022-09-17)
+1.5.0-p1 (2022-09-17)
 ---------------------
 
 **Общие изменения**:
