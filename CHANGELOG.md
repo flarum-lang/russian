@@ -2,8 +2,8 @@ CHANGELOG
 =========
 
 
-1.4.1 (XXXX-XX-XX)
-------------------
+1.5.0-p1 (1022-09-17)
+---------------------
 
 **Общие изменения**:
 
@@ -21,6 +21,6 @@ CHANGELOG
 * [`flarum/suspend`](https://github.com/flarum/suspend)
 
 
-All changes: [1.4.0-p1...1.4.1](https://github.com/flarum-lang/russian/compare/1.4.0-p1...1.4.1).
+All changes: [1.4.0-p1...1.5.0-p1](https://github.com/flarum-lang/russian/compare/1.4.0-p1...1.5.0-p1).
 
 
