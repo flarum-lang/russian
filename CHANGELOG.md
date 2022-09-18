@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.5.1 (XXXX-XX-XX)
+------------------
+
+**Общие изменения**:
+
+* Обновленные переводы ядра Flarum.
+* Updated validation translations.
+
+
+All changes: [1.5.0-p1...1.5.1](https://github.com/flarum-lang/russian/compare/1.5.0-p1...1.5.1).
+
+
 1.5.0-p1 (1022-09-17)
 ---------------------
 
