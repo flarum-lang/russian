@@ -2,6 +2,20 @@ CHANGELOG
 =========
 
 
+1.5.2 (XXXX-XX-XX)
+------------------
+
+**Updated translations for extensions**:
+
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
+* [`datlechin/flarum-scroll-buttons`](https://github.com/datlechin/flarum-scroll-buttons)
+* [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+
+
+All changes: [1.5.1...1.5.2](https://github.com/flarum-lang/russian/compare/1.5.1...1.5.2).
+
+
 1.5.1 (2022-09-18)
 ------------------
 
