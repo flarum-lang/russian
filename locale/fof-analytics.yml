@@ -19,7 +19,7 @@ fof-analytics:
         piwikTrackAccounts: 'Отслеживать аккаунты пользователей'
         piwikTrackSubdomain: 'Отслеживать посетителей по всем суб-доменам Flarum'
         piwikUrl: 'Домен Matomo или URL'
-        statusGoogle: 'Включить аналитику Google'
+        statusGoogle: 'Включить аналитику Google (UA/GA4)'
         statusPiwik: 'Включить Matomo'
       placeholder:
         piwikAuthToken: "Укажите токен для активации виджета статистики Matomo в панели управления.\nНайти токен можно в Settings > Personal > API Authentication Token.\n"

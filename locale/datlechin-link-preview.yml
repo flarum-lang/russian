@@ -3,5 +3,12 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 datlechin-link-preview:
+  admin:
+    settings:
+      blacklist_help: 'Введите через запятую список доменов или URL для исключения из предпросмотра ссылок.'
+      blacklist_label: 'Черный список'
+      blacklist_placeholder: 'например, facebook.com,https://domain.com/path'
+      convert_media_urls_help: 'Если включено, все медиа URL будут преобразованы в предпросмотр ссылок.'
+      convert_media_urls_label: 'Преобразовывать URL медиа'
   forum:
     site_cannot_be_reached: 'Не удается открыть этот сайт.'
