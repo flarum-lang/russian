@@ -2,8 +2,13 @@ CHANGELOG
 =========
 
 
-1.5.2 (XXXX-XX-XX)
+1.6.0 (XXXX-XX-XX)
 ------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`ziiven/flarum-post-number`](https://github.com/Ziiven/flarum-post-number)
+
 
 **Updated translations for extensions**:
 
@@ -13,7 +18,7 @@ CHANGELOG
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 
 
-All changes: [1.5.1...1.5.2](https://github.com/flarum-lang/russian/compare/1.5.1...1.5.2).
+All changes: [1.5.1...1.6.0](https://github.com/flarum-lang/russian/compare/1.5.1...1.6.0).
 
 
 1.5.1 (2022-09-18)
