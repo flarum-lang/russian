@@ -7,6 +7,7 @@ CHANGELOG
 
 **Добавлена поддержка новых расширений**:
 
+* [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
 * [`ziiven/flarum-post-number`](https://github.com/Ziiven/flarum-post-number)
 
 
