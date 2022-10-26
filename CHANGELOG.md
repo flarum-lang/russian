@@ -2,6 +2,26 @@ CHANGELOG
 =========
 
 
+1.6.0 (2022-10-26)
+------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
+* [`ziiven/flarum-post-number`](https://github.com/Ziiven/flarum-post-number)
+
+
+**Updated translations for extensions**:
+
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
+* [`datlechin/flarum-scroll-buttons`](https://github.com/datlechin/flarum-scroll-buttons)
+* [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+
+
+All changes: [1.5.1...1.6.0](https://github.com/flarum-lang/russian/compare/1.5.1...1.6.0).
+
+
 1.5.1 (2022-09-18)
 ------------------
 
