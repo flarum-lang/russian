@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.7.0 (XXXX-XX-XX)
+------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`blomstra/fontawesome`](https://github.com/blomstra/flarum-ext-fontawesome)
+
+
+**Обновленные переводы расширений**:
+
+* [`flarum/statistics`](https://github.com/flarum/statistics)
+
+
+Все изменения: [1.6.0...1.7.0](https://github.com/flarum-lang/russian/compare/1.6.0...1.7.0).
+
+
 1.6.0 (2022-10-26)
 ------------------
 
