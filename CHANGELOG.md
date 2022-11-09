@@ -13,6 +13,7 @@ CHANGELOG
 **Обновленные переводы расширений**:
 
 * [`flarum/statistics`](https://github.com/flarum/statistics)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
 
 
 Все изменения: [1.6.0...1.7.0](https://github.com/flarum-lang/russian/compare/1.6.0...1.7.0).
