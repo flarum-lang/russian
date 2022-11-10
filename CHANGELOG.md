@@ -8,12 +8,17 @@ CHANGELOG
 **Добавлена поддержка новых расширений**:
 
 * [`blomstra/fontawesome`](https://github.com/blomstra/flarum-ext-fontawesome)
+* [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
 
 
 **Обновленные переводы расширений**:
 
 * [`flarum/statistics`](https://github.com/flarum/statistics)
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
 
 
 Все изменения: [1.6.0...1.7.0](https://github.com/flarum-lang/russian/compare/1.6.0...1.7.0).
