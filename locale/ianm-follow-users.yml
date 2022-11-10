@@ -6,6 +6,12 @@ ianm-follow-users:
   admin:
     permissions:
       be_followed_label: 'Разрешать пользователям подписываться друг на друга'
+    settings:
+      button-on-profile-label: 'Показать кнопку Подписка прямо на заголовке профиля пользователя'
+      stats-on-profile-label: 'Показать подписчика и число подписок на профиле пользователя'
+  email:
+    new_discussion_by_user_subject: '[Подписаться на пользователя] {title}'
+    new_follower_subject: '[Подписка на пользователя] У вас новый подписчик!'
   forum:
     badge:
       label:
@@ -13,12 +19,19 @@ ianm-follow-users:
         lurk: 'Подписаться на всех'
     filter:
       following: 'Пользователи, на которых я подписан'
+    followed: Подписан
+    followers: Подписчиков
     index:
       follow_tag_button: '=> ianm-follow-users.lib.follow'
       unfollow_tag_button: '=> ianm-follow-users.lib.change_follow_type'
     modals:
       select_follow_level:
         cancel_btn: Отмена
+        description: 'Выберите, как вы хотите подписаться на <em>{username}</em>.'
+        follow_levels_heading: 'Уровни подписки'
+        follow_select_label: 'Тип подписки'
+        no_user_attr_provided_err: 'Хм, что-то пошло не так при открытии окна диалога.'
+        no_user_attr_provided_err_debug: 'Атрибут `user` не был передан с диалоговое окно SelectFollowUserLevel при его создании. Окно не может быть отображено.'
         save_btn: Сохранить
         title: 'Выбрать уровень подписки на {username}'
     notifications:
