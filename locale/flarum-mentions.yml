@@ -4,10 +4,15 @@
 
 flarum-mentions:
   admin:
+    permissions:
+      mention_groups_label: 'Упоминать группы'
     settings:
       allow_username_format_label: 'Разрешить старый формат упоминания (@Username)'
       allow_username_format_text: "Текущий формат упоминания пользователя: @\"Display Name\"#ID.\nДанная настройка позволяет задействовать старый формат упоминания (@Username). Но старый формат всё равно будет преобразован в новый при сохранении сообщения.\n"
   email:
+    group_mentioned:
+      body: "Привет {recipient_display_name}!\n\n{mentioner_display_name} упомянул группу, в которой вы состоите, в {title}.\n\n{url}\n\n---\n\n{content}\n"
+      subject: '{mentioner_display_name} упомянул группу, в которой вы состоите, в {title}'
     post_mentioned:
       body: "Здравствуйте, {recipient_display_name}!\n\n{replier_display_name} ответил на Ваше сообщение (#{post_number}) в {title}.\n\n{url}\n\n---\n\n{content}\n"
       subject: '{replier_display_name} ответил на Ваше сообщение в {title}'
@@ -16,9 +21,12 @@ flarum-mentions:
       subject: '{mentioner_display_name} упомянул Вас в {title}'
   forum:
     composer:
-      mention_tooltip: Упоминание
+      mention_tooltip: 'Упоминание пользователя, группы или сообщения'
       reply_to_post_text: 'Ответить на #{number}'
+    group_mention:
+      deleted_text: '[неизвестная группа]'
     notifications:
+      group_mentioned_text: '{username} упомянул группу, в которой вы состоите'
       others_text: '=> core.ref.some_others'
       post_mentioned_text: '{username} ответил(а) на Ваше сообщение'
       user_mentioned_text: '{username} упомянул(а) Вас'
@@ -32,6 +40,7 @@ flarum-mentions:
     post_mention:
       deleted_text: '[неизвестно]'
     settings:
+      notify_group_mentioned_label: 'Некто упомянул группу, в которой я состою, в сообщении'
       notify_post_mentioned_label: 'Ответ на одно из моих сообщений'
       notify_user_mentioned_label: 'Упоминание меня в сообщении'
     user:
