@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.8.0 (XXXX-XX-XX)
+------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`finteger/ratings`](https://github.com/finteger/ratings)
+* [`justoverclock/discussion-tags`](https://extiverse.com/extension/justoverclock/discussion-tags)
+
+
+**Обновленные переводы расширений**:
+
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
+
+
+Все изменения: [1.7.0...1.8.0](https://github.com/flarum-lang/russian/compare/1.7.0...1.8.0).
+
+
 1.7.0 (2022-11-11)
 ------------------
 
