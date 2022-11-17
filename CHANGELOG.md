@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.8.1 (XXXX-XX-XX)
+------------------
+
+**Обновленные переводы расширений**:
+
+* [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
+
+
+Все изменения: [1.8.0...1.8.1](https://github.com/flarum-lang/russian/compare/1.8.0...1.8.1).
+
+
 1.8.0 (2022-11-17)
 ------------------
 
