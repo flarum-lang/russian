@@ -2,15 +2,20 @@ CHANGELOG
 =========
 
 
-1.8.1 (XXXX-XX-XX)
+1.9.0 (XXXX-XX-XX)
 ------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+
 
 **Обновленные переводы расширений**:
 
 * [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
 
 
-Все изменения: [1.8.0...1.8.1](https://github.com/flarum-lang/russian/compare/1.8.0...1.8.1).
+Все изменения: [1.8.0...1.9.0](https://github.com/flarum-lang/russian/compare/1.8.0...1.9.0).
 
 
 1.8.0 (2022-11-17)
