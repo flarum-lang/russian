@@ -24,7 +24,7 @@ flamarkt-taxonomies:
         icon: '=> flamarkt-taxonomies.ref.field.icon'
         iconDescription: '=> flamarkt-taxonomies.ref.field.iconDescription'
         name: '=> flamarkt-taxonomies.ref.field.name'
-        rangeSeparatorText: to
+        rangeSeparatorText: до
         showFilter: 'Показать фильтры на страницах списка/каталога'
         showFilterDescription: "Show filters to regular visitors in the discussion list, user directory or shop index. Only works if \"Enable filters\" is enabled. Shop administrators can always filter by any taxonomy in the backoffice.\n"
         showLabel: 'Отображать метку таксономии вместе со значением'
@@ -33,13 +33,13 @@ flamarkt-taxonomies:
         tagScope: 'Только в указанных тегах'
         tagScopeDescription: "Таксономия будет доступна только в выбранных тегах. Если вы выберете один тег, фильтр будет виден только для этого конкретного тега.\n"
         tagScopePlaceholder: 'Введите текст для поиска тега...'
-        type: Type
-        typeDescription: "Таксономии можно использовать на нескольких ресурсах Flarum. Тип нельзя изменить после создания. Вы можете использовать одинаковые имена и значения для таксономий разных типов.\n"
+        type: Тип
+        typeDescription: "Таксономии можно использовать на различных ресурсах Flarum. Тип нельзя изменить после создания. Вы можете использовать одинаковые имена и значения для таксономий разных типов.\n"
       section:
-        browsing: Browsing
+        browsing: Отображение
         filling: Заполнение
         info: Информация
-        scope: Scope
+        scope: 'Сфера применения'
       slugger-options:
         alpha_dash: 'ASCII alpha-numerical slugger'
         random: 'Случайный идентификатор'
