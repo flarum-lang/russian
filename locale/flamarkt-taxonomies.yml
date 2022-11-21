@@ -6,15 +6,71 @@ flamarkt-taxonomies:
   admin:
     edit-taxonomy:
       section:
+        browsing: Browsing
+        filling: Заполнение
         info: Информация
       title:
-        edit: 'Редактировать таксономию'
+        edit: 'Править таксономию'
         new: 'Создать таксономию'
       type-options:
         discussions: Дискуссии
         users: Пользователи
     menu:
+      discussions: 'Таксономии дискуссий'
+      products: 'Product taxonomies'
       title: Таксономии
+      users: 'Таксономии пользователей'
     page:
       create:
         taxonomy: 'Создать таксономию'
+        term: 'Создать значение'
+      reset-term-order: 'Расположить список значений в алфавитном порядке'
+      title: Таксономии
+    permissions:
+      editAnyUser: 'Редактировать таксономии для любого пользователя'
+      editOwnUser: 'Edit taxonomies on own user'
+      ownDisabledEveryone: 'Неактивированные и приостановленные участники'
+      ownDisabledMembers: 'Активированные участники'
+      seeAnyDiscussion: 'Смотреть таксономии во всех дискуссиях'
+      seeAnyUser: 'See taxonomies on any user'
+      seeOwnDiscussion: 'Смотреть таксономии в своих дискуссиях'
+    settings:
+      goToPage: 'Перейти на страницу конфигурации'
+  api:
+    error:
+      cannot_use_taxonomies_on_model: 'You are not allowed to use taxonomies in this context'
+      discussion_taxonomy_not_in_scope: 'Таксономия "{slug}" не доступна для текущего тэга'
+      invalid_filter_taxonomy: 'Invalid "{type}" taxonomy filter key "{slug}"'
+  forum:
+    blog:
+      widget:
+        title: Таксономии
+    composer:
+      choose: 'Выберите {taxonomy}'
+    discussion:
+      edit: 'Редактировать {taxonomy}'
+    user:
+      edit: 'Редактировать {taxonomy}'
+      nav: Таксономии
+  lib:
+    modal:
+      bypassTermCounts: 'Bypass term counts'
+      custom: 'Использовать {value}'
+      placeholder: '{count, plural, one {Выберите значение...} other {Выберите # значения...}}'
+      placeholderOptional: Выбрать...
+      submit: Ок
+      title:
+        edit: 'Редактировать {taxonomy} для {title}'
+        new: 'Выберите {taxonomy} для своей темы'
+  ref:
+    delete: Удалить
+    field:
+      color: Цвет
+      description: Описание
+      icon: Иконка
+      iconDescription: 'Введите название любого класса иконки <a>Font Awesome</a>, <em>включая</em> префикс </code>fas fa-<code>.'
+      name: Название
+      slug: Путь
+    submit:
+      edit: Сохранить
+      new: Создать
