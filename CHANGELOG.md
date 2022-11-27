@@ -7,6 +7,7 @@ CHANGELOG
 
 **Добавлена поддержка новых расширений**:
 
+* [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations)
 * [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
 * [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
 
