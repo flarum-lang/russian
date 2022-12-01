@@ -14,6 +14,7 @@ CHANGELOG
 
 **Обновленные переводы расширений**:
 
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
 
 
