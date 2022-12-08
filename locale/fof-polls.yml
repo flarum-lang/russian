@@ -11,6 +11,8 @@ fof-polls:
       start: 'Создавать опросы'
       view_results_without_voting: 'Смотреть результаты без голосования'
       vote: 'Голосовать в опросах'
+    settings:
+      allow_option_image: 'Добавить изображение (URL ссылки) для каждого пункта опроса'
   forum:
     composer_discussion:
       add_poll: 'Добавить опрос'
@@ -21,6 +23,7 @@ fof-polls:
       add_title: 'Добавить опрос'
       date_placeholder: 'Дата завершения опроса (опционально)'
       edit_title: 'Редактирование опроса'
+      image_option_placeholder: 'URL ссылка на изображение (опционально)'
       include_question: 'Вы должны указать вопрос'
       max: 'Вы можете добавить максимум 10 вариантов'
       min: 'Вы должны добавить минимум 2 варианта'
