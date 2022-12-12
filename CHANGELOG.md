@@ -2,6 +2,28 @@ CHANGELOG
 =========
 
 
+1.9.0 (2022-12-12)
+------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations)
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
+* [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
+* [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+
+
+**Обновленные переводы расширений**:
+
+* [`flarum/statistics`](https://github.com/flarum/statistics)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
+
+
+Все изменения: [1.8.0...1.9.0](https://github.com/flarum-lang/russian/compare/1.8.0...1.9.0).
+
+
 1.8.0 (2022-11-17)
 ------------------
 
