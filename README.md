@@ -317,5 +317,6 @@ php flarum cache:clear
 | [`justoverclock/related-discussions`](https://extiverse.com/extension/justoverclock/related-discussions) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum/ru/justoverclock-related-discussions/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-related-discussions/ru/) |
 | [`justoverclock/theaudiodb-api`](https://extiverse.com/extension/justoverclock/theaudiodb-api) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum/ru/justoverclock-theaudiodb-api/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-theaudiodb-api/ru/) |
 | [`justoverclock/website-live-screenshot`](https://extiverse.com/extension/justoverclock/website-live-screenshot) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum/ru/justoverclock-website-live-screenshot/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-website-live-screenshot/ru/) |
+| [`kilowhat/flarum-ext-cimaise`](https://extiverse.com/extension/kilowhat/flarum-ext-cimaise) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum/ru/kilowhat-cimaise/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/kilowhat-cimaise/ru/) |
 
 <!-- premium-extensions-list-stop -->
