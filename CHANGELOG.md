@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.10.0 (2022-12-20)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`kilowhat/flarum-ext-cimaise`](https://extiverse.com/extension/kilowhat/flarum-ext-cimaise)
+
+
+Все изменения: [1.9.0...1.10.0](https://github.com/flarum-lang/russian/compare/1.9.0...1.10.0).
+
+
 1.9.0 (2022-12-12)
 ------------------
 
