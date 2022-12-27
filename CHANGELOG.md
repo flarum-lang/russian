@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.10.1 (XXXX-XX-XX)
+-------------------
+
+**Общие изменения**:
+
+* Обновленные переводы ядра Flarum.
+
+
+**Обновленные переводы расширений**:
+
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+
+
+Все изменения: [1.10.0...1.10.1](https://github.com/flarum-lang/russian/compare/1.10.0...1.10.1).
+
+
 1.10.0 (2022-12-20)
 -------------------
 
