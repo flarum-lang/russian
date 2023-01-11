@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.11.0 (XXXX-XX-XX)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`akr/chevereto`](https://github.com/AKR-Developers/flarum-chevereto)
+
+
+**Обновленные переводы расширений**:
+
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+
+
+Все изменения: [1.10.1...1.11.0](https://github.com/flarum-lang/russian/compare/1.10.1...1.11.0).
+
+
 1.10.1 (2023-01-06)
 -------------------
 
