@@ -6,16 +6,19 @@ fof-share-social:
   admin:
     settings:
       canonical-urls: 'Использовать канонические URL'
+      plain-copy: 'Показать простую копию URL'
   forum:
     discussion:
       share_button: Поделиться
     modal:
+      copy_button: Копировать
       title: Поделиться
   lib:
     networks:
       facebook: Facebook
       linkedin: LinkedIn
       my_mail: 'Мой мир'
+      native: 'Поделиться оригиналом'
       odnoklassniki: Одноклассники
       qq: QQ
       qzone: QZone
