@@ -10,7 +10,9 @@ ianm-follow-users:
       button-on-profile-label: 'Показать кнопку Подписка прямо на заголовке профиля пользователя'
       stats-on-profile-label: 'Показать подписчика и число подписок на профиле пользователя'
   email:
+    new_discussion_by_user_body: "Привет {recipient_display_name},\n\n{user_display_name} начал новую дискуссию: {discussion_title}\n\nЧтобы посмотреть её, перейдите по следующей ссылке:\n\n{discussion_url}\n\n---\n\n{post_content}\n"
     new_discussion_by_user_subject: '[Подписаться на пользователя] {title}'
+    new_follower_body: "Привет {recipient_display_name},\n\n{follower_display_name} подписался на вас, поэтому мы оповестим его если вы откроете новую дискуссию.\n\nЧтобы посмотреть профиль подписчика, перейдите по следующей ссылке:\n\n{profile_url}\n"
     new_follower_subject: '[Подписка на пользователя] У вас новый подписчик!'
   forum:
     badge:
@@ -51,3 +53,11 @@ ianm-follow-users:
     user_controls:
       follow_button: '=> ianm-follow-users.lib.follow'
       unfollow_button: '=> ianm-follow-users.lib.change_follow_type'
+  lib:
+    follow_levels:
+      follow:
+        description: "Получать уведомления, когда <em>{username}</em> открывает новую дискуссию.\n"
+        name: 'Подписаться на дискуссии'
+      lurk:
+        description: "Получать уведомления, когда <em>{username}</em> открывает новую дискуссию или публикует сообщение в любой дискуссии.\n"
+        name: 'Подписаться на все'
