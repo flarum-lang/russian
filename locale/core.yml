@@ -14,6 +14,7 @@ core:
       custom_footer_text: '=> core.ref.custom_footer_text'
       custom_header_heading: 'Верхний колонтитул'
       custom_header_text: '=> core.ref.custom_header_text'
+      custom_styles_cannot_use_less_features: '@import и data-uri недопустимы в кастомных LESS.'
       custom_styles_heading: 'Пользовательские стили'
       custom_styles_text: 'Настройка внешнего вида форума при помощи пользовательского кода LESS/CSS, который переопределяет стандартные стилевые конструкции Flarum.'
       dark_mode_label: 'Тёмный режим'
@@ -48,6 +49,15 @@ core:
       clear_cache_button: 'Очистить кэш'
       description: 'Панель управления форумом.'
       io_error_message: 'Не удалось записать в файловую систему. Проверьте права доступа к файловой системе и попробуйте ещё раз. Или попробуйте запустить из командной строки.'
+      status:
+        headers:
+          queue-driver: 'Драйвер очереди'
+          scheduler-status: Планировщик
+          session-driver: 'Драйвер сессий'
+        scheduler:
+          active: Активный
+          inactive: Неактивный
+          never-run: 'Не запускался'
       title: 'Панель управления'
       tools_button: Инструменты
     debug-warning:
@@ -155,6 +165,7 @@ core:
     permissions:
       allow_post_editing_label: 'Разрешить изменять сообщение'
       allow_renaming_label: 'Разрешить изменять название дискуссии'
+      create_access_token_label: 'Создать токен доступа'
       create_heading: Создание
       delete_discussions_forever_label: 'Удалять дискуссии (навсегда)'
       delete_discussions_label: 'Удалять дискуссии'
@@ -166,6 +177,7 @@ core:
       edit_users_groups_label: 'Редактировать группы пользователя'
       edit_users_label: 'Редактировать пользователей'
       global_heading: Глобальные
+      moderate_access_tokens_label: 'Модерировать токены доступа'
       moderate_heading: Модерация
       new_group_button: 'Новая группа'
       participate_heading: Участие
@@ -200,6 +212,8 @@ core:
       description: 'Список всех пользователей форума.'
       grid:
         columns:
+          display_name:
+            title: 'Отображаемое имя'
           edit_user:
             button: '=> core.ref.edit'
             title: '=> core.ref.edit_user'
@@ -221,6 +235,9 @@ core:
         invalid_column_content: 'Недопустимое содержимое'
       pagination:
         back_button: 'Предыдущая страница'
+        first_button: 'На первую страницу'
+        go_to_page_textbox_a11y_label: 'На определенный номер страницы'
+        last_button: 'На последнюю страницу'
         next_button: 'Следующая страница'
         page_counter: 'Страница: {current} / {total}'
       title: '=> core.ref.users'
@@ -370,7 +387,7 @@ core:
       viewing_text: '{count, plural, one {{index} / {formattedCount} сообщения} other {{index} / {formattedCount} сообщений}}'
     post_stream:
       discussion_renamed_old_tooltip: 'Старое название: "{old}"'
-      discussion_renamed_text: '{username} изменил(а) название на "{new}".'
+      discussion_renamed_text: '{username} изменил(а) заголовок на {new} {time}.'
       load_more_button: '=> core.ref.load_more'
       reply_placeholder: '=> core.ref.write_a_reply'
       time_lapsed_text: '{period} спустя'
@@ -381,6 +398,35 @@ core:
       all_discussions_button: 'Поиск по запросу: "{query}"'
       discussions_heading: '=> core.ref.discussions'
       users_heading: '=> core.ref.users'
+    security:
+      browser_on_operating_system: '{browser} в {os}'
+      cannot_terminate_current_session: 'Невозможно завершить текущую активную сессию. Вместо этого разлогиньтесь.'
+      created: Создан
+      current_active_session: 'Текущая активная сессия'
+      developer_tokens_heading: 'Токены разработчика'
+      empty_text: 'Кажется, что здесь не на что смотреть.'
+      global_logout:
+        heading: 'Глобальный выход'
+        help_text: 'Очистить текушие cookie сессии, завершить все сессии, отозвать токены разработчика, и сделать недействительными все подтверждения email-ов и email''ы сброса пароля.'
+      hide_access_token: 'Скрыть Токен'
+      last_activity: 'Последняя активность'
+      never: Никогда
+      new_access_token_modal:
+        submit_button: 'Создать Токен'
+        title: '=> core.ref.new_token'
+        title_placeholder: Заголовок
+      revoke_access_token: Отозвать
+      revoke_access_token_confirmation: '=> core.ref.generic_confirmation_message'
+      session_termination_failed: 'Произошла ошибка при завершении ваших сессий.'
+      sessions_heading: 'Активные сессии'
+      show_access_token: 'Просмотр токена'
+      terminate_all_other_sessions: 'Завершить все другие сессии'
+      terminate_all_other_sessions_confirmation: '=> core.ref.generic_confirmation_message'
+      terminate_session: Завершить
+      title: '=> core.ref.security'
+      token_item_title: '{title} - {token}'
+      token_revoked: 'Токен отозван.'
+      token_title_placeholder: /
     settings:
       account_heading: Аккаунт
       change_email_button: '=> core.ref.change_email'
@@ -413,6 +459,7 @@ core:
       posts_empty_text: 'Кажется, здесь нет сообщений.'
       posts_link: '=> core.ref.posts'
       posts_load_more_button: '=> core.ref.load_more'
+      security_link: '=> core.ref.security'
       settings_link: '=> core.ref.settings'
     user_controls:
       button: Управление
@@ -442,6 +489,8 @@ core:
       dismiss_a11y_label: Закрыть
     badge:
       hidden_tooltip: Скрыто
+    data_segment:
+      label: '{label}:'
     debug_button: Отладка
     dropdown:
       toggle_dropdown_accessible_label: 'Выпадающее меню'
@@ -461,6 +510,7 @@ core:
     error:
       dependent_extensions_message: 'Невозможно отключить {extension}, пока не будут отключены следующие зависимые расширения: {extensions}'
       extension_initialiation_failed_message: '{extension} не удалось инициализировать. Проверьте консоль браузера для получения дополнительной информации.'
+      generic_cross_origin_message: 'Упс! Что-то пошло не так во время обработки запроса. Пожалуйста обновите страницу и попробуйте заново.'
       generic_message: 'Упс! Что-то пошло не так. Пожалуйста, обновите страницу и попробуйте ещё раз.'
       missing_dependencies_message: 'Невозможно включить {extension}, пока не будут включены следующие зависимые расширения: {extensions}'
       not_found_message: 'Запрашиваемый ресурс не найден.'
@@ -505,6 +555,7 @@ core:
     edit_user: 'Изменить пользователя'
     email: E-mail
     extensions: Расширения
+    generic_confirmation_message: 'Вы хотите продолжить? Это действие не может быть отменено.'
     icon: Иконка
     icon_text: 'Введите название любого класса иконки <a>Font Awesome</a>, <em>включая</em> префикс <code>fas fa-</code>.'
     load_more: 'Показать ещё'
@@ -512,6 +563,7 @@ core:
     log_in: Войти
     log_out: Выйти
     mark_all_as_read: 'Отметить всё как прочитанное'
+    new_token: 'Новый токен'
     next_page: 'Следующая страница'
     notifications: Уведомления
     okay: ОК
@@ -524,6 +576,8 @@ core:
     reset_your_password: 'Сбросить пароль'
     restore: Восстановить
     save_changes: Сохранить
+    search_users: 'Искать пользователей'
+    security: Безопасность
     settings: Настройки
     sign_up: Регистрация
     some_others: '{count, plural, one {# другому} other {# другим}}'
