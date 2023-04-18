@@ -2,6 +2,28 @@ CHANGELOG
 =========
 
 
+1.13.0 (XXXX-XX-XX)
+-------------------
+
+**Общие изменения**:
+
+* Обновленные переводы ядра Flarum.
+
+
+**Добавлена поддержка новых расширений**:
+
+* [`justoverclock/staff-members-widget`](https://github.com/justoverclockl/staff-member-widget)
+* [`xsoft-ict/mason-tag`](https://github.com/xsoft-ict/fof-mason-tag)
+
+
+**Обновленные переводы расширений**:
+
+* [`flarum/tags`](https://github.com/flarum/tags)
+
+
+Все изменения: [1.12.0...1.13.0](https://github.com/flarum-lang/russian/compare/1.12.0...1.13.0).
+
+
 1.12.0 (2023-04-04)
 -------------------
 
