@@ -19,6 +19,10 @@ CHANGELOG
 
 * [`flarum/likes`](https://github.com/flarum/likes)
 * [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/statistics`](https://github.com/flarum/statistics)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/tags`](https://github.com/flarum/tags)
 
 
 Все изменения: [1.13.0...1.14.0](https://github.com/flarum-lang/russian/compare/1.13.0...1.14.0).
