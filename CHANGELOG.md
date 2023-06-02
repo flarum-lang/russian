@@ -2,6 +2,33 @@ CHANGELOG
 =========
 
 
+1.14.0 (2023-06-02)
+-------------------
+
+**Общие изменения**:
+
+* Обновленные переводы ядра Flarum.
+* Обновленные одобренные переводы.
+
+
+**Добавлена поддержка новых расширений**:
+
+* [`flarum/bbcode`](https://github.com/flarum/bbcode)
+
+
+**Обновленные переводы расширений**:
+
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/statistics`](https://github.com/flarum/statistics)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/tags`](https://github.com/flarum/tags)
+
+
+Все изменения: [1.13.0...1.14.0](https://github.com/flarum-lang/russian/compare/1.13.0...1.14.0).
+
+
 1.13.0 (2023-04-19)
 -------------------
 
