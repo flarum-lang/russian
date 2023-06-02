@@ -21,6 +21,7 @@ flarum-likes:
       unlike_link: 'Не нравится'
       you_text: '=> core.ref.you'
     post_likes:
+      load_more_button: '=> core.ref.load_more'
       title: 'Сообщение понравилось...'
     settings:
       notify_post_liked_label: 'Понравилось моё сообщение'

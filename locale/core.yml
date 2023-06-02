@@ -14,7 +14,7 @@ core:
       custom_footer_text: '=> core.ref.custom_footer_text'
       custom_header_heading: 'Верхний колонтитул'
       custom_header_text: '=> core.ref.custom_header_text'
-      custom_styles_cannot_use_less_features: '@import и data-uri недопустимы в кастомных LESS.'
+      custom_styles_cannot_use_less_features: 'Возможности @import и data-uri запрещены в пользовательском коде LESS.'
       custom_styles_heading: 'Пользовательские стили'
       custom_styles_text: 'Настройка внешнего вида форума при помощи пользовательского кода LESS/CSS, который переопределяет стандартные стилевые конструкции Flarum.'
       dark_mode_label: 'Тёмный режим'
@@ -45,6 +45,15 @@ core:
       title: Основные
       welcome_banner_heading: 'Баннер приветствия'
       welcome_banner_text: 'Введите текст, который будет отображаться на всех страницах форума. Используйте этот элемент для того, чтобы приветствовать гостей форума.'
+    create_user:
+      email_confirmed_label: 'Требовать подтверждения адреса email'
+      email_placeholder: '=> core.ref.email'
+      password_placeholder: '=> core.ref.password'
+      submit_and_create_another_button: 'Создать и добавить ещё'
+      submit_button: Создать
+      title: 'Новый пользователь'
+      use_random_password: 'Сгенерировать пароль'
+      username_placeholder: '=> core.ref.username'
     dashboard:
       clear_cache_button: 'Очистить кэш'
       description: 'Панель управления форумом.'
@@ -53,11 +62,11 @@ core:
         headers:
           queue-driver: 'Драйвер очереди'
           scheduler-status: Планировщик
-          session-driver: 'Драйвер сессий'
+          session-driver: 'Драйвер сеанса'
         scheduler:
-          active: Активный
-          inactive: Неактивный
-          never-run: 'Не запускался'
+          active: Активно
+          inactive: Неактивно
+          never-run: 'Никогда не выполнялось'
       title: 'Панель управления'
       tools_button: Инструменты
     debug-warning:
@@ -89,7 +98,7 @@ core:
       title: '=> core.ref.custom_header_title'
     email:
       addresses_heading: Адреса
-      description: 'Настройка драйвера, параметров и адресов, которые будут использоваться на Вашем форуме для отправки e-mail.'
+      description: 'Настройка драйвера, параметров и адресов, которые будут использоваться на Вашем форуме для отправки email.'
       driver_heading: 'Выберите драйвер'
       driver_label: Драйвер
       from_label: Отправитель
@@ -163,9 +172,10 @@ core:
       userlist_button: '=> core.admin.users.title'
       userlist_title: '=> core.admin.users.description'
     permissions:
+      allow_hide_own_posts_label: 'Разрешить удалять своих сообщений'
       allow_post_editing_label: 'Разрешить изменять сообщение'
       allow_renaming_label: 'Разрешить изменять название дискуссии'
-      create_access_token_label: 'Создать токен доступа'
+      create_access_token_label: 'Создать токен'
       create_heading: Создание
       delete_discussions_forever_label: 'Удалять дискуссии (навсегда)'
       delete_discussions_label: 'Удалять дискуссии'
@@ -177,7 +187,7 @@ core:
       edit_users_groups_label: 'Редактировать группы пользователя'
       edit_users_label: 'Редактировать пользователей'
       global_heading: Глобальные
-      moderate_access_tokens_label: 'Модерировать токены доступа'
+      moderate_access_tokens_label: 'Модерация токенов'
       moderate_heading: Модерация
       new_group_button: 'Новая группа'
       participate_heading: Участие
@@ -185,7 +195,7 @@ core:
       read_heading: Чтение
       rename_discussions_label: 'Изменять название дискуссий'
       reply_to_discussions_label: 'Отвечать в дискуссии'
-      search_users_label: '=> core.ref.search_users'
+      search_users_label: 'Искать пользователей'
       sign_up_label: 'Регистрация пользователей'
       start_discussions_label: 'Создавать дискуссии'
       title: Разрешения
@@ -195,6 +205,7 @@ core:
       view_post_ips_label: 'Смотреть IP адреса'
     permissions_controls:
       allow_indefinitely_button: Неограниченно
+      allow_never_button: '=> core.ref.never'
       allow_some_minutes_button: '{count, plural, one {На # минуты} other {На # минут}}'
       allow_ten_minutes_button: 'На 10 минут'
       allow_until_reply_button: 'До ответа'
@@ -209,6 +220,7 @@ core:
       remove_button: '=> core.ref.remove'
       upload_button: 'Выбрать изображение...'
     users:
+      create_user_button: 'Новый пользователь'
       description: 'Список всех пользователей форума.'
       grid:
         columns:
@@ -220,8 +232,8 @@ core:
             tooltip: 'Изменить {username}'
           email:
             title: '=> core.ref.email'
-            visibility_hide: 'Скрыть e-mail'
-            visibility_show: 'Показать e-mail'
+            visibility_hide: 'Скрыть email'
+            visibility_show: 'Показать email'
           group_badges:
             no_badges: Нет
             title: Группы
@@ -235,29 +247,33 @@ core:
         invalid_column_content: 'Недопустимое содержимое'
       pagination:
         back_button: 'Предыдущая страница'
-        first_button: 'На первую страницу'
-        go_to_page_textbox_a11y_label: 'На определенный номер страницы'
-        last_button: 'На последнюю страницу'
+        first_button: 'К первой странице'
+        go_to_page_textbox_a11y_label: 'К номеру страницы'
+        last_button: 'К последней странице'
         next_button: 'Следующая страница'
         page_counter: 'Страница: {current} / {total}'
       search_placeholder: '=> core.ref.search_users'
       title: '=> core.ref.users'
       total_users: 'Всего пользователей: {count}'
   api:
+    invalid_filter_type:
+      must_be_numeric_message: 'Фильтр {filter} должен быть числовым.'
+      must_not_be_array_message: 'Фильтр {filter} не должен быть массивом.'
+      must_not_be_multidimensional_array_message: 'Фильтр {filter} не должен быть многомерным массивом.'
     invalid_username_message: 'Имя пользователя может содержать только латинские буквы, цифры и тире.'
   email:
     activate_account:
       body: "Здравствуйте, {username}!\n\nВы зарегистрировались на форуме {forum} с этим адресом электронной почты.\n\nНажмите на ссылку и Ваш аккаунт будет активирован:\n{url}\n\nЕсли Вы не регистрировались, пожалуйста, проигнорируйте это сообщение.\n"
       subject: 'Активация Вашего аккаунта'
     confirm_email:
-      body: "Здравствуйте, {username}!\n\nВы изменили адрес e-mail на форуме {forum}.\n\nНажмите на ссылку и Ваш адрес e-mail будет подтверждён:\n{url}\n\nЕсли Вы не меняли адрес e-mail, пожалуйста, проигнорируйте это сообщение.\n"
-      subject: 'Подтверждение нового адреса e-mail'
+      body: "Здравствуйте, {username}!\n\nВы изменили адрес email на форуме {forum}.\n\nНажмите на ссылку и Ваш адрес email будет подтверждён:\n{url}\n\nЕсли Вы не меняли адрес email, пожалуйста, проигнорируйте это сообщение.\n"
+      subject: 'Подтверждение нового адреса email'
     reset_password:
       body: "Здравствуйте, {username}!\n\nВы подали запрос на сброс пароля для аккаунта на форуме {forum}.\n\nНажмите на ссылку для сброса пароля:\n{url}\n\nЕсли Вы не хотите менять свой пароль, просто проигнорируйте это сообщение и ничего не произойдёт.\n"
       subject: '=> core.ref.reset_your_password'
     send_test:
-      body: "Здравствуйте, {username}!\n\nЭто проверочное письмо означает, что Ваши параметры e-mail настроены корректно.\n\nЕсли Вы инициализировали данную проверку, то Вы корректно настроили отправку e-mail с форума.\n\nЕсли Вы НЕ инициализировали данную проверку, проигнорируйте это сообщение.\n"
-      subject: 'Проверка e-mail Flarum'
+      body: "Здравствуйте, {username}!\n\nЭто проверочное письмо означает, что Ваши параметры email настроены корректно.\n\nЕсли Вы инициализировали данную проверку, то Вы корректно настроили отправку email с форума.\n\nЕсли Вы НЕ инициализировали данную проверку, проигнорируйте это сообщение.\n"
+      subject: 'Проверка email Flarum'
   forum:
     change_email:
       confirm_password_placeholder: '=> core.ref.confirm_password'
@@ -268,7 +284,7 @@ core:
       title: '=> core.ref.change_email'
     change_password:
       send_button: 'Отправить пароль'
-      text: 'Нажмите на кнопку ниже для отправки ссылки изменения пароля на Ваш e-mail.'
+      text: 'Нажмите на кнопку ниже для отправки ссылки изменения пароля на Ваш email.'
       title: '=> core.ref.change_password'
     composer:
       close_tooltip: Закрыть
@@ -316,10 +332,10 @@ core:
     forgot_password:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'
-      email_sent_message: 'Если введённый Вами адрес e-mail зарегистрирован на этом сайте, мы отправим Вам письмо, содержащее ссылку для восстановления пароля. Проверьте папку со спамом, если Вы не получили письмо в течение нескольких минут.'
-      not_found_message: 'Пользователи с указанным e-mail не найдены.'
+      email_sent_message: 'Если введённый Вами адрес email зарегистрирован на этом сайте, мы отправим Вам письмо, содержащее ссылку для восстановления пароля. Проверьте папку со спамом, если Вы не получили письмо в течение нескольких минут.'
+      not_found_message: 'Пользователи с указанным email не найдены.'
       submit_button: 'Восстановить пароль'
-      text: 'Введите свой e-mail и мы отправим Вам ссылку для сброса пароля.'
+      text: 'Введите свой email и мы отправим Вам ссылку для сброса пароля.'
       title: 'Забыли пароль?'
     header:
       admin_button: Управление
@@ -331,7 +347,7 @@ core:
       search_clear_button_accessible_label: 'Clear search query'
       search_placeholder: Поиск...
       search_role_label: Поиск...
-      session_dropdown_accessible_label: 'Меню опций сессии'
+      session_dropdown_accessible_label: 'Меню опций сеанса'
       settings_button: '=> core.ref.settings'
       sign_up_link: '=> core.ref.sign_up'
     index:
@@ -358,7 +374,7 @@ core:
       sign_up_text: 'У Вас нет аккаунта? <a>Регистрация</a>'
       submit_button: '=> core.ref.log_in'
       title: '=> core.ref.log_in'
-      username_or_email_placeholder: 'Имя пользователя или e-mail'
+      username_or_email_placeholder: 'Имя пользователя или email'
     notifications:
       delete_all_confirm: 'Вы уверены, что хотите удалить все уведомления? Это действие невозможно отменить.'
       delete_all_tooltip: 'Удалить все уведомления'
@@ -388,7 +404,7 @@ core:
       viewing_text: '{count, plural, one {{index} / {formattedCount} сообщения} other {{index} / {formattedCount} сообщений}}'
     post_stream:
       discussion_renamed_old_tooltip: 'Старое название: "{old}"'
-      discussion_renamed_text: '{username} изменил(а) заголовок на {new} {time}.'
+      discussion_renamed_text: '{username} изменил(а) название на "{new}".'
       load_more_button: '=> core.ref.load_more'
       reply_placeholder: '=> core.ref.write_a_reply'
       time_lapsed_text: '{period} спустя'
@@ -400,33 +416,33 @@ core:
       discussions_heading: '=> core.ref.discussions'
       users_heading: '=> core.ref.users'
     security:
-      browser_on_operating_system: '{browser} в {os}'
-      cannot_terminate_current_session: 'Невозможно завершить текущую активную сессию. Вместо этого разлогиньтесь.'
-      created: Создан
-      current_active_session: 'Текущая активная сессия'
+      browser_on_operating_system: '{browser} на {os}'
+      cannot_terminate_current_session: 'Невозможно завершить текущий активный сеанс. Вы можете самостоятельно выйти из системы.'
+      created: Создано
+      current_active_session: 'Текущий активный сеанс'
       developer_tokens_heading: 'Токены разработчика'
-      empty_text: 'Кажется, что здесь не на что смотреть.'
+      empty_text: 'Похоже, здесь не на что смотреть.'
       global_logout:
         heading: 'Глобальный выход'
-        help_text: 'Очистить текушие cookie сессии, завершить все сессии, отозвать токены разработчика, и сделать недействительными все подтверждения email-ов и email''ы сброса пароля.'
+        help_text: 'Удаляет cookie текущего сеанса, завершает все сеансы, отзывает токены разработчика и делает недействительными все электронные письма со ссылками на подтверждение или сброса пароля.'
         log_out_button: '=> core.ref.log_out'
-      hide_access_token: 'Скрыть Токен'
+      hide_access_token: 'Скрыть токен'
       last_activity: 'Последняя активность'
       never: Никогда
       new_access_token_button: '=> core.ref.new_token'
       new_access_token_modal:
-        submit_button: 'Создать Токен'
+        submit_button: 'Создать токен'
         title: '=> core.ref.new_token'
-        title_placeholder: Заголовок
+        title_placeholder: Название
       revoke_access_token: Отозвать
       revoke_access_token_confirmation: '=> core.ref.generic_confirmation_message'
-      session_terminated: '{count, plural, one {Сессий сброшено} other {# Сессий сброшено}}.'
-      session_termination_failed: 'Произошла ошибка при завершении ваших сессий.'
-      sessions_heading: 'Активные сессии'
-      show_access_token: 'Просмотр токена'
-      terminate_all_other_sessions: 'Завершить все другие сессии'
+      session_terminated: '{count, plural, one {Сеанс завершён} other {# сеансов завершено}}.'
+      session_termination_failed: 'Произошла ошибка при завершении Ваших сеансов.'
+      sessions_heading: 'Активные сеансы'
+      show_access_token: 'Смотреть токен'
+      terminate_all_other_sessions: 'Завершить все остальные сеансы'
       terminate_all_other_sessions_confirmation: '=> core.ref.generic_confirmation_message'
-      terminate_session: Завершить
+      terminate_session: Завершено
       title: '=> core.ref.security'
       token_item_title: '{title} - {token}'
       token_revoked: 'Токен отозван.'
@@ -475,7 +491,7 @@ core:
       toggle_dropdown_accessible_label: 'Выпадающее меню управления пользователем'
     user_email_confirmation:
       alert_message: '=> core.ref.confirmation_email_sent'
-      resend_button: 'Повторно отправить подтверждение по e-mail'
+      resend_button: 'Повторно отправить подтверждение по email'
       sent_message: Отправлено
     welcome_hero:
       hide: 'Скрыть сообщение приветствия'
@@ -512,9 +528,10 @@ core:
       username_heading: '=> core.ref.username'
       username_label: '=> core.ref.username'
     error:
+      circular_dependencies_message: 'Обнаружены циклические зависимости: {extensions}. Прерывание действия. Пожалуйста, отключите одно из расширений и попробуйте ещё раз.'
       dependent_extensions_message: 'Невозможно отключить {extension}, пока не будут отключены следующие зависимые расширения: {extensions}'
       extension_initialiation_failed_message: '{extension} не удалось инициализировать. Проверьте консоль браузера для получения дополнительной информации.'
-      generic_cross_origin_message: 'Упс! Что-то пошло не так во время обработки запроса. Пожалуйста обновите страницу и попробуйте заново.'
+      generic_cross_origin_message: 'Упс! Что-то пошло не так при выполнении запроса cross-origin. Пожалуйста, обновите страницу и попробуйте ещё раз.'
       generic_message: 'Упс! Что-то пошло не так. Пожалуйста, обновите страницу и попробуйте ещё раз.'
       missing_dependencies_message: 'Невозможно включить {extension}, пока не будут включены следующие зависимые расширения: {extensions}'
       not_found_message: 'Запрашиваемый ресурс не найден.'
@@ -542,10 +559,10 @@ core:
       deleted_text: '[удалено]'
   ref:
     all_discussions: 'Все дискуссии'
-    change_email: 'Изменить e-mail'
+    change_email: 'Изменить email'
     change_password: 'Изменить пароль'
     color: Цвет
-    confirm_email: 'Подтвердить e-mail'
+    confirm_email: 'Подтвердить email'
     confirm_password: 'Подтвердить пароль'
     confirmation_email_sent: 'Мы отправили письмо с подтверждением на адрес {email}. Если Вы не получите письмо в ближайшее время, проверьте папку со спамом.'
     custom_footer_text: 'HTML, который будет отображаться в самой нижней части страницы.'
@@ -557,9 +574,9 @@ core:
     discussions: Дискуссии
     edit: Править
     edit_user: 'Изменить пользователя'
-    email: E-mail
+    email: Email
     extensions: Расширения
-    generic_confirmation_message: 'Вы хотите продолжить? Это действие не может быть отменено.'
+    generic_confirmation_message: 'Вы уверены, что хотите продолжить? Это действие невозможно отменить.'
     icon: Иконка
     icon_text: 'Введите название любого класса иконки <a>Font Awesome</a>, <em>включая</em> префикс <code>fas fa-</code>.'
     load_more: 'Показать ещё'
@@ -567,6 +584,7 @@ core:
     log_in: Войти
     log_out: Выйти
     mark_all_as_read: 'Отметить всё как прочитанное'
+    never: Никогда
     new_token: 'Новый токен'
     next_page: 'Следующая страница'
     notifications: Уведомления
@@ -580,7 +598,7 @@ core:
     reset_your_password: 'Сбросить пароль'
     restore: Восстановить
     save_changes: Сохранить
-    search_users: 'Искать пользователей'
+    search_users: 'Поиск пользователей'
     security: Безопасность
     settings: Настройки
     sign_up: Регистрация
@@ -606,7 +624,7 @@ core:
       title: Управление
     confirm_email:
       submit_button: '=> core.ref.confirm_email'
-      text: 'Для подтверждения адреса e-mail, нажмите на кнопку ниже.'
+      text: 'Для подтверждения адреса email, нажмите на кнопку ниже.'
       title: '=> core.ref.confirm_email'
     content:
       javascript_disabled_message: 'Этот сайт лучше всего просматривать в современном браузере с включённым JavaScript.'
