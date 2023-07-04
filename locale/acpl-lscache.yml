@@ -4,6 +4,7 @@
 
 acpl-lscache:
   admin:
+    cache_enabled_label: 'Включить LSCache'
     cache_exclude_help: "Пути, содержащие эти строки, не будут кэшироваться. Например, можно использовать <code>/mypathh/mypage?aa=bb</code>, <code>mypage?aa=</code>. Для поиска совпадения начала, добавьте <code>^</code> в начале элемента. Для поиска точного совпадения добавьте <code>$</code> в конце URL.\nОдин в строку."
     cache_exclude_label: 'Не кэшировать пути'
     clearing_cache_listener_label: 'Очистить LSCache при очистке кэша Flarum cache'
