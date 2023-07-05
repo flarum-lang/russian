@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.15.0 (2023-07-05)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`archlinux-de/flarum-click-image`](https://github.com/archlinux-de/flarum-click-image)
+* [`cadiducho/bbcode`](https://github.com/EdorasMinecraft/BBcode)
+
+
+**Обновленные переводы расширений**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+
+
+Все изменения: [1.14.0...1.15.0](https://github.com/flarum-lang/russian/compare/1.14.0...1.15.0).
+
+
 1.14.0 (2023-06-02)
 -------------------
 
