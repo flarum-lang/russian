@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.15.1 (XXXX-XX-XX)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+
+
+Все изменения: [1.15.0...1.15.1](https://github.com/flarum-lang/russian/compare/1.15.0...1.15.1).
+
+
 1.15.0 (2023-07-05)
 -------------------
 
