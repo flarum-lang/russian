@@ -16,21 +16,15 @@
   ],
   "authors": [
     {
-      "name": "z17 Dev",
-      "email": "mail@z17.dev",
-      "homepage": "https://z17.dev/",
-      "role": "Translator"
-    },
-    {
-      "name": "z17 CX",
-      "email": "mail@z17.cx",
-      "homepage": "https://z17.cx/",
-      "role": "Translator"
+      "name": "uidHUB",
+      "homepage": "https://github.com/uidhub",
+      "role": "Developer"
     },
     {
       "name": "Kitsune Solar",
       "email": "kitsune.solar@gmail.com",
-      "role": "Translator"
+      "homepage": "https://github.com/KitsuneSolar",
+      "role": "Developer"
     },
     {
       "name": "Flarum Russian Community",
