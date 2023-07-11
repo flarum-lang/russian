@@ -22,7 +22,7 @@
     },
     {
       "name": "Kitsune Solar",
-      "email": "kitsune.solar@gmail.com",
+      "email": "mail@kitsune.solar",
       "homepage": "https://github.com/KitsuneSolar",
       "role": "Developer"
     },
@@ -40,7 +40,7 @@
   },
   "funding": [
     {
-      "type": "other",
+      "type": "website",
       "url": "https://flarum.org/donate"
     },
     {
@@ -53,7 +53,7 @@
     }
   ],
   "require": {
-    "flarum/core": "^1.4"
+    "flarum/core": "^1.8"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
