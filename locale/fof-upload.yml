@@ -18,6 +18,7 @@ fof-upload:
     inspect-mime:
       description: "FoF Upload использует библиотеку <a>PHP Mime Detector</a> для распространенных типов MIME и PHP Fileinfo в качестве запасного варианта. \nЗначение MIME, возвращаемое Fileinfo, может отличаться от сервера к серверу!\n"
       guessed-extension: 'Расширение файла по умолчанию (если оригинал не занесен в белый список)'
+      laravel-validation: 'Одобрение файла через Laravel'
       mime-detector: 'Детектор Mime (основной)'
       no-file-selected: 'Нет файла'
       not-available: 'Нет результата'

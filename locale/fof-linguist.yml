@@ -88,6 +88,8 @@ fof-linguist:
       validation: 'Ошибки проверки'
     locales:
       all: Все
+    permissions:
+      view_string_keys: 'Посмотреть строковые ключи переводов'
     placeholder:
       all-locales: 'Текст, приведенный здесь, будет показан на всех языках'
       hint: 'Исходное значение:'

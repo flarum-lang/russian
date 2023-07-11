@@ -38,6 +38,8 @@ fof-oauth:
           api_key_label: 'Ключ API'
           api_secret_label: 'Секретный ключ API'
           description: 'Создайте приложение по ссылке {link}. Вы должны указать ссылку на Terms of Service и ссылку на Privacy Policy. Не забудьте дать разрешение на чтение e-mail пользователя.'
+      update_email_from_provider_label: 'Обновить адрес эл.почты через провайдера'
+    settings_accessibility_label: '{name} настройки'
   forum:
     error:
       bad_verification_code: 'Некорректный или истёкший токен верификации. Пожалуйста, попробуйте ещё раз.'
@@ -61,6 +63,15 @@ fof-oauth:
       twitter: '=> fof-oauth.lib.providers.twitter'
     signup:
       username_help: 'Пожалуйста, выберите имя пользователя для регистрации'
+    unlink: 'Удалить ссылку'
+    user:
+      settings:
+        linked-account:
+          identifier-label: '{provider} аккаунт'
+          label: 'Связанные аккаунты'
+          last-used-label: 'Последний использовавшийся'
+          link-created-label: 'Ссылка создана'
+          orphaned-account: 'Вы ранее регистрировались через эту учетную запись, но с тех пор этот форум запретил вход этим способом.'
   lib:
     providers:
       discord: Discord

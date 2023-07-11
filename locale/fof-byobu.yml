@@ -5,6 +5,7 @@
 fof-byobu:
   admin:
     permission:
+      add_more_than_two_user_recipients: 'Добавьте более чем 2 пользователей-получателей для начала приватной дискуссии'
       create_private_discussions_with_blocking_users: 'Создавать переписки с участниками, отключившие их'
       create_private_discussions_with_groups: 'Создавать переписки с группами'
       create_private_discussions_with_users: 'Создавать переписки с участниками'
@@ -14,8 +15,12 @@ fof-byobu:
       view_private_discussions-when-flagged: 'Смотреть переписки других участников при поступлении жалобы'
     settings:
       badge-icon: 'Иконка переписки'
+      delete_on_last_recipient_left: 'Удалить частную дискуссию, когда её покинет последний участник'
+      delete_on_last_recipient_left_help: 'Если включено, частная дискуссия будет навсегда удалена из базы данных, когда её покинет последний из участников. Если нет - она будет "условно удалена" (скрыта).'
       enable-make-public-option: 'Разрешить возможность "сделать публичной"'
       enable-make-public-option-help: 'Добавляет выбранным пользователям разрешение удалять всех получателей, назначать новый тег и делать дискуссию видимой публично (в соответствии с настройкой видимости выбранного тега).'
+      hide_from_all_discussions_page: 'Скрыть частные дискуссии на странице "Все дискуссии"'
+      hide_from_all_discussions_page_help: 'Частные дискуссии будут доступны только со страницы "Частные дискуссии" или через профиль пользователя'
       post-event-icon: 'Иконка события'
   email:
     body:
