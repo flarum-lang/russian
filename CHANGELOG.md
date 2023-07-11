@@ -2,6 +2,21 @@ CHANGELOG
 =========
 
 
+1.15.2 (2023-07-11)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+
+
+Все изменения: [1.15.1...1.15.2](https://github.com/flarum-lang/russian/compare/1.15.1...1.15.2).
+
+
 1.15.1 (2023-07-10)
 -------------------
 
