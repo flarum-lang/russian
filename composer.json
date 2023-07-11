@@ -3,7 +3,7 @@
   "description": "Russian language pack for Flarum.",
   "type": "flarum-extension",
   "license": "MIT",
-  "homepage": "https://github.com/flarum-lang",
+  "homepage": "https://github.com/flarum-lang/russian",
   "keywords": [
     "extension",
     "flarum",
@@ -22,7 +22,6 @@
     },
     {
       "name": "Kitsune Solar",
-      "email": "mail@kitsune.solar",
       "homepage": "https://github.com/KitsuneSolar",
       "role": "Developer"
     },
