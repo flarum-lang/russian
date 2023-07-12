@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.16.0 (XXXX-XX-XX)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
+
+
+**Обновленные переводы расширений**:
+
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
+
+
+Все изменения: [1.15.2...1.16.0](https://github.com/flarum-lang/russian/compare/1.15.2...1.16.0).
+
+
 1.15.2 (2023-07-11)
 -------------------
 
