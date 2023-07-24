@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.16.1 (2023-07-24)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+
+
+Все изменения: [1.16.0...1.16.1](https://github.com/flarum-lang/russian/compare/1.16.0...1.16.1).
+
+
 1.16.0 (2023-07-17)
 -------------------
 
