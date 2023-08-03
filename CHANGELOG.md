@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.17.0 (2023-08-03)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`clarkwinkelmann/flarum-ext-composer-page`](https://github.com/clarkwinkelmann/flarum-ext-composer-page)
+* [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
+
+
+Все изменения: [1.16.1...1.17.0](https://github.com/flarum-lang/russian/compare/1.16.1...1.17.0).
+
+
 1.16.1 (2023-07-24)
 -------------------
 
