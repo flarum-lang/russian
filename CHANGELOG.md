@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.18.0 (2023-08-10)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`matteociaroni/flarum-old-content`](https://github.com/matteociaroni/flarum-old-content)
+
+
+Все изменения: [1.17.0...1.18.0](https://github.com/flarum-lang/russian/compare/1.17.0...1.18.0).
+
+
 1.17.0 (2023-08-03)
 -------------------
 
