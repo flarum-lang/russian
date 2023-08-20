@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.19.0 (2023-08-20)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`ianm/oauth-line`](https://github.com/imorland/flarum-ext-oauth-line)
+
+
+**Обновленные переводы расширений**:
+
+* [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
+
+
+Все изменения: [1.18.0...1.19.0](https://github.com/flarum-lang/russian/compare/1.18.0...1.19.0).
+
+
 1.18.0 (2023-08-10)
 -------------------
 
