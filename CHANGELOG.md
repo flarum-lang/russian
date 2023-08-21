@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.20.0 (XXXX-XX-XX)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`rehiy/flarum-reply-to-see`](https://github.com/rehiy/flarum-reply-to-see)
+
+
+**Обновленные переводы расширений**:
+
+* [`clarkwinkelmann/flarum-ext-passwordless`](https://github.com/clarkwinkelmann/flarum-ext-passwordless)
+
+
+Все изменения: [1.19.0...1.20.0](https://github.com/flarum-lang/russian/compare/1.19.0...1.20.0).
+
+
 1.19.0 (2023-08-20)
 -------------------
 
