@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.21.0 (2023-09-19)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+
+
+Все изменения: [1.20.0...1.21.0](https://github.com/flarum-lang/russian/compare/1.20.0...1.21.0).
+
+
 1.20.0 (2023-09-04)
 -------------------
 
