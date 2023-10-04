@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.22.0 (2023-10-04)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content)
+
+
+Все изменения: [1.21.0...1.22.0](https://github.com/flarum-lang/russian/compare/1.21.0...1.22.0).
+
+
 1.21.0 (2023-09-19)
 -------------------
 
