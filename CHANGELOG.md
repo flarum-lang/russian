@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.23.0 (2023-11-15)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`imdong/flarum-ext-visible-to-op-only`](https://github.com/imdong/flarum-ext-visible-to-op-only)
+
+
+Все изменения: [1.22.1...1.23.0](https://github.com/flarum-lang/russian/compare/1.22.1...1.23.0).
+
+
 1.22.1 (2023-10-07)
 -------------------
 
