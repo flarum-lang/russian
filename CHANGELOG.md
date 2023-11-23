@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.24.0 (2023-11-23)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`fof/clockwork`](https://github.com/FriendsOfFlarum/clockwork)
+
+
+Все изменения: [1.23.0...1.24.0](https://github.com/flarum-lang/russian/compare/1.23.0...1.24.0).
+
+
 1.23.0 (2023-11-15)
 -------------------
 
