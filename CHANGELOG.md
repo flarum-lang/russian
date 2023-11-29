@@ -16,6 +16,7 @@ CHANGELOG
 * [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories)
 * [`blomstra/user-filter`](https://github.com/blomstra/flarum-ext-user-filter)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar)
 
 
 Все изменения: [1.25.0...1.26.0](https://github.com/flarum-lang/russian/compare/1.25.0...1.26.0).
