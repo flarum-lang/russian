@@ -10,17 +10,25 @@ flarum-calendar:
       add: 'Создать новые события Календаря'
       moderate: 'Править или удалить события Календаря (все пользователи могут править созданные ими события)'
       view: 'Просмотр событий'
+    settings:
+      hide_host: 'Не отображать "кто проводит"'
   forum:
     button:
       create: 'Новое событие'
       landing: 'Календарь событий'
       login: 'Добавить событие '
     event:
+      confirm_delete: 'Вы уверены, что хотите удалить событие?'
+      deleted: 'Событие удалено'
       details: 'Больше сведений об этом событии'
+      ends: 'Завершение:'
+      hosted_by: 'Кто проводит:'
+      starts: 'Начало:'
     modal:
       dates_label: Когда
       description_label: Детали
       description_placeholder: 'Детали события'
+      requirement_message: 'События должны иметь название и описание'
       submit: Отправить
       title_create: 'Создать новое событие календаря'
       title_edit: 'Править детали события'
