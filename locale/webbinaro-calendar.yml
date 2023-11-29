@@ -18,4 +18,10 @@ flarum-calendar:
     event:
       details: 'Больше сведений об этом событии'
     modal:
+      dates_label: Когда
+      description_label: Детали
+      description_placeholder: 'Детали события'
       submit: Отправить
+      title_create: 'Создать новое событие календаря'
+      title_edit: 'Править детали события'
+      title_label: Что
