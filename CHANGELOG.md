@@ -2,6 +2,26 @@ CHANGELOG
 =========
 
 
+1.26.0 (2023-12-01)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
+* [`umhelper/oauth-clerk`](https://github.com/UMHelper/flarum-ext-oauth-clerk)
+
+
+**Обновленные переводы расширений**:
+
+* [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories)
+* [`blomstra/user-filter`](https://github.com/blomstra/flarum-ext-user-filter)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar)
+
+
+Все изменения: [1.25.0...1.26.0](https://github.com/flarum-lang/russian/compare/1.25.0...1.26.0).
+
+
 1.25.0 (2023-11-28)
 -------------------
 
