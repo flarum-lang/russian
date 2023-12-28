@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.27.0 (XXXX-XX-XX)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`litalino/flarum-blog-article-series`](https://github.com/Litalino/flarum-blog-article-series)
+* [`litalino/flarum-country-flags`](https://github.com/Litalino/flarum-country-flags)
+
+
+Все изменения: [1.26.0...1.27.0](https://github.com/flarum-lang/russian/compare/1.26.0...1.27.0).
+
+
 1.26.0 (2023-12-01)
 -------------------
 
