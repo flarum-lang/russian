@@ -54,6 +54,7 @@ php flarum cache:clear
 | [`flarum/approval`](https://github.com/flarum/approval) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum/ru/flarum-approval/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-approval/ru/) |
 | [`flarum/bbcode`](https://github.com/flarum/bbcode) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum/ru/flarum-bbcode/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-bbcode/ru/) |
 | [`flarum/emoji`](https://github.com/flarum/emoji) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum/ru/flarum-emoji/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-emoji/ru/) |
+| [`flarum/extension-manager`](https://github.com/flarum/extension-manager) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum/ru/flarum-extension-manager/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-extension-manager/ru/) |
 | [`flarum/flags`](https://github.com/flarum/flags) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum/ru/flarum-flags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-flags/ru/) |
 | [`flarum/likes`](https://github.com/flarum/likes) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum/ru/flarum-likes/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-likes/ru/) |
 | [`flarum/lock`](https://github.com/flarum/lock) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum/ru/flarum-lock/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-lock/ru/) |
