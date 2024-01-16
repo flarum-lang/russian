@@ -8,6 +8,7 @@ CHANGELOG
 **Добавлена поддержка новых расширений**:
 
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`nearata/flarum-ext-maintenance-mode`](https://github.com/Nearata/flarum-ext-maintenance-mode)
 
 
 Все изменения: [1.27.0...1.28.0](https://github.com/flarum-lang/russian/compare/1.27.0...1.28.0).
