@@ -74,3 +74,46 @@ flarum-extension-manager:
       update_hard_label: 'Жестко обновить'
       update_soft_label: 'Мягко обновить'
     file_permissions: "Менеджер расширений требует разрешений на чтение и запись для следующих файлов и директорий: composer.json, composer.lock, vendor, storage, storage/.composer\n"
+    major_updater:
+      update: Обновление
+    minor_update_confirmation:
+      content: 'Это также обновит все прочие расширения/пакеты (при наличии обновлений).'
+    sections:
+      control:
+        title: Менеджер
+      queue:
+        columns:
+          details: Детали
+          elapsed_time: 'Завершено в'
+          operation: Действие
+          package: Пакет
+          peak_memory_used: 'Пиковое использование памяти'
+          status: Статус
+        none: 'Задач пока нет.'
+        operations:
+          extension_install: 'Установить расширение'
+          extension_remove: 'Удалить расширение'
+          extension_update: 'Обновить расширение'
+          update_check: 'Проверить обновления'
+          update_global: 'Обновить все программные пакеты'
+          update_major: 'Старшая версия обновления'
+          update_minor: 'Младшая версия обновления'
+          why_not: 'Определить, почему пакет не может быть обновлен'
+        output_modal:
+          cause_unknown: Неизвестно
+          command: 'Команда Composer'
+          guessed_cause: Причина
+          output: Вывод
+        refresh: 'Обновить список задач'
+        statuses:
+          failure: Неудачно
+          pending: Ожидает
+          running: Выполняется
+          success: Успех
+        task_just_started: 'Задача запущена'
+        title: Очередь
+    settings:
+      access_warning: 'Пожалуйста будьте внимательны в отношении лиц, имеющих доступ к администрированию. Менеджер расширений может быть использован во вред - установкой пакетов, которые нарушат безопасность.'
+      debug_mode_warning: 'Вы работаете в режиме отладки, поэтому Менеджер расширений не может корректно устанавливать и обновлять локальные пакеты. Для этой цели используйте интерфейс командной строки.'
+      queue_jobs: 'Запустить задания в фоновой очереди'
+      title: '=> core.ref.settings'
