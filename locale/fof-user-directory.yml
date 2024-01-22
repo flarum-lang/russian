@@ -10,6 +10,7 @@ fof-user-directory:
       default-sort: 'Сортировка по умолчанию'
       disable-global-search-source: 'Не добавлять каталог участников в поле глобального поиска'
       link: 'Ссылка на странице форума'
+      link-group-mentions: 'Ссылка на упоминания группы в сообщениях в Пользовательском каталоге'
       use-small-cards: 'Маленькие карточки участников'
   forum:
     header:
@@ -20,6 +21,9 @@ fof-user-directory:
       load_more_button: '=> core.ref.load_more'
       nav: 'Список участников'
       refresh_tooltip: '=> core.forum.index.refresh_tooltip'
+      usercard:
+        discussion-count: '{count, plural, one { {count} дискуссия} other {{count} дискуссий}}'
+        post-count: '{count, plural, one { {count} сообщение} other {{count} сообщений}}'
     search:
       field:
         placeholder: 'Найти всех пользователей...'
