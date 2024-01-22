@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.29.0 (XXXX-XX-XX)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`nodeloc/dislikes`](https://github.com/nodeloc/Dislikes)
+* [`nodeloc/flarum-ignore-hidden-tags`](https://github.com/nodeloc/flarum-ignore-hidden-tags)
+
+
+Все изменения: [1.28.0...1.29.0](https://github.com/flarum-lang/russian/compare/1.28.0...1.29.0).
+
+
 1.28.0 (2024-01-18)
 -------------------
 
