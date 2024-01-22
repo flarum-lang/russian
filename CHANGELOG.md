@@ -7,8 +7,15 @@ CHANGELOG
 
 **Добавлена поддержка новых расширений**:
 
+* [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars)
 * [`nodeloc/dislikes`](https://github.com/nodeloc/Dislikes)
 * [`nodeloc/flarum-ignore-hidden-tags`](https://github.com/nodeloc/flarum-ignore-hidden-tags)
+
+
+**Обновленные переводы расширений**:
+
+* [`clarkwinkelmann/flarum-ext-mailing`](https://github.com/clarkwinkelmann/flarum-ext-mailing)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 
 
 Все изменения: [1.28.0...1.29.0](https://github.com/flarum-lang/russian/compare/1.28.0...1.29.0).
