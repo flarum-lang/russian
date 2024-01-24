@@ -13,6 +13,7 @@ CHANGELOG
 **Добавлена поддержка новых расширений**:
 
 * [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars)
+* [`nearata/flarum-ext-password-strength-enforcer`](https://github.com/Nearata/flarum-ext-password-strength-enforcer)
 * [`nodeloc/dislikes`](https://github.com/nodeloc/Dislikes)
 * [`nodeloc/flarum-ignore-hidden-tags`](https://github.com/nodeloc/flarum-ignore-hidden-tags)
 
