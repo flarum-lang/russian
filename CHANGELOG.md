@@ -5,6 +5,11 @@ CHANGELOG
 1.29.0 (XXXX-XX-XX)
 -------------------
 
+**Общие изменения**:
+
+* Обновленные переводы ядра Flarum.
+
+
 **Добавлена поддержка новых расширений**:
 
 * [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars)
