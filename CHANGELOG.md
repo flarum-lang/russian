@@ -2,6 +2,31 @@ CHANGELOG
 =========
 
 
+1.29.0 (2024-01-25)
+-------------------
+
+**Общие изменения**:
+
+* Обновленные переводы ядра Flarum.
+
+
+**Добавлена поддержка новых расширений**:
+
+* [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars)
+* [`nearata/flarum-ext-password-strength-enforcer`](https://github.com/Nearata/flarum-ext-password-strength-enforcer)
+* [`nodeloc/dislikes`](https://github.com/nodeloc/Dislikes)
+* [`nodeloc/flarum-ignore-hidden-tags`](https://github.com/nodeloc/flarum-ignore-hidden-tags)
+
+
+**Обновленные переводы расширений**:
+
+* [`clarkwinkelmann/flarum-ext-mailing`](https://github.com/clarkwinkelmann/flarum-ext-mailing)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+
+
+Все изменения: [1.28.0...1.29.0](https://github.com/flarum-lang/russian/compare/1.28.0...1.29.0).
+
+
 1.28.0 (2024-01-18)
 -------------------
 
