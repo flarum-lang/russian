@@ -2,6 +2,20 @@ CHANGELOG
 =========
 
 
+1.29.1 (2024-01-25)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`blomstra/fontawesome`](https://github.com/blomstra/flarum-ext-fontawesome)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+
+
+Все изменения: [1.29.0...1.29.1](https://github.com/flarum-lang/russian/compare/1.29.0...1.29.1).
+
+
 1.29.0 (2024-01-25)
 -------------------
 
