@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-ban-ips/ru/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+blomstra-gdpr:
+  lib:
+    data:
+      bannedipdata:
+        anonymize_description: 'Любые IP адреса, ранее связанные с пользователем, перестают с ним ассоциироваться, но сами IP адреса остаются заблокированными, наравне с причиной блокировки. Убедитесь, что поле "причина" не содержит каких-либо персональных данных.'
+        export_description: 'Если запись блокировки по IP адресу привязана к пользователю (т.е. пользователь был заблокирован по IP), его IP адрес будет включен в протокол, наряду с причиной и датой блокировки.'
 fof-ban-ips:
   admin:
     empty_text: 'Заблокированные IP не найдены.'
