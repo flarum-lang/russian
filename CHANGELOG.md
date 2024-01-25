@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`blomstra/fontawesome`](https://github.com/blomstra/flarum-ext-fontawesome)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 
 
