@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.29.2 (2024-01-25)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+
+
+Все изменения: [1.29.1...1.29.2](https://github.com/flarum-lang/russian/compare/1.29.1...1.29.2).
+
+
 1.29.1 (2024-01-25)
 -------------------
 
