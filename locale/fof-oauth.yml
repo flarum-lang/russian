@@ -6,7 +6,17 @@ fof-oauth:
   admin:
     configure_button_label: 'Настроить при помощи FoF OAuth'
     settings:
+      advanced:
+        heading: Расширенные
+        log-oauth-errors-help: 'Ошибки OAuth будут регистрироваться в журнале Flarum. Это может помочь в решении проблем OAuth, но также может содержать конфиденциальную информацию.'
+        log-oauth-errors-label: 'Записывать ошибки OAuth'
+      fullscreen_popup_help: 'Вход OAuth откроется в полноэкранном режиме. При включении этого параметра, настройки ширины и высоты будут игнорироваться.'
+      fullscreen_popup_label: 'Полноэкранное окно для OAuth'
       only_icons_label: 'Отображать только иконки на кнопках входа (альтернативный макет)'
+      popup_height_help: 'Укажите высоту всплывающего окна OAuth. Этот параметр будет игнорироваться, если включено "Полноэкранное окно для OAuth".'
+      popup_height_label: 'Высота окна OAuth'
+      popup_width_help: 'Укажите ширину всплывающего окна OAuth. Этот параметр будет игнорироваться, если включено "Полноэкранное окно для OAuth".'
+      popup_width_label: 'Ширина окна OAuth'
       providers:
         callback_url_text: 'При необходимости, укажите callback URL в {url}.'
         discord:
@@ -30,6 +40,7 @@ fof-oauth:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
           description: 'Создайте приложение по ссылке {link}.'
+          hosted_domain_label: 'Hosted Domain (G suite/Google Apps for Business, optional)'
         linkedin:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
@@ -38,8 +49,9 @@ fof-oauth:
           api_key_label: 'Ключ API'
           api_secret_label: 'Секретный ключ API'
           description: 'Создайте приложение по ссылке {link}. Вы должны указать ссылку на Terms of Service и ссылку на Privacy Policy. Не забудьте дать разрешение на чтение e-mail пользователя.'
-      update_email_from_provider_label: 'Обновить адрес эл.почты через провайдера'
-    settings_accessibility_label: '{name} настройки'
+      update_email_from_provider_help: 'Адрес email пользователя будет обновляться в соответствии с адресом, предоставленным провайдером OAuth при каждом входе на форум. Не все провайдеры предоставляют обновлённый адрес email и, в этом случае, этот параметр не будет иметь никакого влияния на подобных провайдеров.'
+      update_email_from_provider_label: 'Обновлять адрес email от провайдера'
+    settings_accessibility_label: 'Настройки {name}'
   forum:
     error:
       bad_verification_code: 'Некорректный или истёкший токен верификации. Пожалуйста, попробуйте ещё раз.'
@@ -63,15 +75,17 @@ fof-oauth:
       twitter: '=> fof-oauth.lib.providers.twitter'
     signup:
       username_help: 'Пожалуйста, выберите имя пользователя для регистрации'
-    unlink: 'Удалить ссылку'
+    unlink: Отключить
     user:
       settings:
         linked-account:
-          identifier-label: '{provider} аккаунт'
+          help: 'Связанные аккаунты позволяют Вам входить на форум при помощи других провайдеров.'
+          identifier-label: '{provider} ID'
           label: 'Связанные аккаунты'
-          last-used-label: 'Последний использовавшийся'
-          link-created-label: 'Ссылка создана'
-          orphaned-account: 'Вы ранее регистрировались через эту учетную запись, но с тех пор этот форум запретил вход этим способом.'
+          last-used-label: 'Последний раз использовался'
+          link-created-label: 'Соединение установлено'
+          orphaned-account: 'Ранее Вы входили через этого провайдера, но форум отключил вход с помощью этого метода.'
+          unlink-confirm: 'Вы уверены, что хотите отключить соединение с {provider}? Вы больше не сможете войти на форум, если в будущем не выполните повторную аутентификацию.'
   lib:
     providers:
       discord: Discord

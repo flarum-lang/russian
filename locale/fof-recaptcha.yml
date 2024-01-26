@@ -7,11 +7,24 @@ fof-recaptcha:
     permissions:
       post_without_captcha: 'Публиковать сообщения и дискуссии без reCAPTCHA'
     settings:
+      forgot: '=> core.forum.forgot_password.title'
       help_text: 'Получите данные для подключения Google reCAPTCHA <a>здесь</a>.'
       secret_key_label: 'Секретный ключ'
+      signin: '=> core.forum.log_in.title'
+      signup: '=> core.forum.sign_up.title'
       site_key_label: 'Ключ сайта'
+      type_help: 'Расширение поддерживает только reCAPTCHA v2. Выбранный тип должен соответствовать типу учётных данных reCAPTCHA.'
       type_label: 'Тип reCAPTCHA'
+    test:
+      help_text: "В этом тесте используются значения параметров, указанные выше. Обязательно обновите тест после изменения настроек и не забудьте сохранить результат после успешного прохождения теста!\nНиже могут не отображаться сохранённые настройки.\n"
+      load_test_button: Загрузка
+      reload_button: Обновить
+      submit_button: Отправить
+      success_message: 'Успешно! reCAPTCHA настроена правильно.'
+      title: 'Тест reCAPTCHA'
   forum:
     error: 'При отправке reCAPTCHA произошла ошибка. Пожалуйста, попробуйте ещё раз.'
+    unknown_error: 'Произошла неизвестная ошибка. Проверьте reCAPTCHA и повторите попытку.'
 validation:
   recaptcha: 'Проверка reCAPTCHA не пройдена.'
+  recaptcha-unknown: 'Произошла неизвестная ошибка при проверке reCAPTCHA ({errors}).'
