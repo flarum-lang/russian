@@ -9,6 +9,7 @@ fof-links:
       delete_link_confirmation: 'Вы уверены, что хотите удалить ссылку?'
       everyone-label: Все
       guests-label: Гости
+      icon_additional_text: 'Если вы хотите использовать стандартную иконку, префикс должен быть <code>fab fa-</code>.'
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'
       internal_link: 'Это внутренняя ссылка?'
@@ -21,6 +22,7 @@ fof-links:
       url_description: 'Оставьте пустым для отображения в качестве метки.'
       url_label: '=> fof-links.ref.url'
       url_placeholder: '=> fof-links.ref.url'
+      use_rel_me: 'Добавьте атрибут <code>rel="me"</code> для проверки личности на других сайтах'
       visibility: 'Видимость ссылки'
     links:
       create_button: '=> fof-links.ref.create_link'
