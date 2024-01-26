@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.29.3 (XXXX-XX-XX)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
+
+
+Все изменения: [1.29.2...1.29.3](https://github.com/flarum-lang/russian/compare/1.29.2...1.29.3).
+
+
 1.29.2 (2024-01-25)
 -------------------
 
