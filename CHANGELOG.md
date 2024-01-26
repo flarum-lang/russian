@@ -20,9 +20,12 @@ CHANGELOG
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
 * [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-automod)
 * [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/stopforumspam`](https://github.com/FriendsOfFlarum/stopforumspam)
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
 
 
 Все изменения: [1.29.2...1.30.0](https://github.com/flarum-lang/russian/compare/1.29.2...1.30.0).
