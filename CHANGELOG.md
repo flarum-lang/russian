@@ -32,7 +32,10 @@ CHANGELOG
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
 * [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
 * [`fof/stopforumspam`](https://github.com/FriendsOfFlarum/stopforumspam)
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
 
