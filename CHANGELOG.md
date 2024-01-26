@@ -7,6 +7,8 @@ CHANGELOG
 
 **Обновленные переводы расширений**:
 
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-automod)
 * [`flarum/nicknames`](https://github.com/flarum/nicknames)
 * [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
