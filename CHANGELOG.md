@@ -30,6 +30,8 @@ CHANGELOG
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/stopforumspam`](https://github.com/FriendsOfFlarum/stopforumspam)
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
