@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-follow-tags/ru/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+blomstra-gdpr:
+  lib:
+    data:
+      tagsubscription:
+        anonymize_description: 'Удаление подписки пользователя на тег.'
+        export_description: 'Экспортирование данных об уровне подписки для тега, если он существует.'
 fof-follow-tags:
   admin:
     settings:
@@ -39,6 +45,7 @@ fof-follow-tags:
       follow_button: '=> fof-follow-tags.ref.follow'
       following_button: '=> fof-follow-tags.ref.following'
       following_text: 'Получать уведомления обо всех новых дискуссиях.'
+      header: 'Подписка на {tagName}'
       hiding_button: '=> fof-follow-tags.ref.hiding'
       hiding_text: 'Скрыть дискуссию со страницы "Все дискуссии".'
       ignoring_button: '=> fof-follow-tags.ref.ignoring'
@@ -49,6 +56,8 @@ fof-follow-tags:
       not_following_text: 'Уведомить при @упоминании.'
       notify_alert_tooltip: 'Получать уведомления на форуме, когда появляются новые дискуссии или сообщения'
       notify_email_tooltip: 'Получать e-mail, когда появляются новые дискуссии или сообщения'
+      submit_button: 'Подтвердить подписку'
+      subscription_label: 'Выберите уровень подписки для {tagName}'
     user:
       settings:
         filter_label: 'Показывать по умолчанию на странице подписок'

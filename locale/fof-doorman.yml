@@ -35,7 +35,8 @@ fof-doorman:
         key: Код
         max_uses: 'Количество использований'
         title: 'Коды приглашения'
-        used_times: '{remaining, plural, one {Осталось: {remaining}} other {Осталось: {remaining}}}'
+        total_uses: '{totalUses, plural, one {Использовано {totalUses} раз} other {Использовано {totalUses} раз}}'
+        used_times: '{remaining, plural, =0 {Неограниченно} one {{remaining} использования} other {{remaining} использований}}'
         warning: 'Код приглашения уже превысил максимальное количество использований.'
       title: Приглашения
   forum:
