@@ -8,6 +8,9 @@ CHANGELOG
 **Обновленные переводы расширений**:
 
 * [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 
 
 Все изменения: [1.29.2...1.29.3](https://github.com/flarum-lang/russian/compare/1.29.2...1.29.3).
