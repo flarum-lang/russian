@@ -2,8 +2,18 @@ CHANGELOG
 =========
 
 
-1.29.3 (XXXX-XX-XX)
+1.30.0 (XXXX-XX-XX)
 -------------------
+
+**Общие изменения**:
+
+* Обновленные переводы ядра Flarum.
+
+
+**Добавлена поддержка новых расширений**:
+
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+
 
 **Обновленные переводы расширений**:
 
@@ -15,7 +25,7 @@ CHANGELOG
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 
 
-Все изменения: [1.29.2...1.29.3](https://github.com/flarum-lang/russian/compare/1.29.2...1.29.3).
+Все изменения: [1.29.2...1.30.0](https://github.com/flarum-lang/russian/compare/1.29.2...1.30.0).
 
 
 1.29.2 (2024-01-25)
