@@ -21,6 +21,8 @@ CHANGELOG
 * [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-automod)
 * [`flarum/nicknames`](https://github.com/flarum/nicknames)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
