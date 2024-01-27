@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.30.1 (2024-01-27)
+-------------------
+
+**Общие изменения**:
+
+* Обновленные переводы ядра Flarum.
+
+
+**Обновленные переводы расширений**:
+
+* [`flarum/pusher`](https://github.com/flarum/pusher)
+* [`flarum/tags`](https://github.com/flarum/tags)
+
+
+Все изменения: [1.30.0...1.30.1](https://github.com/flarum-lang/russian/compare/1.30.0...1.30.1).
+
+
 1.30.0 (2024-01-26)
 -------------------
 
