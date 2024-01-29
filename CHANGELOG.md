@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+1.30.2 (2024-01-29)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`fof/split`](https://github.com/FriendsOfFlarum/split)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
+
+
+Все изменения: [1.30.1...1.30.2](https://github.com/flarum-lang/russian/compare/1.30.1...1.30.2).
+
+
 1.30.1 (2024-01-27)
 -------------------
 
