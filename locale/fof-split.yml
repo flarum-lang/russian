@@ -15,5 +15,6 @@ fof-split:
       was_split_from: '{count, plural, one {{count} сообщение было перемещено из {target}.} other {{count} сообщений было перемещено из {target}.}}'
       was_split_to: '{count, plural, one {{count} сообщение было перемещено в {target}.} other {{count} сообщений было перемещено в {target}.}}'
     split:
+      cancel: 'Отменить перемещение'
       from: 'Переместить из'
       to: 'Переместить в'
