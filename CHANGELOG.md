@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.33.0 (XXXX-XX-XX)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
+
+
+Все изменения: [1.32.0...1.33.0](https://github.com/flarum-lang/russian/compare/1.32.0...1.33.0).
+
+
 1.32.0 (2024-02-09)
 -------------------
 
