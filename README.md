@@ -349,5 +349,6 @@ php flarum cache:clear
 | [`justoverclock/theaudiodb-api`](https://extiverse.com/extension/justoverclock/theaudiodb-api) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum/ru/justoverclock-theaudiodb-api/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-theaudiodb-api/ru/) |
 | [`justoverclock/website-live-screenshot`](https://extiverse.com/extension/justoverclock/website-live-screenshot) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum/ru/justoverclock-website-live-screenshot/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-website-live-screenshot/ru/) |
 | [`kilowhat/flarum-ext-cimaise`](https://extiverse.com/extension/kilowhat/flarum-ext-cimaise) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum/ru/kilowhat-cimaise/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/kilowhat-cimaise/ru/) |
+| [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum/ru/v17development-support/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-support/ru/) |
 
 <!-- premium-extensions-list-stop -->
