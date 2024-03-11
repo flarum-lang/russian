@@ -320,8 +320,6 @@ php flarum cache:clear
 | [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum/ru/v17development-user-badges/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-user-badges/ru/) |
 | [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum/ru/webbinaro-calendar/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/webbinaro-calendar/ru/) |
 | [`xsoft-ict/mason-tag`](https://github.com/xsoft-ict/fof-mason-tag) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum/ru/xsoft-ict-mason-tag/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/xsoft-ict-mason-tag/ru/) |
-| [`zerosonesfun/expired-posts`](https://github.com/zerosonesfun/expired-posts) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum/ru/zerosonesfun-expired-posts/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/zerosonesfun-expired-posts/ru/) |
-| [`zerosonesfun/flarum-bbcode-button`](https://github.com/zerosonesfun/flarum-bbcode-button) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum/ru/zerosonesfun-bbcode-button/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/zerosonesfun-bbcode-button/ru/) |
 | [`ziiven/flarum-post-number`](https://github.com/Ziiven/flarum-post-number) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum/ru/ziiven-post-number/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-post-number/ru/) |
 
 <!-- various-extensions-list-stop -->
