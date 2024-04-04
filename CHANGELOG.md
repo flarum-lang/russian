@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.34.0 (2024-04-04)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`clarkwinkelmann/flarum-ext-formatted-banner`](https://github.com/clarkwinkelmann/flarum-ext-formatted-banner)
+* [`gtdxyz/flarum-ext-login`](https://github.com/daocatt/flarum-ext-login)
+
+
+**Обновленные переводы расширений**:
+
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+
+
+Все изменения: [1.33.0...1.34.0](https://github.com/flarum-lang/russian/compare/1.33.0...1.34.0).
+
+
 1.33.0 (2024-02-19)
 -------------------
 
