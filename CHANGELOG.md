@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.35.0 (2024-04-05)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`nodeloc/flarum-ext-my-emoji`](https://github.com/nodeloc/flarum-ext-my-emoji)
+
+
+Все изменения: [1.34.0...1.35.0](https://github.com/flarum-lang/russian/compare/1.34.0...1.35.0).
+
+
 1.34.0 (2024-04-04)
 -------------------
 
