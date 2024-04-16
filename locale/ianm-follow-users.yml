@@ -41,7 +41,7 @@ ianm-follow-users:
       new_follower_text: '{username} подписался на вас'
       new_post_text: '{username} отправил сообщение в дискуссию'
       new_unfollower_text: '{username} отменил подписку на вас'
-    profile_link: '=> ianm-follow-users.lib.following_link'
+    profile_link: Подписки
     profile_page:
       no_following: 'Похоже, вы ни на кого не подписаны.'
     settings:
