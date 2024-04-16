@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.35.1 (2024-04-16)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+
+
+Все изменения: [1.35.0...1.35.1](https://github.com/flarum-lang/russian/compare/1.35.0...1.35.1).
+
+
 1.35.0 (2024-04-05)
 -------------------
 
