@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.36.0 (2024-07-13)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`foskym/flarum-custom-levels`](https://github.com/FoskyM/flarum-custom-levels)
+* [`litalino/flarum-related-discussions`](https://github.com/Litalino/flarum-related-discussions)
+
+
+Все изменения: [1.35.2...1.36.0](https://github.com/flarum-lang/russian/compare/1.35.2...1.36.0).
+
+
 1.35.2 (2024-05-26)
 -------------------
 
