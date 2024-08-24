@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.36.1 (XXXX-XX-XX)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
+
+
+Все изменения: [1.36.0...1.36.1](https://github.com/flarum-lang/russian/compare/1.36.0...1.36.1).
+
+
 1.36.0 (2024-07-13)
 -------------------
 
