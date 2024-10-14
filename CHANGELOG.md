@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.37.0 (2024-10-14)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
+
+
+Все изменения: [1.36.1...1.37.0](https://github.com/flarum-lang/russian/compare/1.36.1...1.37.0).
+
+
 1.36.1 (2024-08-24)
 -------------------
 
