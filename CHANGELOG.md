@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.38.0 (XXXX-XX-XX)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`justoverclock/reputation-score`](https://flarum.org/extension/justoverclock/reputation-score)
+
+
+Все изменения: [1.37.0...1.38.0](https://github.com/flarum-lang/russian/compare/1.37.0...1.38.0).
+
+
 1.37.0 (2024-10-14)
 -------------------
 
