@@ -7,6 +7,7 @@ CHANGELOG
 
 **Добавлена поддержка новых расширений**:
 
+* [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
 * [`justoverclock/reputation-score`](https://flarum.org/extension/justoverclock/reputation-score)
 
 
