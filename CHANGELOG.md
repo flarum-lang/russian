@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.39.0 (XXXX-XX-XX)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
+
+
+**Обновленные переводы расширений**:
+
+* [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
+
+
+Все изменения: [1.38.0...1.39.0](https://github.com/flarum-lang/russian/compare/1.38.0...1.39.0).
+
+
 1.38.0 (2024-11-08)
 -------------------
 
