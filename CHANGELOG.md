@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.38.0 (2024-11-08)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
+* [`justoverclock/reputation-score`](https://flarum.org/extension/justoverclock/reputation-score)
+
+
+Все изменения: [1.37.0...1.38.0](https://github.com/flarum-lang/russian/compare/1.37.0...1.38.0).
+
+
 1.37.0 (2024-10-14)
 -------------------
 
