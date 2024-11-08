@@ -52,10 +52,13 @@ gtdxyz-flarum-badges:
     edit_category: 'Править категорию'
     new_badge: 'Новый жетон'
     nothing_here_yet: 'Вы еще не создали ни одной категории или жетона.'
+    number_of_badges_on_user_card: 'Число жетонов'
+    number_of_badges_on_user_card_help: 'Число жетонов, отображаемых на карточке пользователя'
     permissions:
       badge_detail_users: 'Можно видеть пользователей на странице деталей о жетонах'
       give_badge: 'Присвоить жетон пользователю'
       take_badge: 'Снять жетон у пользователя'
+    show_badges_on_user_card: 'Показать жетоны на карточке пользователя'
     uncategorized: 'Без категории'
     update_badge: 'Обновить жетон'
     update_category: 'Обновить категорию'
