@@ -56,6 +56,8 @@ gtdxyz-flarum-badges:
     number_of_badges_on_user_card_help: 'Число жетонов, отображаемых на карточке пользователя'
     permissions:
       badge_detail_users: 'Можно видеть пользователей на странице деталей о жетонах'
+      edit_card_badges: 'Править жетоны карточки пользователя'
+      edit_own_card_badges: 'Править собственные жетоны карточки пользователя'
       give_badge: 'Присвоить жетон пользователю'
       take_badge: 'Снять жетон у пользователя'
     show_badges_on_user_card: 'Показать жетоны на карточке пользователя'
@@ -77,10 +79,18 @@ gtdxyz-flarum-badges:
       earning_reason: 'Причина присвоения жетона'
       name: 'Наименование жетона'
       no_earning_reason: 'Причина присвоения жетона не установлена'
+      others_link: '+ {count} далее'
       received_on: 'Получено в {date}'
       update_earning_reason: 'Причина присвоения жетона'
     badge_information: 'Сведения о жетоне'
+    badges_in_card:
+      description: 'Вы можете заменить жетоны, отображаемые на вашей карточке, другими вашими жетонами. Если вы не выберете ни одного, они будут выбраны автоматически.'
+      hit_limit: 'На вашей карточке есть место только для <b> {limit, plural, one {<b>одного жетона</b>} other {<b>из # жетонов</b>}}</b>. Отмените выбор старого жетона для выбора этого.'
+      manage_badges: 'Управлять жетонами'
+      select_limit: 'Вы можете выбрать {limit, plural, one {<b>жетон</b>} other {<b> из # жетонов</b>}} для отображения на вашей пользовательской карточке.'
+      title: 'Жетоны в карточке пользователя'
     give_badge: 'Присвоить жетон'
+    hidden_badges: 'У этого пользователя нет жетонов для показа.'
     moderation:
       give_badge: 'Присвоить жетон'
       remove_badge: 'Снять жетон с пользователя'
@@ -89,6 +99,7 @@ gtdxyz-flarum-badges:
     notification:
       settings: 'Мне присвоен жетон'
       title: 'Вам присвоен новый жетон'
+    save_changes: 'Сохранить изменения'
     select_badge: 'Выбрать жетон'
     uncategorized: '=> gtdxyz-flarum-badges.admin.uncategorized'
     update_badge: 'Обновить жетон'
