@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.40.1 (XXXX-XX-XX)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+
+
+Все изменения: [1.40.0...1.40.1](https://github.com/flarum-lang/russian/compare/1.40.0...1.40.1).
+
+
 1.40.0 (2024-11-27)
 -------------------
 
