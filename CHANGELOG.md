@@ -2,6 +2,20 @@ CHANGELOG
 =========
 
 
+1.40.1 (2024-12-15)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+
+
+Все изменения: [1.40.0...1.40.1](https://github.com/flarum-lang/russian/compare/1.40.0...1.40.1).
+
+
 1.40.0 (2024-11-27)
 -------------------
 
