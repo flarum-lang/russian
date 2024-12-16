@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.41.0 (2024-12-16)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
+
+
+Все изменения: [1.40.1...1.41.0](https://github.com/flarum-lang/russian/compare/1.40.1...1.41.0).
+
+
 1.40.1 (2024-12-15)
 -------------------
 
