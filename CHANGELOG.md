@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.42.0 (XXXX-XX-XX)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`tohsakarat/post-camera`](https://github.com/tohsakrat/post-camera)
+
+
+Все изменения: [1.41.0...1.42.0](https://github.com/flarum-lang/russian/compare/1.41.0...1.42.0).
+
+
 1.41.0 (2024-12-16)
 -------------------
 
