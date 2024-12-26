@@ -7,6 +7,7 @@ CHANGELOG
 
 **Добавлена поддержка новых расширений**:
 
+* [`huseyinfiliz/flagify`](https://github.com/huseyinfiliz/flagify)
 * [`tohsakarat/post-camera`](https://github.com/tohsakrat/post-camera)
 
 
