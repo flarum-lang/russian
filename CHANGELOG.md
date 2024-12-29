@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.42.0 (2024-12-29)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`huseyinfiliz/flagify`](https://github.com/huseyinfiliz/flagify)
+* [`tohsakarat/post-camera`](https://github.com/tohsakrat/post-camera)
+
+
+**Обновленные переводы расширений**:
+
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
+
+
+Все изменения: [1.41.0...1.42.0](https://github.com/flarum-lang/russian/compare/1.41.0...1.42.0).
+
+
 1.41.0 (2024-12-16)
 -------------------
 
