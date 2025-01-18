@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.43.0 (2025-01-18)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`justoverclock/profile-stories`](https://github.com/justoverclockl/profile-stories)
+
+
+Все изменения: [1.42.0...1.43.0](https://github.com/flarum-lang/russian/compare/1.42.0...1.43.0).
+
+
 1.42.0 (2024-12-29)
 -------------------
 
