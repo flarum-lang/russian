@@ -2,6 +2,36 @@ CHANGELOG
 =========
 
 
+1.44.0 (XXXX-XX-XX)
+-------------------
+
+**Общие изменения**:
+
+* Обновленные переводы ядра Flarum.
+
+
+**Добавлена поддержка новых расширений**:
+
+* [`clarkwinkelmann/flarum-ext-discussion-bookmarks`](https://github.com/clarkwinkelmann/flarum-ext-discussion-bookmarks)
+* [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile)
+
+
+**Обновленные переводы расширений**:
+
+* [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+
+
+Все изменения: [1.43.0...1.44.0](https://github.com/flarum-lang/russian/compare/1.43.0...1.44.0).
+
+
 1.43.0 (2025-01-18)
 -------------------
 
