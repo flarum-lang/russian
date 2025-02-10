@@ -20,6 +20,7 @@ fof-moderator-notes:
       created_text: '{username} создал(а) эту заметку в {date}'
       delete: Удалить
       dismiss_button: Готово
+      filter_by_me: 'Только заметки, созданные мной'
       input_heading: 'Введите заметку для <strong>{username}</strong>, (поддерживается markdown)'
       noNotes: 'Кажется, здесь нет заметок.'
       submit_button: Сохранить

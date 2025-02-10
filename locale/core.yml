@@ -239,6 +239,8 @@ core:
             title: Группы
           join_time:
             title: Регистрация
+          user_actions:
+            title: Действия
           user_id:
             title: ID
           username:
@@ -511,6 +513,10 @@ core:
       hidden_tooltip: Скрыто
     data_segment:
       label: '{label}:'
+    datetime_formats:
+      humanTimeLong: ll
+      humanTimeShort: 'Д МММ'
+      scrubber: 'ММММ ГГГГ'
     debug_button: Отладка
     dropdown:
       toggle_dropdown_accessible_label: 'Выпадающее меню'

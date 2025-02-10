@@ -39,3 +39,6 @@ flarum-suspend:
       suspended_tooltip: Заблокирован
     user_controls:
       suspend_button: Блокировать
+  validation:
+    attributes:
+      suspendedUntil: 'блокирован до'

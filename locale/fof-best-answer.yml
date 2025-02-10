@@ -13,6 +13,10 @@ fof-best-answer:
     settings:
       allow_select_own_post: 'Выбирать своё сообщение'
       allow_select_own_post_help: 'Разрешить пользователю выбирать своё сообщение в качестве лучшего ответа в дискуссии.'
+      discussion_sidebar_jump_button: 'Показывать переход на кнопку "Лучший ответ" в боковой панели дискуссии'
+      discussion_sidebar_jump_button_help: 'Добавляет на боковую панель дискуссии кнопку, которая переводит на Лучшие ответы в потоке сообщений.'
+      display_tags: 'Показывать теги в результатах поиска'
+      display_tags_help: 'Показывать тег(и) в результатах поиска дискуссий с Лучшими ответами'
       documentation: Документация
       enable_all_tags_button: 'Включить все теги для лучшего ответа'
       enable_all_tags_reminder_button: 'Включить все теги для напоминаний о лучших ответах'
@@ -24,9 +28,12 @@ fof-best-answer:
         general: Основные
         reminders: Напоминания
         reminders_notice: 'Для того, чтобы напоминания работали корректно, Вы должны правильно настроить планировщик Flarum.'
+        search: Поиск
         tags: 'Теги лучшего ответа'
       remind_tags_help: 'Выберите теги, по которым необходимо отправлять напоминания. Напоминания будут приходить только от дискуссий с этими тегами.'
       remind_tags_label: 'Теги напоминания'
+      remove_solutions_from_main_search: 'Удалить решения из главного поиска'
+      remove_solutions_from_main_search_help: 'Удалить дискуссии с Лучшими ответами из результатов главного поиска по всем дискуссиям'
       schedule_log_output: 'Вести журнал работы планировщика'
       schedule_on_one_server: 'Использовать директиву ''onOneServer()'' для планировщика задач'
       schedule_on_one_server_help: 'Требуется Redis / Memcache.'
@@ -40,6 +47,8 @@ fof-best-answer:
       show_filter_label: 'Показать фильтр решённого / нерешённого вопроса'
       show_max_lines_help: 'Укажите 0 для отключения функции. Если сообщение длиннее указанного количества строк, оно будет обрезано в пред-просмотре с эффектом затухания.'
       show_max_lines_label: 'Максимальное количество строк для отображения в пред-просмотре сообщения'
+      solution_search: 'Поиск решения'
+      solution_search_help: 'Подключает возможность поиска по дискуссиям с Лучшими ответами'
       tags_info: "Укажите группы пользователей, которым разрешено выбирать лучший ответ в дискуссиях. Разрешения назначаются глобально (для любого тега) и отдельно для каждого тега.\n"
       use_alt_ui: 'Альтернативный макет'
       use_alt_ui_help: 'Элементы управления в нижнем колонтитуле сообщения.'
@@ -58,6 +67,8 @@ fof-best-answer:
     best_answer_label: 'выбран: <a>{username}</a> {time_set}'
     composer:
       titlePlaceholder: 'Заголовок вопроса'
+    discussion:
+      jump_to_best_answer_button: 'Показать Лучший ответ'
     errors:
       mismatch: 'Указанное сообщение не существует в этой дискуссии'
     filter:
@@ -79,6 +90,9 @@ fof-best-answer:
         best_answer_in_discussion: 'Выбран лучший ответ в дискуссии, в которой я участвовал'
         select_best_answer: 'Автоматическое напоминание о необходимости выбрать лучший ответ в моей дискуссии'
     remove_best_answer: 'Не решено'
+    search:
+      all_discussions_solutions_button: 'Поиск всех дискуссий с решениями по запросу "{query}"'
+      discussions_solutions_heading: 'Дискуссии с решениями'
     this_best_answer: 'Это лучший ответ'
     user:
       best-answer-count: '{count, plural, one {{count} лучший ответ} other {{count} лучших ответов}}'

@@ -17,6 +17,7 @@ fof-reactions:
         help: 'Если Вы обновили расширение, то Ваши реакции следует конвертировать. Если Вы установили расширение впервые, проигнорируйте это предупреждение.'
       reactions:
         Helptext: 'Введите имя (идентификатор) значка EMOJI или иконки Font Awesome и выберете необходимый тип.'
+        delete_confirmation: 'Вы уверены, что хотите удалить эту реакцию? Это действие нельзя отменить.'
         help:
           display: Отображение
           identifier: Идентификатор
@@ -42,6 +43,7 @@ fof-reactions:
         react_own_posts_label: 'Пользователи могут реагировать на свои сообщения'
         save_settings: 'Сохранить настройки'
     permissions:
+      delete_post_reactions_label: 'Удалить реакции на сообщения'
       react_posts_label: 'Реагировать на сообщения'
       see_reactions_label: 'Смотреть, кто реагировал на сообщения'
   forum:
@@ -49,6 +51,7 @@ fof-reactions:
     mod_item: 'Смотреть реакции'
     modal:
       anonymous_count: '{count, plural, one {# анонимный пользователь} other {# анонимных пользователей}}'
+      no_reactions: 'Пока нет реакций'
       title: Реакции
     notification: '{username} поставил(а) {reaction} Вашему сообщению'
     react_button_label: Реакция
