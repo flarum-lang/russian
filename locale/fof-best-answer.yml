@@ -68,7 +68,7 @@ fof-best-answer:
     composer:
       titlePlaceholder: 'Заголовок вопроса'
     discussion:
-      jump_to_best_answer_button: 'Показать Лучший ответ'
+      jump_to_best_answer_button: 'Лучший ответ'
     errors:
       mismatch: 'Указанное сообщение не существует в этой дискуссии'
     filter:

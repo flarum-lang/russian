@@ -14,5 +14,10 @@ fof-user-bio:
       bioLimit: 'Максимальное количество символов'
       maxLines: 'Максимальное количество отображаемых строк'
   forum:
+    profile:
+      cancel_button: Отмена
+      cancel_confirm: 'Вы уверены, что хотите отменить редактирование информации о себе? Все внесенные вами изменения будут утеряны.'
+      edit_bio_label: 'Редактировать биографию'
+      save_button: Сохранить
     userbioPlaceholder: 'Напишите что-нибудь о себе...'
     userbioPlaceholderOtherUser: 'Напишите что-нибудь о {username}...'
