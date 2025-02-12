@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.45.0 (XXXX-XX-XX)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`neoncube/flarum-private-messages`](https://github.com/neoncube2/flarum-private-messages)
+
+
+**Обновленные переводы расширений**:
+
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
+
+
+Все изменения: [1.44.0...1.45.0](https://github.com/flarum-lang/russian/compare/1.44.0...1.45.0).
+
+
 1.44.0 (2025-02-10)
 -------------------
 
