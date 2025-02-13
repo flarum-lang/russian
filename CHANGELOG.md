@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.46.0 (XXXX-XX-XX)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff)
+
+
+**Обновленные переводы расширений**:
+
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`neoncube/flarum-private-messages`](https://github.com/neoncube2/flarum-private-messages)
+
+
+Все изменения: [1.45.0...1.46.0](https://github.com/flarum-lang/russian/compare/1.45.0...1.46.0).
+
+
 1.45.0 (2025-02-13)
 -------------------
 
