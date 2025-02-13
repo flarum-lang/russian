@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.46.1 (XXXX-XX-XX)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+
+
+Все изменения: [1.46.0...1.46.1](https://github.com/flarum-lang/russian/compare/1.46.0...1.46.1).
+
+
 1.46.0 (2025-02-13)
 -------------------
 
