@@ -2,10 +2,23 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-geoip/ru/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
-fof-geoip:
+fof-default-user-preferences:
   admin:
     settings:
+      showIPCountry: 'Показывать флаг страны, из которой пользователь публикует сообщения'
+      showIPCountry-help: 'Это зависит от их IP-адреса на момент публикации. Флаг страны (если он включен) будет виден всем пользователям. Администраторы и модераторы увидят IP-адрес во всплывающей подсказке.'
+fof-geoip:
+  admin:
+    permissions:
+      see_country: 'Всегда указывайте страну, в которой находится IP-адрес'
+    settings:
       access_key_label: 'Ключ доступа'
+      general:
+        heading: 'Настройки компонента'
+        help: 'Эти настройки управляют общим поведением расширения.'
+      providers:
+        heading: 'Служба поиска IP-адресов'
+        help: 'Выберите сервис, который вы будете использовать для поиска IP-адресов. Некоторые сервисы имеют ограничения по скорости, поэтому обязательно ознакомьтесь с документацией сервиса для получения дополнительной информации.'
       quota_label: 'Квота запросов'
       security_label: 'Модуль безопасности (требуется "professional plus")'
       service_freegeoip_description: 'Используйте <b>https://freegeoip.app/</b> для получения 15,000 IP стран в час, бесплатно.'
@@ -18,13 +31,18 @@ fof-geoip:
       service_ipdata_label: IPData
       service_iplocation_description: '<b>https://www.iplocation.net/</b> позволяет получать информацию о стране и провайдере. Ограничения по запросам неизвестны.'
       service_iplocation_label: 'IP Location'
+      service_ipsevenex_description: 'Используйте <b>https://7x.ax </b>, чтобы получить бесплатный API-ключ для обработки до 20 запросов в минуту. Также доступны платные тарифные планы с более высокими лимитами использования.'
+      service_ipsevenex_label: '7x API геолокации'
       service_ipstack_description: 'Используйте <b>https://ipstack.com</b> 10,000 запросов в месяц бесплатно. Платные тарифы включают более подробную информацию (ISP, организация) и уровень угрозы.'
       service_ipstack_label: IPStack
       service_label: Сервис
+      show_flag_help: 'Не раскрывая IP-адрес, укажите флаг страны на IP-адресе автора публикации, когда пользователь выберет его в своих настройках.'
+      show_flag_label: 'Показывать флаг страны для каждого сообщения'
       title: GeoIP
   forum:
     alerts:
       ip_copied: 'IP скопирован'
+    copy_ip_label: 'Скопировать IP-адрес в буфер обмена'
     map_button_label: Информация
     map_modal:
       as: ASN
@@ -33,8 +51,12 @@ fof-geoip:
       ip_address: IP
       isp: ISP
       mobile: 'Сотовая связь'
+      not_enough_data: 'Недостаточно данных для составления карты'
       organization: Организация
       threat_level: 'Уровень угрозы'
       threat_types: 'Тип угрозы'
       title: 'Информация по IP'
       zip_code: 'Почтовый индекс'
+    user:
+      settings:
+        ip_country: 'Показывать флаг страны, из которой я отправляю сообщение, на основе моего IP-адреса'
