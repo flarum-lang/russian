@@ -10,6 +10,11 @@ CHANGELOG
 * Обновленные переводы ядра Flarum.
 
 
+**Обновленные переводы расширений**:
+
+* [`katosdev/signature`](https://github.com/katosdev/signature)
+
+
 Все изменения: [1.46.2...1.46.3](https://github.com/flarum-lang/russian/compare/1.46.2...1.46.3).
 
 
