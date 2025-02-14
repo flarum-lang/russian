@@ -4,7 +4,14 @@
 
 the-turk-diff:
   admin:
+    permissions:
+      deleteEditHistory: 'Удалить другие правки из истории'
+      rollbackEditHistory: 'Откатить историю редактирования другими пользователями'
+      selfDeleteEditHistory: 'Удалить собственную историю правок'
+      selfRollbackEditHistory: 'Откатить собственную историю правок'
+      viewEditHistory: 'Смотреть историю правок'
     settings:
+      archiveInfo: 'Имейте в виду, что вы можете отключить обе опции и запустить команду <code>php flarum diff:archive</code>, чтобы вручную заархивировать старые версии.'
       archiveOlds: 'Архив старых редакций'
       archiveOldsInfo: 'Если <strong>x ≥ A</strong>, первая <strong>y=mx+b</strong> правки для публикации будут сохранены как объединенные и сжатые.Значение <strong>x</strong> относится к количеству правок записи. Значения с плавающей запятой в <strong>y</strong> будут округлены до следующего наименьшего целого значения.'
       charLevel: 'Уровень символов'
@@ -22,20 +29,32 @@ the-turk-diff:
       textFormatting: 'Включите форматирование текста для предварительного просмотра'
       title: 'Натройки компонента'
       useCrons: 'Используйте crons для архивирования старых редакций'
+      useCronsHelp: 'Вы должны добавить запись Cron на свой сервер, чтобы эта опция заработала. Она будет работать еженедельно по воскресеньям в 02:00. Если вы отключите эту опцию и включите выше, все изменения в записи будут проверяться для архивации при редактировании соответствующей записи.'
       usePoint: 'Используйте <strong>точку</strong> для разделения дробных чисел.'
       wordLevel: 'Уровень слов'
   forum:
     confirmDelete: 'Вы уверены, что хотите удалить содержимое этой правки из истории?'
     confirmRollback: 'Вы уверены, что хотите изменить свой текущий пост?'
     createdInfo: '{username} написал {ago}'
+    deleteButton: '=> core.forum.post_controls.delete_button'
     deleteErrorMessage: 'Не удалось удалить содержимое правки.'
     deleteSuccessMessage: 'Содержимое правки было удалено.'
     deletedInfo: '{username} удалил этот контент {ago}'
     deletedText: (удалено)
+    differences:
+      currentContent: '=> the-turk-diff.ref.currentContent'
+      originalContent: '=> the-turk-diff.ref.originalContent'
+      revisionWithNumber: '=> the-turk-diff.ref.revisionWithNumber'
+      sentence: 'Вы видите отличие между {old} и {new}'
+    editedInfo: '=> core.forum.post.edited_tooltip'
+    editedText: '=> core.forum.post.edited_text'
     emptyText: 'Нет правок'
     noDiff: 'Никаких различий между этими двумя правками обнаружено не было.'
     optionsButton: Опции
     previewMode:
+      currentContent: '=> the-turk-diff.ref.currentContent'
+      originalContent: '=> the-turk-diff.ref.originalContent'
+      revisionWithNumber: '=> the-turk-diff.ref.revisionWithNumber'
       sentence: 'Вы просматриваете {content}'
     revertChangesButton: 'Отменить изменения'
     revisionInfo: 'Отредактировано {revisionCount, plural, one {{revisionCount} раз} other {{revisionCount} раза}}, новая версия выше'
@@ -48,4 +67,11 @@ the-turk-diff:
       combined: Комбинированный
       inline: 'в линию'
       mostRecent: 'самая последняя'
+      originalContent: '=> the-turk-diff.ref.originalContent'
+      preview: '=> core.forum.composer.preview_tooltip'
+      revisionWithNumber: '=> the-turk-diff.ref.revisionWithNumber'
       sideBySide: 'с двух сторон'
+  ref:
+    currentContent: 'текущая версия'
+    originalContent: оригинал
+    revisionWithNumber: 'версия № {number}'
