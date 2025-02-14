@@ -3,6 +3,10 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 akr-chevereto:
+  admin:
+    setting:
+      insert_type: 'Внедрить коды для автоматической вставки в целевой редактируемый контент'
+      url: 'URL целевого сайта Chevereto'
   forum:
     composer:
       upload_button: 'Загрузить изображение'

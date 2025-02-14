@@ -55,7 +55,9 @@ fof-polls:
       allow_change_vote_label: 'Разрешить участникам изменять свой голос'
       allow_multiple_votes_label: 'Разрешить выбор нескольких вариантов'
       date_placeholder: 'Дата завершения опроса (опционально)'
+      delete: '=> core.ref.delete'
       edit_title: 'Редактирование опроса'
+      error: '=> core.lib.error.generic_message'
       hide_votes_label: 'Скрыть голоса до завершения опроса'
       hide_votes_label_help: 'Пользователь, начавший опрос, всегда сможет увидеть результаты голосования.'
       image_option_placeholder: 'URL изображения (опционально)'
@@ -101,7 +103,10 @@ fof-polls:
     poll_controls:
       delete_confirmation: 'Удалить опрос?'
       delete_error_message: 'Что-то пошло не так при удалении опроса.'
+      delete_label: '=> core.ref.delete'
       delete_success_message: 'Опрос удалён.'
+      edit_label: '=> core.ref.edit'
+      view_label: '=> core.ref.view'
     poll_ended: 'Опрос завершён.'
     poll_form:
       delete: 'Удалить опрос'
@@ -110,6 +115,7 @@ fof-polls:
     polls_count: '{count, plural, one { {count} голос} other {{count} голосов}}'
     polls_list:
       empty_text: 'Похоже, что здесь нет опросов.'
+      load_more_button: '=> core.ref.load_more'
     polls_page:
       title: Опросы
     public_poll: 'Посмотреть голоса'

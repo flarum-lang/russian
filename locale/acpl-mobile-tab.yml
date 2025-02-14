@@ -5,4 +5,9 @@
 acpl-mobile-tab:
   forum:
     all_discussions: Дискуссии
+    categories: Категории
     home: Главная
+    log_in: Войти
+    notifications: Уведомления
+    profile: Профиль
+    tags: Теги

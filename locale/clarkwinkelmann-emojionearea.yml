@@ -5,6 +5,7 @@
 clarkwinkelmann-emojionearea:
   admin:
     settings:
+      closeOnPick: 'Закрыть окошко выбора, когда эмодзи выбран'
       enableRecent: 'Включить недавнее'
       enableSearch: 'Включить поиск'
       enableTones: 'Включить тона'
@@ -12,5 +13,15 @@ clarkwinkelmann-emojionearea:
       hideFlarumButton: 'Скрыть стандартную кнопку выбора emoji от Flarum'
       searchPosition: 'Переместить строку поиска и выбор тонов вниз'
   forum:
+    filters:
+      activity: Активности
+      animals_nature: 'Животные и Природа'
+      flags: Флаги
+      food_drink: 'Еда и Напитки'
+      objects: Объекты
+      recent: Недавние
+      smileys_people: 'Смайлики и Люди'
+      symbols: Символы
+      travel_places: 'Путешествия и места'
     picker_button: 'Выбор emoji'
     search_placeholder: Поиск...
