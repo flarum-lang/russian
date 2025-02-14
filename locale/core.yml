@@ -516,7 +516,7 @@ core:
     datetime_formats:
       humanTimeLong: ll
       humanTimeShort: 'Д МММ'
-      scrubber: 'MMMM YYYY'
+      scrubber: DD/MM/YYYY
     debug_button: Отладка
     dropdown:
       toggle_dropdown_accessible_label: 'Выпадающее меню'
