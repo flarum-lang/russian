@@ -16,7 +16,9 @@ CHANGELOG
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`justoverclock/flarum-ext-feedback`](https://github.com/justoverclockl/flarum-ext-feedback)
 * [`justoverclock/flarum-ext-hashtag`](https://github.com/justoverclockl/flarum-ext-hashtag)
+* [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff)
 
 
 Все изменения: [1.46.1...1.46.2](https://github.com/flarum-lang/russian/compare/1.46.1...1.46.2).
