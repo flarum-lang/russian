@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.46.3 (2025-02-15)
+-------------------
+
+**Общие изменения**:
+
+* Обновленные переводы ядра Flarum.
+
+
+**Обновленные переводы расширений**:
+
+* [`katosdev/signature`](https://github.com/katosdev/signature)
+* [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
+
+
+Все изменения: [1.46.2...1.46.3](https://github.com/flarum-lang/russian/compare/1.46.2...1.46.3).
+
+
 1.46.2 (2025-02-14)
 -------------------
 
