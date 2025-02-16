@@ -515,7 +515,7 @@ core:
       label: '{label}:'
     datetime_formats:
       humanTimeLong: ll
-      humanTimeShort: 'Д МММ'
+      humanTimeShort: 'D MMM'
       scrubber: DD/MM/YYYY
     debug_button: Отладка
     dropdown:
