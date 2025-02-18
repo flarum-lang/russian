@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.47.0 (XXXX-XX-XX)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`ordinaryjellyfish/sentra`](https://github.com/OrdinaryJellyfish/sentra)
+
+
+Все изменения: [1.46.4...1.47.0](https://github.com/flarum-lang/russian/compare/1.46.4...1.47.0).
+
+
 1.46.4 (2025-02-16)
 -------------------
 
