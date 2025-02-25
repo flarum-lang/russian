@@ -56,6 +56,8 @@ fof-byobu:
       title_placeholder: 'Название переписки...'
     confirm:
       make_public: 'Вы уверены, что хотите удалить получателей и сделать эту дискуссию видимой для всех имеющих право просмотра назначенного тега?'
+    hero:
+      title: '=> fof-byobu.forum.nav.nav_item'
     input:
       search_recipients: 'Поиск участников, указав первые три символа...'
     labels:
