@@ -2,6 +2,26 @@ CHANGELOG
 =========
 
 
+1.48.0 (XXXX-XX-XX)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
+
+
+**Обновленные переводы расширений**:
+
+* [`davwheat/flarum-ext-share`](https://github.com/davwheat/flarum-ext-share)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`justoverclock/flarum-ext-purify`](https://github.com/justoverclockl/flarum-ext-purify)
+
+
+Все изменения: [1.47.0...1.48.0](https://github.com/flarum-lang/russian/compare/1.47.0...1.48.0).
+
+
 1.47.0 (2025-02-18)
 -------------------
 
