@@ -2,6 +2,20 @@ CHANGELOG
 =========
 
 
+1.48.1 (2025-03-05)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read)
+* [`davwheat/virtual-authors`](https://flarum.org/extension/davwheat/virtual-authors)
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
+* [`justoverclock/auto-post-count-badge`](https://github.com/justoverclockl/auto-post-count-badge)
+
+
+Все изменения: [1.48.0...1.48.1](https://github.com/flarum-lang/russian/compare/1.48.0...1.48.1).
+
+
 1.48.0 (2025-02-25)
 -------------------
 
