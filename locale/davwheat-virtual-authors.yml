@@ -6,10 +6,20 @@ davwheat-virtual-authors:
   admin:
     permissions:
       set_virtual_authors: 'Добавить виртуальных авторов в дискуссии'
+      view_virtual_authors_page: 'Показывать страницу детализации всех виртуальных авторов'
     settings:
+      authors_in_sidebar: 'Показать авторов в боковой панели, а не над первым сообщением'
+      authors_in_sidebar_help: 'Это не действует в расширении Блог.'
+      auto_save_message: 'Создание новых и редактирование существующих виртуальных авторов сохраняется автоматически.'
       create_new: 'Создать нового виртуального автора'
+      discussion_badge: 'Показать жетон на дискуссиях с Виртуальными авторами'
+      errored: 'Не удалось загрузить виртуальных авторов с сервера.'
+      link_to_va_from_discussion: 'Показать ссылку на все дискуссии от виртуального автора в поле "Автор"'
       next: 'Следующая страница'
       prev: 'Предыдущая страница'
+      search_placeholder: 'Поиск по имени'
+      virtual_authors_page_disabled: 'Закрыть перечень виртуальных авторов для всех пользователей.'
+      virtual_authors_page_disabled_help: 'Это перекрывает все разрешения, установленные для данной опции.'
     virtual_author_item:
       delete_a11y_tooltip: Удалить
       delete_confirmation: 'Удалить виртуального автора?'
@@ -18,9 +28,49 @@ davwheat-virtual-authors:
       id: ID
       name: 'Отображаемое имя'
       no_description: '=> davwheat-virtual-authors.ref.no_description'
+  forum:
+    discussion_controls:
+      set_virtual_authors: 'Установить виртуальных авторов'
+    set_modal:
+      add_button: Добавить
+      add_new: 'Выберите новых виртуальных авторов'
+      added_button: Добавлено
+      credit_placeholder: 'Авторство (опционально)'
+      delete_button: Удалить
+      delete_confirmation: 'Удалить виртуального автора из дискуссии?'
+      existing: 'Существующие виртуальные авторы'
+      no_description: '=> davwheat-virtual-authors.ref.no_description'
+      none_existing: 'Виртуальные авторы не выбраны.'
+      save: 'Сохранить изменения'
+      search: 'Поиск виртуального автора'
+      title: 'Установить виртуальных авторов'
+      virtual_author_exists: 'Уже выбрано!'
+    virtual_author_page:
+      credited_discussions: 'Дискуссии, созданные {displayName}'
+      discussion_count: '=> davwheat-virtual-authors.ref.discussion_count'
+      meta_title: '{displayName} - Авторы'
+    virtual_authors_list:
+      discussion_count: '=> davwheat-virtual-authors.ref.discussion_count'
+      empty_text: 'Похоже, здесь нет авторов.'
+      filter_name_placeholder: 'Фильтр по имени'
+      meta_title: 'Все авторы'
+      no_description: 'Этот автор в режиме инкогнито.'
+      sidebar_link: Авторы
+      title: 'Все авторы'
+    virtual_authors_panel:
+      error: 'Не удалось загрузить авторов.'
+      heading: Авторы
+      item_link_tooltip: 'Показать все дискуссии от {displayName}'
   lib:
+    discussion-badge: '{count, plural, one {имеет Виртуального автора}, other {имеет Виртуальных авторов}}'
     edit_modal:
+      fields:
+        description: 'Описание (об авторе)'
+        name: 'Показывать имя'
       submit_edit: 'Сохранить изменения'
       submit_new: 'Создать виртуального автора'
       title_edit: 'Править виртуального автора'
       title_new: 'Новый виртуальный автор'
+  ref:
+    discussion_count: '{count, plural, one {# дискуссии}, other {# дискуссий}}'
+    no_description: '(описание не установлено)'

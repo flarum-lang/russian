@@ -12,6 +12,8 @@ justoverclock-auto-post-count-badge:
     levelOne-help: 'введите здесь иконку из fontawesome, которую вы хотите использовать для уровня 1 (напр., "fas fa-square")'
     levelSix: 'Изменить иконку для уровня 6 - "Гуру!"'
     levelSix-help: 'введите здесь иконку из fontawesome, которую вы хотите использовать для уровня 6 (напр., "fas fa-square")'
+    levelThree: 'Изменить иконку для уровня 3 - "Говорун"'
+    levelThree-help: 'введите здесь иконку из fontawesome, которую вы хотите использовать для уровня 3 (напр., "fas fa-square")'
     levelTree: 'Изменить иконку для уровня 3 - "Говорун"'
     levelTree-help: 'введите здесь иконку из fontawesome, которую вы хотите использовать для уровня 3 (напр., "fas fa-square")'
     levelTwo: 'Изменить иконку для уровня 2 - "Новичок"'

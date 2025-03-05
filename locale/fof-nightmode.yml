@@ -19,6 +19,7 @@ fof-nightmode:
         always_show_theme_toggle_on_header: 'Всегда показывать переключатель темы в шапке форума'
         default_theme: 'Тема по умолчанию'
         default_theme_helper: 'Тема по умолчанию автоматически устанавливается для новых пользователей, гостей, а также для тех, кто самостоятельно не указал желаемые параметры темы у себя в профиле.'
+        show_theme_toggle_in_solid: 'Показать иконку темы как сплошную'
         theme_auto: '=> fof-nightmode.ref.auto'
         theme_dark: '=> fof-nightmode.ref.dark'
         theme_light: '=> fof-nightmode.ref.light'
