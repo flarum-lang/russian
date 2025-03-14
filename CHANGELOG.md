@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.49.0 (XXXX-XX-XX)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`kk14569/flarum-anti-gmail-alias`](https://github.com/kk14569/flarum-anti-gmail-alias)
+
+
+Все изменения: [1.48.2...1.49.0](https://github.com/flarum-lang/russian/compare/1.48.2...1.49.0).
+
+
 1.48.2 (2025-03-13)
 -------------------
 
