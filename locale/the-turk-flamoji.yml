@@ -20,6 +20,16 @@ the-turk-flamoji:
       auto_hide_label: 'Автоматически скрыть'
       auto_hide_text: 'Скрыть окно выбора при выборе эмодзи.'
       category_settings_heading: 'Настройки категорий'
+      emoji_categories:
+        activities: '=> the-turk-flamoji.ref.emoji_categories.activities'
+        animals: '=> the-turk-flamoji.ref.emoji_categories.animals'
+        flags: '=> the-turk-flamoji.ref.emoji_categories.flags'
+        food: '=> the-turk-flamoji.ref.emoji_categories.food'
+        objects: '=> the-turk-flamoji.ref.emoji_categories.objects'
+        people: '=> the-turk-flamoji.ref.emoji_categories.people'
+        smileys: '=> the-turk-flamoji.ref.emoji_categories.smileys'
+        symbols: '=> the-turk-flamoji.ref.emoji_categories.symbols'
+        travel: '=> the-turk-flamoji.ref.emoji_categories.travel'
       emoji_data_label: 'Данные Emoji'
       emoji_data_text: 'Обычно это используется для предоставления переведенных названий эмодзи.'
       emoji_settings_heading: 'Emoji настройки'
@@ -44,6 +54,18 @@ the-turk-flamoji:
     composer:
       emoji_tooltip: 'Вставить эмодзи'
     emoji-button:
+      categories:
+        activities: '=> the-turk-flamoji.ref.emoji_categories.activities'
+        animals: '=> the-turk-flamoji.ref.emoji_categories.animals'
+        custom: '=> the-turk-flamoji.ref.emoji_categories.custom'
+        flags: '=> the-turk-flamoji.ref.emoji_categories.flags'
+        food: '=> the-turk-flamoji.ref.emoji_categories.food'
+        objects: '=> the-turk-flamoji.ref.emoji_categories.objects'
+        people: '=> the-turk-flamoji.ref.emoji_categories.people'
+        recents: '=> the-turk-flamoji.ref.emoji_categories.recents'
+        smileys: '=> the-turk-flamoji.ref.emoji_categories.smileys'
+        symbols: '=> the-turk-flamoji.ref.emoji_categories.symbols'
+        travel: '=> the-turk-flamoji.ref.emoji_categories.travel'
       no_emojis_found_message: 'Эмодзи не найдено'
       search_placeholder: 'Поиск эмодзи'
   ref:
