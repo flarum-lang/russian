@@ -8,6 +8,7 @@ CHANGELOG
 **Добавлена поддержка новых расширений**:
 
 * [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
+* [`justoverclock/be-active-user-indicator`](https://github.com/justoverclockl/active-user-indicator)
 
 
 Все изменения: [1.49.0...1.50.0](https://github.com/flarum-lang/russian/compare/1.49.0...1.50.0).
