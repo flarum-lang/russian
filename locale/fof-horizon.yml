@@ -7,15 +7,24 @@ fof-horizon:
     stats:
       auto_refresh: 'Автоматическое обновление'
       data:
+        failed-last-seconds: 'Неудачные задания за последние секунды'
+        jobs-past-hour: 'Количество заданий в час'
+        jobs-per-minute: 'Количество заданий в минуту'
         max-runtime: 'Макс. время выполнения'
         max-throughput: 'Макс. пропускная способность'
         max-wait-time: 'Макс. время ожидания'
         redis-blocked-clients: 'Заблокированные клиенты'
         redis-connected-clients: 'Подключенные клиенты'
+        redis-max-memory: 'Максимальная память хр. кэша'
+        redis-memory-policy: 'Политика хранения памяти хр. кэша'
+        redis-ops-per-sec: 'Операций в секунду'
+        redis-peak-memory: 'Пиковая память хр. кэша'
+        redis-used-memory: 'Используемая память хр. кэша'
         status:
           inactive: Неактивен
           label: Статус
           running: Выполняется
         total-processes: 'Всего процессов'
+      full_dashboard: 'Информационная панель Horizon'
       heading: 'Обзор очереди'
       refresh: Обновить
