@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.50.0 (2025-04-30)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
+* [`justoverclock/be-active-user-indicator`](https://github.com/justoverclockl/active-user-indicator)
+* [`malago/flarum-ext-fancybox`](https://github.com/malago86/flarum-ext-fancybox)
+
+
+**Обновленные переводы расширений**:
+
+* [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
+
+
+Все изменения: [1.49.0...1.50.0](https://github.com/flarum-lang/russian/compare/1.49.0...1.50.0).
+
+
 1.49.0 (2025-03-14)
 -------------------
 
