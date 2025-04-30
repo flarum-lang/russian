@@ -10,6 +10,8 @@ fof-horizon:
         max-runtime: 'Макс. время выполнения'
         max-throughput: 'Макс. пропускная способность'
         max-wait-time: 'Макс. время ожидания'
+        redis-blocked-clients: 'Заблокированные клиенты'
+        redis-connected-clients: 'Подключенные клиенты'
         status:
           inactive: Неактивен
           label: Статус
