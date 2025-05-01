@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.51.1 (2025-05-01)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
+
+
+Все изменения: [1.51.0...1.51.1](https://github.com/flarum-lang/russian/compare/1.51.0...1.51.1).
+
+
 1.51.0 (2025-04-30)
 -------------------
 
