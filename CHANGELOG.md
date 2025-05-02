@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.51.2 (2025-05-02)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
+* [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo)
+
+
+Все изменения: [1.51.1...1.51.2](https://github.com/flarum-lang/russian/compare/1.51.1...1.51.2).
+
+
 1.51.1 (2025-05-01)
 -------------------
 
