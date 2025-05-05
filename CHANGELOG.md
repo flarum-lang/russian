@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.52.0 (2025-05-05)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
+
+
+Все изменения: [1.51.2...1.52.0](https://github.com/flarum-lang/russian/compare/1.51.2...1.52.0).
+
+
 1.51.2 (2025-05-02)
 -------------------
 
