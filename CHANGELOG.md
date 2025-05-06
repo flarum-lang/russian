@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.53.1 (XXXX-XX-XX)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`blazite/flarum-turnstile`](https://github.com/blazite/flarum-ext-turnstile)
+
+
+Все изменения: [1.53.0...1.53.1](https://github.com/flarum-lang/russian/compare/1.53.0...1.53.1).
+
+
 1.53.0 (2025-05-05)
 -------------------
 
