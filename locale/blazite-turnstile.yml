@@ -5,9 +5,12 @@
 blazite-turnstile:
   admin:
     settings:
+      help_text: 'Сгенерируйте ключи Turnstile в своей учетной записи Cloudflare <a>здесь</a>.'
       secret_key: 'Секретный ключ'
       site_key: 'Ключ сайта'
   forum:
     not_loaded_error: 'Ошибка загрузки Cloudflare Turnstile. Пожалуйста обновите страницу и проверьте, не включен ли блокировщик рекламы.'
+    validation_error: 'Пожалуйста, пройдите проверку Cloudflare Turnstile.'
 validation:
+  required: 'Пожалуйста, пройдите проверку Cloudflare Turnstile.'
   turnstile: 'Мы не можем проверить, не робот ли вы. Пожалуйста, обновите страницу и попробуйте еще раз.'
