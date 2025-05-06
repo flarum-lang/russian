@@ -5,8 +5,12 @@
 walsgit-recycle-bin:
   admin:
     actions: Действия
+    author: Автор
     bulk_actions: 'Действия для выбранных дискуссий: '
     bulk_delete_label: 'Удалить выбранные дискуссии'
+    bulk_post_actions: 'Действия для выбранных сообщений: '
+    bulk_post_delete_label: 'Удалить выбранные сообщения'
+    bulk_post_restore_label: 'Восстановить выбранные сообщения'
     bulk_restore_label: 'Восстановить выбранные дискуссии'
     created_at: 'Создано в'
     delete_discussion:
@@ -14,20 +18,35 @@ walsgit-recycle-bin:
       delete_button: 'Окончательно удалить эту дискуссию'
       success: 'Дискуссия успешно удалена'
       title: 'Удалить окончательно'
+    delete_post:
+      confirmation: 'Вы уверены, что хотите <u>навсегда удалить</u> это сообщение (необратимо):'
+      delete_button: 'Навсегда удалить это сообщение'
+      success: 'Сообщение успешно удалено'
+      title: 'Удалить навсегда'
+    delete_post_tooltip: 'Удалить сообщение'
     delete_tooltip: 'Удалить дискуссию'
     discussion_author: Автор
     discussion_id: ID
     discussion_link_tooltip: 'Просмотреть дискуссию'
     discussion_title: 'Заголовок дискуссии'
+    discussions_bin: 'Корзина дискуссий'
     empty_list: 'В корзине нет дискуссий.'
+    grid:
+      invalid_column_content: 'Недопустимый контент!'
     hidden_at: 'Скрыто в'
     hidden_discussions: 'Скрытые дискуссии'
     mass_delete_modal:
       submit_button: 'Окончательно удалить эти дискуссии'
       success: 'Выбранные дискуссии успешно удалены'
       text_end: ' выбранные дискуссии?'
-      text_start: 'Вы уверены, что хотите  <u>окончательно удалить</u> эти '
+      text_start: 'Вы уверены, что хотите <u>удалить навсегда</u> эти '
       title: 'Окончательно удалить эти дискуссии'
+    mass_delete_post_modal:
+      submit_button: 'Навсегда удалить эти сообщения'
+      success: 'Успешно удалены выбранные сообщения'
+      text_end: ' выбранные сообщения?'
+      text_start: 'Вы уверены, что хотите <u>удалить навсегда</u> эти '
+      title: 'Удалите навсегда эти сообщения'
     mass_help_text: 'Пожалуйста ждите обновления страницы после подтверждения группового удаления или восстановления'
     mass_restore_modal:
       submit_button: 'Восстановить эти дискуссии'
@@ -35,6 +54,12 @@ walsgit-recycle-bin:
       text_end: ' выбранные дискуссии?'
       text_start: 'Вы уверены, что хотите восстановить эти '
       title: 'Восстановить выбранные дискуссии'
+    mass_restore_post_modal:
+      submit_button: 'Восстановить эти сообщения'
+      success: 'Выбранные сообщения успешно восстановлены'
+      text_end: ' выбранные сообщения?'
+      text_start: 'Вы уверены, что хотите восстановить эти '
+      title: 'Восстановить выбранные сообщения'
     pagination:
       back_button: 'Назад на предыдущую страницу'
       first_page_button: 'Перейти на первую страницу'
@@ -42,15 +67,29 @@ walsgit-recycle-bin:
       last_page_button: 'Перейти на последнюю страницу'
       next_button: 'Перейти на следующую страницу'
       page_counter: 'Страница {current} из {total}'
+    post:
+      id: ID
+      open_post: 'Открыть сообщение'
+      title: 'Текст сообщения'
+    posts_bin: 'Корзина сообщений'
     restore_discussion:
       confirmation: 'Вы уверены, что хотите восстановить дискуссию:'
       restore_button: 'Восстановить эту дискуссию'
       success: 'Дискуссия успешно восстановлена'
       title: 'Восстановить дискуссию'
+    restore_post:
+      confirmation: 'Вы уверены, что хотите восстановить это сообщение из дискуссии '
+      restore_button: 'Восстановить это сообщение'
+      success: 'Сообщение успешно восстановлено'
+      title: 'Восстановить сообщение'
+    restore_post_tooltip: 'Восстановить сообщение'
     restore_tooltip: 'Восстановить дискуссию'
     search_help_text: 'Поиск слов в заголовках тем и сообщениях в дискуссиях'
     search_placeholder: 'Поиск дискуссии'
+    search_post_help_text: 'Поиск слов в скрытых сообщениях'
+    search_post_placeholder: 'Поиск сообщения'
     title: Корзина
     total_hidden_discussions: 'Полностью скрытые дискуссии'
+    total_hidden_posts: 'Всего скрытых сообщений'
     unknown_date: 'Неизвестная дата'
     unknownn_user: 'Неизвестный пользователь'
