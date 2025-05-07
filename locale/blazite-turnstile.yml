@@ -5,8 +5,11 @@
 blazite-turnstile:
   admin:
     settings:
+      forgot: '=> core.forum.forgot_password.title'
       help_text: 'Сгенерируйте ключи Turnstile в своей учетной записи Cloudflare <a>здесь</a>.'
       secret_key: 'Секретный ключ'
+      signin: '=> core.forum.log_in.title'
+      signup: '=> core.forum.sign_up.title'
       site_key: 'Ключ сайта'
   forum:
     not_loaded_error: 'Ошибка загрузки Cloudflare Turnstile. Пожалуйста обновите страницу и проверьте, не включен ли блокировщик рекламы.'
