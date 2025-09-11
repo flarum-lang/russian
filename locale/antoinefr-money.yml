@@ -4,10 +4,21 @@
 
 antoinefr-money:
   admin:
+    automoderator:
+      action_name: 'Давайте монетки'
+      metric_name: Монетки
+    autoremove:
+      - 'Никогда не снимать монетки'
+      - 'Когда дискуссия/запись скрыта или восстановлена (по умолчанию)'
+      - 'Когда дискуссия/сообщение удаляется'
     permissions:
+      disable_money_label: 'Отключить монетки'
       edit_money_label: 'Править монетки'
     settings:
+      autoremove: 'Автоматическое обновление монеток'
+      cascaderemove: 'Снимать монетки за публикации при удалении дискуссии'
       helpextensionlikes: 'Требуется расширение <code>flarum/likes</code>'
+      ignore_notifying_users: 'При проверке количества слов в ответах обращать внимание только на раздел содержимого'
       moneyfordiscussion: 'Монеток получено за новую дискуссию'
       moneyforlike: 'Монеток получено если сообщение одобрили'
       moneyforpost: 'Монеток получено за новое сообщение'
