@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.53.3 (2025-09-16)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+
+
+Все изменения: [1.53.2...1.53.3](https://github.com/flarum-lang/russian/compare/1.53.2...1.53.3).
+
+
 1.53.2 (2025-05-07)
 -------------------
 
