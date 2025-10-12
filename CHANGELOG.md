@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.54.0 (XXXX-XX-XX)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`huseyinfiliz/custom-profile-page`](https://github.com/huseyinfiliz/custom-profile-page)
+
+
+Все изменения: [1.53.3...1.54.0](https://github.com/flarum-lang/russian/compare/1.53.3...1.54.0).
+
+
 1.53.3 (2025-09-16)
 -------------------
 
