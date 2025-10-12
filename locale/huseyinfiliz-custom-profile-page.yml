@@ -29,8 +29,14 @@ huseyinfiliz-custom-profile-page:
       content_label: Контент
       content_placeholder: 'Начните отсюда...'
       error: 'Не удалось сохранить. Попробуйте ещё раз.'
+      html_help: 'Можно использовать следующие HTML-теги: {tags}'
+      markdown_help: 'Можно использовать форматирование Markdown: **bold**, *italic*, [link](url), `code` и другие.'
       submit_button: Сохранить
+      text_help: 'Только обычный текст.'
       title: 'Редактирование страницы'
+    errors:
+      load_failed: 'Не удалось загрузить страницу'
+      permission_denied: 'Недостаточно прав для просмотра страницы'
     profile_tab:
       cancel_button: Отменить
       edit_button: Редактировать
