@@ -7,6 +7,7 @@ CHANGELOG
 
 **Добавлена поддержка новых расширений**:
 
+* [`capybash/magicbb`](https://github.com/capybash/magicbb)
 * [`clarkwinkelmann/flarum-ext-roll-die`](https://github.com/clarkwinkelmann/flarum-ext-roll-die)
 * [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links)
 * [`foskym/flarum-sorts-for-user-directory`](https://github.com/FoskyM/flarum-sorts-for-user-directory)
