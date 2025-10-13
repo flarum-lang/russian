@@ -2,6 +2,31 @@ CHANGELOG
 =========
 
 
+1.54.0 (2025-10-13)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`capybash/magicbb`](https://github.com/capybash/magicbb)
+* [`clarkwinkelmann/flarum-ext-roll-die`](https://github.com/clarkwinkelmann/flarum-ext-roll-die)
+* [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links)
+* [`foskym/flarum-sorts-for-user-directory`](https://github.com/FoskyM/flarum-sorts-for-user-directory)
+* [`huseyinfiliz/custom-profile-page`](https://github.com/huseyinfiliz/custom-profile-page)
+* [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data)
+* [`ordinaryjellyfish/flarum-dicebear`](https://github.com/OrdinaryJellyfish/flarum-dicebear)
+
+
+**Обновленные переводы расширений**:
+
+* [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+
+
+Все изменения: [1.53.3...1.54.0](https://github.com/flarum-lang/russian/compare/1.53.3...1.54.0).
+
+
 1.53.3 (2025-09-16)
 -------------------
 
