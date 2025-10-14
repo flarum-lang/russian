@@ -2,8 +2,13 @@ CHANGELOG
 =========
 
 
-1.54.3 (XXXX-XX-XX)
+1.55.0 (XXXX-XX-XX)
 -------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`huseyinfiliz/traderfeedback`](https://github.com/huseyinfiliz/traderfeedback)
+
 
 **Обновленные переводы расширений**:
 
@@ -11,7 +16,7 @@ CHANGELOG
 * [`huseyinfiliz/custom-profile-page`](https://github.com/huseyinfiliz/custom-profile-page)
 
 
-Все изменения: [1.54.2...1.54.3](https://github.com/flarum-lang/russian/compare/1.54.2...1.54.3).
+Все изменения: [1.54.2...1.55.0](https://github.com/flarum-lang/russian/compare/1.54.2...1.55.0).
 
 
 1.54.2 (2025-10-14)
