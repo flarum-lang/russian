@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.54.2 (XXXX-XX-XX)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`capybash/magicbb`](https://github.com/capybash/magicbb)
+
+
+Все изменения: [1.54.1...1.54.2](https://github.com/flarum-lang/russian/compare/1.54.1...1.54.2).
+
+
 1.54.1 (2025-10-14)
 -------------------
 
