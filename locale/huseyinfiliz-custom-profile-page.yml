@@ -19,7 +19,7 @@ huseyinfiliz-custom-profile-page:
       format_html: HTML
       format_markdown: Markdown
       format_text: 'Обычный текст'
-      tab_icon: 'Ионка страницы'
+      tab_icon: 'Иконка страницы'
       tab_icon_help: 'Примеры: fas fa-file-alt, fas fa-user, fas fa-star'
       tab_title: 'Название страницы в профиле'
       url_slug: Ссылка
