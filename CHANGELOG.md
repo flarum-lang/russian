@@ -8,11 +8,13 @@ CHANGELOG
 **Добавлена поддержка новых расширений**:
 
 * [`capybash/magicslider`](https://github.com/capybash/magicslider)
+* [`klxf/flarum-maintenance`](https://github.com/klxf/flarum-maintenance)
 
 
 **Обновленные переводы расширений**:
 
 * [`capybash/magicbb`](https://github.com/capybash/magicbb)
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
 
 
 Все изменения: [1.55.0...1.56.0](https://github.com/flarum-lang/russian/compare/1.55.0...1.56.0).
