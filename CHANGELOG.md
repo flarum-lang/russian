@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.57.0 (2025-10-19)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+
+
+**Обновленные переводы расширений**:
+
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
+
+
+Все изменения: [1.56.0...1.57.0](https://github.com/flarum-lang/russian/compare/1.56.0...1.57.0).
+
+
 1.56.0 (2025-10-19)
 -------------------
 
