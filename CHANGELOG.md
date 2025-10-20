@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.57.1 (XXXX-XX-XX)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`askvortsov/flarum-discussion-templates`](https://github.com/askvortsov1/flarum-discussion-templates)
+* [`capybash/magicslider`](https://github.com/capybash/magicslider)
+
+
+Все изменения: [1.57.0...1.57.1](https://github.com/flarum-lang/russian/compare/1.57.0...1.57.1).
+
+
 1.57.0 (2025-10-19)
 -------------------
 
