@@ -10,12 +10,16 @@ capy-magic-slider:
       autoplay_help: '0 отключает автоматическую прокрутку'
       delete: Удалить
       drag: Перетащить
+      fit_to_layout: 'Выравнять слайдер по ширине основного макета'
+      fit_to_layout_help: 'При включении слайдер занимает всю ширину контента на страницах тегов и списка обсуждений.'
+      height: Высота
       height_desktop: 'Высота слайдера на десктопе'
       height_desktop_help: 'Фиксированная высота для экранов шире 768 px'
+      height_help: 'Фиксированная высота для выбранного типа экрана'
       height_mobile: 'Высота слайдера на мобильных устройствах'
       height_mobile_help: 'Фиксированная высота для экранов до 768 px'
       hide_on_tag_pages: 'Скрыть слайдер на страницах тегов'
-      hide_on_tag_pages_help: 'Показывать стандартный вариант Flarum на страницах тегов вместо слайдера'
+      hide_on_tag_pages_help: 'Показывать стандартный вариант Flarum на страницах тегов вместо слайдера.'
       image_placeholder: 'URL изображения'
       link_placeholder: 'URL ссылки'
       new_tab: 'В новой вкладке'
@@ -23,5 +27,8 @@ capy-magic-slider:
       padding_help: 'Пространство вокруг блока слайдера'
       radius: 'Радиус скругления'
       radius_help: 'Скругление углов'
+      section_behavior: Поведение
+      section_desktop: Десктоп
       section_display: Отображение
+      section_mobile: 'Мобильные устройства'
       section_slides: Слайды
