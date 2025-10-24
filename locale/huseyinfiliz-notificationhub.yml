@@ -9,7 +9,7 @@ huseyinfiliz-notificationhub:
       send_user: 'Отправлять уведомления отдельным пользователям'
     settings:
       add_button: 'Добавить тип уведомления'
-      add_notification_type: Добавить
+      add_notification_type: 'Добавить тип уведомления'
       delete_confirm: 'Точно удалить этот тип уведомлений и все связанные с ним уведомления?'
       edit_notification_type: Редактировать
       fields:
