@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.58.0 (2025-10-25)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`huseyinfiliz/bump`](https://github.com/huseyinfiliz/bump)
+* [`huseyinfiliz/sort-changer`](https://github.com/huseyinfiliz/sort-changer)
+
+
+**Обновленные переводы расширений**:
+
+* [`blazite/flarum-turnstile`](https://github.com/blazite/flarum-ext-turnstile)
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+
+
+Все изменения: [1.57.2...1.58.0](https://github.com/flarum-lang/russian/compare/1.57.2...1.58.0).
+
+
 1.57.2 (2025-10-23)
 -------------------
 
