@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.58.1 (2025-10-25)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
+
+
+Все изменения: [1.58.0...1.58.1](https://github.com/flarum-lang/russian/compare/1.58.0...1.58.1).
+
+
 1.58.0 (2025-10-25)
 -------------------
 
