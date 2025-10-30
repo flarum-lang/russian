@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.58.2 (XXXX-XX-XX)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`huseyinfiliz/traderfeedback`](https://github.com/huseyinfiliz/traderfeedback)
+
+
+Все изменения: [1.58.1...1.58.2](https://github.com/flarum-lang/russian/compare/1.58.1...1.58.2).
+
+
 1.58.1 (2025-10-25)
 -------------------
 
