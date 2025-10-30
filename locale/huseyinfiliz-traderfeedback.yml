@@ -186,7 +186,7 @@ huseyinfiliz-traderfeedback:
       stats:
         negative: Негативные
         neutral: Нейтральные
-        positive: Позитивные
+        positive: Положительные
         score: Рейтинг
         total: 'Всего отзывов'
     form:
