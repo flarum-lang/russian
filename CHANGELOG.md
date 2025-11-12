@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.59.0 (XXXX-XX-XX)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+
+
+Все изменения: [1.58.2...1.59.0](https://github.com/flarum-lang/russian/compare/1.58.2...1.59.0).
+
+
 1.58.2 (2025-10-30)
 -------------------
 
