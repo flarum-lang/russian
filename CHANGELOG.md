@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.59.1 (XXXX-XX-XX)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`afrux/top-posters-widget`](https://github.com/afrux/top-posters-widget)
+* [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea)
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping)
+
+
+Все изменения: [1.59.0...1.59.1](https://github.com/flarum-lang/russian/compare/1.59.0...1.59.1).
+
+
 1.59.0 (2025-11-13)
 -------------------
 
