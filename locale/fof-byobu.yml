@@ -6,7 +6,7 @@ fof-byobu:
   admin:
     permission:
       add_more_than_two_user_recipients: 'Добавлять более 2 участников в переписку'
-      create_private_discussions_with_blocking_users: 'Создавать переписки с участниками, отключившие их'
+      create_private_discussions_with_blocking_users: 'Создавать переписки с участниками, отключившими их'
       create_private_discussions_with_groups: 'Создавать переписки с группами'
       create_private_discussions_with_users: 'Создавать переписки с участниками'
       edit_group_recipients: 'Изменять список групп в переписках'
@@ -23,7 +23,7 @@ fof-byobu:
         heading: 'Общие настройки'
         help: 'Эти настройки управляют основными функциями byobu.'
       hide_from_all_discussions_page: 'Скрыть переписки на странице "Все дискуссии"'
-      hide_from_all_discussions_page_help: 'Переписки будут доступны только на странице "Переписки" или в профите пользователя.'
+      hide_from_all_discussions_page_help: 'Переписки будут доступны только на странице "Переписки" или в профиле пользователя'
       icon:
         heading: 'Настройки иконки'
         help: 'Эти настройки управляют иконками, используемыми byobu на форуме.'
