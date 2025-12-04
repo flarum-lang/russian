@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.59.2 (2025-12-04)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
+
+
+Все изменения: [1.59.1...1.59.2](https://github.com/flarum-lang/russian/compare/1.59.1...1.59.2).
+
+
 1.59.1 (2025-11-13)
 -------------------
 
