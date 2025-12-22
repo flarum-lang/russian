@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.59.3 (XXXX-XX-XX)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+
+
+Все изменения: [1.59.2...1.59.3](https://github.com/flarum-lang/russian/compare/1.59.2...1.59.3).
+
+
 1.59.2 (2025-12-04)
 -------------------
 
