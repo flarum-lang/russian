@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.59.4 (XXXX-XX-XX)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
+
+
+Все изменения: [1.59.3...1.59.4](https://github.com/flarum-lang/russian/compare/1.59.3...1.59.4).
+
+
 1.59.3 (2025-12-23)
 -------------------
 
