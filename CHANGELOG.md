@@ -8,6 +8,9 @@ CHANGELOG
 **Добавлена поддержка новых расширений**:
 
 * [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
+* [`forumaker/magicread`](https://github.com/forumaker/magicread)
+* [`forumaker/magicslider`](https://github.com/forumaker/magicslider)
 
 
 Все изменения: [1.59.3...1.59.4](https://github.com/flarum-lang/russian/compare/1.59.3...1.59.4).
