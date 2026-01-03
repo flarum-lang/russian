@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.59.5 (XXXX-XX-XX)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest)
+
+
+**Обновленные переводы расширений**:
+
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
+
+
+Все изменения: [1.59.4...1.59.5](https://github.com/flarum-lang/russian/compare/1.59.4...1.59.5).
+
+
 1.59.4 (2026-01-03)
 -------------------
 
