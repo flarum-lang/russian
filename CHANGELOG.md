@@ -7,7 +7,9 @@ CHANGELOG
 
 **Обновленные переводы расширений**:
 
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
 * [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 
 
 Все изменения: [1.59.5...1.59.6](https://github.com/flarum-lang/russian/compare/1.59.5...1.59.6).
