@@ -43,4 +43,5 @@ fof-horizon:
         total-processes: 'Всего процессов'
       full_dashboard: 'Панель мониторинга Horizon'
       heading: 'Обзор очереди'
+      last_refresh: 'Обновлено {time}'
       refresh: Обновить
