@@ -23,16 +23,19 @@ fof-horizon:
       auto_refresh: 'Автоматическое обновление'
       data:
         failed-last-seconds: 'Неудачные задания за последние секунды'
+        failure-rate: 'Коэффициент отказа'
         jobs-past-hour: 'Количество заданий в час'
         jobs-per-minute: 'Количество заданий в минуту'
         max-runtime: 'Макс. время выполнения'
         max-throughput: 'Макс. пропускная способность'
+        max-wait-queue: 'Очередь: {queue}'
         max-wait-time: 'Макс. время ожидания'
         redis-blocked-clients: 'Заблокированные клиенты'
         redis-connected-clients: 'Подключенные клиенты'
         redis-max-memory: 'Максимальная память Redis'
         redis-memory-policy: 'Политика памяти Redis'
         redis-memory-policy-tooltip: "Политика памяти — это способ, которым хранилище кэша будет выбирать, что удалять при достижении\nпредела maxmemory. Значение по умолчанию — `noeviction`: новые значения\nне сохраняются при достижении предела памяти. Нажмите, чтобы просмотреть документацию.\n"
+        redis-memory-usage: 'Использование памяти Redis'
         redis-ops-per-sec: 'Операций в секунду'
         redis-peak-memory: 'Пиковое значение памяти Redis'
         redis-used-memory: 'Используемая память Redis'
@@ -40,8 +43,19 @@ fof-horizon:
           inactive: Неактивен
           label: Статус
           running: Выполняется
+        success-rate: 'Коэффициент успеха'
         total-processes: 'Всего процессов'
+      error:
+        fetch_failed: 'Не удается получить статистику Horizon. Пожалуйста, проверьте конфигурацию вашего Redis.'
+        setup_docs: 'Просмотр документации по настройке Redis'
+        title: 'Ошибка соединения'
       full_dashboard: 'Панель мониторинга Horizon'
       heading: 'Обзор очереди'
+      health:
+        critical: Критический
+        excellent: Отлично
+        good: Хорошо
+        poor: Плохо
+        tooltip: 'Оценка работоспособности системы: {score}/100'
       last_refresh: 'Обновлено {time}'
       refresh: Обновить
