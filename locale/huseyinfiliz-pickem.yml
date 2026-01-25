@@ -3,10 +3,116 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 huseyinfiliz-pickem:
+  admin:
+    permissions:
+      make_picks: 'Делать прогнозы'
+      manage: 'Управление прогнозами'
+      view_page: 'Просмотр страницы прогнозов'
+    settings:
+      recalc_btn: 'Пересчитать очки'
+      recalc_confirm: 'Запустить пересчёт? Он будет выполнен в фоновом режиме.'
+      recalc_help: 'Пересчитывает все очки на основе результатов матчей. Выполняется в фоне.'
+      recalc_queued: 'Пересчёт добавлен в очередь.'
+      reverse_display_help: 'Если включено, гостевая команда будет отображаться слева или сверху, а домашняя — справа или снизу. Соответствует формату американского спорта — гости @ хозяева.'
+      reverse_display_label: 'Инвертировать отображение хозяев и гостей'
+  forum:
+    notification: 'Результат: {home} {hScore} – {aScore} {away}'
+    picks:
+      your_pick: 'Ваш прогноз'
   lib:
+    actions:
+      create: Создать
+      edit: Править
+      enter_result: 'Ввести результат'
+    buttons:
+      cancel: Отменить
+      create: Создать
+      delete: Удалить
+      edit: Править
+      load_more: 'Загрузить ещё'
+      save: Сохранить
     common:
+      away: 'В гостях'
+      date: Дата
+      draw: Ничья
+      home: Дома
       match: Матч
       pick: Прогноз
+      points: Очки
+      result: Результат
+      score: Счёт
       season: Сезон
+      status: Статус
       team: Команда
+      vs: vs
       week: Неделя
+    filters:
+      all: Все
+      newest: 'Сначала новые'
+      oldest: 'Сначала старые'
+      reset: 'Сбросить фильтры'
+      sort: Сортировка
+    form:
+      allow_draw: 'Разрешить ничью'
+      away_score: 'Счёт гостей'
+      away_team: 'Гостевая команда'
+      end_date: 'Дата окончания'
+      home_score: 'Счёт хозяев'
+      home_team: 'Домашняя команда'
+      logo_url: 'URL логотипа'
+      name: Название
+      no_week: 'Без недели'
+      search_team: 'Поиск команды…'
+      select_season: 'Выбрать сезон'
+      select_team: 'Выбрать команду'
+      select_week: 'Выбрать неделю'
+      slug: 'Адрес страницы'
+      start_date: 'Дата начала'
+      week_number: 'Номер недели'
+    headers:
+      accuracy: Точность
+      correct: Верно
+      cutoff_date: 'Дата окончания приёма прогнозов'
+      logo: Логотип
+      match_date: 'Дата матча'
+      name: Название
+      player: Игрок
+      rank: Место
+      slug: 'Адрес страницы'
+      total: Всего
+      week_number: 'Номер недели'
+    messages:
+      delete_confirm: 'Удалить?'
+      deleted: Удалено.
+      in_use: 'Невозможно удалить — элемент не используется.'
+      invalid_outcome: 'Неверный выбор.'
+      login_required: 'Войдите для участия.'
+      no_data: 'Похоже, здесь ничего нет.'
+      no_matches: 'Матчи не найдены.'
+      result_saved: 'Результат сохранён.'
+      same_team: 'Команды должны отличаться.'
+      saved: Сохранено.
+      scores_required: 'Введите счёт обеих команд.'
+      slug_unique: 'Адрес страницы уже занят.'
+    nav:
+      leaderboard: 'Таблица лидеров'
+      matches: Матчи
+      my_picks: 'Мои прогнозы'
+      pickem: Прогнозы
+      seasons: Сезоны
+      settings: Настройки
+      teams: Команды
+      weeks: Недели
+    pagination:
+      page_info: 'Страница {current} из {total}'
+    status:
+      closed: Закрыт
+      correct: Верно
+      finished: Завершён
+      incorrect: Неверно
+      pending: Ожидается
+      scheduled: Запланирован
+    time:
+      days_remaining: '{days}д осталось'
+      hours_remaining: '{hours}ч {minutes}м осталось'
+      minutes_remaining: '{minutes}м осталось'
