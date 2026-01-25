@@ -5,6 +5,8 @@
 huseyinfiliz-pickem:
   lib:
     common:
+      match: Матч
+      pick: Прогноз
       season: Сезон
       team: Команда
       week: Неделя

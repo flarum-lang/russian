@@ -101,6 +101,23 @@ huseyinfiliz-awards:
       suggestions: Предложения
     title: 'Управление наградами'
   forum:
+    category:
+      nominees_count: '{count} номинантов'
+      votes_unlimited: '{count} голосов'
+      votes_used: '{used}/{limit} голосов'
+    empty:
+      no_awards: 'Нет активных наград'
+      no_awards_description: 'Пока что наград нет. Загляните позже!'
+      no_categories: 'В этой награде пока нет категорий.'
+      no_nominees: 'В этой награде пока нет номинантов.'
+    error:
+      cannot_delete_processed_suggestion: 'Отменить можно только предложения на рассмотрении.'
+      not_available: 'Эта награда пока недоступна.'
+      other_not_allowed: 'Эта категория не принимает предложения.'
+      rate_limit: 'Слишком много голосов. Немного подождите.'
+      vote_limit_reached: 'В этой категории можно проголосовать только за {limit} номинантов.'
+      vote_quota_exhausted: 'Вы использовали все доступные голоса и предложения для этой категории.'
+      voting_closed: 'Голосование закрыто.'
     hero:
       countdown: 'До окончания голосования: {days}д {hours}ч {minutes}м {seconds}с'
       draft_preview: 'Превью черновика'
@@ -124,6 +141,26 @@ huseyinfiliz-awards:
       all_categories: 'Все категории'
       categories: Категории
       title: Награды
+    notification:
+      results_published: 'Результаты для {awardName} опубликованы!'
+    other:
+      already_submitted: 'Вы уже отправили предложение для этой категории.'
+      cancel: Отменить
+      cancel_confirm: 'Отменить предложение?'
+      click_to_suggest: 'Нажмите, чтобы предложить номинанта'
+      my_suggestions: 'Мои предложения'
+      no_remaining: 'Слоты для предложений закончились'
+      no_suggestions: 'Вы ещё не отправили ни одного предложения.'
+      pending_count: '{count} предложений на рассмотрении'
+      placeholder: 'Введите имя номинанта…'
+      remaining: '{count} предложений осталось'
+      status_approved: Одобрено
+      status_merged: Объединено
+      status_pending: Ожидает
+      status_rejected: Отклонено
+      submit: 'Отправить предложение'
+      success: 'Предложение отправлено! Оно будет рассмотрено модераторами.'
+      suggest: 'Предложить вариант'
     page:
       previous_awards: 'Награды прошлого года'
       results_published: 'Результаты опубликованы'
@@ -131,6 +168,11 @@ huseyinfiliz-awards:
       voting_ended: 'Голосование завершилось {time}'
       voting_ends: 'Голосование заканчивается {time}'
       voting_starts: 'Голосование начнётся {time}'
+    prediction:
+      correct: 'Верно:'
+      score: '{correct}/{total} угадано!'
+      title: 'Ваш результат прогноза'
+      wrong: 'Неверно:'
     preview:
       admin_only: 'Режим предварительного просмотра — только для пользователей'
     progress:
@@ -138,6 +180,13 @@ huseyinfiliz-awards:
       next: Далее
       prev: Назад
       voted: '{count}/{total} категорий с голосами'
+    results:
+      full_results: 'Все результаты'
+      percentage: '{percent}%'
+      runner_up: Призёр
+      view_all: 'Посмотреть все результаты'
+      votes: '{count} голосов'
+      winner: Победитель
     tabs:
       categories: Категории
       my_votes: 'Мои голоса'
@@ -153,3 +202,16 @@ huseyinfiliz-awards:
       vote_saved: 'Ваш голос сохранён!'
       voted: 'Голос учтён'
       voting_closed: 'Голосование закрыто'
+  lib:
+    actions: Действия
+    description: Описание
+    move_down: Опустить
+    move_up: Поднять
+    save: Сохранить
+    slug: 'Адрес страницы'
+    sort_order: Сортировка
+    success_message: 'Изменения сохранены!'
+    upload_error: 'Не удалось загрузить изображение'
+    upload_image: 'Загрузить изображение'
+    upload_success: 'Изображение загружено'
+    votes: Голоса
