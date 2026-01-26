@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.59.7 (2026-01-26)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards)
+* [`huseyinfiliz/pickem`](https://github.com/huseyinfiliz/pickem)
+
+
+Все изменения: [1.59.6...1.59.7](https://github.com/flarum-lang/russian/compare/1.59.6...1.59.7).
+
+
 1.59.6 (2026-01-16)
 -------------------
 
