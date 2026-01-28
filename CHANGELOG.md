@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.59.8 (2026-01-28)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`startracex/flarum-dark`](https://github.com/startracex/flarum-dark)
+
+
+Все изменения: [1.59.7...1.59.8](https://github.com/flarum-lang/russian/compare/1.59.7...1.59.8).
+
+
 1.59.7 (2026-01-26)
 -------------------
 
