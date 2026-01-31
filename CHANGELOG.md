@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.59.9 (2026-01-31)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
+
+
+Все изменения: [1.59.8...1.59.9](https://github.com/flarum-lang/russian/compare/1.59.8...1.59.9).
+
+
 1.59.8 (2026-01-28)
 -------------------
 
