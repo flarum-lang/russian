@@ -4,10 +4,52 @@
 
 fof-badges:
   admin:
+    create_badge: 'Создать значок'
+    create_category: 'Создать категорию'
+    permissions:
+      give_manually: 'Назначать значки вручную'
+      moderate: 'Управление значками'
+      view_list: 'Просмотр списка значков'
+      view_user_badges: 'Просмотр значков пользователя'
+    recalculate: Пересчитать
+    recalculate_confirm: 'Пересчёт всех автоматических значков для каждого пользователя. Процесс будет выполнен в фоне. Продолжить?'
+    recalculate_error: 'Не удалось пересчитать значки. Попробуйте снова.'
+    recalculate_success: 'Пересчёт завершён! Выдано: {awarded}, отозвано: {revoked}, пользователей обработано: {users}'
+    recalculation:
+      already_running: 'Пересчёт значков уже выполняется.'
+      cancel: Отменить
+      cancel_confirm: 'Отменить пересчёт? Прогресс будет потерян.'
+      cancel_error: 'Не удалось отменить пересчёт.'
+      cancelled: 'Пересчёт отменён'
+      chunks: 'Пакеты: {processed} / {total}'
+      completed: 'Пересчёт завершён!'
+      dismiss: Закрыть
+      failed: 'Сбой при пересчёте'
+      pending: 'Подготовка к пересчёту…'
+      progress: 'Обработано {processed} из {total} ({percentage}%)'
+      running: 'Пересчёт значков…'
+      started: 'Идёт пересчёт значков. Процесс выполняется в фоне.'
+      stats: 'Выдано: {awarded} | Отозвано: {revoked}'
     settings:
       display_title: 'Настройки отображения'
+      integrations_help: 'Условия значков от других расширений. Установите их, чтобы разблокировать условия.'
+      integrations_title: 'Интеграции расширений'
+      new_badge_highlight: 'Показывать метку «NEW» у недавно полученных значков'
+      new_badge_highlight_help: 'Отображает метку «NEW» у значков, полученных за последние 7 дней.'
+      post_badge_display_limit: 'Лимит отображения значков под сообщениями'
+      post_badge_display_limit_help: 'Максимальное количество значков, отображаемых под сообщениями. Установите 0, чтобы отключить.'
+      primary_badge_display: 'Отображение основного значка'
+      primary_badge_display_help: 'Как основной значок пользователя отображается рядом с именем.'
+      primary_badge_hidden: Скрыт
+      primary_badge_icon: 'Только значок'
+      primary_badge_icon_name: 'Значок и название'
+      save: 'Сохранить настройки'
+      save_error: 'Не удалось сохранить настройки.'
+      saved: 'Настройки сохранены.'
+      show_badges_on_user_card: 'Показывать значки в карточке пользователя'
+      show_badges_on_user_card_help: 'Отображать любимый или самый редкий значок пользователя в карточке и профиле.'
     tabs:
-      badges: Награды
+      badges: Значки
       categories: Категории
       recalculation: Пересчёт
       settings: Настройки
