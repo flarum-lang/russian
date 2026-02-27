@@ -7,6 +7,7 @@ CHANGELOG
 
 **Обновленные переводы расширений**:
 
+* [`forumaker/magicread`](https://github.com/forumaker/magicread)
 * [`forumaker/magicslider`](https://github.com/forumaker/magicslider)
 
 
