@@ -7,7 +7,9 @@ forumaker-magicread:
     settings:
       enable_counter: 'Счётчик символов в редакторе'
       enable_pagination: 'Пагинация в дискуссиях'
+      enable_readmore: '«Прочитать всё» на странице постов в профиле'
       section_main: Настройки
   forum:
     counter:
       label: Символы
+    read_more: 'Прочитать всё'
