@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+1.59.15 (XXXX-XX-XX)
+--------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff)
+* [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
+
+
+**Обновленные переводы расширений**:
+
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
+* [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards)
+* [`huseyinfiliz/pickem`](https://github.com/huseyinfiliz/pickem)
+
+
+Все изменения: [1.59.14...1.59.15](https://github.com/flarum-lang/russian/compare/1.59.14...1.59.15).
+
+
 1.59.14 (2026-03-01)
 --------------------
 
