@@ -44,12 +44,12 @@ fof-badges:
     delete_badge_confirm: 'Удалить значок «{name}»? Он также будет удалён у всех пользователей, которые его получили.'
     delete_category_confirm: 'Удалить категорию «{name}»?'
     delete_category_confirm_with_badges: 'Удалить категорию «{name}»? {count, plural, one {# значок} few {# значка} many {# значков} other {# значка}} останется без категории.'
-    disabled: Отключён
+    disabled: ВЫКЛ
     earned_count: 'Получено: {count}'
     edit: Редактировать
     edit_badge: 'Редактировать значок'
     edit_category: 'Редактировать категорию'
-    enabled: Включён
+    enabled: ВКЛ
     granted_by_system: Система
     headers:
       badges: Значки
@@ -109,9 +109,9 @@ fof-badges:
     no_users_found: 'Пользователи не найдены'
     permissions:
       give_manually: 'Выдавать значки вручную'
-      moderate: 'Управление значками'
-      view_list: 'Просмотр списка значков'
-      view_user_badges: 'Просмотр значков пользователя'
+      moderate: 'Управлять значками'
+      view_list: 'Смотреть список значков'
+      view_user_badges: 'Смотреть значки пользователя'
     preview: Предпросмотр
     previous: Назад
     rarity: 'Редкость: {percent}%'
@@ -138,7 +138,7 @@ fof-badges:
       reapply_actions_label: 'Повторно применить действия к текущим обладателям значков'
       show_more: 'Показать ещё {count}'
       start: 'Запустить пересчёт'
-      sync_counts: 'Синхронизировать количество значков'
+      sync_counts: Синхронизировать
       sync_counts_error: 'Не удалось синхронизировать.'
       sync_counts_info: 'Пересчитать «количество получений» для всех значков на основе фактических записей user_badges. Поможет, если после пересчёта количество отображается некорректно.'
       sync_counts_success: 'Количество значков синхронизировано! Исправлено {corrected} из {total}.'

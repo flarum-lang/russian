@@ -6,8 +6,8 @@ huseyinfiliz-pickem:
   admin:
     permissions:
       make_picks: 'Делать прогнозы'
-      manage: 'Управление прогнозами'
-      view_page: 'Просмотр страницы прогнозов'
+      manage: 'Управлять прогнозами'
+      view_page: 'Смотреть страницу прогнозов'
     settings:
       recalc_btn: 'Пересчитать очки'
       recalc_confirm: 'Запустить пересчёт? Он будет выполнен в фоновом режиме.'

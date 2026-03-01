@@ -64,10 +64,10 @@ huseyinfiliz-awards:
       title: 'Управление номинантами'
       vote_adjustment_title: 'Корректировка голосов'
     permissions:
-      manage: 'Управление наградами'
-      view: 'Просмотр наград'
-      view_results: 'Просмотр результатов заранее'
-      vote: 'Голосование в наградах'
+      manage: 'Управлять наградами'
+      view: 'Смотреть награды'
+      view_results: 'Смотреть результаты заранее'
+      vote: 'Голосовать в наградах'
     settings:
       nav_icon: 'Иконка навигации'
       nav_icon_help: 'Иконка FontAwesome (например, fas fa-trophy, fas fa-award, fas fa-star)'
