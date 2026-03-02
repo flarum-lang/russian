@@ -133,7 +133,7 @@ flarum-extension-manager:
     updater:
       check_for_updates: 'Проверить обновления'
       flarum: 'Ядро Flarum'
-      global_update_successful: 'Все пакеты успешно обновлены'
+      global_update_successful: 'Все пакеты успешно обновлены.'
       last_update_checked_at: 'Последняя проверка: '
       run_global_update: 'Запустить глобальное обновление'
       up_to_date: 'У Вас актуальные версии пакетов!'

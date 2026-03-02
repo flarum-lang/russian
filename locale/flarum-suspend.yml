@@ -17,8 +17,8 @@ flarum-suspend:
   forum:
     notifications:
       user_suspended_indefinite_text: 'Вы заблокированы на неопределённый срок'
-      user_suspended_text: '{username} заблокировал Вас на {timeReadable}'
-      user_unsuspended_text: '{username} разблокировал Вас'
+      user_suspended_text: 'Вы были заблокированы на {timeReadable}'
+      user_unsuspended_text: 'Вас разблокировали'
     suspend_user:
       display_message: 'Показать сообщение пользователю'
       indefinitely_label: 'Заблокирован навсегда'

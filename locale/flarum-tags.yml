@@ -92,5 +92,6 @@ flarum-tags:
       description: описание
       is_hidden: скрытый
       name: имя
+      slug: путь
       tag_count_primary: '=> validation.attributes.tag_count_primary'
       tag_count_secondary: '=> validation.attributes.tag_count_secondary'

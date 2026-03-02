@@ -96,6 +96,7 @@ validation:
   prohibited_unless: ':attribute запрещено, если :other не имеет значение :values.'
   regex: ':attribute имеет некорректный формат.'
   required: ':attribute обязательно к заполнению.'
+  required_array_keys: 'Массив :attribute должен содержать записи для следующих значений: :values.'
   required_if: ':attribute обязательно к заполнению, когда :other имеет значение :value.'
   required_unless: ':attribute обязательно к заполнению, когда :other не имеет значения :values.'
   required_with: ':attribute обязательно к заполнению, когда имеется одно из значений :values.'
