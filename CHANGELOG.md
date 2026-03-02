@@ -8,6 +8,15 @@ CHANGELOG
 **Общие изменения**:
 
 * Обновленные переводы ядра Flarum.
+* Обновленные одобренные переводы.
+
+
+**Обновленные переводы расширений**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
 
 
 Все изменения: [1.59.15...1.59.16](https://github.com/flarum-lang/russian/compare/1.59.15...1.59.16).
