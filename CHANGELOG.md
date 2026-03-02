@@ -11,6 +11,11 @@ CHANGELOG
 * Обновленные одобренные переводы.
 
 
+**Добавлена поддержка новых расширений**:
+
+* [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
+
+
 **Обновленные переводы расширений**:
 
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
