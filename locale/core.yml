@@ -125,7 +125,7 @@ core:
       smtp_heading: 'Настройки SMTP'
       title: '=> core.ref.email'
     extension:
-      abandoned_no_replacement: 'Это расширение больше не поддерживается автором — обновления не гарантируются.'
+      abandoned_no_replacement: 'Это расширение больше не поддерживается автором (обновления не гарантируются).'
       abandoned_with_replacement: 'Это расширение заменено на {replacement}. Рекомендуем перейти на новую версию.'
       configure_scopes: 'Настройка областей'
       confirm_purge: 'Это действие удалит записи в базе данных и ресурсы, связанные с расширением; расширение полностью не удаляется. Полное удаление расширения должно быть выполнено при помощи Composer. Вы уверены, что хотите продолжить?'
@@ -417,7 +417,7 @@ core:
       viewing_text: '{count, plural, one {{index} / {formattedCount} сообщения} other {{index} / {formattedCount} сообщений}}'
     post_stream:
       discussion_renamed_old_tooltip: 'Старое название: "{old}"'
-      discussion_renamed_text: '{username} изменил(а) название на "{new}".'
+      discussion_renamed_text: '{username} изменил(а) название на "{new}" {time}.'
       load_more_button: '=> core.ref.load_more'
       reply_placeholder: '=> core.ref.write_a_reply'
       time_lapsed_text: '{period} спустя'
