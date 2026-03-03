@@ -2,6 +2,31 @@ CHANGELOG
 =========
 
 
+1.59.16 (2026-03-03)
+--------------------
+
+**Общие изменения**:
+
+* Обновленные переводы ядра Flarum.
+* Обновленные одобренные переводы.
+
+
+**Добавлена поддержка новых расширений**:
+
+* [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
+
+
+**Обновленные переводы расширений**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
+
+
+Все изменения: [1.59.15...1.59.16](https://github.com/flarum-lang/russian/compare/1.59.15...1.59.16).
+
+
 1.59.15 (2026-03-02)
 --------------------
 
