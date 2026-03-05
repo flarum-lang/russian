@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.59.17 (XXXX-XX-XX)
+--------------------
+
+**Обновленные переводы расширений**:
+
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
+
+
+Все изменения: [1.59.16...1.59.17](https://github.com/flarum-lang/russian/compare/1.59.16...1.59.17).
+
+
 1.59.16 (2026-03-03)
 --------------------
 
