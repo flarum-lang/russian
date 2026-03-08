@@ -1,3 +1,0 @@
-fof-email-checker:
-  error:
-    disposable_email_message: "Запрещено использовать временный (одноразовый) адрес e-mail."
