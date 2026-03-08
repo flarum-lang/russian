@@ -72,6 +72,9 @@
     },
     "extiverse": {
       "discuss": "https://discuss.flarum.org/d/1545"
+    },
+    "branch-alias": {
+      "dev-main": "1.x-dev"
     }
   }
 }
