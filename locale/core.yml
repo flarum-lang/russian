@@ -4,6 +4,12 @@
 
 core:
   admin:
+    advanced:
+      description: 'Настройка дополнительных параметров форума.'
+      maintenance:
+        bisect:
+          begin_button_text: 'Начать диагностику'
+          continue_button_text: 'Продолжить диагностику'
     appearance:
       colored_header_label: 'Цветная шапка'
       colors_heading: Цвета
