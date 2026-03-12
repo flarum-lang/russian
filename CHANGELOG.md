@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.59.19 (XXXX-XX-XX)
+--------------------
+
+**Обновленные переводы расширений**:
+
+* [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
+
+
+Все изменения: [1.59.18...1.59.19](https://github.com/flarum-lang/russian/compare/1.59.18...1.59.19).
+
+
 1.59.18 (2026-03-09)
 --------------------
 
