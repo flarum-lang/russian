@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.59.20 (2026-03-13)
+--------------------
+
+**Обновленные переводы расширений**:
+
+* [`blomstra/realtime`](https://flarum.org/extension/blomstra/realtime)
+
+
+Все изменения: [1.59.19...1.59.20](https://github.com/flarum-lang/russian/compare/1.59.19...1.59.20).
+
+
 1.59.19 (2026-03-12)
 --------------------
 
