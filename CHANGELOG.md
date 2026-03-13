@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.59.22 (XXXX-XX-XX)
+--------------------
+
+**Обновленные переводы расширений**:
+
+* [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards)
+
+
+Все изменения: [1.59.21...1.59.22](https://github.com/flarum-lang/russian/compare/1.59.21...1.59.22).
+
+
 1.59.21 (2026-03-13)
 --------------------
 
