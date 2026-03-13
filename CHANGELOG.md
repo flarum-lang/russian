@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.59.21 (XXXX-XX-XX)
+--------------------
+
+**Обновленные переводы расширений**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+
+
+Все изменения: [1.59.20...1.59.21](https://github.com/flarum-lang/russian/compare/1.59.20...1.59.21).
+
+
 1.59.20 (2026-03-13)
 --------------------
 
