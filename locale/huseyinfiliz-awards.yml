@@ -69,7 +69,7 @@ huseyinfiliz-awards:
       view_results: 'Смотреть результаты заранее'
       vote: 'Голосовать в наградах'
     settings:
-      nav_icon: 'Иконка навигации'
+      nav_icon: 'Иконка в навигации'
       nav_icon_help: 'Иконка FontAwesome (например, fas fa-trophy, fas fa-award, fas fa-star)'
       nav_title: 'Название в навигации'
       nav_title_help: 'Текст в боковой навигации'
