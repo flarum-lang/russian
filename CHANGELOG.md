@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.59.27 (XXXX-XX-XX)
+--------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest)
+
+
+Все изменения: [1.59.26...1.59.27](https://github.com/flarum-lang/russian/compare/1.59.26...1.59.27).
+
+
 1.59.26 (2026-03-15)
 --------------------
 
