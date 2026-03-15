@@ -5,15 +5,22 @@
 huseyinfiliz-stickiest:
   admin:
     permissions:
+      stickiest_label: 'Закреплять дискуссии приоритетно'
       super_sticky_discussions_label: 'Закреплять дискуссии приоритетно'
       tag_sticky_discussions_label: 'Закреплять дискуссии по тегу'
+      tag_sticky_label: 'Закреплять дискуссии по тегу'
     settings:
       badge_icon_label: 'Иконка приоритетного закрепления'
       badge_icon_text: '=> core.ref.icon_text'
       display_tag_sticky_label: 'Показывать закреплённые по тегу дискуссии на странице всех дискуссий'
       display_tag_sticky_text: 'Они будут отображаться как обычные дискуссии без закрепления вверху списка.'
+      show_tag_sticky_help: 'Если отключено, закреплённые по тегу дискуссии будут отображаться только при просмотре соответствующего тега.'
+      show_tag_sticky_label: 'Показывать закреплённые по тегу дискуссии на странице всех дискуссий'
+      stickiest_icon_help: 'Класс иконки Font Awesome (например: fas fa-star)'
+      stickiest_icon_label: 'Иконка приоритетного закрепления'
   forum:
     badge:
+      stickiest_tooltip: 'Приоритетное закрепление'
       sticky_tooltip: '=> huseyinfiliz-stickiest.ref.sticky'
       super_sticky_tooltip: '=> huseyinfiliz-stickiest.ref.super_sticky'
       super_tag_sticky_tooltip: '=> huseyinfiliz-stickiest.ref.super_tag_sticky'
@@ -23,8 +30,10 @@ huseyinfiliz-stickiest:
     post_stream:
       discussion_common_stickied_text: '{username} снял(а) приоритет с дискуссии.'
       discussion_stickied_text: '=> flarum-sticky.forum.post_stream.discussion_stickied_text'
+      discussion_stickiest_text: '{username} отметил(а) дискуссию приоритетной.'
       discussion_super_stickied_text: '{username} отметил(а) дискуссию приоритетной.'
       discussion_unstickied_text: '=> flarum-sticky.forum.post_stream.discussion_unstickied_text'
+      discussion_unstickiest_text: '{username} снял(а) приоритет с дискуссии.'
     stickiest_modal:
       sticky_label: '=> flarum-sticky.ref.sticky'
       sticky_text: 'Закреплённые дискуссии будут отображаться вверху страницы всех дискуссий, если они не прочитаны. При просмотре конкретного тега, к которому относится дискуссия, они всегда будут закреплены вверху.'
@@ -35,6 +44,16 @@ huseyinfiliz-stickiest:
       tag_sticky_text: 'По умолчанию закреплённые по тегу дискуссии скрыты на странице всех дискуссий. Они будут отображаться и закрепляться только при просмотре конкретного тега, выбранного здесь. Эту настройку можно комбинировать с приоритетным закреплением.'
       tags_label: '=> flarum-tags.ref.tags'
       title: 'Закрепление {title}'
+    sticky_modal:
+      select_tags: 'Выбрать теги'
+      stickiest_help: 'Всегда закреплена на самом верху.'
+      stickiest_label: 'Приоритетное закрепление'
+      sticky_help: 'На странице всех дискуссий закрепляется только при наличии непрочитанных сообщений, а внутри тега — всегда.'
+      sticky_label: Закрепление
+      submit_button: Сохранить
+      tag_sticky_help: 'Закрепляется только в выбранных тегах.'
+      tag_sticky_label: 'Закрепление по тегу'
+      title: 'Закрепление: {title}'
   ref:
     sticky: '=> flarum-sticky.ref.sticky'
     super_sticky: 'Приоритетное закрепление'
