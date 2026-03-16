@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+1.59.29 (2026-03-16)
+--------------------
+
+**Обновленные переводы расширений**:
+
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+
+
+Все изменения: [1.59.28...1.59.29](https://github.com/flarum-lang/russian/compare/1.59.28...1.59.29).
+
+
 1.59.28 (2026-03-15)
 --------------------
 
