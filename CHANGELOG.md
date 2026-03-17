@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.59.30 (2026-03-17)
+--------------------
+
+**Обновленные переводы расширений**:
+
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
+
+
+Все изменения: [1.59.29...1.59.30](https://github.com/flarum-lang/russian/compare/1.59.29...1.59.30).
+
+
 1.59.29 (2026-03-16)
 --------------------
 
