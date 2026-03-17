@@ -6,6 +6,10 @@ flarum-sticky:
   admin:
     permissions:
       sticky_discussions_label: 'Закреплять дискуссии'
+    settings:
+      enable_display_excerpt: 'Показывать часть первого сообщения у непрочитанных закреплённых дискуссий'
+      only_sticky_unread_discussions_help: 'На странице всех дискуссий непрочитанные закреплённые дискуссии отображаются сверху, а прочитанные — в обычном порядке.'
+      only_sticky_unread_discussions_label: 'Закреплять только непрочитанные дискуссии'
   forum:
     badge:
       sticky_tooltip: '=> flarum-sticky.ref.sticky'
@@ -15,5 +19,10 @@ flarum-sticky:
     post_stream:
       discussion_stickied_text: '{username} закрепил(а) дискуссию {time}.'
       discussion_unstickied_text: '{username} открепил(а) дискуссию {time}.'
+  lib:
+    gambits:
+      discussions:
+        sticky:
+          key: закреплённая
   ref:
     sticky: Закреплено
