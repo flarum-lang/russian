@@ -15,6 +15,7 @@ CHANGELOG
 
 * [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
 * [`forumaker/magicslider`](https://github.com/forumaker/magicslider)
+* [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards)
 
 
 Все изменения: [1.59.30...1.59.31](https://github.com/flarum-lang/russian/compare/1.59.30...1.59.31).
