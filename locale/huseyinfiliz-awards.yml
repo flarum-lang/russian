@@ -142,7 +142,7 @@ huseyinfiliz-awards:
       categories: Категории
       title: Награды
     notification:
-      results_published: 'Результаты для {awardName} опубликованы!'
+      results_published: 'Результаты голосования {awardName} опубликованы!'
     other:
       already_submitted: 'Вы уже отправили предложение для этой категории.'
       cancel: Отменить
