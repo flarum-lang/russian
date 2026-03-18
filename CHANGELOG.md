@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+1.59.31 (2026-03-18)
+--------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`fof/categories`](https://github.com/FriendsOfFlarum/categories)
+* [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text)
+
+
+**Обновленные переводы расширений**:
+
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
+* [`forumaker/magicslider`](https://github.com/forumaker/magicslider)
+* [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards)
+
+
+Все изменения: [1.59.30...1.59.31](https://github.com/flarum-lang/russian/compare/1.59.30...1.59.31).
+
+
 1.59.30 (2026-03-17)
 --------------------
 
