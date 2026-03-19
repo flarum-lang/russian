@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.59.32 (XXXX-XX-XX)
+--------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
+
+
+Все изменения: [1.59.31...1.59.32](https://github.com/flarum-lang/russian/compare/1.59.31...1.59.32).
+
+
 1.59.31 (2026-03-18)
 --------------------
 
