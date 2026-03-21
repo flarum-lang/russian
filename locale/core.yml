@@ -403,7 +403,7 @@ core:
       body: "На форуме {forum} кто-то отправил запрос на сброс пароля для вашей учётной записи.\n\nЕсли это были вы, перейдите по ссылке ниже для установки нового пароля:\n{url}\n\nЕсли это были не вы, просто проигнорируйте письмо.\n"
       subject: '=> core.ref.reset_your_password'
     send_test:
-      body: "Это тестовое письмо для проверки работы электронной почты на форуме Flarum.\n\nЕсли вы отправили его, значит настройки работают корректно.\n\nЕсли это сделали не вы, просто проигнорируйте письмо.\n"
+      body: "Это тестовое письмо для проверки работы email на форуме Flarum.\n\nЕсли вы отправили его, значит настройки работают корректно.\n\nЕсли это сделали не вы, просто проигнорируйте письмо.\n"
       subject: 'Проверка email Flarum'
     signoff: 'Команда {forumTitle}'
   forum:
@@ -411,7 +411,7 @@ core:
       confirm_password_placeholder: '=> core.ref.confirm_password'
       confirmation_message: '=> core.ref.confirmation_email_sent'
       dismiss_button: '=> core.ref.okay'
-      incorrect_password_message: 'Введённый Вами пароль неверный.'
+      incorrect_password_message: 'Введённый вами пароль неверный.'
       submit_button: '=> core.ref.save_changes'
       title: '=> core.ref.change_email'
     change_password:
