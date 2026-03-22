@@ -27,3 +27,9 @@ flarum-likes:
       notify_post_liked_label: 'Понравилось моё сообщение'
     user:
       likes_link: Симпатии
+  lib:
+    gambits:
+      posts:
+        likedBy:
+          hint: 'ID или имя пользователя, который оценил сообщение'
+          key: понравилось

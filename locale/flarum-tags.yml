@@ -70,6 +70,11 @@ flarum-tags:
       meta_description_text: 'Все дискуссии с тегом {tag}'
   lib:
     deleted_tag_text: Удалено
+    gambits:
+      discussions:
+        tag:
+          hint: 'список тегов через запятую или без тегов'
+          key: тег
     tag_selection_modal:
       bypass_requirements: 'Игнорировать требования для тега'
       choose_primary_placeholder: '{count, plural, one {Укажите основной тег} few {Укажите # основных тега} other {Укажите # основных тегов}}'

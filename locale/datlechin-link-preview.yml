@@ -4,6 +4,14 @@
 
 datlechin-link-preview:
   admin:
+    sections:
+      external_api_label: 'Резервный внешний API'
+      general_description: 'Базовые настройки отображения предпросмотра ссылок.'
+      general_label: Основные
+      performance_description: 'Оптимизация получения и кэширования предпросмотра ссылок.'
+      performance_label: Производительность
+      url_filtering_description: 'Определяет, для каких URL создаётся предпросмотр ссылок.'
+      url_filtering_label: 'Фильтрация URL'
     settings:
       blacklist_help: 'Укажите домены или URL, для которых не нужно создавать предпросмотр ссылок. Используйте запятые для разделения нескольких записей.'
       blacklist_label: 'Чёрный список'

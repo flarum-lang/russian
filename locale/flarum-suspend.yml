@@ -9,8 +9,16 @@ flarum-suspend:
   email:
     no_reason_given: 'Причина блокировки не указана.'
     suspended:
+      html:
+        body: 'Вы были заблокированы на форуме {forumTitle} по следующей причине:'
+      plain:
+        body: "Вы были заблокированы по следующей причине:\n\n---\n{suspension_message}\n---\n"
       subject: 'Ваш аккаунт заблокирован'
     unsuspended:
+      html:
+        body: 'Ваш аккаунт разблокирован. Вы можете вернуться на [{forumTitle}]({forum_url}), когда захотите.'
+      plain:
+        body: "Ваш аккаунт разблокирован. Вы можете вернуться на форум по ссылке:\n\n{forum_url}\n"
       subject: 'Ваш аккаунт разблокирован'
   forum:
     notifications:
@@ -37,3 +45,8 @@ flarum-suspend:
       suspended_tooltip: Заблокирован
     user_controls:
       suspend_button: Блокировать
+  lib:
+    gambits:
+      users:
+        suspended:
+          key: заблокирован

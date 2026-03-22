@@ -5,6 +5,10 @@
 flarum-subscriptions:
   email:
     new_post:
+      html:
+        body: "{poster_display_name} опубликовал(а) новое сообщение в дискуссии, на которую вы подписаны: [{title}]({url}).\n\nВы не будете получать новые уведомления из этой дискуссии, пока не просмотрите её.\n"
+      plain:
+        body: "{poster_display_name} опубликовал(а) новое сообщение в дискуссии, на которую вы подписаны: {title}.\n\nЧтобы посмотреть новые ответы, перейдите по ссылке:\n{url}\n\n---\n\n{content}\n\n---\n\nВы не будете получать новые уведомления из этой дискуссии, пока не просмотрите её.\n"
       subject: '[Новое сообщение] {title}'
   forum:
     badge:
@@ -34,6 +38,12 @@ flarum-subscriptions:
       not_following_text: 'Уведомлять только когда @упоминают.'
       notify_alert_tooltip: 'Получать уведомления форума при появлении новых сообщений'
       notify_email_tooltip: 'Получать письма при появлении новых сообщений'
+  lib:
+    gambits:
+      discussions:
+        subscription:
+          following_key: отслеживаемая
+          ignoring_key: игнорируемая
   ref:
     follow: Подписка
     following: Подписка

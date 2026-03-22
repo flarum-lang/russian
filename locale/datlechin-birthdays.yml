@@ -17,6 +17,7 @@ datlechin-birthdays:
       required_label: 'Необходимо указывать день рождения'
       set_on_registration_label: 'Разрешить установку дня рождения при регистрации'
   api:
+    birthday_required_message: 'Нужно указать дату рождения.'
     invalid_age_message: 'Ваша дата рождения должна быть как минимум {minAge} лет назад.'
     invalid_dob_message: 'Некорректная дата рождения'
   forum:
