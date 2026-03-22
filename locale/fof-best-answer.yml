@@ -8,6 +8,7 @@ fof-best-answer:
       qna_label: 'Включить функцию выбора лучшего ответа в этом теге'
       reminders: 'Отправлять напоминания для выбора лучшего ответа в этом теге'
     permissions:
+      allow_select_own_post: 'Выбирать собственное сообщение как лучший ответ'
       best_answer: 'Выбирать лучший ответ (автор дискуссии)'
       best_answer_not_own_discussion: 'Выбирать лучший ответ (участники дискуссии)'
     settings:
@@ -81,6 +82,10 @@ fof-best-answer:
     this_best_answer: 'Это лучший ответ'
     user:
       best-answer-count: '{count, plural, one {{count} лучший ответ} other {{count} лучших ответов}}'
+  lib:
+    gambits:
+      solved-discussions:
+        key: решённая
 fof-user-directory:
   lib:
     sort:

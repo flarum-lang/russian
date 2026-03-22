@@ -29,6 +29,12 @@ fof-byobu:
         help: 'Эти настройки управляют иконками, используемыми byobu на форуме.'
       post-event-icon: 'Иконка события'
   email:
+    body:
+      made_public: "Пользователь {actor_display_name} удалил всех участников и сделал дискуссию публичной: {discussion_title}.\n\nПерейти:\n{discussion_url}\n\nВозможно, сначала потребуется войти в аккаунт, чтобы открыть эту ссылку.\n"
+      private_discussion_added: "Пользователь {actor_display_name} добавил вас в существующую приватную дискуссию: {discussion_title}.\n\nПерейти:\n{discussion_url}\n\nВозможно, сначала потребуется войти в аккаунт, чтобы открыть эту ссылку.\n"
+      private_discussion_created: "Пользователь {actor_display_name} начал новую приватную дискуссию с вами: {discussion_title}.\n\nПерейти:\n{discussion_url}\n\nВозможно, сначала потребуется войти в аккаунт, чтобы открыть эту ссылку.\n"
+      private_discussion_replied: "Пользователь {actor_display_name} написал в приватной дискуссии, участником которой вы являетесь: {discussion_title}.\n\nПерейти:\n{post_url}\n\nВозможно, сначала потребуется войти в аккаунт, чтобы открыть эту ссылку.\n"
+      recipient_removed: "Пользователь {actor_display_name} покинул приватную дискуссию: {discussion_title} и больше не сможет просматривать её содержимое.\n\nПерейти:\n{discussion_url}\n\nВозможно, сначала потребуется войти в аккаунт, чтобы открыть эту ссылку.\n"
     subject:
       private_discussion_added: '[Переписка] {display_name} добавил(а) Вас в переписку'
       private_discussion_created: '[Переписка] {display_name} начал(а) новую переписку с Вами'
@@ -96,3 +102,11 @@ fof-byobu:
       dropdown_label: Переписки
       settings:
         block_pd: 'Отключить переписки'
+  lib:
+    gambits:
+      allows-pd:
+        key: переписки
+      byobu:
+        key: переписки
+      private:
+        key: приватная
