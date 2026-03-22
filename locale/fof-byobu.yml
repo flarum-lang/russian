@@ -30,12 +30,12 @@ fof-byobu:
       post-event-icon: 'Иконка события'
   email:
     body:
-      private_discussion_added: "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} добавил(а) Вас в существующую переписку. Название переписки: '{discussion_title}'.\n\nПосмотреть:\n{discussion_url}\n\nВы должны будете войти под своей учётной записью для того, чтобы получить доступ к переписке.\n"
+      private_discussion_added: "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} добавил(а) вас в существующую переписку. Её название: {discussion_title}.\n\nПерейти:\n{discussion_url}\n\nВозможно, сначала потребуется войти в аккаунт, чтобы открыть эту ссылку.\n"
       private_discussion_created: "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} начал(а) новую переписку с Вами. Название переписки: '{discussion_title}'.\n\nПосмотреть:\n{discussion_url}\n\nВы должны будете войти под своей учётной записью для того, чтобы получить доступ к переписке.\n"
       private_discussion_replied: "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} ответил(а) в переписке, участником которой Вы являетесь. Название переписки: '{discussion_title}'.\n\nПосмотреть:\n{post_url}\n\nВы должны будете войти под своей учётной записью для того, чтобы получить доступ к переписке.\n"
       recipient_removed: "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} покинул(а) переписку '{discussion_title}'. Этот участник больше не сможет читать сообщения переписки.\n\nПосмотреть:\n{discussion_url}\n\nВы должны будете войти под своей учётной записью для того, чтобы получить доступ к переписке.\n"
     subject:
-      private_discussion_added: '[Переписка] {display_name} добавил(а) Вас в переписку'
+      private_discussion_added: '[Переписка] {display_name} добавил(а) вас в переписку'
       private_discussion_created: '[Переписка] {display_name} начал(а) новую переписку с Вами'
       private_discussion_replied: '[Переписка] {display_name} ответил(а) в переписке'
       recipient_removed: '[Переписка] {display_name} покинул(а) переписку'
@@ -64,7 +64,7 @@ fof-byobu:
       recipients: '{count, plural, one {{count} Участник} other {{count} Участников}}'
     modal:
       help:
-        add_recipients: 'Эта дискуссия будет видна только выбранным Вами участникам. Требуется как минимум 1 участник (кроме Вас).'
+        add_recipients: 'Эта дискуссия будет видна только выбранным вами участникам. Требуется как минимум 1 участник, кроме вас.'
         click_user_to_remove_tooltip: 'Нажмите для удаления'
         selected_users: 'Нажмите на имя пользователя для удаления.'
         update_recipients: 'Эта дискуссия будет видна только выбранным Вами участникам.'
@@ -79,7 +79,7 @@ fof-byobu:
       start_button: 'Создать переписку'
     notifications:
       pd_added_label: 'Добавление меня в существующую переписку'
-      pd_added_text: '{username} добавил(а) Вас в переписку'
+      pd_added_text: '{username} добавил(а) вас в переписку'
       pd_label: 'Добавление меня в переписку'
       pd_reply_label: 'Ответ в переписке, участником которой я являюсь'
       pd_reply_text: '{username} ответил(а) в переписке, участником которой Вы являетесь'
