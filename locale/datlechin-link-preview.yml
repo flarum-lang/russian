@@ -5,6 +5,7 @@
 datlechin-link-preview:
   admin:
     sections:
+      external_api_description: 'Использовать внешний сервис, если не удалось получить данные напрямую. Например, для сайтов с защитой от ботов.'
       external_api_label: 'Резервный внешний API'
       general_description: 'Базовые настройки отображения предпросмотра ссылок.'
       general_label: Основные
@@ -22,6 +23,10 @@ datlechin-link-preview:
       convert_media_urls_label: 'Предпросмотр URL медиа'
       enable_batch_requests_help: 'Повышает производительность благодаря одновременной обработке нескольких предпросмотров. Если функция отключена, ссылки обрабатываются по одной.'
       enable_batch_requests_label: 'Включить пакетную обработку'
+      external_api_fallback_help: 'Если не удалось получить данные напрямую, например, с сайтов с защитой от ботов, таких как Reuters, используется внешний oEmbed API для получения метаданных ссылки.'
+      external_api_fallback_label: 'Резервный внешний API'
+      external_api_url_help: 'Пользовательская конечная точка oEmbed API. Оставьте поле пустым, чтобы использовать API по умолчанию — открытый API Iframely. URL будет добавлен как параметр запроса.'
+      external_api_url_label: 'URL внешнего API'
       open_links_in_new_tab_help: 'Всегда открывать предпросмотр ссылок в новой вкладке браузера.'
       open_links_in_new_tab_label: 'Открывать ссылки в новой вкладке'
       use_google_favicons_help: 'Показывать фавиконки сайтов с помощью сервиса Google Favicon для улучшения стиля.'
