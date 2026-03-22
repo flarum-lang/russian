@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.59.34 (XXXX-XX-XX)
+--------------------
+
+**Обновленные переводы расширений**:
+
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+
+
+Все изменения: [1.59.33...1.59.34](https://github.com/flarum-lang/russian/compare/1.59.33...1.59.34).
+
+
 1.59.33 (2026-03-22)
 --------------------
 
