@@ -14,6 +14,13 @@ core:
           label: 'Переопределение конфигурации'
         kit_url_help: 'URL скрипта вашего набора с kit.fontawesome.com'
         kit_url_label: 'URL набора'
+        preview:
+          button: 'Предпросмотр иконок'
+          fa5_fa6_label: 'Алиасы FA5/FA6'
+          fa7_label: 'Классы FA7'
+          help: 'Проверьте настройку Font Awesome. Отображаемая иконка означает, что набор доступен, пустой квадрат — что он не загружен.'
+          label: 'Предпросмотр иконки'
+          pro_label: 'Только Pro'
         section_label: 'Иконки Font Awesome'
         source_cdn: CDN
         source_help: 'Выберите способ загрузки иконок Font Awesome. Local использует встроенные шрифты, CDN загружает их с CDN, а Kit использует наборы Font Awesome с пользовательскими иконками.'
@@ -76,6 +83,19 @@ core:
         no_other_drivers: 'Другие драйверы поиска пока недоступны. Установите расширение драйвера поиска, чтобы настроить его.'
         section_label: 'Драйверы поиска'
       title: Расширенные
+    announcements:
+      about: 'Последние новости и анонсы из официального сообщества Flarum на discuss.flarum.org.'
+      comments_label: '{count, plural, one {# комментарий} other {# комментариев}}'
+      description: 'Последние новости и анонсы от команды Flarum.'
+      empty: 'Анонсы не найдены.'
+      hide: 'Скрыть анонсы'
+      load_error: 'Не удалось загрузить анонсы. Попробуйте позже.'
+      read_more: 'Прочитать больше'
+      refresh: Обновить
+      retry: 'Попробовать снова'
+      show: 'Показать анонсы'
+      title: Анонсы
+      view_all: 'Все анонсы на discuss.flarum.org'
     appearance:
       allow_user_color_scheme_label: 'Разрешить пользователям выбирать цветовую схему'
       color_scheme_label: 'Цветовая схема по умолчанию'
@@ -104,11 +124,17 @@ core:
       enter_hex_message: 'Пожалуйста, введите код цвета в формате HEX.'
       favicon_heading: Фавикон
       favicon_text: 'Загрузите изображение, которое будет отображаться в качестве значка форума.'
+      logo_dark_mode_heading: 'Логотип для тёмной темы'
+      logo_dark_mode_text: 'Загрузите альтернативный логотип для тёмной темы.'
       logo_heading: Логотип
       logo_text: 'Загрузите изображение, которое будет отображаться вместо названия форума.'
       title: Оформление
     basics:
       all_discussions_label: '=> core.ref.all_discussions'
+      avatar_driver_heading: 'Аватар пользователя'
+      avatar_driver_options:
+        default: 'По умолчанию'
+      avatar_driver_text: 'Выберите источник аватаров, который будет использоваться, если пользователь не загрузил свой аватар. По умолчанию аватар не отображается, если пользователь его не загрузил.'
       default_language_heading: 'Язык по умолчанию'
       description: 'Настройка названия форума, локализации и других основных параметров.'
       display_name_driver_options:
@@ -129,6 +155,7 @@ core:
         users:
           default: 'Имя пользователя'
           id: ID
+          id_with_display_name: 'ID и отображаемое имя'
       slug_driver_text: 'Выберите драйвер, который будет использоваться при создании семантических путей (URL) для этой модели.'
       title: Основные
       welcome_banner_heading: 'Баннер приветствия'
@@ -213,9 +240,15 @@ core:
       mail_mailgun_secret_label: 'Секретный ключ'
       mail_password_label: '=> core.ref.password'
       mail_port_label: Порт
+      mail_postmark_message_stream_label: 'Лента сообщений'
+      mail_postmark_token_label: 'Токен сервера'
+      mail_smtp_verify_peer_help: 'Проверять SSL-сертификат сервера при использовании TLS/SSL. Отключайте только при самоподписанном сертификате.'
+      mail_smtp_verify_peer_label: 'Проверять SSL-сертификат'
       mail_username_label: '=> core.ref.username'
       mailgun_heading: 'Настройки Mailgun'
       not_sending_message: 'Сейчас Flarum не отправляет электронные письма. Это может быть связано с выбранным драйвером или параметрами конфигурации.'
+      postmark_description: 'Отправка писем через HTTP API Postmark. При необходимости укажите поток сообщений вместо стандартного.'
+      postmark_heading: 'Настройки Postmark'
       send_test_mail_button: Отправить
       send_test_mail_heading: 'Отправить пробное письмо'
       send_test_mail_success: 'Пробное письмо успешно отправлено!'
@@ -251,6 +284,21 @@ core:
         title: 'Документация {extName}'
       replaced: Заменено
       safe_mode_warning: 'Включён безопасный режим. Расширения не запускаются — их настройки недоступны.'
+    extensions-health-widget:
+      abandoned_no_replacement: 'Нет доступной замены'
+      abandoned_with_replacement: 'Заменено на {replacement}'
+      all_healthy: 'Все расширения исправны.'
+      section_abandoned_empty: 'Проблем не обнаружено.'
+      section_abandoned_heading: 'Требует внимания'
+      section_abandoned_help: 'Эти расширения больше не поддерживаются или могут иметь проблемы с совместимостью. Рекомендуется обновить, заменить или удалить их.'
+      section_disabled_empty: 'Все расширения включены.'
+      section_disabled_heading: Отключено
+      section_disabled_help: 'Эти расширения установлены, но сейчас отключены. Включите их в настройках или удалите, если они больше не нужны.'
+      section_suggested_empty: 'Рекомендаций нет.'
+      section_suggested_heading: Рекомендуется
+      section_suggested_help: 'Расширения Flarum могут использовать другие расширения или пакеты, чтобы добавить новые функции или интеграции.'
+      suggested_by: 'Рекомендуется расширением {extension}'
+      title: 'Состояние расширений'
     header:
       get_help: Помощь
       log_out_button: '=> core.ref.log_out'
@@ -270,11 +318,13 @@ core:
       basics_button: '=> core.admin.basics.title'
       basics_title: '=> core.admin.basics.description'
       categories:
+        analytics: Аналитика
         authentication: Аутентификация
         core: 'Настройки форума'
         discussion: Общение
         feature: Возможности
         formatting: Форматирование
+        infrastructure: Инфраструктура
         language: Языки
         moderation: Модерация
         other: 'Другие расширения'
@@ -597,6 +647,9 @@ core:
         dark_mode_label: '=> core.ref.dark_mode_label'
         light_hc_mode_label: '=> core.ref.light_hc_mode_label'
         light_mode_label: '=> core.ref.light_mode_label'
+      device_heading: Устройство
+      haptic_feedback_help: 'Доступно только на поддерживаемых мобильных устройствах'
+      haptic_feedback_label: 'Включить вибрацию'
       notification_checkbox_a11y_label_template: 'Получать "{description}" уведомления через {method}'
       notifications_heading: '=> core.ref.notifications'
       notify_by_email_heading: '=> core.ref.email'
@@ -773,7 +826,7 @@ core:
       two_text: '{first} и {second}'
     user_selection_modal:
       empty_results: 'Пользователи не найдены.'
-      max_items_to_select: '{count, plural, one {Выберите не более # пользователя} few {Выберите не более # пользователей} many {Выберите не более # пользователей} other {Выберите не более # пользователей}}'
+      max_items_to_select: '{count, plural, one {Выберите не более # пользователя} other {Выберите не более # пользователей}}'
       search_placeholder: '=> core.ref.search_users'
       submit_button: '=> core.ref.okay'
       title: 'Выберите пользователей'
@@ -802,7 +855,7 @@ core:
     extensions: Расширения
     generic_confirmation_message: 'Вы уверены, что хотите продолжить? Это действие невозможно отменить.'
     icon: Иконка
-    icon_text: 'Введите название любого класса иконки <a>Font Awesome</a>, <em>включая</em> префикс <code>fas fa-</code>.'
+    icon_text: 'Введите название любого класса иконки <a>Font Awesome</a>, <em>включая</em> префикс. Например, <code>fas fa-flag</code> или <code>fa-solid fa-flag</code>.'
     invalid_login_message: 'Указаны неверные данные для входа.'
     light_hc_mode_label: 'Контрастная светлая'
     light_mode_label: Светлая

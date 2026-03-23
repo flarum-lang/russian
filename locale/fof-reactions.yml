@@ -7,7 +7,7 @@ fof-reactions:
     page:
       cdn:
         default-url: 'По умолчанию: {url}'
-        help: "По умолчанию, используется CDN сервис CloudFlare. У Вас есть возможность использовать любой другой сервис CDN.\n<code>[codepoint]</code> будет заменён кодом EMOJI.\n\nНапример, чтобы переключиться на Noto Emoji через jsdelivr, введите <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>. Это поле НИКОГДА не должно оставаться пустым.\n"
+        help: "По умолчанию ресурсы реакций загружаются через CDN Cloudflare. Вы также можете указать любой другой адрес CDN при необходимости. <code>[codepoint]</code> будет заменён кодом эмодзи.\n\nНапример, чтобы использовать Noto Emoji через jsDelivr, введите <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>.\n\nВаш CDN должен поддерживать Emoji/Unicode {emoji|base} или новее. Используйте [twemoji] для подстановки версии Twemoji.\n"
         label: URL
         title: CDN
       convert:
@@ -17,12 +17,22 @@ fof-reactions:
         help: 'Если Вы обновили расширение, то Ваши реакции следует конвертировать. Если Вы установили расширение впервые, проигнорируйте это предупреждение.'
       reactions:
         Helptext: 'Введите имя (идентификатор) значка EMOJI или иконки Font Awesome и выберете необходимый тип.'
+        add_reaction_button: 'Добавить реакцию'
+        add_reaction_label: 'Добавить новую реакцию'
         delete_confirmation: 'Вы уверены, что хотите удалить эту реакцию? Это действие нельзя отменить.'
+        delete_reaction_button: 'Удалить реакцию'
+        header:
+          action: Действие
+          display: 'Отображаемый текст'
+          enabled: Активно
+          identifier: 'Идентификатор иконки/эмодзи'
+          preview: Превью
+          type: Тип
         help:
           display: Отображение
           identifier: Идентификатор
         reactions: 'Текущие реакции'
-        title: 'Пользовательские реакции'
+        title: Реакции
       settings:
         allow-anonymous: 'Разрешить анонимные (гостевые) реакции'
         allow-anonymous-help: 'Гости и анонимные пользователи могут реагировать на сообщения. Обратите внимание, что анонимные реакции не привязаны к конкретному профилю пользователя и будут объединены в списке реакций.'
@@ -51,11 +61,18 @@ fof-reactions:
     mod_item: 'Смотреть реакции'
     modal:
       anonymous_count: '{count, plural, one {# анонимный пользователь} other {# анонимных пользователей}}'
+      load_more: 'Загрузить ещё'
       no_reactions: 'Пока нет реакций'
+      others_count: '+ {count, plural, one {# другой} other {# других}}'
+      remove_all_reaction_type: 'Удалить все реакции {reaction}'
+      remove_user_reaction: 'Удалить реакцию'
       title: Реакции
     notification: '{username} поставил(а) {reaction} Вашему сообщению'
     react_button_label: Реакция
+    reacted_with_label: '{count, plural, one {{reaction} (# реакция)} other {{reaction} (# реакций)}}'
     reacting-own-post: 'Вы не можете реагировать на собственное сообщение'
+    reaction_button_label: 'Поставить реакцию {reaction}'
     settings:
       notify_post_reacted_label: 'Реакция на одно из моих сообщений'
+    unreact_button_label: 'Удалить реакцию'
     warning: 'Ваша реакция была конвертирована'

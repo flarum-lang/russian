@@ -7,6 +7,7 @@ flarum-realtime:
     permission:
       view-who-types: 'Видеть печатающих'
     settings:
+      notification-toast-dismiss-after: 'Длительность уведомления'
       release-discussion-updates: 'Обновления списка дискуссий'
       release-discussion-updates-help: 'Если включено, новые дискуссии будут автоматически добавляться в <code>DiscussionList</code> через указанный ниже интервал.'
       release-discussion-updates-interval: 'Интервал автоматического обновления дискуссий'
