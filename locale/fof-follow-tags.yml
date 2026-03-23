@@ -14,6 +14,25 @@ fof-follow-tags:
       following_none_label: '=> fof-follow-tags.ref.filtering_options.none'
       following_page_default_label: 'Фильтр страницы подписок по умолчанию'
       following_tags_label: '=> fof-follow-tags.ref.filtering_options.tags'
+  email:
+    newDiscussionInTag:
+      html:
+        body: "{actor_display_name} начал(а) дискуссию в теге, на который вы подписаны: [{discussion_title}]({discussion_url})\n"
+      plain:
+        body: "Пользователь {actor_display_name} начал дискуссию в теге, на который вы подписаны: {discussion_title}\n\nЧтобы просмотреть её, перейдите по ссылке:\n{discussion_url}\n\n---\n\n{content}\n"
+      subject: '[Тег | Новая дискуссия] {title}'
+    newDiscussionTag:
+      html:
+        body: "{actor_display_name} изменил(а) тег в дискуссии пользователя {author_display_name} на тег, на который вы подписаны: [{discussion_title}]({discussion_url})\n"
+      plain:
+        body: "Пользователь {actor_display_name} изменил тег в дискуссии пользователя {author_display_name} на тег, на который вы подписаны: {discussion_title}\n\nЧтобы просмотреть дискуссию, перейдите по ссылке:\n{discussion_url}\n\n---\n\n{content}\n"
+      subject: '[Тег | Изменён тег] {title}'
+    newPostInTag:
+      html:
+        body: "{actor_display_name} оставил(а) сообщение в дискуссии по тегу, на который вы подписаны: [{discussion_title}]({post_url})\n"
+      plain:
+        body: "Пользователь {actor_display_name} оставил сообщение в дискуссии по тегу, на который вы подписаны: {discussion_title}\n\nЧтобы увидеть новую активность, перейдите по ссылке:\n{post_url}\n\n---\n\n{content}\n"
+      subject: '[Тег | Новое сообщение] {title}'
   forum:
     badge:
       following_tag_tooltip: Подписка

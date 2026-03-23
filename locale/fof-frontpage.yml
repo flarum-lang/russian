@@ -4,5 +4,18 @@
 
 core:
   forum:
+    badge:
+      frontpage_tooltip: 'Отмечено как главная страница'
     index_sort:
       front_button: 'Главная страница'
+    post_controls:
+      pull_from_front_button: 'Убрать с главной страницы'
+      push_to_front_button: 'Вывести на главную страницу'
+fof-frontpage:
+  admin:
+    permissions:
+      can_push_to_frontpage_label: 'Может выводить на главную страницу'
+  lib:
+    gambits:
+      frontpage:
+        key: главная

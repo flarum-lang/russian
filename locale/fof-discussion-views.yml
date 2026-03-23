@@ -2,6 +2,11 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-discussion-views/ru/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+core:
+  forum:
+    index_sort:
+      least_viewed_button: 'Наименее просматриваемые'
+      most_viewed_button: 'Самые просматриваемые'
 fof-discussion-views:
   admin:
     permissions:
@@ -12,6 +17,11 @@ fof-discussion-views:
     discussion_controls:
       resetviews_button: 'Установить счетчик просмотров'
     modal_resetviews:
+      invalid: 'Введите допустимое число ≥ 0'
       label: 'Установить на счетчик просмотров'
       submit: Отправить
       title: 'Сбросить счетчик просмотров дискуссии'
+  lib:
+    gambits:
+      popular:
+        key: популярная
