@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+1.59.35 (2026-03-23)
+--------------------
+
+**Общие изменения**:
+
+* Обновленные переводы ядра Flarum.
+
+
+**Обновленные переводы расширений**:
+
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
+
+
+Все изменения: [1.59.34...1.59.35](https://github.com/flarum-lang/russian/compare/1.59.34...1.59.35).
+
+
 1.59.34 (2026-03-23)
 --------------------
 
