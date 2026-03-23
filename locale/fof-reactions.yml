@@ -24,9 +24,9 @@ fof-reactions:
         header:
           action: Действие
           display: 'Отображаемый текст'
-          enabled: Активно
+          enabled: Статус
           identifier: 'Идентификатор иконки/эмодзи'
-          preview: Превью
+          preview: Предпросмотр
           type: Тип
         help:
           display: Отображение
