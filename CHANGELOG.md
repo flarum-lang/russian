@@ -2,6 +2,26 @@ CHANGELOG
 =========
 
 
+1.59.34 (2026-03-23)
+--------------------
+
+**Общие изменения**:
+
+* Обновленные переводы ядра Flarum.
+
+
+**Обновленные переводы расширений**:
+
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/default-group`](https://github.com/FriendsOfFlarum/default-group)
+* [`forumaker/magicslider`](https://github.com/forumaker/magicslider)
+
+
+Все изменения: [1.59.33...1.59.34](https://github.com/flarum-lang/russian/compare/1.59.33...1.59.34).
+
+
 1.59.33 (2026-03-22)
 --------------------
 
