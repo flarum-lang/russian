@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.59.36 (2026-03-24)
+--------------------
+
+**Общие изменения**:
+
+* Обновленные переводы ядра Flarum.
+
+
+**Обновленные переводы расширений**:
+
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text)
+
+
+Все изменения: [1.59.35...1.59.36](https://github.com/flarum-lang/russian/compare/1.59.35...1.59.36).
+
+
 1.59.35 (2026-03-23)
 --------------------
 
