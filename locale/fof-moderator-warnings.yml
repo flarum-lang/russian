@@ -10,15 +10,15 @@ fof-moderator-warnings:
       view_warnings: 'Смотреть предупреждения от модератора'
   emails:
     post_warned:
-      body: "Здравствуйте, {warnee_display_name}!\n\n{warner_display_name} предупредил Вас на {strikes, plural, one {# балл} other {# баллов}} в {discussion_title}\n\nПричина:\n\n---\n\n{public_comment}\n"
+      body: "Здравствуйте, {warnee_display_name}!\n\n{warner_display_name} предупредил вас на {strikes, plural, one {# балл} other {# баллов}} в {discussion_title}\n\nПричина:\n\n---\n\n{public_comment}\n"
       subject: '{warner_display_name} предупредил Вас на {strikes, plural, one {# балл} other {# баллов}} в {discussion_title}'
     user_warned:
-      body: "Здравствуйте, {warnee_display_name}!\n\n{warner_display_name} предупредил Вас на {strikes, plural, one {# балл} other {# баллов}}\n\nПричина:\n\n---\n\n{public_comment}\n"
-      subject: '{warner_display_name} предупредил Вас на {strikes, plural, one {# балл} other {# баллов}}'
+      body: "Здравствуйте, {warnee_display_name}!\n\n{warner_display_name} предупредил вас на {strikes, plural, one {# балл} other {# баллов}}\n\nПричина:\n\n---\n\n{public_comment}\n"
+      subject: '{warner_display_name} предупредил вас на {strikes, plural, one {# балл} other {# баллов}}'
   forum:
     notifications:
-      warning_no_strikes_text: '{mod_username} Вас предупредил (нет баллов)'
-      warning_text: '{strikes, plural, one {{mod_username} Вас предупредил на # балл} other {{mod_username} Вас предупредил на # баллов}}'
+      warning_no_strikes_text: '{mod_username} вас предупредил (нет баллов)'
+      warning_text: '{strikes, plural, one {{mod_username} вас предупредил на # балл} other {{mod_username} вас предупредил на # баллов}}'
     post:
       warning: '{strikes, plural, one {Получено предупреждение на # балл от {mod_username}} other {Получено предупреждение на # баллов от {mod_username}}}'
       warning_no_strikes: 'Получено предупреждение на 0 баллов от {mod_username}'

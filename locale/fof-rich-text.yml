@@ -15,7 +15,10 @@ fof-rich-text:
   lib:
     composer:
       additional_items_tooltip: 'Дополнительные инструменты'
+      bold_tooltip: 'Жирный текст ({modifierKey}-b)'
       code_block_tooltip: 'Вставить блок кода'
+      code_tooltip: 'Код ({modifierKey}-`)'
+      header_tooltip: 'Сделать заголовком {level} ({modifierKey}-Shift-{level})'
       horizontal_rule_tooltip: 'Вставить горизонтальную линию'
       image_tooltip: 'Вставить изображение'
       insert_button: Вставить
@@ -27,7 +30,16 @@ fof-rich-text:
         remove_button: Удалить
         text_placeholder: Текст
         title_placeholder: 'Подсказка при наведении'
+      italic_tooltip: 'Курсив ({modifierKey}-i)'
       link_tooltip: 'Вставить ссылку'
+      ordered_list_tooltip: 'Нумерованный список ({modifierKey}-shift-9)'
+      paragraph_tooltip: 'Сделать абзацем ({modifierKey}-shift-0)'
+      quote_tooltip: 'Цитата ({modifierKey}-q)'
       spoiler_block_tooltip: 'Раскрывающийся спойлер'
+      spoiler_inline_tooltip: 'Спойлер ({modifierKey}-;)'
+      strike_tooltip: 'Зачёркнутый текст (alt-shift-5)'
+      sub_tooltip: 'Подстрочный текст ({modifierKey}-,)'
+      sup_tooltip: 'Верхний индекс ({modifierKey}-.)'
       text_type_tooltip: 'Выбрать тип текста'
       toggle_button: 'Переключить режим форматирования'
+      unordered_list_tooltip: 'Маркированный список ({modifierKey}-shift-8)'
