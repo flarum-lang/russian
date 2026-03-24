@@ -26,6 +26,8 @@ fof-moderator-warnings:
       warning_button: Предупредить
     settings:
       warning_notification_label: 'Предупреждение от модератора'
+    user:
+      warnings: Предупреждения
     validation:
       invalid_strike_count: 'Количество баллов должно представлять собой целое число от 0 до 5.'
       public_comment_required: 'Вы должны дать публичный комментарий.'
@@ -40,6 +42,8 @@ fof-moderator-warnings:
       warnings_no_strikes: 'Предупреждения: Баллы отсутствуют'
     warning_list_item:
       linked_post: 'Связанное сообщение'
+      list_item_heading: '{strikes, plural, one {# предупреждение, {time}} other {# предупреждений, {time}}}'
+      list_item_heading_hidden: '{strikes, plural, one {# предупреждение, {time} (удалено)} other {# предупреждений, {time} (удалено)}}'
       private_comment: 'Приватный комментарий'
       public_comment: Предупреждение
     warning_modal:

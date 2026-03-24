@@ -60,7 +60,12 @@ fof-oauth:
       update_email_from_provider_label: 'Обновлять адрес email от провайдера'
     settings_accessibility_label: 'Настройки {name}'
   forum:
+    account_linked:
+      body: 'Ваш аккаунт {forum} <strong>{username}</strong> связан с {provider}. Теперь вы можете входить с помощью пароля или через {provider}.'
+      dismiss_button: Отлично
+      title: 'Аккаунт связан'
     error:
+      already_linked: 'Этот аккаунт уже используется другим пользователем.'
       bad_verification_code: 'Некорректный или истёкший токен верификации. Пожалуйста, попробуйте ещё раз.'
       invalid_state: 'Некорректное состояние. Пожалуйста, попробуйте ещё раз.'
     log_in:
@@ -95,6 +100,10 @@ fof-oauth:
           orphaned-account: 'Ранее Вы входили через этого провайдера, но форум отключил вход с помощью этого метода.'
           unlink-confirm: 'Вы уверены, что хотите отключить соединение с {provider}? Вы больше не сможете войти на форум, если в будущем не выполните повторную аутентификацию.'
   lib:
+    gambits:
+      sso:
+        hint: 'провайдер входа'
+        key: sso
     providers:
       discord: Discord
       facebook: Facebook

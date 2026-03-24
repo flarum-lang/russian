@@ -57,4 +57,5 @@ fof-horizon:
         good: Хорошо
         poor: Плохо
         tooltip: 'Оценка работоспособности системы: {score}/100'
+      last_refresh: 'Последнее обновление: {time}'
       refresh: Обновить
