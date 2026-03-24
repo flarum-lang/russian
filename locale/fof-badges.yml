@@ -252,10 +252,10 @@ fof-badges:
       badges: Значки
     new_tag: НОВЫЙ
     no_badges: 'Пока нет доступных значков.'
-    no_users_earned: 'Пока ни у кого нет этого значка. Самое время получить его!'
+    no_users_earned: 'Этого значка пока ни у кого нет. Самое время получить его!'
     notification:
       a_badge: значок
-      badge_earned: 'Вы получили значок «{badge}»'
+      badge_earned: 'Вы получили значок {badge}'
     other_badges: 'Другие значки'
     owned_badge: 'У вас есть этот значок'
     toggle_category_dropdown: 'Фильтр категорий'
@@ -301,7 +301,7 @@ fof-badges:
       revoke_error: 'Не удалось отозвать значок.'
       select_badge: 'Выберите значок…'
       select_badge_label: 'Выбрать значок'
-      set_favorite: 'Добавить в избранное'
+      set_favorite: 'Сделать избранным'
       show_badge: 'Показывать в профиле'
       view_all_badges: 'Посмотреть все значки'
   lib:
