@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.59.38 (2026-03-25)
+--------------------
+
+**Обновленные переводы расширений**:
+
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+* [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest)
+
+
+Все изменения: [1.59.37...1.59.38](https://github.com/flarum-lang/russian/compare/1.59.37...1.59.38).
+
+
 1.59.37 (2026-03-25)
 --------------------
 
