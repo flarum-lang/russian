@@ -6,10 +6,13 @@ fof-share-social:
   admin:
     settings:
       canonical-urls: 'Использовать канонические URL'
+      default-option: 'Способ поделиться по умолчанию'
+      default-option-help: "При выборе варианта по умолчанию модальное окно заменяется кнопкой с выпадающим списком.\nЕсли выбрано «Поделиться через меню устройства», оно будет показано только при поддержке браузером, иначе отобразится исходное модальное окно.\n"
       plain-copy: 'Показать простую копию URL'
   forum:
     discussion:
       share_button: Поделиться
+      share_dropdown_accessible_label: 'Переключить меню «Поделиться» для дискуссии'
     modal:
       copy_button: Копировать
       title: Поделиться
@@ -18,12 +21,12 @@ fof-share-social:
       facebook: Facebook
       linkedin: LinkedIn
       my_mail: 'Мой мир'
-      native: 'Поделиться оригиналом'
+      native: 'Поделиться через меню устройства'
       odnoklassniki: Одноклассники
       qq: QQ
       qzone: QZone
       reddit: Reddit
       telegram: Telegram
-      twitter: Twitter
+      twitter: 'X — бывший Twitter'
       vkontakte: ВКонтакте
       whatsapp: WhatsApp

@@ -56,6 +56,7 @@ huseyinfiliz-awards:
       image: Изображение
       image_url: 'URL изображения'
       image_url_help: 'URL изображения номинанта. К примеру, обложка игры или фото человека'
+      load_more: 'Загрузить ещё'
       name: 'Имя номинанта'
       real_votes: 'Фактические голоса'
       reset: Сбросить

@@ -7,12 +7,12 @@ huseyinfiliz-stickiest:
     permissions:
       stickiest_label: 'Закреплять дискуссии приоритетно'
       super_sticky_discussions_label: 'Закреплять дискуссии приоритетно'
-      tag_sticky_discussions_label: 'Закреплять дискуссии по тегу'
+      tag_sticky_discussions_label: 'Закреплять дискуссии в теге'
       tag_sticky_label: 'Закреплять дискуссии по тегу'
     settings:
       badge_icon_label: 'Иконка приоритетного закрепления'
       badge_icon_text: '=> core.ref.icon_text'
-      display_tag_sticky_label: 'Показывать закреплённые по тегу дискуссии на странице всех дискуссий'
+      display_tag_sticky_label: 'Показывать закреплённые в теге дискуссии на странице всех дискуссий'
       display_tag_sticky_text: 'Они будут отображаться как обычные дискуссии без закрепления вверху списка.'
       show_tag_sticky_help: 'Если отключено, закреплённые по тегу дискуссии будут отображаться только при просмотре соответствующего тега.'
       show_tag_sticky_label: 'Показывать закреплённые по тегу дискуссии на странице всех дискуссий'
@@ -41,7 +41,7 @@ huseyinfiliz-stickiest:
       super_sticky_label: '=> huseyinfiliz-stickiest.ref.super_sticky'
       super_sticky_text: 'Приоритетные дискуссии всегда будут выше всех остальных.'
       tag_sticky_label: '=> huseyinfiliz-stickiest.ref.tag_sticky'
-      tag_sticky_text: 'По умолчанию закреплённые по тегу дискуссии скрыты на странице всех дискуссий. Они будут отображаться и закрепляться только при просмотре конкретного тега, выбранного здесь. Эту настройку можно комбинировать с приоритетным закреплением.'
+      tag_sticky_text: 'По умолчанию закреплённые в теге дискуссии скрыты на странице всех дискуссий. Они будут отображаться и закрепляться только при просмотре конкретного тега, выбранного здесь. Эту настройку можно комбинировать с приоритетным закреплением.'
       tags_label: '=> flarum-tags.ref.tags'
       title: 'Закрепление {title}'
     sticky_modal:
@@ -56,6 +56,6 @@ huseyinfiliz-stickiest:
       title: 'Закрепление: {title}'
   ref:
     sticky: '=> flarum-sticky.ref.sticky'
-    super_sticky: 'Приоритетное закрепление'
-    super_tag_sticky: 'Приоритетное закрепление по тегу'
-    tag_sticky: 'Закрепление по тегу'
+    super_sticky: 'Приоритетно закреплено'
+    super_tag_sticky: 'Приоритетно закреплено в теге'
+    tag_sticky: 'Закреплено в теге'
