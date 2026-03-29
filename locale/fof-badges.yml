@@ -46,9 +46,9 @@ fof-badges:
     delete_category_confirm_with_badges: 'Удалить категорию «{name}»? {count, plural, one {# значок} few {# значка} many {# значков} other {# значка}} останется без категории.'
     disabled: ВЫКЛ
     earned_count: 'Получено: {count}'
-    edit: Редактировать
-    edit_badge: 'Редактировать значок'
-    edit_category: 'Редактировать категорию'
+    edit: Править
+    edit_badge: 'Править значок'
+    edit_category: 'Править категорию'
     enabled: ВКЛ
     granted_by_system: Система
     headers:
