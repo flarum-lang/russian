@@ -14,6 +14,7 @@ huseyinfiliz-stickiest:
       badge_icon_text: '=> core.ref.icon_text'
       display_tag_sticky_label: 'Показывать закреплённые в теге дискуссии на странице всех дискуссий'
       display_tag_sticky_text: 'Они будут отображаться как обычные дискуссии без закрепления вверху списка.'
+      show_sticky_highlight_label: 'Выделять закреплённые цветом'
       show_tag_sticky_help: 'Если отключено, закреплённые по тегу дискуссии будут отображаться только при просмотре соответствующего тега.'
       show_tag_sticky_label: 'Показывать закреплённые по тегу дискуссии на странице всех дискуссий'
       stickiest_icon_help: 'Класс иконки Font Awesome (например: fas fa-star)'

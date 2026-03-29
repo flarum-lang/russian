@@ -13,6 +13,7 @@ flarum-ext-welcomebox:
     discussion: '=> core.ref.discussions'
     goToProfile: Профиль
     lastSeen: 'Последнее посещение'
+    neverSeen: 'Никогда не заходил'
     notregistered: 'Вы не зарегистрированы на этом форуме.'
     npost: '=> core.ref.posts'
     tooltipDisclist: 'Мой список дискуссий'

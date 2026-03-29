@@ -40,6 +40,7 @@ ianm-twofactor:
     body:
       status_changed: "Здравствуйте, {recipient_display_name},\n\nДвухфакторная аутентификация была {type} для вашего аккаунта на {forum_url}.\n\nЕсли вы инициировали это действие, никаких дальнейших шагов не требуется. Если вы этого не делали, немедленно свяжитесь с администраторами форума.\n"
     status_type:
+      device_changed: 'Устройство изменено'
       disabled: отключен
       enabled: включено
     subject:
@@ -96,5 +97,6 @@ ianm-twofactor:
     reset_password:
       two_factor_token_label: 'Токен 2FA'
     two_factor_token:
+      oauth_session_expired: 'Сессия OAuth истекла. Попробуйте войти снова.'
       submit_button: 'Отправить токен'
       title: 'Двухфакторная аутентификация'
