@@ -7,11 +7,36 @@ datitisev-backup:
     adapter-settings-modal:
       aliyun:
         access-id:
+          description: 'ID вашего токена доступа'
           label: 'ID доступа'
+        access-key:
+          description: 'Ключ вашего токена доступа'
+          label: 'Ключ доступа'
+        bucket:
+          description: 'Бакет хранилища для использования.'
+          label: Бакет
         endpoint:
           description: 'URL конечной точки вашего хранилища.'
           label: 'Конечная точка'
+        path-prefix:
+          description: 'Необязательный префикс пути по умолчанию для файлов.'
+          label: 'Префикс пути'
       aws:
+        bucket:
+          description: 'Бакет S3 для загрузки.'
+          label: Бакет
+        credentials-key:
+          description: 'Ключ доступа AWS'
+          label: Ключ
+        credentials-secret:
+          description: 'Секретный ключ AWS'
+          label: 'Секретный ключ'
+        path-prefix:
+          description: 'Необязательный префикс пути по умолчанию для файлов.'
+          label: 'Префикс пути'
+        region:
+          description: 'Регион вашего бакета.'
+          label: Регион
         version:
           description: 'Укажите версию или оставьте пустой для использования самой последней.'
           label: Версия
@@ -19,10 +44,92 @@ datitisev-backup:
         container:
           description: 'Контейнер Azure'
           label: Контейнер
+        endpoint:
+          description: 'Строка подключения для хранилища Azure.'
+          label: 'Строка подключения'
+        path-prefix:
+          description: 'Необязательный префикс пути по умолчанию для файлов.'
+          label: 'Префикс пути'
+      dropbox:
+        help:
+          obtain-access-code-button: 'Открыть Dropbox'
+          obtain-access-code-label: 'Получить код доступа — требуется ключ приложения'
+          obtain-refresh-token-button: 'Использовать код'
+          obtain-refresh-token-label: 'Использовать код доступа для получения токена обновления — требуются ключ и секретный ключ приложения'
+          obtain-refresh-token-success: 'Токен обновления получен и обновлён выше. Сохраните изменения, чтобы запомнить его.'
+        key:
+          label: 'Ключ приложения'
+        refresh-token:
+          description: 'Используйте поля ниже, чтобы получить токен обновления, или следуйте инструкциям вручную: https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually.'
+          label: 'Токен обновления'
+        secret:
+          label: 'Секретный ключ приложения'
+      ftp:
+        host:
+          description: 'Хост для подключения по FTP, например: <em>ftp.yourdomain.local</em>.'
+          label: 'Удалённый хост'
+        passive:
+          description: 'Использовать ли пассивный режим для FTP-подключения.'
+          toggle: 'Пассивный режим'
+        password:
+          description: 'Пароль пользователя для аутентификации на FTP-сервере.'
+          label: Пароль
+        port:
+          description: 'Порт FTP — по умолчанию — 21.'
+          label: Порт
+        root:
+          description: 'Удалённый корневой путь (подкаталог) для хранения резервных копий.'
+          label: 'Корневой путь'
+        ssl:
+          description: 'Использовать ли зашифрованное SSL-подключение к серверу.'
+          toggle: SSL
+        timeout:
+          description: 'Время ожидания подключения к FTP-серверу в секундах.'
+          label: Тайм-аут
+        username:
+          description: 'Имя пользователя для аутентификации на FTP-сервере.'
+          label: 'Имя пользователя'
+      gdrive:
+        client-id:
+          description: "Следуйте инструкциям: https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md, чтобы создать проект в Google и получить ID клиента и секретный ключ клиента.\n"
+          label: 'ID клиента'
+        client-secret:
+          description: ' '
+          label: 'Секретный ключ клиента'
+        folder:
+          description: 'https://drive.google.com/drive/u/0/folders/ID'
+          label: 'ID папки'
+        help:
+          test_button: 'Проверить подключение'
+          test_success_alert: 'Подключено к Google Drive. Сохраните изменения, чтобы запомнить настройки.'
+        refresh-token:
+          description: "Следуйте инструкциям: https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md, чтобы получить токен обновления для вашего приложения Google OAuth.\n"
+          label: 'Токен обновления'
       local:
         target:
           description: 'Укажите локальный каталог для сохранения резервных копий.'
           label: 'Путь назначения'
+      name_label: 'Название расположения'
+      sftp:
+        host: '=> datitisev-backup.admin.adapter-settings-modal.ftp.host'
+        passphrase:
+          description: 'Парольная фраза для закрытого ключа, если используется.'
+          label: 'Парольная фраза'
+        password: '=> datitisev-backup.admin.adapter-settings-modal.ftp.password'
+        port:
+          description: 'Порт SFTP — по умолчанию — 22.'
+          label: Порт
+        private-key:
+          description: 'Путь (желательно абсолютный) к закрытому ключу, используемому для аутентификации SFTP-подключения.'
+          label: 'Закрытый ключ'
+        root: '=> datitisev-backup.admin.adapter-settings-modal.ftp.root'
+        timeout: '=> datitisev-backup.admin.adapter-settings-modal.ftp.timeout'
+        use-agent:
+          description: 'Использовать ли SSH-агент для аутентификации подключения, по умолчанию — нет.'
+          toggle: 'Использовать агент'
+        username: '=> datitisev-backup.admin.adapter-settings-modal.ftp.username'
+      timestamp_help: "Укажите формат временной метки в именах файлов резервных копий. По умолчанию — <code>U</code> (Unix-временная метка). Используется <a>формат даты PHP</a>. Недопустимые символы в имени файла будут заменены. Имя файла будет иметь вид <code>{forum}-[форматированная временная метка].zip</code>.\n"
+      timestamp_label: 'Формат временной метки в имени файла'
       title: 'Конфигурировать {adapter}'
     adapters:
       aliyun: 'Alibaba Cloud (Aliyun)'
@@ -33,8 +140,17 @@ datitisev-backup:
       gdrive: 'Google Drive'
       local: 'Локальное хранилище'
       sftp: SFTP
+    create_button: 'Добавить новый адаптер'
+    delete_button: Удалить
+    delete_confirmation: 'Удалить «{name}» ({adapter})?'
+    nav:
+      description: 'Создавайте резервные копии вашего форума.'
+      label: 'Резервное копирование'
     required-package-modal:
       content: "Чтобы использовать этот драйвер, вы должны установить соответствующий пакет. Это можно сделать из командной строки Composer: <code>composer require {package}</code>, находясь в установочном каталоге Flarum.\n"
       title: 'Для {adapter} необходим соответствующий пакет'
     required_package_button: Установить
+    settings:
+      database_bin_path_help: "Если исполняемые файлы базы данных, например, mysqldump, pg_dump, не находятся в системной переменной PATH, укажите здесь каталог, в котором они расположены. Не забудьте указать завершающий слеш, например, <code>/usr/local/mysql/bin/</code>.\n"
+      database_bin_path_label: 'Необязательно — путь к исполняемым файлам базы данных'
     settings_button: Конфигурировать
