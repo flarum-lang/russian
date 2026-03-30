@@ -12,7 +12,7 @@ walsgit-recycle-bin:
     bulk_post_delete_label: 'Удалить выбранные сообщения'
     bulk_post_restore_label: 'Восстановить выбранные сообщения'
     bulk_restore_label: 'Восстановить выбранные дискуссии'
-    created_at: 'Создано в'
+    created_at: Создано
     delete_discussion:
       confirmation: 'Вы уверены, что хотите <u>окончательно удалить</u> эту дискуссию (действие нельзя отменить):'
       delete_button: 'Окончательно удалить эту дискуссию'
@@ -33,7 +33,7 @@ walsgit-recycle-bin:
     empty_list: 'В корзине нет дискуссий.'
     grid:
       invalid_column_content: 'Недопустимый контент!'
-    hidden_at: 'Скрыто в'
+    hidden_at: Скрыто
     hidden_discussions: 'Скрытые дискуссии'
     mass_delete_modal:
       submit_button: 'Окончательно удалить эти дискуссии'
