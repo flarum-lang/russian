@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.59.40 (XXXX-XX-XX)
+--------------------
+
+**Обновленные переводы расширений**:
+
+* [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
+
+
+Все изменения: [1.59.39...1.59.40](https://github.com/flarum-lang/russian/compare/1.59.39...1.59.40).
+
+
 1.59.39 (2026-03-29)
 --------------------
 
