@@ -47,9 +47,9 @@ fof-moderator-warnings:
       private_comment: 'Приватный комментарий'
       public_comment: Предупреждение
     warning_modal:
-      confirmation_message: 'Предупреждение сохранено. Возможно, Вам потребуется обновить страницу, чтобы увидеть предупреждение.'
+      confirmation_message: 'Предупреждение сохранено. Возможно, вам потребуется обновить страницу, чтобы увидеть предупреждение.'
       heading: 'Предупреждение для <strong>{username}</strong>'
       private_comment_heading: 'За что <strong>{username}</strong> получает предупреждение? Это приватный комментарий, он будет виден ТОЛЬКО модераторам.'
-      public_comment_heading: 'За что <strong>{username}</strong> получает предупреждение? Это публичный комментарий, он будет видел пользователю и модераторам.'
+      public_comment_heading: 'За что <strong>{username}</strong> получает предупреждение? Это публичный комментарий, он будет виден пользователю и модераторам.'
       strikes_heading: 'Количество баллов'
       submit_button: Сохранить
