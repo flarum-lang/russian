@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.59.41 (XXXX-XX-XX)
+--------------------
+
+**Обновленные переводы расширений**:
+
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
+
+
+Все изменения: [1.59.40...1.59.41](https://github.com/flarum-lang/russian/compare/1.59.40...1.59.41).
+
+
 1.59.40 (2026-03-30)
 --------------------
 
