@@ -2,6 +2,42 @@ CHANGELOG
 =========
 
 
+1.59.42 (XXXX-XX-XX)
+--------------------
+
+**Обновленные переводы расширений**:
+
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
+* [`clarkwinkelmann/flarum-ext-passwordless`](https://github.com/clarkwinkelmann/flarum-ext-passwordless)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
+* [`glowingblue/localizd`](https://flarum.org/extension/glowingblue/localizd)
+* [`huseyinfiliz/traderfeedback`](https://github.com/huseyinfiliz/traderfeedback)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+* [`justoverclock/flarum-ext-contactme`](https://github.com/justoverclockl/flarum-ext-contactme)
+* [`neoncube/flarum-private-messages`](https://github.com/neoncube2/flarum-private-messages)
+
+
+Все изменения: [1.59.41...1.59.42](https://github.com/flarum-lang/russian/compare/1.59.41...1.59.42).
+
+
 1.59.41 (2026-04-01)
 --------------------
 
