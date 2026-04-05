@@ -15,7 +15,7 @@ flarum-mentions:
         body: '{mentioner_display_name} упомянул(а) вашу группу в дискуссии [{title}]({url}).'
       plain:
         body: "{mentioner_display_name} упомянул(а) вашу группу в дискуссии {title}.\n\n{url}\n\n---\n\n{content}\n"
-      subject: '{mentioner_display_name} упомянул(а) Вашу группу в {title}'
+      subject: '{mentioner_display_name} упомянул(а) вашу группу в {title}'
     post_mentioned:
       html:
         body: '{replier_display_name} ответил(а) на ваше сообщение (№{post_number}) в дискуссии [{title}]({url}).'
