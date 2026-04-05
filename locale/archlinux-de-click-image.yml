@@ -5,3 +5,4 @@
 archlinux-de-flarum-click-image:
   forum:
     error_message: 'Не удалось загрузить изображение с {domain}'
+    load_button: 'Загрузить изображение с {domain}'

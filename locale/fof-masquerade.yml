@@ -2,6 +2,13 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-masquerade/ru/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-gdpr:
+  lib:
+    data:
+      masqueradeanswers:
+        anonymize_description: '=> flarum-gdpr.lib.data.masqueradeanswers.delete_description'
+        delete_description: 'Удаляет все ответы на поля профиля из аккаунта пользователя'
+        export_description: 'Экспортирует ответы пользователя на поля профиля'
 fof-masquerade:
   admin:
     buttons:
@@ -10,17 +17,31 @@ fof-masquerade:
       edit-field: 'Сохранить изменения'
     fields:
       add: 'Добавить поле {field}'
+      delete-confirmation: 'Удалить поле {field}? Это действие нельзя отменить.'
       description: 'Описание поля'
       description-help: "Необязательное описание использования/необходимости этого поля.\n"
       edit: 'Редактировать поле {field}'
       force-user-to-completion: 'Требовать от пользователя заполнить профиль'
+      icon: Иконка
+      icon-help: "Отображает иконку перед значениями, введёнными пользователем. Список доступных иконок смотрите на <a>сайте Font Awesome</a>. Используйте названия с префиксом fa-, например, fas fa-info.\n"
       name: 'Название поля'
+      name-help: "Публичное непереводимое название поля\n"
+      on_bio: 'Показывать ответ на это поле в профиле пользователя'
       option-comma-warning: 'Метка опции не может содержать запятых (",").'
       option-new: 'Новая опция'
       options: Опции
+      prefix: 'Префикс поля'
+      prefix-help: "Добавляет указанный префикс перед значениями, введёнными пользователем в этом поле.\n"
       required: 'Пометить поле как необходимое'
       title: Поля
+      type: Тип
+      validation: Валидация
+      validation-help: "Проверьте поддерживаемые <a>правила валидации Laravel</a>. Например: string|min:5 или url.\n"
     general-options: 'Общие опции'
+    permissions:
+      edit-others-profile: 'Редактировать профили других пользователей'
+      have-profile: 'Имеет masquerade-профиль'
+      view-profile: 'Просматривать masquerade-профиль'
     types:
       advanced: Расширенные
       boolean: 'Поле выбора'
@@ -28,9 +49,17 @@ fof-masquerade:
       select: Выпадающее
       url: URL
   forum:
+    alerts:
+      profile-completed: 'Профиль заполнен! <a>Перейти на главную</a>'
+      profile-completion-required: "Заполните необходимые поля профиля ниже.\n"
     buttons:
+      edit-profile: 'Править профиль'
       save-profile: Сохранить
+      view-profile: 'Посмотреть профиль'
     fields:
       boolean:
         'no': Нет
         'yes': Да
+      select:
+        none-optional: 'Ничего не выбрано (по желанию)'
+        none-required: 'Выберите вариант — обязательно'
