@@ -18,7 +18,7 @@ fof-merge-discussions:
       updating_failed: 'Не удалось обновить информацию о дискуссии.'
   email:
     merged:
-      body: "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} объединил(а) Вашу дискуссию \"{merged_discussion_title}\" с \"{merged_discussion_title}\".\n\nПосмотреть:\n{discussion_url}\n"
+      body: "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} объединил(а) вашу дискуссию {merged_discussion_title} с {merged_discussion_title}.\n\nПосмотреть:\n{discussion_url}\n"
       subject: 'Ваша дискуссия "{merged_discussion_title}" была объединена'
   forum:
     discussion:
@@ -38,7 +38,7 @@ fof-merge-discussions:
       type_target_help_text: 'Выберите дискуссии для объединения в <b>{title}</b>.'
       type_target_label: 'Объединить с этой'
     notification:
-      discussion_merged: '{username} объединил(а) Вашу дискуссию <b>{oldTitle}</b> с этой.'
+      discussion_merged: '{username} объединил(а) вашу дискуссию <b>{oldTitle}</b> с этой.'
       preferences:
         discussion_merged: 'Объединение одной из моих дискуссий с другой'
     post:

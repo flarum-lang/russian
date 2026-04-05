@@ -46,7 +46,7 @@ fof-polls:
     composer_discussion:
       add_poll: '=> fof-polls.forum.moderation.add'
       edit_poll: '=> fof-polls.forum.moderation.edit'
-      no_permission_alert: 'У Вас нет разрешения на создание опроса.'
+      no_permission_alert: 'У вас нет разрешения на создание опроса.'
     days_remaining: 'Опрос завершится: {time}.'
     max_votes_allowed: 'Опрос позволяет голосовать за {max, plural, one {# вариант} other {# вариантов}}.'
     modal:
@@ -90,7 +90,7 @@ fof-polls:
       delete: 'Удалить опрос'
       delete_confirm: 'Вы уверены, что хотите удалить этот опрос?'
       edit: 'Изменить опрос'
-    no_permission: 'У Вас нет разрешения для голосования в опросе'
+    no_permission: 'У вас нет разрешения для голосования в опросе'
     page:
       nav: Опросы
       nav-all: 'Все общие опросы'

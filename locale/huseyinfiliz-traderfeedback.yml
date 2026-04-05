@@ -215,7 +215,7 @@ huseyinfiliz-traderfeedback:
     notifications:
       feedback_approved_title: 'Ваш отзыв для {username} одобрен'
       feedback_rejected_title: 'Ваш отзыв для {username} отклонён'
-      new_feedback_title: '{username} оставил вам {type} отзыв'
+      new_feedback_title: '{username} оставил(а) вам {type} отзыв'
     post_actions:
       give_feedback: 'Оставить отзыв'
       give_feedback_short: Отзыв

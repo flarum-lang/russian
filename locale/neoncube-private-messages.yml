@@ -43,7 +43,7 @@ neoncube-private-messages:
           manageEmailSettings: 'Настройки email'
           subject: 'Сообщение от {user}'
           viewMessage: 'Прочесть сообщение'
-          youHaveReceivedNewMessage: 'У Вас есть новое сообщение от {user}!'
+          youHaveReceivedNewMessage: 'У вас есть новое сообщение от {user}!'
       message_received: Тест
       new_private_message: 'Кто-то прислал сообщение'
       web:

@@ -136,7 +136,7 @@ flarum-extension-manager:
       global_update_successful: 'Все пакеты успешно обновлены.'
       last_update_checked_at: 'Последняя проверка: '
       run_global_update: 'Запустить глобальное обновление'
-      up_to_date: 'У Вас актуальные версии пакетов!'
+      up_to_date: 'У вас актуальные версии пакетов!'
       updater_help: 'Запуск проверки наличия новых расширений и обновлений Flarum.'
       updater_title: Обновления
     why_not_modal:

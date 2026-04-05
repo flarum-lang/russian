@@ -26,7 +26,7 @@ fof-drafts:
       delete_all_alert: 'Вы уверены, что хотите удалить ВСЕ черновики?'
       delete_all_button: 'Удалить всё'
       delete_button: Удалить
-      empty_text: 'У Вас нет сохранённых черновиков'
+      empty_text: 'У вас нет сохранённых черновиков'
       schedule_button: '=> fof-drafts.ref.schedule_draft'
       scheduled_icon_tooltip: 'Запланировано на: {datetime}'
       scheduled_icon_tooltip_formatter: 'L [at] LT'
