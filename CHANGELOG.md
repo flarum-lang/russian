@@ -5,8 +5,15 @@ CHANGELOG
 1.59.42 (XXXX-XX-XX)
 --------------------
 
+**Добавлена поддержка новых расширений**:
+
+* [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist)
+* [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats)
+
+
 **Обновленные переводы расширений**:
 
+* [`archlinux-de/flarum-click-image`](https://github.com/archlinux-de/flarum-click-image)
 * [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
 * [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
 * [`clarkwinkelmann/flarum-ext-passwordless`](https://github.com/clarkwinkelmann/flarum-ext-passwordless)
@@ -18,11 +25,14 @@ CHANGELOG
 * [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
 * [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
 * [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+* [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
 * [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
