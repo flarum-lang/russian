@@ -18,11 +18,11 @@ blomstra-database-queue:
     stats:
       auto_refresh: Автообновление
       data:
-        failed-jobs: 'Неудачные задачи'
-        pending-jobs: 'Задачи в ожидании'
+        failed-jobs: 'Неудавшиеся задачи'
+        pending-jobs: 'Ожидающие задачи'
         queue-name: Очередь
         status:
-          inactive: Неактивно
+          inactive: Неактивная
           label: Статус
           running: Выполняется
       heading: 'Обзор очереди'

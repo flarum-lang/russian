@@ -12,7 +12,7 @@ fof-move-posts:
       moved_first_post_content_help: "Если в дискуссии только одно сообщение, при переносе первое сообщение исходной дискуссии изменится и будет содержать ссылку на новую. Здесь можно отредактировать его содержимое.\n"
   forum:
     alerts:
-      posts_moved_to: '{count, plural, one {Сообщение перемещено в {target_discussion}.} few {Перемещено # сообщения в {target_discussion}.} many {Перемещено # сообщений в {target_discussion}.}}'
+      posts_moved_to: '{count, plural, one {Сообщение перемещено в {target_discussion}.} other {Перемещено {count} сообщений в {target_discussion}.}}'
     badge:
       first_moved_tooltip: Перенесено
     discussion:
@@ -27,7 +27,7 @@ fof-move-posts:
       discussion_help: 'Будут использованы теги исходной дискуссии, их можно изменить после создания.'
       discussion_name: '=> core.forum.composer_discussion.title_placeholder'
       new_discussion: 'Новая дискуссия'
-      selected_posts: '{count, plural, one {Выбрано 1 сообщение} other {Выбрано {count} сообщений}}'
+      selected_posts: '{count, plural, one {Выбрано 1 сообщение} few {{count} сообщения} many {{count} сообщений} other {{count} сообщения}}'
       status:
         complex_move: 'Сложный перенос: сообщения будут вставлены между существующими, из-за чего изменятся старые ссылки на сообщения целевой дискуссии.'
         old_to_new_move: '=> fof-move-posts.ref.status.old_to_new_move'
