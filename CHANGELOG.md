@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.59.43 (2026-04-06)
+--------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`resofire/digest-mail`](https://github.com/ResofireV2/digest-mail)
+
+
+Все изменения: [1.59.42...1.59.43](https://github.com/flarum-lang/russian/compare/1.59.42...1.59.43).
+
+
 1.59.42 (2026-04-05)
 --------------------
 
