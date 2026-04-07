@@ -140,7 +140,7 @@ core:
       display_name_driver_options:
         username: 'Имя пользователя'
       display_name_heading: 'Отображаемое имя'
-      display_name_text: 'Выберите драйвер, который должен использоваться для отображаемых имён пользователей. По умолчанию, используется username.'
+      display_name_text: 'Выберите драйвер, который должен использоваться для отображаемых имён пользователей. По умолчанию используется username.'
       forum_description_heading: 'Описание форума'
       forum_description_text: 'Введите краткое описание сообщества. Описание появится в одноимённом meta-теге и будет использоваться поисковыми системами.'
       forum_title_heading: 'Название форума'
@@ -339,7 +339,7 @@ core:
       userlist_button: '=> core.admin.users.title'
       userlist_title: '=> core.admin.users.description'
     permissions:
-      allow_hide_own_posts_label: 'Разрешить удалять своих сообщений'
+      allow_hide_own_posts_label: 'Разрешить удалять свои сообщения'
       allow_post_editing_label: 'Разрешить изменять сообщение'
       allow_renaming_label: 'Разрешить изменять название дискуссии'
       create_access_token_label: 'Создать токен'
@@ -380,8 +380,8 @@ core:
       allow_until_reply_button: 'До ответа'
       everyone_button: Все
       members_button: '=> core.group.members'
-      signup_closed_button: Закрыто
-      signup_open_button: Открыть
+      signup_closed_button: Закрыта
+      signup_open_button: Открыта
     search_source:
       general:
         heading: Основное
