@@ -23,11 +23,11 @@ huseyinfiliz-rewind:
       year_label: Год
     permissions:
       generate: 'Создавать свои итоги'
-      moderate: 'Управление итогами'
+      moderate: 'Управлять итогами'
       view_forum: 'Смотреть итоги'
     settings:
       active_year_label: 'Активный год'
-      community_comparison_help: 'При включении в итогах пользователя будет показано сравнение метрик со средними по сообществу. Сначала нужно создать итоги сообщества.'
+      community_comparison_help: 'Если включено, в итогах пользователя будет показано сравнение метрик со средними по сообществу. Сначала нужно создать итоги сообщества.'
       community_comparison_label: 'Включить сравнение с сообществом в итогах пользователя'
       community_slide_badge_leaderboard: 'Топ значков'
       community_slide_best_answers_leaderboard: 'Топ лучших ответов'
@@ -102,16 +102,92 @@ huseyinfiliz-rewind:
       view_slideshow: 'Посмотреть итоги'
       watch_slideshow: 'Смотреть итоги сообщества за {year}'
       watch_slideshow_desc: 'Посмотрите главные моменты года в формате историй'
+    community_slideshow:
+      avg_per_post: 'В среднем на сообщение'
+      badge_leaderboard: 'Коллекционеры значков'
+      badge_leaderboard_desc: 'Участники, получившие больше всего значков'
+      badges_awarded: 'Выдано значков'
+      best_answers: 'Лучшие ответы'
+      best_answers_leaderboard: Помощники
+      best_answers_leaderboard_desc: 'Участники с наибольшим количеством лучших ответов'
+      busiest_month: 'Самый активный месяц'
+      busiest_month_desc: 'Пик активности — {count} сообщений'
+      busiest_month_label: 'Самый активный месяц'
+      discussions: Дискуссии
+      hot_discussion: 'Самая активная дискуссия'
+      hot_discussion_desc: '{count} сообщений в этой теме'
+      intro_label: 'ИТОГИ СООБЩЕСТВА'
+      most_loved: 'Самые популярные'
+      most_loved_desc: 'Участники, получившие больше всего лайков'
+      new_members: 'Новые участники'
+      new_members_desc: 'К сообществу присоединилось {count} человек'
+      new_members_slide: 'Новые участники'
+      peak_hour_label: 'Час пик'
+      peak_hours: 'Пиковые часы'
+      peak_hours_desc: 'Больше всего сообщений написано в это время'
+      posts: Сообщения
+      reactions: Реакции
+      star_post: 'Лучшее сообщение'
+      star_post_desc: 'Самое залайканное сообщение года'
+      summary_title: 'Итоги сообщества за {year}'
+      title: 'Итоги сообщества'
+      top_contributor_label: 'Самый активный участник'
+      top_contributors: 'Самые активные участники'
+      top_contributors_desc: 'Самые активные участники этого года'
+      top_tag: 'Популярный тег'
+      top_tag_desc: 'Самый обсуждаемый тег с {count} дискуссиями'
+      top_tag_label: 'Популярный тег'
+      total_words: 'Написано слов'
+      total_words_desc: 'Всеми участниками'
+      total_words_label: 'Всего слов'
+      words: Слова
+      year_in_numbers: 'Год в цифрах'
     metrics:
       active_days:
         description: 'Проявляли активность в {count} разных днях'
         messages:
           tier_1: 'Несколько значимых визитов'
-          tier_2: Стабильность
+          tier_2: 'Стабильны, как никогда'
           tier_3: 'Чаще появлялись, чем пропадали вне форума'
           tier_4: 'Уже вписались в сообщество'
           tier_5: 'Каждую неделю, без исключений'
         title: 'Активные дни'
+      badges_earned:
+        description: 'Получено {count} значков за этот год'
+        no_data: 'В этом году значков не было'
+        title: Значки
+      best_answers:
+        description: '{count} раз ваш ответ стал решением вопроса'
+        messages:
+          tier_1: 'Помогли кому-то найти ответ'
+          tier_2: 'К вам идут за ответами'
+          tier_3: 'Эксперт форума'
+        title: 'Лучшие ответы'
+      best_friend:
+        description: '{display_name} поставил(а) вам лайк {count} раз'
+        message: 'В этом году вы были неразлучны'
+        no_data: 'Нет данных о лучшем друге'
+        stat_likes_given: 'Вы лайкали'
+        stat_likes_received: 'Лайкал(а) вас'
+        stat_mentions_from: 'Упоминал(а) вас'
+        stat_mentions_to: 'Вы упоминали'
+        title: 'Лучший друг'
+      best_friend_mentions:
+        description: 'Вы упомянули {display_name} {count} раз'
+        mentioned_you: 'Вас упомянули ×{count}'
+        no_data: 'Нет данных об упоминаниях'
+        title: Упоминания
+        you_mentioned: 'Вы упомянули ×{count}'
+      best_post:
+        description_likes: '{count} лайков в «{discussion_title}»'
+        description_replies: '{count} ответов в «{discussion_title}»'
+        no_data: 'В этом году не было выделяющегося сообщения'
+        title: 'Лучшее сообщение'
+      community_compare:
+        above: 'В {times} раза выше среднего по сообществу'
+        above_average: 'Выше среднего по сообществу'
+        average: 'На уровне среднего по сообществу'
+        below_average: 'Ниже среднего по сообществу'
       discussion_count:
         description: 'Начато {count} новых дискуссий'
         messages:
@@ -119,6 +195,27 @@ huseyinfiliz-rewind:
           tier_2: 'Вы зажигаете обсуждения тут и там'
           tier_3: 'Движущая сила сообщества'
         title: Дискуссии
+      likes_given:
+        description: 'Поставили {count} лайков на форуме'
+        messages:
+          tier_1: 'Всего пару лайков'
+          tier_2: 'Распространяете позитив'
+          tier_3: 'Главный фанат форума'
+        title: 'Поставлено лайков'
+      likes_received:
+        description: 'Получили {count} лайков в этом году'
+        messages:
+          tier_1: 'Слова, которые нашли отклик'
+          tier_2: 'Людям нравится то, что вы пишете'
+          tier_3: 'Здесь вас любят'
+        title: 'Получено лайков'
+      most_active_month:
+        description: 'Пик активности — {count} сообщений'
+        title: 'Самый активный месяц'
+      night_owl:
+        description: 'Больше всего сообщений написано в это время'
+        description_owl: 'Больше всего сообщений написано в это время'
+        title: 'Часы активности'
       post_count:
         description: 'Опубликовано {count} сообщений на форуме'
         messages:
@@ -128,8 +225,25 @@ huseyinfiliz-rewind:
           tier_4: 'Без вас форум был бы тише'
           tier_5: 'Вы вообще спите?'
         title: Сообщения
+      top_emojis:
+        description: 'Самые часто используемые эмодзи'
+        title: 'Популярные эмодзи'
       top_tag:
+        description: 'Самый активный тег с {count} сообщениями'
+        no_data: 'Нет данных по тегам'
         title: 'Популярный тег'
+      top_words:
+        description: 'Самые часто используемые слова'
+        title: 'Популярные слова'
+      word_count:
+        description: 'Написано примерно {count} слов'
+        messages:
+          tier_1: 'Коротко и по делу'
+          tier_2: 'Было что сказать'
+          tier_3: 'На целую повесть'
+          tier_4: 'Почти как роман'
+          tier_5: 'Толстой бы гордился'
+        title: Слова
     page:
       admin_notice: 'Итоги сейчас не видны обычным пользователям. Включите их в админке, чтобы показать итоги для всех.'
       empty_public: 'У этого пользователя нет публичных итогов.'
@@ -158,3 +272,17 @@ huseyinfiliz-rewind:
       tab: Итоги
       tap_to_watch: 'Нажмите, чтобы посмотреть'
       year_card: 'Итоги за {year}'
+    slideshow:
+      close: Закрыть
+      link_copied: 'Ссылка скопирована в буфер обмена!'
+      no_data: 'Недостаточно активности для формирования итогов'
+      not_available: 'Итоги недоступны'
+      share: Поделиться
+      summary_title: 'Ваш {year} в цифрах'
+      tap_to_start: 'Нажмите, чтобы начать →'
+      visibility_status_private: Приватно
+      visibility_status_public: Публично
+      visibility_tap_hide: 'Нажмите, чтобы скрыть'
+      visibility_tap_show: 'Нажмите, чтобы сделать публичным'
+    user_menu:
+      rewind_link: 'Итоги {year}'
