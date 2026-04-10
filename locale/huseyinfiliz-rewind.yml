@@ -24,7 +24,7 @@ huseyinfiliz-rewind:
     permissions:
       generate: 'Создавать свои итоги'
       moderate: 'Управлять итогами'
-      view_forum: 'Смотреть итоги'
+      view_forum: 'Смотреть страницу итогов'
     settings:
       active_year_label: 'Активный год'
       community_comparison_help: 'Если включено, в итогах пользователя будет показано сравнение метрик со средними по сообществу. Сначала нужно создать итоги сообщества.'
@@ -34,12 +34,12 @@ huseyinfiliz-rewind:
       community_slide_busiest_month: 'Самый активный месяц'
       community_slide_most_active_user: 'Самый активный пользователь'
       community_slide_most_loved: 'Самые популярные'
-      community_slide_new_members: 'Новые пользователи'
+      community_slide_new_members: 'Новые участники'
       community_slide_peak_hour: 'Пиковые часы'
       community_slide_star_post: 'Лучшее сообщение'
-      community_slide_top_contributors: 'Активные участники'
+      community_slide_top_contributors: 'Самые активные участники'
       community_slide_top_discussion: 'Популярная дискуссия'
-      community_slide_top_tag: 'Популярный тег'
+      community_slide_top_tag: 'Самый популярный тег'
       community_slide_total_words: 'Написано слов'
       community_slide_year-overview: 'Итоги в цифрах'
       delete_rewinds_button: 'Удалить итоги'
@@ -56,7 +56,7 @@ huseyinfiliz-rewind:
       section_achievements: Достижения
       section_content: Контент
       section_core: 'Основные метрики'
-      section_people: Пользователи
+      section_people: Участники
       section_social: Общение
       show_menu_link_label: 'Показывать итоги в меню пользователя'
       slide_active_days: 'Активные дни'
@@ -71,9 +71,9 @@ huseyinfiliz-rewind:
       slide_most_active_month: 'Самый активный месяц'
       slide_night_owl: 'Часы активности'
       slide_post_count: Сообщения
-      slide_top_emojis: 'Популярные эмодзи'
-      slide_top_tag: 'Популярный тег'
-      slide_top_words: 'Популярные слова'
+      slide_top_emojis: 'Самые популярные эмодзи'
+      slide_top_tag: 'Самый популярный тег'
+      slide_top_words: 'Самые популярные слова'
       slide_word_count: 'Написано слов'
       slides_community: 'Общие итоги'
       slides_help: 'Выберите, какие слайды показывать в итогах. Собираются все данные — скрытые слайды просто не отображаются.'
@@ -87,7 +87,7 @@ huseyinfiliz-rewind:
       coming_soon: 'Итоги сообщества ещё не готовы. Скоро всё будет!'
       generate_button: 'Создать итоги сообщества'
       most_active_user: 'Самый активный участник'
-      new_users: 'Новые участники'
+      new_users: 'Новых пользователей'
       no_activity: 'Недостаточно активности за этот год'
       not_generated: 'Итоги сообщества ещё не сгенерированы.'
       post_count_label: '{count} сообщений'
@@ -96,12 +96,12 @@ huseyinfiliz-rewind:
       regenerate_short: Пересоздать
       title: 'Главное в сообществе'
       top_discussion: 'Самая активная дискуссия'
-      top_tag: 'Популярный тег'
+      top_tag: 'Самый популярный тег'
       total_discussions: 'Создано дискуссий'
       total_posts: 'Всего сообщений'
       view_slideshow: 'Посмотреть итоги'
-      watch_slideshow: 'Смотреть итоги сообщества за {year}'
-      watch_slideshow_desc: 'Посмотрите главные моменты года в формате историй'
+      watch_slideshow: 'Посмотрите итоги сообщества за {year}'
+      watch_slideshow_desc: 'Собрали главные моменты года в формате историй'
     community_slideshow:
       avg_per_post: 'В среднем на сообщение'
       badge_leaderboard: 'Коллекционеры значков'
@@ -113,30 +113,30 @@ huseyinfiliz-rewind:
       busiest_month: 'Самый активный месяц'
       busiest_month_desc: 'Пик активности — {count} сообщений'
       busiest_month_label: 'Самый активный месяц'
-      discussions: Дискуссии
+      discussions: Дискуссий
       hot_discussion: 'Самая активная дискуссия'
       hot_discussion_desc: '{count} сообщений в этой теме'
       intro_label: 'ИТОГИ СООБЩЕСТВА'
       most_loved: 'Самые популярные'
       most_loved_desc: 'Участники, получившие больше всего лайков'
-      new_members: 'Новые участники'
+      new_members: 'Новых пользователей'
       new_members_desc: 'К сообществу присоединилось {count} человек'
-      new_members_slide: 'Новые участники'
+      new_members_slide: 'Новых пользователей'
       peak_hour_label: 'Час пик'
       peak_hours: 'Пиковые часы'
       peak_hours_desc: 'Больше всего сообщений написано в это время'
-      posts: Сообщения
-      reactions: Реакции
+      posts: Сообщений
+      reactions: Реакций
       star_post: 'Лучшее сообщение'
       star_post_desc: 'Самое залайканное сообщение года'
       summary_title: 'Итоги сообщества за {year}'
       title: 'Итоги сообщества'
       top_contributor_label: 'Самый активный участник'
       top_contributors: 'Самые активные участники'
-      top_contributors_desc: 'Самые активные участники этого года'
-      top_tag: 'Популярный тег'
-      top_tag_desc: 'Самый обсуждаемый тег с {count} дискуссиями'
-      top_tag_label: 'Популярный тег'
+      top_contributors_desc: 'Главные активисты года'
+      top_tag: 'Самый популярный тег'
+      top_tag_desc: 'Наиболее обсуждаемый тег с {count} дискуссиями'
+      top_tag_label: 'Самый популярный тег'
       total_words: 'Написано слов'
       total_words_desc: 'Всеми участниками'
       total_words_label: 'Всего слов'
@@ -194,7 +194,7 @@ huseyinfiliz-rewind:
           tier_1: 'Всё начинается с первого сообщения'
           tier_2: 'Вы зажигаете обсуждения тут и там'
           tier_3: 'Движущая сила сообщества'
-        title: Дискуссии
+        title: Дискуссий
       likes_given:
         description: 'Поставили {count} лайков на форуме'
         messages:
@@ -224,17 +224,17 @@ huseyinfiliz-rewind:
           tier_3: 'Люди знают ваше имя'
           tier_4: 'Без вас форум был бы тише'
           tier_5: 'Вы вообще спите?'
-        title: Сообщения
+        title: Сообщений
       top_emojis:
-        description: 'Самые часто используемые эмодзи'
-        title: 'Популярные эмодзи'
+        description: 'Наиболее часто используемые эмодзи'
+        title: 'Самые популярные эмодзи'
       top_tag:
-        description: 'Самый активный тег с {count} сообщениями'
+        description: 'Наиболее активный тег с {count} сообщений'
         no_data: 'Нет данных по тегам'
-        title: 'Популярный тег'
+        title: 'Самый популярный тег'
       top_words:
-        description: 'Самые часто используемые слова'
-        title: 'Популярные слова'
+        description: 'Наиболее часто используемые слова'
+        title: 'Самые популярные слова'
       word_count:
         description: 'Написано примерно {count} слов'
         messages:
@@ -245,7 +245,7 @@ huseyinfiliz-rewind:
           tier_5: 'Толстой бы гордился'
         title: Слова
     page:
-      admin_notice: 'Итоги сейчас не видны обычным пользователям. Включите их в админке, чтобы показать итоги для всех.'
+      admin_notice: 'Итоги сейчас не видны обычным пользователям. Включите их в админке, чтобы показать всем.'
       empty_public: 'У этого пользователя нет публичных итогов.'
       generate_button: 'Создать мои итоги'
       generating: 'Создаём ваши итоги…'
@@ -261,14 +261,14 @@ huseyinfiliz-rewind:
       controls:
         confirm_delete: 'Удалить эти итоги?'
         delete: Удалить
-        make_private: 'Сделать приватным'
-        make_public: 'Сделать публичным'
+        make_private: 'Сделать приватными'
+        make_public: 'Сделать публичными'
         regenerate: Пересоздать
       generate_for_year: 'Сформировать итоги за {year}'
       no_activity: 'Недостаточно активности'
       not_yet_available: 'Пока недоступно'
-      private_badge: Приватно
-      public_badge: Публично
+      private_badge: Приватные
+      public_badge: Публичные
       tab: Итоги
       tap_to_watch: 'Нажмите, чтобы посмотреть'
       year_card: 'Итоги за {year}'
@@ -280,8 +280,8 @@ huseyinfiliz-rewind:
       share: Поделиться
       summary_title: 'Ваш {year} в цифрах'
       tap_to_start: 'Нажмите, чтобы начать →'
-      visibility_status_private: Приватно
-      visibility_status_public: Публично
+      visibility_status_private: Приватные
+      visibility_status_public: Публичные
       visibility_tap_hide: 'Нажмите, чтобы скрыть'
       visibility_tap_show: 'Нажмите, чтобы сделать публичным'
     user_menu:
