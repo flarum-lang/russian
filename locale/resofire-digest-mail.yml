@@ -5,6 +5,8 @@
 resofire-digest-mail:
   admin:
     onboarding:
+      frequency_help: 'Частота дайджеста, на которую новые пользователи подписываются автоматически. Доступны только включённые выше варианты.'
+      frequency_label: 'Периодичность автоподписки'
       mode_auto_enroll: 'Автоматически подписывать новых пользователей'
       mode_help: 'Определяет, как новые пользователи подписываются на дайджест при активации аккаунта.'
       mode_label: 'Тип подписки'
@@ -21,7 +23,7 @@ resofire-digest-mail:
       hot_reply_weight_help: 'Насколько каждый ответ влияет на дискуссию. Чем выше значение, тем сильнее учитываются ответы.'
       hot_reply_weight_label: 'Вес ответов в рейтинге «горячего»'
       limit_badges_help: 'Максимальное количество пользователей, недавно получивших награды — по умолчанию 5, минимум 3. Требуется fof/badges.'
-      limit_badges_label: 'Награды — последние получатели'
+      limit_badges_label: 'Значки — последние получатели'
       limit_favorites_help: 'Максимальное количество избранных дискуссий для отображения, отсортированных по лайкам/реакциям за период — по умолчанию 6, минимум 3. Установите 0, чтобы отключить. Использует fof/reactions, если включено, или flarum/likes.'
       limit_favorites_label: 'Избранные дискуссии'
       limit_gamepedia_help: 'Максимальное количество игр в разделах «Самые обсуждаемые» и «Недавно добавленные» — по умолчанию 5, минимум 3. Требуется husseinfiliz/gamepedia.'
@@ -76,6 +78,80 @@ resofire-digest-mail:
       theme_label: 'Предпросмотр темы'
       theme_light: Светлая
       theme_light_only: 'Только светлая тема — установите и включите fof/nightmode, чтобы разблокировать тёмную тему писем'
+  email:
+    awards:
+      categories: Категории
+      coming_soon: Скоро
+      cta_nominees: 'Посмотреть номинантов'
+      cta_results: 'Смотреть полные результаты'
+      cta_view: 'Посмотреть награды'
+      cta_vote: Проголосовать
+      front_runners: 'Текущие лидеры'
+      tallying: 'Результаты подсчитываются. Следите за новостями!'
+      voting_closed: 'Голосование завершено'
+    badges:
+      earned_count_plural: 'Получено {count} за {period}'
+      earned_count_singular: 'Получено {count} за {period}'
+      intro: 'Участники, получившие значки за {period}.'
+      most_earned: 'Больше всего значков за {period}'
+      rarest: 'Самый редкий полученный значок'
+      rarest_count_plural: 'Только у {count} участников есть этот значок'
+      rarest_count_singular: 'Только у {count} участника есть этот значок'
+    featured:
+      author_label: 'Автор дискуссии'
+      badge: Рекомендуемое
+      cta: 'Присоединиться к обсуждению'
+    footer:
+      unsubscribe: 'Изменить периодичность или отписаться'
+    gamepedia:
+      cta: 'Перейти в Gamepedia'
+      most_discussed: 'Самые обсуждаемые за {period}'
+      newly_added: 'Недавно добавленные'
+    heading: 'Что происходило за {period}'
+    leaderboard:
+      biggest_mover: 'Самый большой рост за {period}'
+      col_member: Участник
+      col_move: Изменение
+      col_rank: '#'
+      col_score: Очки
+      new_badge: НОВЫЙ
+      rankings_note: 'Рейтинг на основе общего количества очков за сообщения, дискуссии, лайки, значки и ежедневные входы.'
+      spot_plural: позиции
+      spot_singular: позиция
+    members:
+      joined: 'На форуме {time_ago}'
+    pickem:
+      col_accuracy: Точность
+      col_player: Игрок
+      col_pts: Очки
+      col_rank: '#'
+      cta: 'Сделать прогнозы'
+      draw: Ничья
+      leaderboard_heading: 'Лидеры прогнозов'
+      results_heading: 'Последние результаты'
+      upcoming_heading: 'Предстоящие матчи'
+      upcoming_note: 'Не упустите шанс сделать прогноз.'
+    resofire_gamepedia:
+      cta: 'Перейти в Gamepedia'
+      most_discussed: 'Самые обсуждаемые за {period}'
+      newly_added: 'Недавно добавленные'
+      top_genres: 'Популярные жанры за {period}'
+    sections:
+      active_discussions: 'Активные дискуссии'
+      badges: Значки
+      favorites: 'Избранные дискуссии'
+      gamepedia: Gamepedia
+      leaderboard: 'Таблица лидеров'
+      new_discussions: 'Новые дискуссии'
+      new_members: 'Новые участники'
+      pickem: Прогнозы
+      unread: 'Это вы ещё не видели'
+    stats:
+      active_users: 'Активные пользователи'
+      discussions: Дискуссии
+      new_members: 'Новые участники'
+      posts: Сообщения
+    subject: '{forum} — ваш дайджест ({frequency})'
   forum:
     onboarding:
       modal_body: 'Получайте регулярный дайджест с лучшими дискуссиями, новыми участниками и всем, что происходит на форуме — прямо на вашу почту.'
@@ -90,3 +166,26 @@ resofire-digest-mail:
       frequency_weekly: Еженедельно
       save_error: 'Не удалось сохранить настройки. Попробуйте снова.'
       saved: Сохранено
+  unsubscribe:
+    click_hint: 'Нажмите на вариант, чтобы сохранить выбор.'
+    daily_desc: 'Одно письмо в день с последними обновлениями.'
+    daily_title: Ежедневно
+    greeting: 'Здравствуйте, {name}. Выберите, как часто вы хотите получать дайджест о происходящем на {forum}.'
+    heading: 'Настройки дайджеста'
+    monthly_desc: 'Ежемесячная сводка {day} числа.'
+    monthly_title: Ежемесячно
+    off_desc: 'Не отправлять дайджесты.'
+    off_title: Отключено
+    page_title: 'Настройки дайджеста'
+    weekly_desc: 'Еженедельная сводка по {day}.'
+    weekly_title: Еженедельно
+  unsubscribe_invalid:
+    body_expired: 'Ссылка для отписки истекла или уже была использована. Новая ссылка есть в каждом письме с дайджестом.'
+    body_signin: 'Для изменения периодичности отправки дайджеста войдите на {forum} и откройте настройки уведомлений.'
+    heading: 'Эта ссылка устарела'
+    page_title: 'Недействительная или устаревшая ссылка'
+  unsubscribe_saved:
+    body: 'Настройки дайджеста обновлены.'
+    heading: 'Настройки сохранены'
+    page_title: 'Настройки сохранены'
+    return_link: 'Вернуться на {forum}'
