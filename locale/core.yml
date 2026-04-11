@@ -85,7 +85,7 @@ core:
       title: Расширенные
     announcements:
       about: 'Последние новости и анонсы из официального сообщества Flarum на discuss.flarum.org.'
-      comments_label: '{count, plural, one {# комментарий} few {# комментария} many {# комментариев}}'
+      comments_label: '{count, plural, one {# комментарий} few {# комментария} many {# комментариев} other {# комментариев}}'
       description: 'Последние новости и анонсы от команды Flarum.'
       empty: 'Анонсы не найдены.'
       hide: 'Скрыть анонсы'
