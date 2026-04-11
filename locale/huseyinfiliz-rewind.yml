@@ -87,7 +87,7 @@ huseyinfiliz-rewind:
       coming_soon: 'Итоги сообщества ещё не готовы. Скоро всё будет!'
       generate_button: 'Создать итоги сообщества'
       most_active_user: 'Самый активный участник'
-      new_users: 'Новых пользователей'
+      new_users: 'Новых участников'
       no_activity: 'Недостаточно активности за этот год'
       not_generated: 'Итоги сообщества ещё не сгенерированы.'
       post_count_label: '{count} сообщений'
@@ -113,19 +113,19 @@ huseyinfiliz-rewind:
       busiest_month: 'Самый активный месяц'
       busiest_month_desc: 'Пик активности — {count} сообщений'
       busiest_month_label: 'Самый активный месяц'
-      discussions: Дискуссий
+      discussions: Дискуссии
       hot_discussion: 'Самая активная дискуссия'
       hot_discussion_desc: '{count} сообщений в этой теме'
       intro_label: 'ИТОГИ СООБЩЕСТВА'
       most_loved: 'Самые популярные'
       most_loved_desc: 'Участники, получившие больше всего лайков'
-      new_members: 'Новых пользователей'
+      new_members: 'Новых участников'
       new_members_desc: 'К сообществу присоединилось {count} человек'
-      new_members_slide: 'Новых пользователей'
+      new_members_slide: 'Новые участники'
       peak_hour_label: 'Час пик'
       peak_hours: 'Пиковые часы'
       peak_hours_desc: 'Больше всего сообщений написано в это время'
-      posts: Сообщений
+      posts: Сообщения
       reactions: Реакций
       star_post: 'Лучшее сообщение'
       star_post_desc: 'Самое залайканное сообщение года'
@@ -144,7 +144,7 @@ huseyinfiliz-rewind:
       year_in_numbers: 'Год в цифрах'
     metrics:
       active_days:
-        description: 'Проявляли активность в {count} разных днях'
+        description: 'Показывали активность в течение {count} дней'
         messages:
           tier_1: 'Несколько значимых визитов'
           tier_2: 'Стабильны, как никогда'
@@ -226,14 +226,14 @@ huseyinfiliz-rewind:
           tier_5: 'Вы вообще спите?'
         title: Сообщений
       top_emojis:
-        description: 'Наиболее часто используемые эмодзи'
+        description: 'Часто используемые эмодзи'
         title: 'Самые популярные эмодзи'
       top_tag:
-        description: 'Наиболее активный тег с {count} сообщений'
+        description: 'Наиболее активный тег с {count} сообщениями'
         no_data: 'Нет данных по тегам'
         title: 'Самый популярный тег'
       top_words:
-        description: 'Наиболее часто используемые слова'
+        description: 'Часто используемые слова'
         title: 'Самые популярные слова'
       word_count:
         description: 'Написано примерно {count} слов'
@@ -243,7 +243,7 @@ huseyinfiliz-rewind:
           tier_3: 'На целую повесть'
           tier_4: 'Почти как роман'
           tier_5: 'Толстой бы гордился'
-        title: Слова
+        title: Слов
     page:
       admin_notice: 'Итоги сейчас не видны обычным пользователям. Включите их в админке, чтобы показать всем.'
       empty_public: 'У этого пользователя нет публичных итогов.'
