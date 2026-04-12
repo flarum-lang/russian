@@ -9,6 +9,13 @@ blomstra-gdpr:
         anonymize_description: 'Удаляет "скучный аватар" и создает случайный новый.'
         delete_description: 'Удаляет "скучный аватар".'
         export_description: 'Добавляет "скучный аватар" в экспортируемый архив.'
+flarum-gdpr:
+  lib:
+    data:
+      boringavatar:
+        anonymize_description: 'Удаляет текущий аватар и генерирует новый случайный.'
+        delete_description: 'Удаляет скучный аватар.'
+        export_description: 'Включает аватар в архив экспорта.'
 ianm-boring-avatars:
   admin:
     settings:

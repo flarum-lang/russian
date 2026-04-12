@@ -44,6 +44,9 @@ huseyinfiliz-modern-footer:
       mobile_tab_height: 'Высота для мобильных устройств'
       mobile_tab_height_help: 'Если установлено расширение Mobile Tab, вы можете использовать значение: var(--mobile-tab-height)'
       right-text: 'Текст "О нас"'
+      show_to_everyone: 'Показывать всем'
+      show_to_guests_only: 'Показывать только гостям'
+      show_to_members_only: 'Показывать только участникам'
       social_link: Ссылка
       social_media_button: 'Кнопки социальных сетей'
       text: Текст
@@ -61,3 +64,4 @@ huseyinfiliz-modern-footer:
       title-2: 'Заголовок первых ссылок'
       title-3: 'Заголовок последних ссылок'
       title-4: 'Заголовок "О нас"'
+      visibility_mode: 'Режим отображения'
