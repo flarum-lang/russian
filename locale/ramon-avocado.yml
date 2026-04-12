@@ -18,6 +18,7 @@ ramon-avocado:
       footer_show_social: 'Показывать ссылки на соцсети'
       footer_social: 'Социальные ссылки'
       footer_social_help_json: 'Настройте ссылки на соцсети в формате JSON. Используйте ключи: facebook, twitter, linkedin, instagram, youtube.'
+    loading: Загрузка…
     settings:
       auth_image_help: 'Фоновое изображение, отображаемое в правой части окон входа, регистрации и восстановления пароля.'
       auth_image_label: 'Изображение окна авторизации'
@@ -27,11 +28,17 @@ ramon-avocado:
       custom_default_avatar_label: 'Пользовательский аватар по умолчанию'
       featured_tags_empty: 'Теги не найдены.'
       featured_tags_help: 'Выбранные категории будут выделены значком звезды на главной странице и странице категорий.'
-      featured_tags_label: 'Рекомендуемые категории'
+      featured_tags_label: 'Выделенные категории'
       fixed_avatar_effect_help: 'Закреплять аватар сообщения при чтении длинных комментариев на компьютере.'
-      fixed_avatar_effect_label: 'Включить эффект фиксированного аватара'
+      fixed_avatar_effect_label: 'Включить закрепление аватара'
+      hero_decoration_icon_help: 'Отображать иконку вторичного тега как крупный декоративный элемент справа в заголовке дискуссии.'
+      hero_decoration_icon_label: 'Показывать иконку вторичного тега в шапке дискуссии'
+      hero_decoration_icon_opacity_help: 'Задаёт прозрачность декоративной иконки в процентах. 100 — полностью непрозрачная, 0 — невидимая.'
+      hero_decoration_icon_opacity_label: 'Прозрачность иконки (0–100)'
       hero_image_position_help: 'Значение CSS background-position, например: «center top« или «50% 20%».'
       hero_image_position_label: 'Позиция баннера'
+      hide_links_for_guests_help: 'Запрещает гостям переходить по ссылкам в сообщениях. При нажатии вместо этого показывается предложение войти или зарегистрироваться.'
+      hide_links_for_guests_label: 'Скрывать ссылки для гостей'
       logo_enabled_help: 'Отображать пользовательский логотип в шапке.'
       logo_enabled_label: 'Включить пользовательский логотип'
       logo_svg_help: 'Загрузите собственный SVG-логотип для форума.'
@@ -40,7 +47,7 @@ ramon-avocado:
       search_v1_label: 'Включить стиль поиска V1'
       section_auth: 'Вход и регистрация'
       section_footer: Подвал
-      section_homepage: 'Главная страница'
+      section_homepage: Главная
       section_logo: Логотип
       section_posts: Сообщения
       section_search: Поиск
@@ -52,14 +59,26 @@ ramon-avocado:
       show_guest_cta_label: 'Показывать призыв к действию для гостей'
       show_online_users_help: 'Отображать количество пользователей в сети.'
       show_online_users_label: 'Показывать количество пользователей онлайн'
+      show_post_cta_help: 'Показывать карточку входа / регистрации после первого сообщения в дискуссии. Видна только гостям.'
+      show_post_cta_label: 'Показывать приглашение присоединиться после первого сообщения для гостей'
       show_share_help: 'Добавить кнопку «Поделиться» к каждому сообщению.'
       show_share_label: 'Показывать кнопку «Поделиться» в сообщениях'
   forum:
     actions:
       share: Поделиться
+    discussion:
+      participant_plural: участники
+      participant_singular: участник
+      post_plural: сообщения
+      post_singular: сообщение
     discussions:
       home: 'Вернуться на главную'
+      load_more: 'Загрузить ещё'
       title: 'Все дискуссии'
+    header:
+      back_home: 'Вернуться на главную'
+      or: или
+      search: Поиск
     home:
       all_categories: 'Все категории'
       all_title: 'Все дискуссии'
@@ -73,6 +92,9 @@ ramon-avocado:
       composer_post: 'Создать дискуссию'
       composer_submitting: Публикация…
       composer_title_placeholder: 'Заголовок дискуссии…'
+      discussion_plural_card: '{count} дискуссий'
+      discussion_singular: дискуссия
+      discussion_singular_card: '1 дискуссия'
       discussions: дискуссии
       filter_tags: 'Фильтр тегов'
       following_heading: Отслеживаемые
@@ -83,22 +105,61 @@ ramon-avocado:
       more: ещё
       new_discussion: 'Новая дискуссия'
       no_tags_found: 'Теги не найдены'
+      or: или
       popular_heading: 'Популярные дискуссии'
+      popular_no_discussions: 'Дискуссий пока нет.'
+      post_plural: '{count} сообщений'
+      post_singular: '1 сообщение'
       replies: Ответы
       reply_count_plural: '{count} ответов'
       reply_count_singular: '1 ответ'
       reply_label: Ответить
+      reply_plural: '{count} ответов'
+      reply_singular: '1 ответ'
       see_all: 'Показать все'
       see_other_replies: 'Показать ещё {count} ответов'
       see_other_reply_singular: 'Показать ещё {count} ответов'
+      showcase_heading: Витрина
       sign_up: Зарегистрироваться
+      sort_trending: 'В тренде'
       start_discussion: 'Расскажите, над чем вы сейчас работаете…'
       today_time: 'Сегодня, {time}'
       untitled: 'Без названия'
+      view: Просмотр
+      view_post: 'Открыть сообщение'
       yesterday_time: 'Вчера, {time}'
+    link_cta:
+      placeholder: 'Войдите, чтобы открыть ссылку'
+    post:
+      op_badge: 'Автор темы'
+    post_cta:
+      or: или
+      text: 'Понравилось обсуждение? Присоединяйтесь к дискуссии!'
+    search:
+      clear: Очистить
+      enter_search_term: 'Введите поисковый запрос, чтобы найти пользователей.'
+      hero_sub: 'Поиск по дискуссиям, сообщениям и участникам'
+      hero_title: 'Что вы ищете?'
+      no_posts_found: 'По запросу «{q}» ничего не найдено.'
+      no_posts_match: 'Нет сообщений, соответствующих этим фильтрам.'
+      no_users_found: 'По запросу «{q}» пользователи не найдены.'
+      placeholder: Поиск…
+      placeholder_hero: 'Искать на форуме…'
+      search_button: Найти
+      sort_latest: 'Сначала новые'
+      sort_newest: 'Сначала самые новые'
+      sort_oldest: 'Сначала старые'
+      sort_relevance: 'По релевантности'
+      sort_top: Топ
+      tab_discussions: Дискуссии
+      tab_posts: Сообщения
+      tab_users: Пользователи
+      title: Поиск
     tags:
+      all_discussions: 'Все дискуссии:'
       discussion_plural: дискуссии
       discussion_singular: дискуссия
       featured: Избранные
+      login_to_view: 'Войдите, чтобы открыть ссылку'
       other_tags_label: 'Другие теги'
       title: Категории
