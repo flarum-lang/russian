@@ -7,7 +7,7 @@ flarum-gdpr:
     data:
       boringavatar:
         anonymize_description: 'Удаляет текущий аватар и генерирует новый случайный.'
-        delete_description: 'Удаляет аватар.'
+        delete_description: 'Удаляет скучный аватар.'
         export_description: 'Включает аватар в архив экспорта.'
 ianm-boring-avatars:
   admin:
@@ -17,6 +17,8 @@ ianm-boring-avatars:
       color3: 'Цвет 3'
       color4: 'Цвет 4'
       color5: 'Цвет 5'
+      driver_not_active_warning: 'Скучные аватары не выбраны в качестве драйвера аватаров.'
+      driver_not_active_warning_link: 'Перейдите в «Основные» настройки, чтобы выбрать его.'
       identifier: Идентификатор
       identifier_display_name: 'Показывать имя'
       identifier_email: Эл.почта

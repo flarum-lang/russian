@@ -14,7 +14,7 @@ ianm-log-viewer:
     viewer:
       available_logs_heading: 'Доступные файлы'
       confirm_delete: 'Удалить этот файл логов? Это действие отменить не получится.'
-      delete_log: 'Удалить лог-файл'
+      delete_log: 'Удалить файл логов'
       download_log: 'Скачать файл логов'
       file_contents_heading: 'Содержимое файла'
       file_size: 'Размер (байт): {size}'

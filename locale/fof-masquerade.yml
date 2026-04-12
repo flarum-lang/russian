@@ -17,6 +17,7 @@ fof-masquerade:
       edit-field: 'Сохранить изменения'
     fields:
       add: 'Добавить поле {field}'
+      create: 'Создать поле'
       delete-confirmation: 'Удалить поле {field}? Это действие нельзя отменить.'
       description: 'Описание поля'
       description-help: "Необязательное описание использования/необходимости этого поля.\n"
@@ -61,3 +62,7 @@ fof-masquerade:
       select:
         none-optional: 'Ничего не выбрано (по желанию)'
         none-required: 'Выберите вариант — обязательно'
+  lib:
+    gambits:
+      answer:
+        key: ответ
