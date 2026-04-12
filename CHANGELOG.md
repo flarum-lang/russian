@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+1.59.46 (2026-04-12)
+--------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`blomstra/usercard-stats`](https://github.com/blomstra/flarum-ext-usercard-stats)
+
+
+**Обновленные переводы расширений**:
+
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
+* [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars)
+* [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
+
+
+Все изменения: [1.59.45...1.59.46](https://github.com/flarum-lang/russian/compare/1.59.45...1.59.46).
+
+
 1.59.45 (2026-04-11)
 --------------------
 
