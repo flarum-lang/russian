@@ -113,9 +113,9 @@ huseyinfiliz-rewind:
       busiest_month: 'Самый активный месяц'
       busiest_month_desc: 'Пик активности — {count} сообщений'
       busiest_month_label: 'Самый активный месяц'
-      discussions: Дискуссии
+      discussions: Дискуссий
       hot_discussion: 'Самая активная дискуссия'
-      hot_discussion_desc: '{count} сообщений в этой теме'
+      hot_discussion_desc: 'Целых {count} сообщений в этой теме'
       intro_label: 'ИТОГИ СООБЩЕСТВА'
       most_loved: 'Самые популярные'
       most_loved_desc: 'Участники, получившие больше всего лайков'
@@ -125,7 +125,7 @@ huseyinfiliz-rewind:
       peak_hour_label: 'Час пик'
       peak_hours: 'Пиковые часы'
       peak_hours_desc: 'Больше всего сообщений написано в это время'
-      posts: Сообщения
+      posts: Сообщений
       reactions: Реакций
       star_post: 'Лучшее сообщение'
       star_post_desc: 'Самое залайканное сообщение года'
@@ -138,20 +138,20 @@ huseyinfiliz-rewind:
       top_tag_desc: 'Наиболее обсуждаемый тег с {count} дискуссиями'
       top_tag_label: 'Самый популярный тег'
       total_words: 'Написано слов'
-      total_words_desc: 'Всеми участниками'
+      total_words_desc: 'Посчитали каждого участника'
       total_words_label: 'Всего слов'
       words: Слова
       year_in_numbers: 'Год в цифрах'
     metrics:
       active_days:
-        description: 'Показывали активность в течение {count} дней'
+        description: 'Заходили на форум в течение {count} дней'
         messages:
           tier_1: 'Несколько значимых визитов'
           tier_2: 'Стабильны, как никогда'
-          tier_3: 'Чаще появлялись, чем пропадали вне форума'
+          tier_3: 'Чаще появлялись, чем пропадали на долгое время'
           tier_4: 'Уже вписались в сообщество'
           tier_5: 'Каждую неделю, без исключений'
-        title: 'Активных дней'
+        title: 'Активные дни'
       badges_earned:
         description: 'Получено {count} значков за этот год'
         no_data: 'В этом году значков не было'
@@ -240,7 +240,7 @@ huseyinfiliz-rewind:
         messages:
           tier_1: 'Коротко и по делу'
           tier_2: 'Было что сказать'
-          tier_3: 'На целую повесть'
+          tier_3: 'Можно написать короткий роман'
           tier_4: 'Почти как роман'
           tier_5: 'Толстой бы гордился'
         title: Слова
