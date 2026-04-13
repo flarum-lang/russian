@@ -2,6 +2,53 @@ CHANGELOG
 =========
 
 
+1.59.47 (2026-04-13)
+--------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`datlechin/flarum-discussion-overview`](https://github.com/datlechin/flarum-discussion-overview)
+* [`datlechin/flarum-posted-on`](https://github.com/datlechin/flarum-posted-on)
+* [`datlechin/flarum-silent-edit`](https://github.com/datlechin/flarum-silent-edit)
+* [`ekumanov/flarum-ext-inline-audio`](https://github.com/ekumanov/flarum-ext-inline-audio)
+* [`ekumanov/flarum-ext-new-posts-notice`](https://github.com/ekumanov/flarum-ext-new-posts-notice)
+* [`huoxin/relative-url`](https://github.com/huoxin233/flarum-ext-relative-url)
+* [`import-ai/flarum-webhook-notification`](https://github.com/import-ai/flarum-webhook-notification)
+* [`quasimo/flarum-ext-tag-sidebar`](https://github.com/Quasimo/flarum-ext-tag-sidebar)
+* [`ralkage/flarum-ext-account-lockout`](https://github.com/Ralkage/flarum-ext-account-lockout)
+* [`ralkage/flarum-ext-cap-captcha`](https://github.com/Ralkage/flarum-ext-cap-captcha)
+* [`ralkage/flarum-ext-profile-messages`](https://github.com/Ralkage/flarum-ext-profile-messages)
+* [`ralkage/flarum-ext-word-censor`](https://github.com/Ralkage/flarum-ext-word-censor)
+* [`ralkage/flarum-ext-word-counter`](https://github.com/Ralkage/flarum-ext-word-counter)
+* [`resofire/blog-cards`](https://github.com/ResofireV2/blog-cards)
+* [`resofire/discussion-participants`](https://github.com/ResofireV2/discussion-participants)
+* [`resofire/menu-control`](https://github.com/ResofireV2/menu-control)
+* [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade)
+
+
+**Обновленные переводы расширений**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup)
+* [`datlechin/flarum-more-discussions`](https://github.com/datlechin/flarum-more-discussions)
+* [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`glowingblue/localizd`](https://flarum.org/extension/glowingblue/localizd)
+* [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`justoverclock/related-discussions`](https://flarum.org/extension/justoverclock/related-discussions)
+* [`neoncube/flarum-private-messages`](https://github.com/neoncube2/flarum-private-messages)
+
+
+Все изменения: [1.59.46...1.59.47](https://github.com/flarum-lang/russian/compare/1.59.46...1.59.47).
+
+
 1.59.46 (2026-04-12)
 --------------------
 
