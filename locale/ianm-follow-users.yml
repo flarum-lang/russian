@@ -32,6 +32,7 @@ ianm-follow-users:
       following: 'Пользователи, на которых я подписан'
     followed: Подписан
     followers: '{count, plural, one {Подписчик} other {Подписчиков}}'
+    followers_link: Подписчики
     index:
       follow_tag_button: '=> ianm-follow-users.lib.follow'
       unfollow_tag_button: '=> ianm-follow-users.lib.change_follow_type'
@@ -52,6 +53,7 @@ ianm-follow-users:
       new_unfollower_text: '{username} отписался(ась) от вас'
     profile_link: Подписки
     profile_page:
+      no_followers: 'Похоже, у вас пока нет подписчиков.'
       no_following: 'Похоже, вы ни на кого не подписаны.'
     settings:
       block_follow: 'Не разрешать пользователям подписываться на меня'

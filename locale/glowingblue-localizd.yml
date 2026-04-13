@@ -12,3 +12,10 @@ glowingblue-localizd:
       help: 'Эта опция многоязычна при использовании <b>Localizd</b> + <a>Linguist</a>.'
       modal_title: 'Добавить переводы через Linguist'
       translate: Перевод
+  forum:
+    errors:
+      causes: 'Это может быть по одной или нескольким причинам'
+      deleted: 'Cтраница была удалена'
+      does_not_exist: 'Cтраница не существует'
+      logged_in_only: 'Страница доступна только авторизованным пользователям'
+      no_permission: 'У вас нет прав для просмотра этой страницы'
