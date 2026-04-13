@@ -31,11 +31,11 @@ fof-geoip:
       service_ipapi_description: '<b>http://ip-api.com</b> позволяет бесплатно выполнять до 45 запросов в минуту. Если запросов больше, они будут добавлены в очередь и выполнены после сброса времени.'
       service_ipapi_label: 'IP Api'
       service_ipdata_description: '<b>https://ipdata.co</b> позволяет бесплатно выполнять до 1,500 запросов в день. Доступны коммерческие планы с более высокими лимитами использования.'
-      service_ipdata_label: IPData
+      service_ipdata_label: 'Данные IP'
       service_ipinfo-lite_description: 'Используйте <b>https://ipinfo.io</b> для получения информации об IP без ограничений по частоте запросов и других ограничений. Требуется регистрация для получения бесплатного API-ключа.'
       service_ipinfo-lite_label: 'IPInfo Lite'
       service_iplocation_description: '<b>https://www.iplocation.net/</b> позволяет получать информацию о стране и провайдере. Ограничения по запросам неизвестны.'
-      service_iplocation_label: 'IP Location'
+      service_iplocation_label: 'Страна IP'
       service_ipsevenex_description: 'Используйте <b>https://7x.ax </b>, чтобы получить бесплатный API-ключ для обработки до 20 запросов в минуту. Также доступны платные тарифные планы с более высокими лимитами использования.'
       service_ipsevenex_label: '7x API геолокации'
       service_label: Сервис
