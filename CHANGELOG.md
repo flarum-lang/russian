@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.59.47 (XXXX-XX-XX)
+--------------------
+
+**Обновленные переводы расширений**:
+
+* [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars)
+
+
+Все изменения: [1.59.46...1.59.47](https://github.com/flarum-lang/russian/compare/1.59.46...1.59.47).
+
+
 1.59.46 (2026-04-12)
 --------------------
 
