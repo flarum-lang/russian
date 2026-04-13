@@ -20,7 +20,7 @@ ianm-boring-avatars:
       driver_not_active_warning: 'Скучные аватары не выбраны в качестве драйвера аватаров.'
       driver_not_active_warning_link: 'Перейдите в «Основные» настройки, чтобы выбрать его.'
       identifier: Идентификатор
-      identifier_display_name: 'Показывать имя'
+      identifier_display_name: 'Отображаемое имя'
       identifier_email: Эл.почта
       identifier_help: "Используется для генерации уникального аватара для каждого пользователя\n"
       identifier_id: 'ID пользователя'
