@@ -25,7 +25,7 @@ ianm-boring-avatars:
       color4: 'Цвет 4'
       color5: 'Цвет 5'
       identifier: Идентификатор
-      identifier_display_name: 'Показывать имя'
+      identifier_display_name: 'Отображаемое имя'
       identifier_email: Эл.почта
       identifier_help: "Используется для генерации уникального аватара для каждого пользователя\n"
       identifier_id: 'ID пользователя'
