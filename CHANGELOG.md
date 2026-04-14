@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.59.48 (XXXX-XX-XX)
+--------------------
+
+**Обновленные переводы расширений**:
+
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
+
+
+Все изменения: [1.59.47...1.59.48](https://github.com/flarum-lang/russian/compare/1.59.47...1.59.48).
+
+
 1.59.47 (2026-04-13)
 --------------------
 
