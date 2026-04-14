@@ -14,7 +14,7 @@ fof-badges:
     assign_reason: 'Причина (необязательно)'
     assign_reason_help: 'Причина будет отображаться в карточке значка пользователя.'
     assign_reason_placeholder: 'За что выдаётся этот значок?'
-    automatic: Автоматические
+    automatic: Автомат
     background_color: 'Цвет фона'
     badge_assigned: 'Значок «{badge}» выдан пользователю {username}!'
     badge_category: Категория
