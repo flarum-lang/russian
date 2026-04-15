@@ -7,11 +7,14 @@ fof-polls:
     permissions:
       change_vote: 'Изменять голос'
       moderate: 'Редактировать / удалять опросы'
+      moderate_group: 'Править и удалять группы опросов'
       self_edit: 'Редактировать свои опросы (требуется разрешение на редактирование сообщений)'
       self_post_edit: 'Редактировать *все* опросы в своих сообщениях (требуется разрешение на редактирование сообщений)'
       start: 'Создавать опросы'
       start_global: 'Начать общий опрос'
+      start_group: 'Создавать группы опросов'
       upload_images: 'Разрешить пользователям загружать изображения для опросов'
+      view_group: 'Смотреть группы опросов'
       view_results_without_voting: 'Смотреть результаты без голосования'
       vote: 'Голосовать в опросах'
     settings:
@@ -20,6 +23,8 @@ fof-polls:
       allow_option_image: 'Разрешить изображение (URL) для каждого варианта опроса'
       enable_global_polls: 'Включить общие опросы'
       enable_global_polls_help: 'Общие опросы не привязаны к конкретному сообщению, и доступ к ним можно получить со специальной страницы опросов.'
+      enabled_poll_groups: 'Включить группы для опросов'
+      enabled_poll_groups_help: 'Группы опросов позволяют объединять глобальные опросы и отображать их на отдельной странице.'
       general:
         heading: 'Основные настройки'
         help: 'Эти настройки управляют базовыми возможностями опросов.'
@@ -94,6 +99,7 @@ fof-polls:
     page:
       nav: Опросы
       nav-all: 'Все общие опросы'
+      nav-groups: 'Группы опросов'
     poll:
       cannot_change_vote: 'Вы не можете поменять свой голос после голосования.'
       cannot_start_poll_button: 'Невозможно начть опрос'
@@ -111,11 +117,43 @@ fof-polls:
     poll_form:
       delete: 'Удалить опрос'
       error: 'Произошла ошибка при сохранении опроса, пожалуйста, свяжитесь с администратором.'
+    poll_groups:
+      composer:
+        add_title: 'Добавить группу опросов'
+        delete: 'Удалить группу опросов'
+        edit_title: 'Править группу опросов'
+        groups_manager: 'Управление группами опросов'
+        save_changes: '=> core.ref.save_changes'
+        success: 'Группа опросов сохранена.'
+        view_group: 'Посмотреть группу опросов'
+      controls:
+        add_poll_label: 'Добавить опрос'
+        delete_confirmation: 'Удалить эту группу опросов?'
+        delete_error_message: 'Произошла ошибка при удалении группы опросов.'
+        delete_label: '=> core.ref.delete'
+        delete_success_message: 'Группа опросов удалена.'
+        edit_label: '=> core.ref.edit'
+        view_label: 'Посмотреть группу опросов'
+      list_page:
+        add_poll_button: 'Добавить опрос в группу'
+        cannot_start_poll_group_button: 'Не удалось создать группу опросов'
+        empty_text: 'Похоже, здесь пока нет групп опросов.'
+        load_more_button: '=> core.ref.load_more'
+        no_polls: 'В этой группе нет опросов.'
+        start_poll_group_button: 'Создать группу опросов'
+        title: 'Группы опросов'
     poll_never_ends: 'Опрос без даты окончания'
     polls_count: '{count, plural, one { {count} голос} other {{count} голосов}}'
     polls_list:
       empty_text: 'Похоже, что здесь нет опросов.'
       load_more_button: '=> core.ref.load_more'
+      sort_dropdown:
+        least_voted: 'С наименьшим числом голосов'
+        most_voted: 'С наибольшим числом голосов'
+        newest: Новые
+        oldest: Старые
+        sort_dropdown:
+          default: '=> fof-polls.forum.polls_list.sort_dropdown.newest'
     polls_page:
       title: Опросы
     public_poll: 'Посмотреть голоса'
