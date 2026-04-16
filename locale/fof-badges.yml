@@ -261,7 +261,7 @@ fof-badges:
     toggle_category_dropdown: 'Фильтр категорий'
     user:
       assign_badge: 'Выдать значок'
-      assign_badge_title: 'Выдать значок пользователю {username}'
+      assign_badge_title: 'Выдача значка пользователю {username}'
       assign_button: 'Выдать значок'
       assign_reason: 'Причина (необязательно)'
       assign_reason_help: 'Причина будет отображаться у значка пользователя.'
@@ -292,7 +292,7 @@ fof-badges:
         reapply_actions_help: 'Повторить действия при выдаче, например, добавление в группу, если у пользователя уже есть этот значок.'
         reapply_actions_label: 'Повторно применить действия значков'
         submit: Пересчитать
-        title: 'Пересчитать значки'
+        title: 'Пересчёт значков'
       recalculate_reapplied: 'Действия повторно применены для {reapplied} значков'
       recalculate_success: 'Значки пересчитаны! Выдано: {awarded}, Отозвано: {revoked}, Применено повторно: {reapplied}'
       remove_favorite: 'Убрать из избранного'
@@ -300,7 +300,7 @@ fof-badges:
       revoke_confirm: 'Отозвать значок «{badge}» у этого пользователя?'
       revoke_error: 'Не удалось отозвать значок.'
       select_badge: 'Выберите значок…'
-      select_badge_label: 'Выбрать значок'
+      select_badge_label: 'Выберите значок'
       set_favorite: 'Сделать избранным'
       show_badge: 'Показывать в профиле'
       view_all_badges: 'Посмотреть все значки'
