@@ -7,6 +7,7 @@ CHANGELOG
 
 **Обновленные переводы расширений**:
 
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 
 
