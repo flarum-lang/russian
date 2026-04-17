@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.59.49 (2026-04-17)
+--------------------
+
+**Обновленные переводы расширений**:
+
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+
+
+Все изменения: [1.59.48...1.59.49](https://github.com/flarum-lang/russian/compare/1.59.48...1.59.49).
+
+
 1.59.48 (2026-04-14)
 --------------------
 
