@@ -26,6 +26,8 @@ ramon-avocado:
       banner_image_label: Баннер
       custom_default_avatar_help: 'Загрузите пользовательский аватар по умолчанию для пользователей без аватара.'
       custom_default_avatar_label: 'Пользовательский аватар по умолчанию'
+      custom_loading_spinner_help: 'Заменяет стандартный текстовый индикатор загрузки на анимированный SVG-спиннер.'
+      custom_loading_spinner_label: 'Пользовательский индикатор загрузки'
       featured_tags_empty: 'Теги не найдены.'
       featured_tags_help: 'Выбранные категории будут выделены значком звезды на главной странице и странице категорий.'
       featured_tags_label: 'Выделенные категории'
@@ -39,6 +41,7 @@ ramon-avocado:
       hero_image_position_label: 'Позиция баннера'
       hide_links_for_guests_help: 'Запрещает гостям переходить по ссылкам в сообщениях. При нажатии вместо этого показывается предложение войти или зарегистрироваться.'
       hide_links_for_guests_label: 'Скрывать ссылки для гостей'
+      loading_spinner_style_label: 'Стиль индикатора'
       logo_enabled_help: 'Отображать пользовательский логотип в шапке.'
       logo_enabled_label: 'Включить пользовательский логотип'
       logo_svg_help: 'Загрузите собственный SVG-логотип для форума.'
@@ -63,6 +66,8 @@ ramon-avocado:
       show_post_cta_label: 'Показывать приглашение присоединиться после первого сообщения для гостей'
       show_share_help: 'Добавить кнопку «Поделиться» к каждому сообщению.'
       show_share_label: 'Показывать кнопку «Поделиться» в сообщениях'
+      spinner_custom_code_help: 'Вставьте SVG или HTML-код, который будет использоваться как индикатор загрузки.'
+      spinner_custom_code_label: 'Код пользовательского индикатора'
   forum:
     actions:
       share: Поделиться
@@ -145,6 +150,9 @@ ramon-avocado:
       no_users_found: 'По запросу «{q}» пользователи не найдены.'
       placeholder: Поиск…
       placeholder_hero: 'Искать на форуме…'
+      posts_filtered_by: 'Сообщения, отфильтрованные по'
+      posts_for: 'Сообщения для'
+      posts_title: 'Поиск по сообщениям'
       search_button: Найти
       sort_latest: 'Сначала новые'
       sort_newest: 'Сначала самые новые'

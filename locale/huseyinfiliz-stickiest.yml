@@ -23,12 +23,12 @@ huseyinfiliz-stickiest:
   forum:
     badge:
       stickiest_tooltip: 'Приоритетное закрепление'
-      sticky_tooltip: '=> huseyinfiliz-stickiest.ref.sticky'
+      sticky_tooltip: Закрепление
       super_sticky_tooltip: '=> huseyinfiliz-stickiest.ref.super_sticky'
       super_tag_sticky_tooltip: '=> huseyinfiliz-stickiest.ref.super_tag_sticky'
-      tag_sticky_tooltip: '=> huseyinfiliz-stickiest.ref.tag_sticky'
+      tag_sticky_tooltip: 'Закрепление по тегу'
     discussion_controls:
-      sticky_button: '=> flarum-sticky.forum.discussion_controls.sticky_button'
+      sticky_button: Закрепить
     post_stream:
       discussion_common_stickied_text: '{username} снял(а) приоритет с дискуссии.'
       discussion_stickied_text: '=> flarum-sticky.forum.post_stream.discussion_stickied_text'
