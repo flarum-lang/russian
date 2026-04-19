@@ -7,6 +7,10 @@ ralkage-hcaptcha:
     permissions:
       post_without_hcaptcha: 'Создавать сообщения и дискуссии без использования hCaptcha'
     settings:
+      dark_mode_help: 'Использовать тёмную тему для виджета hCaptcha. Включите, если на форуме используется тёмная тема.'
+      dark_mode_label: 'Тёмная тема'
+      enable_login_help: 'Требовать hCaptcha при входе пользователей. Помогает защититься от атак перебора.'
+      enable_login_label: 'Требовать при входе'
       help_text: 'Получите учетные данные для использования hCaptcha <a>здесь</a>.'
       secret_key_label: 'Секретный ключ'
       site_key_label: 'Ключ для сайта'
