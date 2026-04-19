@@ -42,6 +42,12 @@ core:
       logo_text: 'Загрузите изображение, которое будет отображаться вместо названия форума.'
       title: Оформление
     basics:
+      abandoned_extensions_heading: 'Заброшенные расширения'
+      abandoned_extensions_notify_admins_label: 'Уведомлять администраторов по почте, если при еженедельной проверке обнаружено новое заброшенное расширение'
+      abandoned_extensions_sync_button: Проверить
+      abandoned_extensions_sync_error: 'Не удалось получить список заброшенных расширений. Попробуйте позже.'
+      abandoned_extensions_sync_success: 'Список заброшенных расширений обновлён. Найдено {count} совпадений с установленными.'
+      abandoned_extensions_text: 'Flarum ведёт <a>список заброшенных расширений сообщества</a>. Если установленное расширение появится в этом списке, оно будет отмечено в панели администратора.'
       all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: 'Язык по умолчанию'
       description: 'Настройка названия форума, локализации и других основных параметров.'
@@ -181,6 +187,7 @@ core:
         discussion: Общение
         feature: Возможности
         formatting: Форматирование
+        forum-widget: Виджеты
         language: Языки
         moderation: Модерация
         other: 'Другие расширения'
@@ -288,6 +295,11 @@ core:
       must_not_be_multidimensional_array_message: 'Фильтр {filter} не должен быть многомерным массивом.'
     invalid_username_message: 'Имя пользователя может содержать только латинские буквы, цифры и тире.'
   email:
+    abandoned_extensions:
+      body: "Здравствуйте, {username},\n\nСледующие установленные расширения помечены как заброшенные:\n\n{extensions}\n\nПроверьте их и при возможности рассмотрите переход на альтернативы.\n"
+      line_no_replacement: '- {package} (замена отсутствует)'
+      line_with_replacement: '- {package} (рекомендуемая замена: {replacement})'
+      subject: 'Обнаружены заброшенные расширения'
     activate_account:
       body: "Здравствуйте, {username}!\n\nВы зарегистрировались на форуме {forum} с этим адресом электронной почты.\n\nПерейдите по ссылке, чтобы активировать аккаунт:\n{url}\n\nЕсли вы не регистрировались, просто проигнорируйте это сообщение.\n"
       subject: 'Активация Вашего аккаунта'
