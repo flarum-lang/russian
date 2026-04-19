@@ -209,6 +209,7 @@ php flarum cache:clear
 | [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum2/ru/sycho-move-posts/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/sycho-move-posts/ru/) |
 | [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum2/ru/sycho-private-facade/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/sycho-private-facade/ru/) |
 | [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum2/ru/sycho-profile-cover/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/sycho-profile-cover/ru/) |
+| [`tryhackx/flarum-advanced-pages`](https://github.com/TryHackX/flarum-advanced-pages) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum2/ru/tryhackx-advanced-pages/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/tryhackx-advanced-pages/ru/) |
 | [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum2/ru/walsgit-recycle-bin/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/walsgit-recycle-bin/ru/) |
 
 <!-- various-extensions-list-stop -->
