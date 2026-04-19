@@ -25,6 +25,7 @@ CHANGELOG
 * [`flarum/realtime`](https://github.com/flarum/realtime)
 * [`fof/categories`](https://github.com/FriendsOfFlarum/categories)
 * [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist)
+* [`fof/forum-widgets-core`](https://github.com/FriendsOfFlarum/forum-widgets-core)
 * [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
 * [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text)
 * [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats)
