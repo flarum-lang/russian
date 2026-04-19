@@ -12,6 +12,8 @@ fof-forum-statistics-widget:
     settings:
       cache_duration_help: 'Укажите, как долго должна храниться статистика виджета (в секундах). Значение <code>0</code> отключает кэширование (не рекомендуется).'
       cache_duration_label: 'Срок хранения кэша'
+      classic_look_help: 'Вернуть оригинальный внешний вид виджетов, который был до интеграции fof/forum-widgets-core.'
+      classic_look_label: 'Классический вид'
       flush_cache_on_new_registration_help: 'Кэш статистика будет очищаться при регистрации нового пользователя на форуме.'
       flush_cache_on_new_registration_label: 'Очищать кэш статистики при новой регистрации'
       widget_ignore_private_discussions_label: 'Игнорировать переписки'
