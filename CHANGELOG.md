@@ -14,6 +14,7 @@ CHANGELOG
 
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
 * [`ralkage/flarum-ext-ad-management`](https://github.com/Ralkage/flarum-ext-ad-management)
+* [`ralkage/flarum-ext-linked-accounts`](https://github.com/Ralkage/flarum-ext-linked-accounts)
 
 
 **Обновленные переводы расширений**:
