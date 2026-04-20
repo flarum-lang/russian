@@ -2,6 +2,38 @@ CHANGELOG
 =========
 
 
+2.0.1 (2026-04-20)
+------------------
+
+**Общие изменения**:
+
+* Обновленные переводы ядра Flarum.
+
+
+**Добавлена поддержка новых расширений**:
+
+* [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget)
+* [`fof/news-widget`](https://github.com/FriendsOfFlarum/news-widget)
+* [`fof/online-users-widget`](https://github.com/FriendsOfFlarum/online-users-widget)
+* [`fof/top-posters-widget`](https://github.com/FriendsOfFlarum/top-posters-widget)
+* [`quasimo/flarum-ext-carousel-grids`](https://github.com/Quasimo/flarum-ext-carousel-grids)
+* [`quasimo/flarum-ext-llms-txt`](https://github.com/Quasimo/flarum-ext-llms-txt)
+* [`tryhackx/flarum-advanced-pages`](https://github.com/TryHackX/flarum-advanced-pages)
+
+
+**Обновленные переводы расширений**:
+
+* [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords)
+* [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest)
+* [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado)
+
+
+Все изменения: [2.0.0...2.0.1](https://github.com/flarum-lang/russian/compare/2.0.0...2.0.1).
+
+
 2.0.0 (2026-04-19)
 ------------------
 
