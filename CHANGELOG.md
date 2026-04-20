@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.59.51 (2026-04-20)
+--------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`fof/forum-widgets-core`](https://github.com/FriendsOfFlarum/forum-widgets-core)
+
+
+**Обновленные переводы расширений**:
+
+* [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+
+
+Все изменения: [1.59.50...1.59.51](https://github.com/flarum-lang/russian/compare/1.59.50...1.59.51).
+
+
 1.59.50 (2026-04-19)
 --------------------
 
