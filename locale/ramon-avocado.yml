@@ -18,6 +18,15 @@ ramon-avocado:
       footer_show_social: 'Показывать ссылки на соцсети'
       footer_social: 'Социальные ссылки'
       footer_social_help_json: 'Настройте ссылки на соцсети в формате JSON. Используйте ключи: facebook, twitter, linkedin, instagram, youtube.'
+      section_team: Команда
+      team_desc_label: 'Описание страницы'
+      team_desc_placeholder: 'Познакомьтесь с командой сообщества.'
+      team_enabled_help: 'Показывает страницу /team с участниками из выбранных групп.'
+      team_enabled_label: 'Включить страницу команды'
+      team_groups_empty: 'Группы не найдены.'
+      team_groups_help: 'Участники выбранных групп будут отображаться на странице команды.'
+      team_groups_label: 'Группы для отображения'
+      team_title_label: 'Заголовок страницы'
     loading: Загрузка…
     settings:
       auth_image_help: 'Фоновое изображение, отображаемое в правой части окон входа, регистрации и восстановления пароля.'
@@ -133,6 +142,8 @@ ramon-avocado:
       view: Просмотр
       view_post: 'Открыть сообщение'
       yesterday_time: 'Вчера, {time}'
+    link:
+      login_to_view: 'Войдите, чтобы увидеть ссылку'
     link_cta:
       placeholder: 'Войдите, чтобы открыть ссылку'
     post:
@@ -164,10 +175,20 @@ ramon-avocado:
       tab_users: Пользователи
       title: Поиск
     tags:
-      all_discussions: 'Все дискуссии:'
+      all_discussions: 'Все дискуссии'
       discussion_plural: дискуссии
       discussion_singular: дискуссия
       featured: Избранные
       login_to_view: 'Войдите, чтобы открыть ссылку'
       other_tags_label: 'Другие теги'
       title: Категории
+    team:
+      disabled: 'Эта страница недоступна.'
+      discussions: дискуссии
+      empty: 'Участники не найдены.'
+      member_plural: участники
+      member_since: С
+      member_singular: участник
+      no_bio: 'Участник сообщества.'
+      posts: сообщения
+      title: 'Наша команда'
