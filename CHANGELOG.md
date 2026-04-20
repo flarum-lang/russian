@@ -10,6 +10,11 @@ CHANGELOG
 * Обновленные переводы ядра Flarum.
 
 
+**Добавлена поддержка новых расширений**:
+
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+
+
 Все изменения: [2.0.1...2.0.2](https://github.com/flarum-lang/russian/compare/2.0.1...2.0.2).
 
 
