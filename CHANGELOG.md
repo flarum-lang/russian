@@ -13,6 +13,12 @@ CHANGELOG
 **Добавлена поддержка новых расширений**:
 
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`ralkage/flarum-ext-ad-management`](https://github.com/Ralkage/flarum-ext-ad-management)
+
+
+**Обновленные переводы расширений**:
+
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado)
 
 
 Все изменения: [2.0.1...2.0.2](https://github.com/flarum-lang/russian/compare/2.0.1...2.0.2).
