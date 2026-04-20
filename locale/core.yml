@@ -130,6 +130,12 @@ core:
       logo_text: 'Загрузите изображение, которое будет отображаться вместо названия форума.'
       title: Оформление
     basics:
+      abandoned_extensions_heading: 'Заброшенные расширения'
+      abandoned_extensions_notify_admins_label: 'Уведомлять администраторов по почте, если при еженедельной проверке обнаружено новое заброшенное расширение'
+      abandoned_extensions_sync_button: Проверить
+      abandoned_extensions_sync_error: 'Не удалось получить список заброшенных расширений. Попробуйте позже.'
+      abandoned_extensions_sync_success: 'Список заброшенных расширений обновлён. Найдено {count} совпадений с установленными.'
+      abandoned_extensions_text: 'Flarum ведёт <a>список заброшенных расширений сообщества</a>. Если установленное расширение появится в этом списке, оно будет отмечено в панели администратора.'
       all_discussions_label: '=> core.ref.all_discussions'
       avatar_driver_heading: 'Аватар пользователя'
       avatar_driver_options:
@@ -324,6 +330,7 @@ core:
         discussion: Общение
         feature: Возможности
         formatting: Форматирование
+        forum-widget: Виджеты
         infrastructure: Инфраструктура
         language: Языки
         moderation: Модерация
@@ -429,6 +436,8 @@ core:
       must_not_be_multidimensional_array_message: 'Фильтр {filter} не должен быть многомерным массивом.'
     invalid_username_message: 'Имя пользователя может содержать только буквы, цифры и дефисы. Оно должно содержать хотя бы одну букву.'
   email:
+    abandoned_extensions:
+      subject: 'Обнаружены заброшенные расширения'
     activate_account:
       body: "На форуме {forum} кто-то зарегистрировался с этим адресом электронной почты.\n\nЕсли это были вы, перейдите по ссылке, чтобы активировать учётную запись:\n{url}\n\nЕсли вы не регистрировались на {forum}, просто проигнорируйте письмо.\n"
       subject: 'Активация Вашего аккаунта'
