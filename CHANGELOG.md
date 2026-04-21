@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.59.52 (XXXX-XX-XX)
+--------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`ralkage/flarum-ext-ad-management`](https://github.com/Ralkage/flarum-ext-ad-management)
+* [`ralkage/flarum-ext-linked-accounts`](https://github.com/Ralkage/flarum-ext-linked-accounts)
+
+
+Все изменения: [1.59.51...1.59.52](https://github.com/flarum-lang/russian/compare/1.59.51...1.59.52).
+
+
 1.59.51 (2026-04-20)
 --------------------
 
