@@ -2,6 +2,31 @@ CHANGELOG
 =========
 
 
+2.0.2 (2026-04-21)
+------------------
+
+**Общие изменения**:
+
+* Обновленные переводы ядра Flarum.
+
+
+**Добавлена поддержка новых расширений**:
+
+* [`dashzeveg/flarum-ads-manager`](https://github.com/dashzeveg/flarum-ads-manager)
+* [`ekumanov/flarum-ext-post-search`](https://github.com/ekumanov/flarum-ext-post-search)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`ralkage/flarum-ext-ad-management`](https://github.com/Ralkage/flarum-ext-ad-management)
+* [`ralkage/flarum-ext-linked-accounts`](https://github.com/Ralkage/flarum-ext-linked-accounts)
+
+
+**Обновленные переводы расширений**:
+
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado)
+
+
+Все изменения: [2.0.1...2.0.2](https://github.com/flarum-lang/russian/compare/2.0.1...2.0.2).
+
+
 2.0.1 (2026-04-20)
 ------------------
 
