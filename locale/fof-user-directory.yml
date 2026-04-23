@@ -9,7 +9,7 @@ fof-user-directory:
     settings:
       default-sort: 'Сортировка по умолчанию'
       disable-global-search-source: 'Не добавлять каталог участников в поле глобального поиска'
-      link: 'Ссылка на странице форума'
+      link: 'Показывать ссылку в навигации форума'
       link-group-mentions: 'Ссылка на упоминания группы в сообщениях в Пользовательском каталоге'
       use-small-cards: 'Маленькие карточки участников'
   forum:
@@ -18,7 +18,7 @@ fof-user-directory:
     hero:
       title: '=> fof-user-directory.forum.page.nav'
     page:
-      empty_text: 'Пользователи, соответствующие Вашему запросу, не найдены.'
+      empty_text: 'Пользователи по вашему запросу не найдены.'
       filter_button: 'Фильтр групп'
       load_more_button: '=> core.ref.load_more'
       nav: 'Список участников'
@@ -28,7 +28,7 @@ fof-user-directory:
         post-count: '{count, plural, one { {count} сообщение} other {{count} сообщений}}'
     search:
       field:
-        placeholder: 'Найти всех пользователей...'
+        placeholder: 'Найти пользователей...'
       kinds:
         group: Группа
         text: 'Произвольный текст'
