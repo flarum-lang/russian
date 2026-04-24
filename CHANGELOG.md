@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.59.54 (2026-04-24)
+--------------------
+
+**Обновленные переводы расширений**:
+
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+
+
+Все изменения: [1.59.53...1.59.54](https://github.com/flarum-lang/russian/compare/1.59.53...1.59.54).
+
+
 1.59.53 (2026-04-21)
 --------------------
 
