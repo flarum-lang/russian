@@ -294,7 +294,7 @@ core:
         cancel_button: Отменить
         confirm_button: Сбросить
         title: 'Сброс настроек'
-        title_extension: 'Сбросить настройки {extensionTitle}'
+        title_extension: 'Сброс настроек {extensionTitle}'
         warning: 'Это действие нельзя отменить. Настройки ниже будут удалены из базы данных и возвращены к значениям по умолчанию. Данные расширения не будут затронуты.'
       safe_mode_warning: 'Включён безопасный режим. Расширения не запускаются — их настройки недоступны.'
     extensions-health-widget:
