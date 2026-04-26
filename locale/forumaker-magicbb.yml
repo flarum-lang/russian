@@ -5,16 +5,25 @@
 forumaker-magicbb:
   admin:
     permissions:
+      bypass_like: 'Обходить требование лайка'
+      bypass_reply: 'Обходить требование ответа'
       use_iframe: 'Разрешить iframe'
     sections:
       content: 'Кнопки контента'
       features: Возможности
+      hide: 'Кнопки скрытия'
       images: 'Кнопки изображений'
       text: 'Кнопки текста'
     settings:
       bb_audio: Аудио
       bb_center: 'По центру'
       bb_color: Цвет
+      bb_hide_like: Лайк
+      bb_hide_like_help: 'Контент скрыт до тех пор, пока пользователь не поставит лайк на пост'
+      bb_hide_login: Вход
+      bb_hide_login_help: 'Контент скрыт от гостей и виден всем авторизованным пользователям'
+      bb_hide_reply: Ответ
+      bb_hide_reply_help: 'Контент скрыт до тех пор, пока пользователь не ответит в дискуссии'
       bb_iframe: iframe
       bb_iframe_help: 'Разрешает вставку iframe из любого источника. Используйте осторожно — встроенный контент может содержать внешние скрипты. 🧹 После изменения этой настройки очистите кэш Flarum'
       bb_image: 'FoF Upload'
@@ -30,9 +39,20 @@ forumaker-magicbb:
       audio_button: 'Добавить аудио'
       center_button: 'Выровнять по центру'
       color_button: 'Добавить цвет'
+      hide_like_button: 'Скрыто — требуется лайк'
+      hide_login_button: 'Скрыто — требуется вход'
+      hide_reply_button: 'Скрыто — требуется ответ'
       image_button: 'Добавить умный код изображения'
       info_button: 'Добавить оповещение'
       justify_button: 'Выровнять по ширине'
       more_button: Больше
       spoiler_button: 'Добавить спойлер'
       table_button: 'Добавить таблицу'
+    hide:
+      like_link_fallback: Лайк
+      like_to_see: 'Этот контент виден после {like} на пост'
+      like_to_see_simple: 'Поставьте лайк на сообщение, чтобы увидеть его содержимое'
+      login_to_see: 'Этот контент виден после {login}'
+      login_to_see_simple: 'Войдите, чтобы увидеть этот контент'
+      reply_to_see: 'Этот контент виден после {reply} в дискуссии'
+      reply_to_see_simple: 'Ответьте в этой дискуссии, чтобы увидеть содержимое сообщения'
