@@ -13,6 +13,7 @@ CHANGELOG
 **Обновленные переводы расширений**:
 
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
 
 
 Все изменения: [2.0.5...2.0.6](https://github.com/flarum-lang/russian/compare/2.0.5...2.0.6).
