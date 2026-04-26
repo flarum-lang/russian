@@ -6,8 +6,16 @@ pianotell-flamoji:
   admin:
     custom_emojis_section:
       edit_emoji:
+        delete_emoji_button: 'Удалить эмодзи'
+        delete_emoji_confirmation: 'Удалить этот эмодзи?'
         emoji_title_label: 'Название эмодзи'
         modal_title: 'Добавить эмодзи'
+        path_or_url_label: 'Путь или URL'
+        saved_message: '=> core.admin.settings.saved_message'
+        submit_button: '=> core.ref.save_changes'
+        text_to_replace_label: 'Текст для замены'
+      emoji_list:
+        load_more_button: '=> core.forum.post_stream.load_more_button'
       export_json_button: 'Экспортировать JSON'
       heading_title: 'Пользовательские эмодзи'
       import_emojis_message: 'Это импортирует только конфигурации эмодзи. Вам нужно загрузить изображения эмодзи вручную.'
@@ -46,3 +54,46 @@ pianotell-flamoji:
       show_variants_text: 'Некоторые эмодзи имеют варианты тонов кожи. Если выбран эмодзи с вариантами, появится дополнительное окно выбора тона кожи.'
       specify_categories_label: 'Укажите категории'
       specify_categories_text: 'Выберите здесь категории — окно выбора будет показывать только их.'
+  forum:
+    composer:
+      emoji_tooltip: 'Вставить эмодзи'
+      picker_load_error: 'Не удалось загрузить окно выбора эмодзи. Пожалуйста, попробуйте ещё раз.'
+      picker_load_retry: Повторить
+      picker_loading: 'Загрузка эмодзи…'
+    emoji-mart:
+      add_custom: 'Добавить пользовательский эмодзи'
+      categories:
+        activity: '=> pianotell-flamoji.ref.emoji_categories.activity'
+        custom: '=> pianotell-flamoji.ref.emoji_categories.custom'
+        flags: '=> pianotell-flamoji.ref.emoji_categories.flags'
+        foods: '=> pianotell-flamoji.ref.emoji_categories.foods'
+        frequent: '=> pianotell-flamoji.ref.emoji_categories.frequent'
+        nature: '=> pianotell-flamoji.ref.emoji_categories.nature'
+        objects: '=> pianotell-flamoji.ref.emoji_categories.objects'
+        people: '=> pianotell-flamoji.ref.emoji_categories.people'
+        places: '=> pianotell-flamoji.ref.emoji_categories.places'
+        symbols: '=> pianotell-flamoji.ref.emoji_categories.symbols'
+      category_search: 'Результаты поиска'
+      no_emojis_found_message: 'Эмодзи не найдены'
+      no_emojis_found_title: 'Ничего не нашлось'
+      pick: 'Выберите эмодзи'
+      search_placeholder: Поиск
+      skin_tone_choose: 'Выберите тон кожи по умолчанию'
+      skin_tone_dark: Тёмный
+      skin_tone_default: 'По умолчанию'
+      skin_tone_light: Светлый
+      skin_tone_medium: Средний
+      skin_tone_medium_dark: Тёмно-средний
+      skin_tone_medium_light: Светло-средний
+  ref:
+    emoji_categories:
+      activity: Активность
+      custom: Пользовательские
+      flags: Флаги
+      foods: 'Еда и напитки'
+      frequent: 'Недавно использованные'
+      nature: 'Животные и природа'
+      objects: Предметы
+      people: 'Смайлы и люди'
+      places: 'Путешествия и места'
+      symbols: Символы
