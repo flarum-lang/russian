@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+2.0.6 (2026-04-27)
+------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
+
+
+**Обновленные переводы расширений**:
+
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
+
+
+Все изменения: [2.0.5...2.0.6](https://github.com/flarum-lang/russian/compare/2.0.5...2.0.6).
+
+
 2.0.5 (2026-04-24)
 ------------------
 
