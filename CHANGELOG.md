@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.59.55 (2026-04-27)
+--------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
+
+
+Все изменения: [1.59.54...1.59.55](https://github.com/flarum-lang/russian/compare/1.59.54...1.59.55).
+
+
 1.59.54 (2026-04-24)
 --------------------
 
