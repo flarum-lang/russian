@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.7 (XXXX-XX-XX)
+------------------
+
+**Обновленные переводы расширений**:
+
+* [`resofire/blog-cards`](https://github.com/ResofireV2/blog-cards)
+
+
+Все изменения: [2.0.6...2.0.7](https://github.com/flarum-lang/russian/compare/2.0.6...2.0.7).
+
+
 2.0.6 (2026-04-27)
 ------------------
 
