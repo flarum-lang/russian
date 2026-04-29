@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.9 (XXXX-XX-XX)
+------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
+
+
+Все изменения: [2.0.8...2.0.9](https://github.com/flarum-lang/russian/compare/2.0.8...2.0.9).
+
+
 2.0.8 (2026-04-29)
 ------------------
 
