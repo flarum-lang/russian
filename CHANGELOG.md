@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.59.58 (XXXX-XX-XX)
+--------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit)
+
+
+**Обновленные переводы расширений**:
+
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
+
+
+Все изменения: [1.59.57...1.59.58](https://github.com/flarum-lang/russian/compare/1.59.57...1.59.58).
+
+
 1.59.57 (2026-05-01)
 --------------------
 
