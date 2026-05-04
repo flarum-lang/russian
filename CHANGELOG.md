@@ -7,6 +7,7 @@ CHANGELOG
 
 **Добавлена поддержка новых расширений**:
 
+* [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit)
 * [`ianm/syndication`](https://github.com/imorland/syndication)
 
 
@@ -16,6 +17,7 @@ CHANGELOG
 * [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
 * [`ramon/avocado`](https://github.com/ram0ng1/avocado)
 * [`resofire/digest-mail`](https://github.com/ResofireV2/digest-mail)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
 
 
 Все изменения: [2.0.10...2.0.11](https://github.com/flarum-lang/russian/compare/2.0.10...2.0.11).
