@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+1.59.59 (XXXX-XX-XX)
+--------------------
+
+**Обновленные переводы расширений**:
+
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+
+
+Все изменения: [1.59.58...1.59.59](https://github.com/flarum-lang/russian/compare/1.59.58...1.59.59).
+
+
 1.59.58 (2026-05-05)
 --------------------
 
