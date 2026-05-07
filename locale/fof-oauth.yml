@@ -22,7 +22,7 @@ fof-oauth:
       popup_width_help: 'Укажите ширину всплывающего окна OAuth. Этот параметр будет игнорироваться, если включено "Полноэкранное окно для OAuth".'
       popup_width_label: 'Ширина окна OAuth'
       providers:
-        callback_url_text: 'При необходимости, укажите callback URL в {url}.'
+        callback_url_text: 'При необходимости укажите callback URL в {url}.'
         discord:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
