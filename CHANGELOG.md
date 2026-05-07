@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+2.0.12 (XXXX-XX-XX)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+
+
+Все изменения: [2.0.11...2.0.12](https://github.com/flarum-lang/russian/compare/2.0.11...2.0.12).
+
+
 2.0.11 (2026-05-05)
 -------------------
 
