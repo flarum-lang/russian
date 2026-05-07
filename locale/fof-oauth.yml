@@ -14,7 +14,7 @@ fof-oauth:
         log-oauth-errors-label: 'Записывать ошибки OAuth'
       disable_avatars_help: "Если включено, при регистрации аватар пользователя не будет заменяться аватаром от провайдера. Это влияет только на будущие регистрации и не изменяет аватары существующих пользователей.\n"
       disable_avatars_label: 'Отключить аватары от провайдера'
-      fullscreen_popup_help: 'Вход OAuth откроется в полноэкранном режиме. При включении этого параметра, настройки ширины и высоты будут игнорироваться.'
+      fullscreen_popup_help: 'Вход OAuth откроется в полноэкранном режиме. Если включено, настройки ширины и высоты будут игнорироваться.'
       fullscreen_popup_label: 'Полноэкранное окно для OAuth'
       only_icons_label: 'Отображать только иконки на кнопках входа (альтернативный макет)'
       popup_height_help: 'Укажите высоту всплывающего окна OAuth. Этот параметр будет игнорироваться, если включено "Полноэкранное окно для OAuth".'
@@ -22,7 +22,7 @@ fof-oauth:
       popup_width_help: 'Укажите ширину всплывающего окна OAuth. Этот параметр будет игнорироваться, если включено "Полноэкранное окно для OAuth".'
       popup_width_label: 'Ширина окна OAuth'
       providers:
-        callback_url_text: 'При необходимости, укажите callback URL в {url}.'
+        callback_url_text: 'При необходимости укажите callback URL в {url}.'
         discord:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'

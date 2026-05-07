@@ -5,7 +5,7 @@
 fof-moderator-warnings:
   admin:
     permissions:
-      delete_warnings: 'Удалять предупреждения от модератора (навсегда)'
+      delete_warnings: 'Удалять предупреждения от модератора навсегда'
       manage_warnings: 'Создавать и удалять предупреждения от модератора'
       view_warnings: 'Смотреть предупреждения от модератора'
   emails:
@@ -30,10 +30,10 @@ fof-moderator-warnings:
       warnings: 'Предупреждения от модератора'
     validation:
       invalid_strike_count: 'Количество баллов должно представлять собой целое число от 0 до 5.'
-      public_comment_required: 'Вы должны дать публичный комментарий.'
+      public_comment_required: 'Вы должны оставить публичный комментарий.'
     warning_controls:
       delete_button: Удалить
-      delete_forever_button: 'Удалить (навсегда)'
+      delete_forever_button: 'Удалить навсегда'
       restore_button: Восстановить
     warning_list:
       add_button: 'Новое предупреждение'
