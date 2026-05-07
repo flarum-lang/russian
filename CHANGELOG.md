@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.13 (XXXX-XX-XX)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
+
+
+Все изменения: [2.0.12...2.0.13](https://github.com/flarum-lang/russian/compare/2.0.12...2.0.13).
+
+
 2.0.12 (2026-05-07)
 -------------------
 
