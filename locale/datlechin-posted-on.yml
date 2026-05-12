@@ -3,8 +3,30 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 datlechin-posted-on:
+  admin:
+    settings:
+      display_mode_help: 'Детализация на уровне каждого сообщения. Полная информация всегда доступна в подсказке.'
+      display_mode_label: 'Что показывать рядом с сообщением'
+      display_mode_os_browser: 'ОС и браузер. Например, Windows 11 · Chrome 121'
+      display_mode_os_only: 'Только ОС. Например, Windows 11'
+      skip_guests_help: 'Если включено, для сообщений от гостей не сохраняются данные о платформе.'
+      skip_guests_label: 'Не собирать данные для гостей'
   forum:
+    device_types:
+      camera: Камера
+      'car browser': Автомобиль
+      console: 'Игровая консоль'
+      desktop: Десктоп
+      'feature phone': 'Кнопочный телефон'
+      'smart display': 'Умный дисплей'
+      smartphone: Смартфон
+      tablet: Планшет
+      tv: Телевизор
     post:
       posted_on_text: 'Отправлено с {posted_on}'
+      tooltip:
+        client: Браузер
+        device: Устройство
+        os: 'Операционная система'
     settings:
       privacy_disclose_posted_on_label: 'Показывать другим устройства, с которых я отправляю сообщения'

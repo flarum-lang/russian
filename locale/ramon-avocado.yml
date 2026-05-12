@@ -46,7 +46,7 @@ ramon-avocado:
       custom_default_avatar_label: 'Пользовательский аватар по умолчанию'
       custom_hero_enabled_help: 'Заменяет стандартный контент hero — иконка, заголовок, описание, кнопки входа/регистрации — вашим HTML. Обёртка баннера hero, фоновое изображение и наложение остаются без изменений. Отображается только для гостей — как и стандартный hero.'
       custom_hero_enabled_label: 'Использовать пользовательский контент hero — HTML'
-      custom_hero_html_help: 'HTML, вставляемый в overlay баннера hero — заменяет AvocadoHome-heroBannerContent. Поддерживаются встроенные теги <style>.'
+      custom_hero_html_help: 'HTML, вставляемый в overlay баннера hero — заменяет AvocadoHome-heroBannerContent. Поддерживаются встроенные теги ''<style>'' .'
       custom_hero_html_label: 'Пользовательский HTML для hero'
       custom_loading_spinner_help: 'Заменяет стандартный текстовый индикатор загрузки на анимированный SVG-спиннер.'
       custom_loading_spinner_label: 'Включить уникальный индикатор загрузки'
@@ -70,6 +70,8 @@ ramon-avocado:
       hero_decoration_icon_opacity_label: 'Прозрачность иконки (0–100)'
       hero_image_position_help: 'Значение CSS background-position, например: «center top« или «50% 20%».'
       hero_image_position_label: 'Позиция баннера'
+      hero_image_tags_help: 'Когда пользователь добавляет один из этих тегов в новую дискуссию, в редакторе появляется поле для загрузки изображения. Загруженное изображение используется как фон шапки обсуждения и как первое изображение в блоке на главной странице.'
+      hero_image_tags_label: 'Теги, требующие hero-изображение'
       hide_links_for_guests_help: 'Запрещает гостям переходить по ссылкам в сообщениях. При нажатии вместо этого показывается предложение войти или зарегистрироваться.'
       hide_links_for_guests_label: 'Скрывать ссылки для гостей'
       loading_spinner_style_label: 'Стиль индикатора'
@@ -90,6 +92,7 @@ ramon-avocado:
       section_auth: 'Вход и регистрация'
       section_colored: 'Цветная секция'
       section_footer: Подвал
+      section_hero_image_tags: 'Hero-изображение в обсуждениях'
       section_homepage: Главная
       section_logo: Логотип
       section_posts: Сообщения
@@ -140,6 +143,10 @@ ramon-avocado:
     actions:
       share: Поделиться
     discussion:
+      hero_image_add: 'Добавить изображение'
+      hero_image_remove: 'Удалить изображение'
+      hero_image_remove_confirm: 'Удалить hero-изображение из этой дискуссии?'
+      hero_image_replace: 'Заменить изображение'
       participant_plural: участники
       participant_singular: участник
       post_plural: сообщения
@@ -166,6 +173,10 @@ ramon-avocado:
       composer_body_placeholder: 'Поделитесь мыслями…'
       composer_close: Закрыть
       composer_edit: Править
+      composer_hero_image_label: 'Hero-изображение — по желанию'
+      composer_hero_image_picked: 'Изображение выбрано'
+      composer_hero_image_remove: 'Удалить изображение'
+      composer_hero_image_upload_failed: 'Не удалось загрузить hero-изображение. Попробуйте ещё раз на странице дискуссии.'
       composer_post: 'Создать дискуссию'
       composer_preview: Предпросмотр
       composer_preview_empty: 'Нечего показывать.'
@@ -211,6 +222,8 @@ ramon-avocado:
       login_to_view: 'Войдите, чтобы увидеть ссылку'
     link_cta:
       placeholder: 'Войдите, чтобы открыть ссылку'
+    messages:
+      deleted_message: 'Сообщение удалено'
     post:
       op_badge: 'Автор темы'
     post_cta:
@@ -243,6 +256,8 @@ ramon-avocado:
       tab_discussions: Дискуссии
       tab_posts: Сообщения
       tab_users: Пользователи
+      tip: 'Подсказка: добавьте префикс '
+      tip_suffix: ' чтобы фильтровать по тегу'
       title: Поиск
     tags:
       all_discussions: 'Все дискуссии'

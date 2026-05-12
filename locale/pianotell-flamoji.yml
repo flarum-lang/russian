@@ -15,6 +15,8 @@ pianotell-flamoji:
         submit_button: '=> core.ref.save_changes'
         text_to_replace_label: 'Текст для замены'
       emoji_list:
+        add_button: 'Добавить эмодзи'
+        edit_button: 'Править эмодзи'
         load_more_button: '=> core.forum.post_stream.load_more_button'
       export_json_button: 'Экспортировать JSON'
       heading_title: 'Пользовательские эмодзи'
@@ -42,11 +44,13 @@ pianotell-flamoji:
       picker_set_native: Нативно
       picker_set_text: 'Как отображаются эмодзи в окне выбора. При «Автоматически» используется Twemoji, если включено, или нативный вариант ОС.'
       picker_set_twemoji: Twemoji
+      prepopulate_recents_label: 'Предзаполнять популярными эмодзи'
+      prepopulate_recents_text: 'Если включено, раздел «Часто используемые» будет показывать набор популярных эмодзи по умолчанию, пока пользователь не начнёт выбирать свои. Если отключено, раздел изначально пуст и заполняется по мере использования эмодзи.'
       show_category_buttons_label: 'Показывать кнопки категорий'
       show_category_buttons_text: 'Показывать строку значков категорий. Можно отключить, если активны только одна или две категории эмодзи.'
       show_preview_label: 'Показывать раздел предпросмотра'
       show_preview_text: 'Показывать имя эмодзи, короткий код и селектор тонов кожи в панели предпросмотра под сеткой окна выбора.'
-      show_recents_label: 'Показывать и сохранять недавно использованные эмодзи'
+      show_recents_label: 'Показывать и сохранять часто использованные эмодзи'
       show_recents_text: 'Показывать вкладку «Часто используемые» в верхней части окна выбора. Часто используемые эмодзи каждого пользователя сохраняются только в его браузере.'
       show_search_label: 'Показывать поле поиска'
       show_search_text: 'Показывать поле поиска в верхней части окна выбора.'
@@ -56,6 +60,7 @@ pianotell-flamoji:
       specify_categories_text: 'Выберите здесь категории — окно выбора будет показывать только их.'
   forum:
     composer:
+      emoji_picker_label: 'Выбор эмодзи'
       emoji_tooltip: 'Вставить эмодзи'
       picker_load_error: 'Не удалось загрузить окно выбора эмодзи. Пожалуйста, попробуйте ещё раз.'
       picker_load_retry: Повторить
@@ -91,7 +96,7 @@ pianotell-flamoji:
       custom: Пользовательские
       flags: Флаги
       foods: 'Еда и напитки'
-      frequent: 'Недавно использованные'
+      frequent: 'Часто используемые'
       nature: 'Животные и природа'
       objects: Предметы
       people: 'Смайлы и люди'
