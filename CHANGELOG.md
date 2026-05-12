@@ -10,6 +10,11 @@ CHANGELOG
 * [`ernestdefoe/social-groups`](https://github.com/ernestdefoe/social-groups)
 
 
+**Обновленные переводы расширений**:
+
+* [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
+
+
 Все изменения: [2.0.14...2.0.15](https://github.com/flarum-lang/russian/compare/2.0.14...2.0.15).
 
 
