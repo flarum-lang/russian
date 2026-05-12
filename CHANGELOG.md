@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.15 (XXXX-XX-XX)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`ernestdefoe/social-groups`](https://github.com/ernestdefoe/social-groups)
+
+
+Все изменения: [2.0.14...2.0.15](https://github.com/flarum-lang/russian/compare/2.0.14...2.0.15).
+
+
 2.0.14 (2026-05-12)
 -------------------
 
