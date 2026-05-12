@@ -63,6 +63,7 @@ ekumanov-forum-widgets:
       overflow_users: 'Ещё {count} в сети'
     online_users:
       empty: 'Сейчас в сети никого нет.'
+      guests: '{count, plural, one {гость} few {гостя} many {гостей} other {гостей}}'
       hidden_users: скрытые
       overflow_more: ещё
       title: 'В сети'

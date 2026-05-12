@@ -3,6 +3,10 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ernestdefoe-social-groups:
+  admin:
+    permissions:
+      create_groups: 'Создавать социальные группы'
+      moderate_groups: 'Править и удалять социальные группы'
   forum:
     create_modal:
       banner_label: 'Баннер группы'
@@ -84,9 +88,16 @@ ernestdefoe-social-groups:
       view: Открыть
     invite:
       button: Пригласить
+      error_generic: 'Что-то пошло не так. Попробуйте снова.'
+      submit: 'Отправить приглашение'
+      success: 'Пользователь {username} добавлен в группу.'
       title: 'Пригласить участника'
       username_label: 'Имя пользователя'
+      username_placeholder: 'Введите точное имя пользователя…'
     requests:
       approve: Одобрить
       reject: Отклонить
       title: 'Заявки на вступление'
+    upload:
+      invalid_type: 'Недопустимый тип файла. Загрузите изображение в формате JPG, PNG, GIF или WebP.'
+      too_large: 'Файл слишком большой. Максимальный размер — 5 МБ.'
