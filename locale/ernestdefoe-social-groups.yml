@@ -19,6 +19,7 @@ ernestdefoe-social-groups:
       membership_type_open: 'Открытая — любой может вступить'
       name_label: 'Название группы'
       name_placeholder: 'Например, «Любители фотографии»'
+      name_required: 'Название группы обязательно.'
       private_help: 'Приватные группы видны только участникам.'
       private_label: 'Приватная группа'
       submit: 'Создать группу'
@@ -41,7 +42,7 @@ ernestdefoe-social-groups:
       next_page: 'Следующая страница'
       prev_page: 'Предыдущая страница'
       reply_button: Отправить
-      reply_count: '{count} ответ|{count} ответов'
+      reply_count: '{count, plural, one {# ответ} few {# ответа} many {# ответов} other {# ответов}}'
       reply_placeholder: 'Напишите ответ…'
       save_edit: Сохранить
       start_button: 'Создать дискуссию'
@@ -70,6 +71,7 @@ ernestdefoe-social-groups:
       role_admin: Модератор
       role_creator: Создатель
     groups:
+      approval_required: 'Требуется одобрение'
       cancel_request: 'Отменить заявку'
       create_button: 'Создать группу'
       empty_search: 'Нет групп по вашему запросу.'
@@ -79,13 +81,14 @@ ernestdefoe-social-groups:
       joined: Участник
       leave: Покинуть
       load_error: 'Не удалось загрузить группы. Попробуйте снова.'
-      members_count: '{count} участник|{count} участников'
+      members_count: '{count, plural, one {# участник} few {# участника} many {# участников} other {# участников}}'
       pending: Ожидание…
       private: Приватная
+      public: Публичная
       request_to_join: 'Подать заявку'
       search_placeholder: 'Поиск групп…'
       title: Группы
-      view: Открыть
+      view: Перейти
     invite:
       button: Пригласить
       error_generic: 'Что-то пошло не так. Попробуйте снова.'
@@ -99,5 +102,6 @@ ernestdefoe-social-groups:
       reject: Отклонить
       title: 'Заявки на вступление'
     upload:
+      change: Изменить
       invalid_type: 'Недопустимый тип файла. Загрузите изображение в формате JPG, PNG, GIF или WebP.'
       too_large: 'Файл слишком большой. Максимальный размер — 5 МБ.'
