@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.14 (XXXX-XX-XX)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
+
+
+Все изменения: [2.0.13...2.0.14](https://github.com/flarum-lang/russian/compare/2.0.13...2.0.14).
+
+
 2.0.13 (2026-05-07)
 -------------------
 
