@@ -3,6 +3,168 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ramon-point-system:
+  admin:
+    avatar:
+      existing: 'Существующие рамки'
+      field_description: Описание
+      field_image: 'Изображение рамки'
+      field_image_help: 'Рекомендуется: прозрачный PNG, APNG или GIF 256×256. Максимум 4 МБ.'
+      field_name: Название
+      field_price: Цена
+      help: 'Загрузите рамки PNG, GIF, WebP, APNG, которые отображаются поверх аватара пользователя — как в Discord.'
+      none: 'Рамки ещё не загружены.'
+      replace_image: 'Заменить изображение — необязательно'
+      title: 'Украшения рамок аватара'
+      upload: 'Загрузить рамку'
+      upload_title: 'Загрузить новую рамку'
+      uploaded: 'Рамка загружена.'
+    cancel: Отменить
+    confirm_delete: 'Удалить этот элемент? Это действие нельзя отменить.'
+    disable: Отключить
+    edit: Править
+    enable: Включить
+    groups:
+      add: Добавить
+      choose_group: '— выберите группу —'
+      col_group: Группа
+      col_points: 'Очки за всё время'
+      col_status: Статус
+      create: 'Добавить уровень'
+      existing: 'Настроенные уровни'
+      field_group: Группа
+      field_points: 'Стоимость в очках — списывается с баланса при получении'
+      help: 'Назначайте группы на основе очков за всё время. Пользователи поднимаются по уровням по мере накопления очков.'
+      none: 'Уровни ещё не настроены.'
+      title: 'Уровни авто-групп'
+    manual:
+      balance: Баланс
+      field_amount: Количество
+      field_amount_help: 'Используйте положительное число для начисления, отрицательное — для списания только баланса — общее количество сохраняется.'
+      field_reason: 'Причина — по желанию'
+      field_username: 'Имя пользователя'
+      help: 'Вручную начисляйте или списывайте очки пользователю. Отрицательные значения уменьшают баланс.'
+      lifetime: Всего
+      result: 'Новый баланс'
+      submit: Применить
+      success: 'Изменения применены.'
+      title: 'Начисление или списание очков'
+      user_not_found: 'Пользователь не найден.'
+    name:
+      create: 'Создать украшение'
+      create_title: 'Создать новое украшение'
+      created: 'Украшение создано.'
+      existing: 'Существующие украшения'
+      field_css: 'Пользовательский CSS — по желанию'
+      field_css_help: 'Два режима. Режим 1 — список свойств, применяемых напрямую к имени пользователя. Например: color: gold; font-weight: 700;. Режим 2 — полноценный CSS с использованием & как селектора — поддерживает @keyframes, псевдоэлементы и несколько правил.'
+      field_description: Описание
+      field_name: Название
+      field_preset: Пресет
+      field_price: Цена
+      help: 'Выберите готовый пресет — огонь, лёд, неон, градиент и т.д. — или создайте собственный CSS.'
+      none: 'Украшения ещё не созданы.'
+      preset: Пресет
+      preset_blur: '🌫 Размытие'
+      preset_breath: '🌸 Дыхание'
+      preset_custom: '🛠 Пользовательский CSS'
+      preset_fire: '🔥 Огонь'
+      preset_galaxy: '🌌 Галактика'
+      preset_glass: '🪟 Стекло'
+      preset_glitch: '👾 Глитч'
+      preset_gold: '🥇 Золото'
+      preset_gold-pulse: '✨ Золотая пульсация'
+      preset_hearts: '💖 Сердца'
+      preset_huecycle: '🎨 Смена оттенков'
+      preset_ice: '❄️ Лёд'
+      preset_lightning: '⚡ Молния'
+      preset_matrix: '🟢 Матрица'
+      preset_mercury: '🪞 Ртуть'
+      preset_neon: '💡 Неон'
+      preset_rainbow: '🌈 Радуга'
+      preset_royal: '👑 Королевский'
+      preset_shine: '💫 Сияние'
+      preset_sparkle: '✦ Искры'
+      preset_stamp: '🔖 Штамп'
+      preset_toxic: '☣ Токсичный'
+      preset_typer: '⌨️ Печатная машинка'
+      preset_underline: '〰 Подчёркивание'
+      preset_vhs: '📼 VHS'
+      preset_wave: '🌊 Волна'
+      preview: Предпросмотр
+      title: 'Украшения имени пользователя'
+    permissions:
+      claim: 'Получать награды'
+      manage: 'Управление системой очков'
+      view_others: 'Видеть очки других пользователей'
+      view_shop: 'Смотреть награды оформления'
+    rules:
+      auto_group_enabled: 'Включить уровни авто-групп'
+      auto_group_enabled_help: 'Автоматически повышать пользователей в группах при достижении порога очков за всё время.'
+      avatar_deco_enabled: 'Включить рамки аватара'
+      avatar_deco_enabled_help: 'Главный переключатель. Добавляет выбранное украшение поверх аватара пользователя везде, где он отображается.'
+      currency_icon: 'Класс иконки валюты'
+      currency_icon_help: 'Класс FontAwesome — например, fas fa-coins.'
+      currency_name: 'Название валюты'
+      currency_name_help: 'Множественное название очков. Например, «Монеты», «Кристаллы».'
+      daily_login_bonus: 'Ежедневный бонус за вход'
+      daily_login_bonus_help: 'Начисляется при первом входе пользователя в день.'
+      deco_in_lists: 'Украшения в списках дискуссий'
+      deco_in_lists_help: 'Применять украшения к имени пользователя в списках дискуссий.'
+      deco_in_posts: 'Украшения в ленте сообщений'
+      deco_in_posts_help: 'Применять украшения аватара и имени в сообщениях и ответах.'
+      deco_in_user_card: 'Украшения в карточке пользователя и профиле'
+      deco_in_user_card_help: 'Применять украшения в карточке профиля пользователя и при наведении.'
+      enabled: 'Включить систему очков'
+      enabled_help: 'Главный переключатель. Когда отключено, очки не начисляются.'
+      help: 'Укажите количество очков за каждое действие на форуме.'
+      hide_badges_with_avatar_deco: 'Скрывать значки пользователей при активной рамке аватара'
+      hide_badges_with_avatar_deco_help: 'Если включено, значки модератора, администратора и пользовательские значки рядом с аватаром скрываются у пользователей с активным украшением, чтобы рамка выглядела чище.'
+      lifetime_enabled: 'Отслеживать и показывать очки за всё время'
+      lifetime_enabled_help: 'Очки за всё время — это суммарное количество всех когда-либо заработанных очков. В отличие от баланса, они не уменьшаются при трате или списании — это показатель общего вклада пользователя. При отключении значения продолжают отслеживаться для работы авто-групп, но скрываются на странице наград, в профиле и заголовке сообщения.'
+      name_deco_enabled: 'Включить украшения имени пользователя'
+      name_deco_enabled_help: 'Главный переключатель. Применяет выбранный стиль к отображаемому имени пользователя.'
+      points_per_discussion: 'Очки за новую дискуссию'
+      points_per_discussion_help: 'Начисляется автору при создании новой дискуссии.'
+      points_per_like_given: 'Очки за поставленный лайк'
+      points_per_like_given_help: 'Требуется flarum/likes. Поощряет активность.'
+      points_per_like_received: 'Очки за полученный лайк'
+      points_per_like_received_help: 'Требуется flarum/likes.'
+      points_per_post: 'Очки за сообщение'
+      points_per_post_help: 'Начисляется за каждое сообщение, кроме первого в дискуссии.'
+      points_per_registration: 'Бонус за регистрацию'
+      points_per_registration_help: 'Начисляется один раз при регистрации пользователя.'
+      save: 'Сохранить изменения'
+      show_in_post_header: 'Показывать очки в заголовке сообщения'
+      show_in_post_header_help: 'Показывать небольшой значок очков рядом с именем пользователя в сообщениях.'
+      show_in_user_profile: 'Показывать очки в профиле пользователя'
+      show_in_user_profile_help: 'Показывать значок очков в профиле пользователя и карточке пользователя.'
+      title: 'Очки и правила'
+    save: Сохранить
+    tabs:
+      avatar: 'Рамки аватара'
+      groups: Авто-группы
+      manual: 'Начисление и списание'
+      name: 'Стили имени'
+      rules: 'Очки и правила'
+      users: Пользователи
+    users:
+      apply: Применить
+      col_balance: Баланс
+      col_groups: Группы
+      col_lifetime: Всего
+      col_user: Пользователь
+      filter_all: 'Все пользователи'
+      filter_positive: 'С балансом'
+      filter_zero: 'С нулевым балансом'
+      help: 'Просматривайте пользователей с их текущим балансом и общим количеством очков за всё время.'
+      next: Следующая
+      no_results: 'Нет подходящих пользователей.'
+      page_x_of_y: 'Страница {x} из {y}'
+      prev: Предыдущая
+      search_placeholder: 'Поиск по имени пользователя или email'
+      sort_balance: 'Сортировать по балансу'
+      sort_lifetime: 'Сортировать по общему количеству'
+      sort_username: 'Сортировать по имени пользователя'
+      title: 'Пользователи и очки'
   forum:
     award_modal:
       add: Добавить
@@ -18,13 +180,21 @@ ramon-point-system:
       title: 'Управление очками для {name}'
     badge:
       tooltip: '{balance} {currency} (всего: {lifetime})'
+    my_decorations:
+      avatar: 'Рамки аватара'
+      equip: Надеть
+      name: 'Стили имени'
+      none: 'У вас пока нет украшений этого типа.'
+      preview: Предпросмотр
+      title: 'Мои украшения'
+      unequip: Снять
     nav:
       shop: Награды
     notifications:
       admin_fallback: Администратор
       points_added: 'Пользователь {admin} начислил вам {amount} очков'
       points_removed: 'Пользователь {admin} снял с вас {amount} очков'
-      tier_claimed: 'Вы присоединились к группе {name}!'
+      tier_claimed: 'Вы вступили в группу {name}!'
       tier_excerpt: 'Порог: {points} очков за всё время'
     shop:
       claim: Получить
@@ -41,11 +211,22 @@ ramon-point-system:
       must_login: 'Войдите, чтобы получить элементы'
       my_decorations: 'Мои украшения'
       not_enough: 'Недостаточно очков'
+      not_found: 'Страница не найдена.'
       subtitle: 'Тратьте свои очки на украшения и привилегии.'
       tab_avatar: 'Рамки аватара'
       tab_name: 'Стили имени'
       tab_tiers: 'Уровни групп'
+      tier_claim: 'Вступить в группу'
+      tier_claim_failed: 'Не удалось получить уровень.'
+      tier_claimed: Вступили
+      tier_claimed_alert: 'Вы вступили в {name}!'
+      tier_cost: 'очков для вступления'
+      tier_locked: Заблокировано
+      tier_not_enough: 'Недостаточно очков'
+      tier_points: 'очков за всё время'
       tiers_empty: 'Уровни групп ещё не настроены.'
+      tiers_help: 'Тратьте свои очки, чтобы вступить в эти группы.'
+      tiers_title: 'Уровни групп'
       title: Награды
       your_balance: 'Ваш баланс'
     user_controls:
