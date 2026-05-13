@@ -2,6 +2,29 @@ CHANGELOG
 =========
 
 
+2.0.15 (2026-05-13)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`ernestdefoe/social-groups`](https://github.com/ernestdefoe/social-groups)
+* [`fof/mailing`](https://github.com/FriendsOfFlarum/mailing)
+* [`fof/photoswipe`](https://github.com/FriendsOfFlarum/photoswipe)
+
+
+**Обновленные переводы расширений**:
+
+* [`datlechin/flarum-posted-on`](https://github.com/datlechin/flarum-posted-on)
+* [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
+* [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
+* [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
+
+
+Все изменения: [2.0.14...2.0.15](https://github.com/flarum-lang/russian/compare/2.0.14...2.0.15).
+
+
 2.0.14 (2026-05-12)
 -------------------
 
