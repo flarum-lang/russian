@@ -8,6 +8,7 @@ CHANGELOG
 **Добавлена поддержка новых расширений**:
 
 * [`ramon/point-system`](https://github.com/ram0ng1/point-system)
+* [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating)
 
 
 Все изменения: [2.0.15...2.0.16](https://github.com/flarum-lang/russian/compare/2.0.15...2.0.16).
