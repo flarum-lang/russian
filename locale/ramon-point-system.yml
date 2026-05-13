@@ -92,7 +92,7 @@ ramon-point-system:
       preview: Предпросмотр
       title: 'Украшения имени пользователя'
     permissions:
-      claim: 'Получать награды'
+      claim: 'Получать награды оформления'
       manage: 'Управление системой очков'
       view_others: 'Видеть очки других пользователей'
       view_shop: 'Смотреть награды оформления'
@@ -189,7 +189,7 @@ ramon-point-system:
       title: 'Мои украшения'
       unequip: Снять
     nav:
-      shop: Награды
+      shop: Оформления
     notifications:
       admin_fallback: Администратор
       points_added: 'Пользователь {admin} начислил вам {amount} очков'
@@ -227,7 +227,7 @@ ramon-point-system:
       tiers_empty: 'Уровни групп ещё не настроены.'
       tiers_help: 'Тратьте свои очки, чтобы вступить в эти группы.'
       tiers_title: 'Уровни групп'
-      title: Награды
+      title: Оформления
       your_balance: 'Ваш баланс'
     user_controls:
       award_points: 'Управление очками'
