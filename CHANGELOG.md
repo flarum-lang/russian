@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.17 (2026-05-14)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating)
+
+
+Все изменения: [2.0.16...2.0.17](https://github.com/flarum-lang/russian/compare/2.0.16...2.0.17).
+
+
 2.0.16 (2026-05-13)
 -------------------
 
