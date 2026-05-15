@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.18 (2026-05-15)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
+
+
+Все изменения: [2.0.17...2.0.18](https://github.com/flarum-lang/russian/compare/2.0.17...2.0.18).
+
+
 2.0.17 (2026-05-14)
 -------------------
 
