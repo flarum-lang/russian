@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.19 (XXXX-XX-XX)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`ramon/stickers`](https://github.com/ram0ng1/stickers)
+
+
+Все изменения: [2.0.18...2.0.19](https://github.com/flarum-lang/russian/compare/2.0.18...2.0.19).
+
+
 2.0.18 (2026-05-15)
 -------------------
 
