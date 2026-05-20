@@ -8,6 +8,15 @@ ernestdefoe-social-groups:
       create_groups: 'Создавать социальные группы'
       moderate_groups: 'Править и удалять социальные группы'
   forum:
+    analytics:
+      error: 'Не удалось загрузить аналитику.'
+      member_growth: 'Новые участники за последние 30 дней'
+      post_volume: 'Сообщения за последние 8 недель'
+      stat_members: Участники
+      stat_posts: Сообщения
+      stat_reactions: Реакции
+      title: Аналитика
+      top_posts: 'Сообщения с наибольшим количеством реакций'
     create_modal:
       banner_label: 'Баннер группы'
       color_label: 'Акцентный цвет'
@@ -27,6 +36,8 @@ ernestdefoe-social-groups:
     discussions:
       back: 'Назад к группе'
       cancel_edit: Отменить
+      comments_count: '{count, plural, one {# комментарий} other {# комментариев}}'
+      comments_empty: 'Пока нет комментариев. Оставьте первый!'
       content_label: 'Первое сообщение'
       content_placeholder: 'Напишите что-нибудь…'
       create_title: 'Создать дискуссию'
@@ -37,10 +48,37 @@ ernestdefoe-social-groups:
       edit: Править
       edited: (отредактировано)
       empty: 'Пока нет дискуссий. Создайте первую!'
+      feed_placeholder: 'Что у вас на уме?'
+      hide_comments: 'Скрыть комментарии'
+      like: Лайк
+      load_error: 'Не удалось загрузить сообщения. Попробуйте обновить страницу.'
       locked: Закрыто
+      more_options: 'Дополнительные параметры'
       new_button: 'Новая дискуссия'
       next_page: 'Следующая страница'
+      pin_reply: 'Закрепить этот ответ'
+      pinned: Закреплено
+      pinned_reply: 'Закреплено модератором группы'
+      poll_add: 'Добавить опрос'
+      poll_add_option: 'Добавить вариант'
+      poll_allow_multiple: 'Разрешить несколько вариантов'
+      poll_ended: Завершён
+      poll_label: Опрос
+      poll_option_placeholder: 'Вариант {number}'
+      poll_question_placeholder: 'Задайте вопрос…'
+      poll_remove: 'Удалить опрос'
+      poll_votes: '{count, plural, one {# голос} other {# голосов}}'
+      post_comment: Комментировать
+      post_reply: Ответить
       prev_page: 'Предыдущая страница'
+      react: Реакция
+      react_angry: Злость
+      react_haha: Ха-ха
+      react_heart: Любовь
+      react_like: Лайк
+      react_sad: Грусть
+      react_wow: Вау
+      remove_reaction: 'Удалить реакцию {emoji}'
       reply_button: Отправить
       reply_count: '{count, plural, one {# ответ} few {# ответа} many {# ответов} other {# ответов}}'
       reply_placeholder: 'Напишите ответ…'
@@ -50,6 +88,11 @@ ernestdefoe-social-groups:
       title: Дискуссии
       title_label: Заголовок
       title_placeholder: 'Что у вас на уме?'
+      unpin_reply: 'Открепить этот ответ'
+      upload_image: 'Прикрепить файл'
+      upload_remove: 'Удалить вложение'
+      view_all_comments: 'Показать {count, plural, one {# комментарий} other {# комментариев}} в обсуждении'
+      view_comments: Комментарии
     edit_modal:
       submit: 'Сохранить изменения'
       title: 'Редактирование группы'
@@ -68,26 +111,36 @@ ernestdefoe-social-groups:
       options: 'Настройки группы'
       promote_member: 'Назначить модератором'
       remove_member: Удалить
+      remove_member_confirm: 'Удалить участника {displayName} из этой группы? Он не сможет снова вступить.'
       role_admin: Модератор
       role_creator: Создатель
+      rss_feed: RSS-лента
+      tab_media: Медиа
+      tab_posts: Сообщения
     groups:
+      approval: Одобренная
       approval_required: 'Требуется одобрение'
       cancel_request: 'Отменить заявку'
       create_button: 'Создать группу'
       empty_search: 'Нет групп по вашему запросу.'
       empty_text: 'Время создать первую!'
       empty_title: 'Пока нет групп'
+      feature: 'Добавить в избранное'
+      featured: Избранная
+      featured_heading: 'Избранные группы'
       join: Вступить
       joined: Участник
       leave: Покинуть
       load_error: 'Не удалось загрузить группы. Попробуйте снова.'
       members_count: '{count, plural, one {# участник} few {# участника} many {# участников} other {# участников}}'
       pending: Ожидание…
+      pending_requests_badge: '{count, plural, one {# ожидающий запрос} other {# ожидающих запросов}}'
       private: Приватная
       public: Публичная
       request_to_join: 'Подать заявку'
       search_placeholder: 'Поиск групп…'
       title: Группы
+      unfeature: 'Удалить из избранного'
       view: Перейти
     invite:
       button: Пригласить
@@ -97,6 +150,24 @@ ernestdefoe-social-groups:
       title: 'Пригласить участника'
       username_label: 'Имя пользователя'
       username_placeholder: 'Введите точное имя пользователя…'
+    media:
+      close: Закрыть
+      empty: 'В этой группе пока нет медиафайлов.'
+      next: Следующее
+      previous: Предыдущее
+      upload_button: 'Загрузить изображения'
+      upload_tooltip: 'Загрузить изображения в галерею'
+      uploading: Загрузка…
+      view_post: 'Просмотреть сообщение'
+    notifications:
+      new_post: 'опубликовано в {discussionTitle}'
+      new_reply: 'ответил на ваш комментарий в {discussionTitle}'
+    primary_group:
+      empty: 'Вы ещё не вступили ни в одну группу.'
+      help: 'Выберите, какая группа будет отображаться в карточке профиля.'
+      none: Нет
+      saving: Сохранение…
+      title: 'Значок группы профиля'
     requests:
       approve: Одобрить
       reject: Отклонить
