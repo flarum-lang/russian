@@ -31,3 +31,35 @@ capy-magic-slider:
       section_display: Отображение
       section_mobile: 'Мобильные устройства'
       section_slides: Слайды
+forumaker-magicslider:
+  admin:
+    settings:
+      add_slide: 'Добавить слайд'
+      autoplay: 'Интервал автопрокрутки'
+      autoplay_help: '0 отключает автопрокрутку. В секундах'
+      delete: Удалить
+      disable_desktop: 'Отключить слайдер на десктопе'
+      disable_desktop_help: 'Применимо к экранам больше 768px'
+      disable_mobile: 'Отключить слайдер на мобильных устройствах'
+      disable_mobile_help: 'Применимо к экранам до 768px'
+      drag: 'Перетащите, чтобы изменить порядок'
+      fit_to_layout: 'Выравнять слайдер по ширине макета'
+      fit_to_layout_help: 'Если включено, слайдер занимает ровно ширину контейнера, а не всё пространство'
+      height: Высота
+      height_help: 'Фиксированная высота для конкретного типа экрана'
+      hide_on_tag_pages: 'Не показывать слайдер на страницах тегов'
+      hide_on_tag_pages_help: 'Показывать стандартный вариант Flarum в шапке на страницах тегов'
+      image_placeholder: 'URL изображения'
+      link_placeholder: 'URL ссылки'
+      new_tab: 'В новой вкладке'
+      padding: 'Внешний отступ'
+      padding_help: 'Пространство вокруг слайдера'
+      radius: 'Скругления углов'
+      radius_help: 'Скругления на краях слайдера'
+      section_behavior: Поведение
+      section_desktop: Десктоп
+      section_mobile: 'Мобильные устройства'
+      section_slides: Слайды
+      upload: 'Загрузить изображение'
+      upload_error: 'Не удалось загрузить изображение'
+      uploading: Загрузка...
