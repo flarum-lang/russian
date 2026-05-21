@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+2.0.22 (2026-05-21)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
+* [`forumaker/magicslider`](https://github.com/forumaker/magicslider)
+
+
+Все изменения: [2.0.21...2.0.22](https://github.com/flarum-lang/russian/compare/2.0.21...2.0.22).
+
+
 2.0.21 (2026-05-21)
 -------------------
 
