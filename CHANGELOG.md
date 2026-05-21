@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+2.0.21 (2026-05-21)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+* [`ramon/verified`](https://github.com/ram0ng1/verified)
+
+
+**Обновленные переводы расширений**:
+
+* [`ernestdefoe/social-groups`](https://github.com/ernestdefoe/social-groups)
+
+
+Все изменения: [2.0.20...2.0.21](https://github.com/flarum-lang/russian/compare/2.0.20...2.0.21).
+
+
 2.0.20 (2026-05-19)
 -------------------
 
