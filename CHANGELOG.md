@@ -8,6 +8,7 @@ CHANGELOG
 **Добавлена поддержка новых расширений**:
 
 * [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 * [`ramon/verified`](https://github.com/ram0ng1/verified)
 
 
