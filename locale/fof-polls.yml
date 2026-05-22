@@ -6,7 +6,7 @@ fof-polls:
   admin:
     permissions:
       change_vote: 'Изменять голос'
-      moderate: 'Редактировать / удалять опросы'
+      moderate: 'Править и удалять опросы'
       moderate_group: 'Править и удалять группы опросов'
       self_edit: 'Редактировать свои опросы (требуется разрешение на редактирование сообщений)'
       self_post_edit: 'Редактировать *все* опросы в своих сообщениях (требуется разрешение на редактирование сообщений)'
@@ -44,10 +44,20 @@ fof-polls:
     compose:
       add_title: 'Добавить опрос'
       continue_editing: 'Продолжить редактирование'
+      draft_saved: 'Черновик сохранён'
       edit_title: 'Редактировать опрос'
       polls_manager: 'Менеджер опросов'
       polls_preview: 'Смотреть опрос'
+      publish: Опубликовать
+      save_as_draft: 'Сохранить как черновик'
+      schedule: Запланировать
+      schedule_datetime_label: 'Опубликовать в'
+      schedule_publication: 'Запланировать публикацию'
+      schedule_publication_edit: 'Изменить запланированную публикацию'
+      schedule_submit: Запланировать
+      submit: Отправить
       success: 'Опрос успешно сохранён.'
+      update_draft: 'Обновить черновик'
     composer_discussion:
       add_poll: '=> fof-polls.forum.moderation.add'
       edit_poll: '=> fof-polls.forum.moderation.edit'
@@ -62,6 +72,7 @@ fof-polls:
       date_placeholder: 'Дата завершения опроса (опционально)'
       delete: '=> core.ref.delete'
       edit_title: 'Редактирование опроса'
+      empty_answers: '{count, plural, one {# вариант не заполнен — заполните его или удалите.} other {# вариантов не заполнены — заполните их или удалите.}}'
       error: '=> core.lib.error.generic_message'
       hide_votes_label: 'Скрыть голоса до завершения опроса'
       hide_votes_label_help: 'Пользователь, начавший опрос, всегда сможет увидеть результаты голосования.'
@@ -121,7 +132,10 @@ fof-polls:
       publish_label: 'Опубликовать сейчас'
       publish_success: 'Опрос опубликован.'
       schedule_publish_label: 'Запланировать публикацию'
+      unpublish_confirmation: 'Вернуть этот опрос в черновик? Для других он станет недоступным.'
+      unpublish_error_has_votes: 'Нельзя снять с публикации — в опросе уже есть голоса. Лучше его удалить.'
       unpublish_label: 'Вернуть в черновик'
+      unpublish_success: 'Опрос возвращён в черновик.'
       view_label: '=> core.ref.view'
     poll_ended: 'Опрос завершён.'
     poll_form:
@@ -164,6 +178,10 @@ fof-polls:
         oldest: Старые
         sort_dropdown:
           default: '=> fof-polls.forum.polls_list.sort_dropdown.newest'
+      status_filter:
+        all: Все
+        draft: Черновики
+        published: Опубликованные
     polls_page:
       title: Опросы
     public_poll: 'Посмотреть голоса'
