@@ -103,15 +103,25 @@ fof-polls:
     poll:
       cannot_change_vote: 'Вы не можете поменять свой голос после голосования.'
       cannot_start_poll_button: 'Невозможно начть опрос'
+      draft_label: Черновик
+      scheduled_error_tooltip: 'Ошибка запланированной публикации. Откройте опрос, чтобы узнать причину.'
+      scheduled_label: 'Запланировано на {date}'
       start_poll_button: 'Начать общий опрос'
       submit_button: Голосовать
       total_votes: '{count, plural, one {# голос получен} other {# голосов получено}}'
     poll_controls:
+      cancel_schedule_label: 'Отменить запланированную публикацию'
+      cancel_schedule_success: 'Запланированная публикация отменена.'
       delete_confirmation: 'Удалить опрос?'
       delete_error_message: 'Что-то пошло не так при удалении опроса.'
       delete_label: '=> core.ref.delete'
       delete_success_message: 'Опрос удалён.'
       edit_label: '=> core.ref.edit'
+      edit_schedule_publish_label: 'Изменить запланированную публикацию'
+      publish_label: 'Опубликовать сейчас'
+      publish_success: 'Опрос опубликован.'
+      schedule_publish_label: 'Запланировать публикацию'
+      unpublish_label: 'Вернуть в черновик'
       view_label: '=> core.ref.view'
     poll_ended: 'Опрос завершён.'
     poll_form:
