@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.59.62 (XXXX-XX-XX)
+--------------------
+
+**Обновленные переводы расширений**:
+
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+
+
+Все изменения: [1.59.61...1.59.62](https://github.com/flarum-lang/russian/compare/1.59.61...1.59.62).
+
+
 1.59.61 (2026-05-21)
 --------------------
 
