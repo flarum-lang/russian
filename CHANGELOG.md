@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.23 (2026-05-22)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`ernestdefoe/theme-toggle`](https://github.com/ernestdefoe/theme-toggle)
+
+
+Все изменения: [2.0.22...2.0.23](https://github.com/flarum-lang/russian/compare/2.0.22...2.0.23).
+
+
 2.0.22 (2026-05-21)
 -------------------
 
