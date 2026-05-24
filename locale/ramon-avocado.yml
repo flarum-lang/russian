@@ -168,7 +168,12 @@ ramon-avocado:
       badge_following: Отслеживаемые
       badge_sticky: Закреплённые
       badge_unread_tooltip: '{count} непрочитанных сообщений'
+      bypass_tag_requirements: 'Игнорировать требования по тегам'
       categories_heading: Категории
+      choose_primary_tag_plural: 'Выберите {count} основных тегов'
+      choose_primary_tag_singular: 'Выберите 1 основной тег'
+      choose_secondary_tag_plural: 'Выберите {count} дополнительных тегов'
+      choose_secondary_tag_singular: 'Выберите 1 дополнительный тег'
       choose_tags: 'Выберите теги'
       composer_body_placeholder: 'Поделитесь мыслями…'
       composer_close: Закрыть
@@ -263,9 +268,12 @@ ramon-avocado:
       all_discussions: 'Все дискуссии'
       discussion_plural: дискуссии
       discussion_singular: дискуссия
+      empty: 'В этой категории пока нет дискуссий.'
       featured: Избранные
       home: Главная
+      load_more: 'Загрузить ещё'
       login_to_view: 'Войдите, чтобы открыть ссылку'
+      not_found: 'Тег не найден.'
       other_tags_label: 'Другие теги'
       title: Категории
     team:
@@ -278,3 +286,10 @@ ramon-avocado:
       no_bio: 'Участник сообщества.'
       posts: сообщения
       title: 'Наша команда'
+    user:
+      discussions_empty: 'Пока нет дискуссий.'
+      likes_empty: 'Пока нет понравившихся сообщений.'
+      load_more: 'Загрузить ещё'
+      mentions_empty: 'Пока нет упоминаний.'
+      online: 'В сети'
+      posts_empty: 'Пока нет сообщений.'
