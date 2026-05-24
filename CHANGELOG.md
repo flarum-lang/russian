@@ -7,7 +7,9 @@ CHANGELOG
 
 **Обновленные переводы расширений**:
 
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado)
 * [`ramon/point-system`](https://github.com/ram0ng1/point-system)
+* [`ramon/verified`](https://github.com/ram0ng1/verified)
 
 
 Все изменения: [2.0.24...2.0.25](https://github.com/flarum-lang/russian/compare/2.0.24...2.0.25).
