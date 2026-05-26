@@ -176,7 +176,7 @@ ramon-point-system:
       preview: Предпросмотр
       title: 'Украшения имени пользователя'
     permissions:
-      claim: 'Покупать украшения'
+      claim: 'Получать украшения'
       manage: 'Управлять системой очков'
       trade: 'Обмениваться украшениями с другими'
       view_others: 'Видеть очки других пользователей'
@@ -385,7 +385,7 @@ ramon-point-system:
       price: Цена
       title: 'Подтверждение покупки'
       title_cover: 'Подтверждение покупки'
-      title_purchase: 'Купить доступ к этой группе?'
+      title_purchase: 'Получить доступ к этой группе?'
       title_tier: 'Вступить в эту группу?'
     my_decorations:
       avatar: 'Рамки аватара'
@@ -428,8 +428,8 @@ ramon-point-system:
       badge_remaining: '{count, plural, one {# осталось} other {# осталось}}'
       badge_starts_on: 'Начинается {date}'
       by_creator: 'от {name}'
-      claim: Купить
-      claim_failed: 'Не удалось купить элемент.'
+      claim: Получить
+      claim_failed: 'Не удалось получить элемент.'
       claimed: 'Получено {name}!'
       creator_tooltip: 'Дизайн от {name}'
       empty: 'Сейчас нет доступных элементов.'
@@ -440,7 +440,7 @@ ramon-point-system:
       equipped_label: НАДЕТО
       lifetime: Всего
       login_to_claim: Войти
-      must_login: 'Войдите, чтобы покупать украшения'
+      must_login: 'Войдите, чтобы получать украшения'
       my_decorations: 'Мои украшения'
       not_enough: 'Недостаточно очков'
       not_found: 'Страница не найдена.'
@@ -451,10 +451,10 @@ ramon-point-system:
       tab_post_hl: 'Подсветка сообщений'
       tab_tiers: Группы
       tab_title: 'Пользовательские титулы'
-      tier_buy: 'Купить доступ'
+      tier_buy: 'Получить доступ'
       tier_buy_cost: 'очков для покупки'
       tier_claim: 'Вступить в группу'
-      tier_claim_failed: 'Не удалось купить группу.'
+      tier_claim_failed: 'Не удалось получить группу.'
       tier_claimed: Вступили
       tier_claimed_alert: 'Вы вступили в {name}!'
       tier_cost: 'очков для вступления'
