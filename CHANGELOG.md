@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+2.0.27 (2026-05-27)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`datlechin/flarum-passkey`](https://github.com/datlechin/flarum-passkey)
+* [`ramon/backup`](https://github.com/ram0ng1/backup)
+
+
+Все изменения: [2.0.26...2.0.27](https://github.com/flarum-lang/russian/compare/2.0.26...2.0.27).
+
+
 2.0.26 (2026-05-26)
 -------------------
 
