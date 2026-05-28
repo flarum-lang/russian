@@ -430,13 +430,13 @@ ramon-point-system:
       by_creator: 'от {name}'
       claim: Получить
       claim_failed: 'Не удалось получить элемент.'
-      claimed: 'Получено {name}!'
+      claimed: 'Украшение «{name}» получено!'
       creator_tooltip: 'Дизайн от {name}'
       empty: 'Сейчас нет доступных элементов.'
       equip: Надеть
       equip_failed: 'Не удалось надеть элемент.'
       equipped: Надето
-      equipped_alert: '{name} надето'
+      equipped_alert: 'Украшение «{name}» надето'
       equipped_label: НАДЕТО
       lifetime: Всего
       login_to_claim: Войти
