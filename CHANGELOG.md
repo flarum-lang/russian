@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.28 (XXXX-XX-XX)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`ramon/point-system`](https://github.com/ram0ng1/point-system)
+
+
+Все изменения: [2.0.27...2.0.28](https://github.com/flarum-lang/russian/compare/2.0.27...2.0.28).
+
+
 2.0.27 (2026-05-27)
 -------------------
 
