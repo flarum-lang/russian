@@ -18,10 +18,15 @@ datlechin-posted-on:
       console: 'Игровая консоль'
       desktop: Десктоп
       'feature phone': 'Кнопочный телефон'
+      peripheral: 'Периферийное устройство'
+      phablet: Фаблет
+      'portable media player': Медиаплеер
       'smart display': 'Умный дисплей'
+      'smart speaker': 'Умная колонка'
       smartphone: Смартфон
       tablet: Планшет
       tv: Телевизор
+      wearable: 'Носимое устройство'
     post:
       posted_on_text: 'Отправлено с {posted_on}'
       tooltip:
@@ -29,4 +34,4 @@ datlechin-posted-on:
         device: Устройство
         os: 'Операционная система'
     settings:
-      privacy_disclose_posted_on_label: 'Показывать другим устройства, с которых я отправляю сообщения'
+      privacy_disclose_posted_on_label: 'Показывать другим, с каких устройств я отправляю сообщения'

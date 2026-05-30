@@ -61,6 +61,8 @@ fof-reactions:
     mod_item: 'Смотреть реакции'
     modal:
       anonymous_count: '{count, plural, one {# анонимный пользователь} other {# анонимных пользователей}}'
+      confirm_remove_all_reaction_type: 'Удалить все реакции «{reaction}» с этого сообщения? Это действие нельзя отменить.'
+      confirm_remove_user_reaction: 'Удалить реакцию «{reaction}» от {username} с этого сообщения? Это действие нельзя отменить.'
       load_more: 'Загрузить ещё'
       no_reactions: 'Пока нет реакций'
       others_count: '+ {count, plural, one {# другой} other {# других}}'
