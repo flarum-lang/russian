@@ -15,6 +15,12 @@ CHANGELOG
 * [`gitzaai/cnsearch`](https://github.com/gitzaai/cnsearch)
 * [`irmmr/flarum-ext-rtl`](https://github.com/irmmr/flarum-ext-rtl)
 * [`linkrobins/blog`](https://github.com/linkrobins/blog)
+* [`linkrobins/clipboard`](https://github.com/linkrobins/clipboard)
+* [`linkrobins/countdown-widget`](https://github.com/linkrobins/countdown-widget)
+* [`linkrobins/markdown-widget`](https://github.com/linkrobins/markdown-widget)
+* [`linkrobins/op`](https://github.com/linkrobins/OP)
+* [`linkrobins/referral`](https://github.com/linkrobins/referral)
+* [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
 * [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
 
 
