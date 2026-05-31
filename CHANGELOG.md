@@ -30,6 +30,7 @@ CHANGELOG
 * [`ernestdefoe/social-groups`](https://github.com/ernestdefoe/social-groups)
 * [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`ramon/point-system`](https://github.com/ram0ng1/point-system)
 * [`ramon/stickers`](https://github.com/ram0ng1/stickers)
 
 
