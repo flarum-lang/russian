@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.31 (XXXX-XX-XX)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado)
+
+
+Все изменения: [2.0.30...2.0.31](https://github.com/flarum-lang/russian/compare/2.0.30...2.0.31).
+
+
 2.0.30 (2026-06-01)
 -------------------
 
