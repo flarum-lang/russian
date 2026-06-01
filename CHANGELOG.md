@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.30 (2026-06-01)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
+
+
+Все изменения: [2.0.29...2.0.30](https://github.com/flarum-lang/russian/compare/2.0.29...2.0.30).
+
+
 2.0.29 (2026-06-01)
 -------------------
 
