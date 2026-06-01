@@ -43,15 +43,15 @@ ramon-avocado:
       colored_enabled_help: 'Применять цвет активного тега или дискуссии к основным кнопкам, ссылкам и другим элементам интерфейса по всему форуму.'
       colored_enabled_label: 'Включить цветовые акценты'
       custom_default_avatar_help: 'Загрузите пользовательский аватар по умолчанию для пользователей без аватара.'
-      custom_default_avatar_label: 'Пользовательский аватар по умолчанию'
-      custom_hero_enabled_help: 'Заменяет стандартный контент hero — иконка, заголовок, описание, кнопки входа/регистрации — вашим HTML. Обёртка баннера hero, фоновое изображение и наложение остаются без изменений. Отображается только для гостей — как и стандартный hero.'
-      custom_hero_enabled_label: 'Использовать пользовательский контент hero — HTML'
-      custom_hero_html_help: 'HTML, вставляемый в overlay баннера hero — заменяет AvocadoHome-heroBannerContent. Поддерживаются встроенные теги ''<style>'' .'
-      custom_hero_html_label: 'Пользовательский HTML для hero'
+      custom_default_avatar_label: 'Использовать пользовательский аватар по умолчанию'
+      custom_hero_enabled_help: 'Заменяет стандартный контент обложки — иконка, заголовок, описание, кнопки входа/регистрации — вашим HTML. Обёртка обложки, фоновое изображение и наложение остаются без изменений. Отображается только для гостей — как и стандартная обложка.'
+      custom_hero_enabled_label: 'Использовать пользовательский контент обложки в формате HTML'
+      custom_hero_html_help: 'HTML, вставляемый в overlay обложки — заменяет AvocadoHome-heroBannerContent. Поддерживаются встроенные теги ''<style>'' .'
+      custom_hero_html_label: 'Пользовательский HTML для обложки'
       custom_loading_spinner_help: 'Заменяет стандартный текстовый индикатор загрузки на анимированный SVG-спиннер.'
       custom_loading_spinner_label: 'Включить уникальный индикатор загрузки'
       featured_tags_empty: 'Теги не найдены.'
-      featured_tags_help: 'Выбранные категории будут выделены значком звезды на главной странице и странице категорий.'
+      featured_tags_help: 'Они будут выделены значком звезды на главной странице и странице категорий.'
       featured_tags_label: 'Выделенные категории'
       fixed_avatar_effect_help: 'Закреплять аватар сообщения при чтении длинных комментариев на компьютере.'
       fixed_avatar_effect_label: 'Включить закрепление аватара'
@@ -71,7 +71,7 @@ ramon-avocado:
       hero_image_position_help: 'Значение CSS background-position, например: «center top« или «50% 20%».'
       hero_image_position_label: 'Позиция баннера'
       hero_image_tags_help: 'Когда пользователь добавляет один из этих тегов в новую дискуссию, в редакторе появляется поле для загрузки изображения. Загруженное изображение используется как фон шапки обсуждения и как первое изображение в блоке на главной странице.'
-      hero_image_tags_label: 'Теги, требующие hero-изображение'
+      hero_image_tags_label: 'Теги, требующие обложку'
       hide_links_for_guests_help: 'Запрещает гостям переходить по ссылкам в сообщениях. При нажатии вместо этого показывается предложение войти или зарегистрироваться.'
       hide_links_for_guests_label: 'Скрывать ссылки для гостей'
       loading_spinner_style_label: 'Стиль индикатора'
@@ -92,7 +92,7 @@ ramon-avocado:
       section_auth: 'Вход и регистрация'
       section_colored: 'Цветная секция'
       section_footer: Подвал
-      section_hero_image_tags: 'Hero-изображение в обсуждениях'
+      section_hero_image_tags: 'Обложка дискуссии'
       section_homepage: Главная
       section_logo: Логотип
       section_posts: Сообщения
@@ -114,24 +114,24 @@ ramon-avocado:
       show_post_cta_label: 'Показывать гостям приглашение присоединиться после первого сообщения'
       show_share_help: 'Добавить кнопку «Поделиться» к каждому сообщению.'
       show_share_label: 'Показывать кнопку «Поделиться» в сообщениях'
-      showcase_count_help: 'Отображать от 1 до 5 карточек дискуссий в секции витрины.'
+      showcase_count_help: 'Отображать от 1 до 5 карточек дискуссий в витрине.'
       showcase_count_label: 'Количество элементов витрины'
       showcase_enabled_help: 'Показывать слайдер с дискуссиями из выбранных тегов на главной странице.'
-      showcase_enabled_label: 'Включить секцию витрины или портфолио'
-      showcase_heading_help: 'Пользовательский заголовок для секции витрины. Оставьте пустым, чтобы использовать значение по умолчанию.'
-      showcase_heading_label: 'Заголовок секции витрины'
+      showcase_enabled_label: 'Включить витрину'
+      showcase_heading_help: 'Пользовательский заголовок для витрины. Оставьте пустым, чтобы использовать значение по умолчанию.'
+      showcase_heading_label: 'Заголовок витрины'
       showcase_image_style_default: 'По умолчанию — компактный'
       showcase_image_style_full: 'Полное изображение'
       showcase_image_style_help: 'Выберите между компактным режимом и отображением изображения на полную высоту.'
       showcase_image_style_label: 'Стиль изображения карточки'
       showcase_tag_help: 'Дискуссии из этих тегов отображаются в слайдере на главной странице.'
-      showcase_tag_label: 'Теги витрины или портфолио'
+      showcase_tag_label: 'Теги витрины'
       spinner_custom_code_help: 'Вставьте SVG или HTML-код, который будет использоваться как индикатор загрузки.'
       spinner_custom_code_label: 'Код пользовательского индикатора'
       tag_picker_placeholder: 'Выберите теги…'
       team_desc_label: 'Описание страницы'
       team_desc_placeholder: 'Познакомьтесь с командой сообщества.'
-      team_enabled_help: 'Показывать страницу /team со списком участников выбранных групп.'
+      team_enabled_help: 'Показывать страницу /team со списком участников из выбранных групп.'
       team_enabled_label: 'Включить страницу команды'
       team_groups_empty: 'Группы не найдены.'
       team_groups_help: 'Участники выбранных групп будут отображаться на странице команды.'
@@ -145,7 +145,7 @@ ramon-avocado:
     discussion:
       hero_image_add: 'Добавить изображение'
       hero_image_remove: 'Удалить изображение'
-      hero_image_remove_confirm: 'Удалить hero-изображение из этой дискуссии?'
+      hero_image_remove_confirm: 'Удалить обложку из этой дискуссии?'
       hero_image_replace: 'Заменить изображение'
       participant_plural: участники
       participant_singular: участник
@@ -153,12 +153,12 @@ ramon-avocado:
       post_singular: сообщение
     discussions:
       empty: 'Дискуссии не найдены.'
-      home: 'Вернуться на главную'
+      home: 'На главную'
       load_more: 'Загрузить ещё'
       title: 'Все дискуссии'
     header:
       back: Назад
-      back_home: 'Вернуться на главную'
+      back_home: 'На главную'
       or: или
       search: Поиск
     home:
@@ -178,10 +178,10 @@ ramon-avocado:
       composer_body_placeholder: 'Поделитесь мыслями…'
       composer_close: Закрыть
       composer_edit: Править
-      composer_hero_image_label: 'Hero-изображение — по желанию'
+      composer_hero_image_label: 'Обложка — по желанию'
       composer_hero_image_picked: 'Изображение выбрано'
       composer_hero_image_remove: 'Удалить изображение'
-      composer_hero_image_upload_failed: 'Не удалось загрузить hero-изображение. Попробуйте ещё раз на странице дискуссии.'
+      composer_hero_image_upload_failed: 'Не удалось загрузить обложку. Попробуйте ещё раз на странице дискуссии.'
       composer_post: 'Создать дискуссию'
       composer_preview: Предпросмотр
       composer_preview_empty: 'Нечего показывать.'
