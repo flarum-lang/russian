@@ -13,6 +13,7 @@ linkrobins-font-sizer:
       ui_large: Крупный
       ui_size_help: 'Устанавливает значение по умолчанию для навигации, кнопок и элементов интерфейса. Пользователи могут изменить его с помощью кнопки «Размер шрифта» в шапке.'
       ui_size_label: 'Размер интерфейса по умолчанию'
+      ui_toggle_label: 'Увеличить интерфейс'
   forum:
     header_button:
       label: 'Размер шрифта'
@@ -21,7 +22,8 @@ linkrobins-font-sizer:
       close_button_label: Закрыть
       interface_size_heading: 'Размер интерфейса'
       interface_size_hint: 'Влияет на навигацию, кнопки и другие элементы интерфейса.'
-      reading_text_heading: 'Текст для чтения'
+      interface_size_label: 'Увеличить интерфейс'
+      reading_text_heading: 'Размер текста'
       reading_text_hint: 'Влияет на текст сообщений и заголовки дискуссий.'
       reading_text_value: '{percent}%'
       reset_button: Сбросить
