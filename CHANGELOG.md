@@ -2,6 +2,41 @@ CHANGELOG
 =========
 
 
+2.0.29 (2026-06-01)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`datlechin/flarum-mermaid`](https://github.com/datlechin/flarum-mermaid)
+* [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length)
+* [`ekumanov/flarum-ext-markdown-tables`](https://github.com/ekumanov/flarum-ext-markdown-tables)
+* [`ernestdefoe/aurora`](https://github.com/ernestdefoe/aurora)
+* [`ernestdefoe/flarum-facebook-post`](https://github.com/ernestdefoe/flarum-facebook-post)
+* [`gitzaai/cnsearch`](https://github.com/gitzaai/cnsearch)
+* [`irmmr/flarum-ext-rtl`](https://github.com/irmmr/flarum-ext-rtl)
+* [`linkrobins/blog`](https://github.com/linkrobins/blog)
+* [`linkrobins/clipboard`](https://github.com/linkrobins/clipboard)
+* [`linkrobins/countdown-widget`](https://github.com/linkrobins/countdown-widget)
+* [`linkrobins/markdown-widget`](https://github.com/linkrobins/markdown-widget)
+* [`linkrobins/op`](https://github.com/linkrobins/OP)
+* [`linkrobins/referral`](https://github.com/linkrobins/referral)
+* [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
+
+
+**Обновленные переводы расширений**:
+
+* [`datlechin/flarum-posted-on`](https://github.com/datlechin/flarum-posted-on)
+* [`ernestdefoe/social-groups`](https://github.com/ernestdefoe/social-groups)
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`ramon/point-system`](https://github.com/ram0ng1/point-system)
+* [`ramon/stickers`](https://github.com/ram0ng1/stickers)
+
+
+Все изменения: [2.0.28...2.0.29](https://github.com/flarum-lang/russian/compare/2.0.28...2.0.29).
+
+
 2.0.28 (2026-05-28)
 -------------------
 
