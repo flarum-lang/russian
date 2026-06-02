@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.32 (XXXX-XX-XX)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+
+
+Все изменения: [2.0.31...2.0.32](https://github.com/flarum-lang/russian/compare/2.0.31...2.0.32).
+
+
 2.0.31 (2026-06-02)
 -------------------
 
