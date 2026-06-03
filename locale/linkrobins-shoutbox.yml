@@ -8,9 +8,16 @@ linkrobins-shoutbox:
       moderate: 'Удалять чужие сообщения в мини-чате'
       shout: 'Отправлять сообщения в мини-чат'
     settings:
+      display_mode_both: 'Страница и виджет'
+      display_mode_help: 'Выберите место на форуме для мини-чата.'
+      display_mode_label: 'Режим отображения'
       display_mode_page: 'Только страница'
+      display_mode_widget: 'Только виджет'
       height_help: 'Высота области сообщений в пикселях. По умолчанию — 320.'
       height_label: 'Высота области сообщений (px)'
+  api:
+    empty_content: 'Вам необходимо ввести сообщение.'
+    rate_limited: 'Вы отправляете сообщения слишком быстро. Немного подождите.'
   forum:
     nav: Мини-чат
     page_title: Мини-чат
@@ -23,4 +30,8 @@ linkrobins-shoutbox:
       placeholder: 'Написать сообщение...'
       rate_limited: 'Вы отправляете сообщения слишком быстро. Немного подождите.'
       send: Отправить
+      time_hours: '{count}ч'
+      time_minutes: '{count}м'
+      time_seconds: '{count}с'
       title: Мини-чат
+      unknown_user: Пользователь
