@@ -8,6 +8,7 @@ linkrobins-shoutbox:
       moderate: 'Удалять чужие сообщения в мини-чате'
       shout: 'Отправлять сообщения в мини-чат'
     settings:
+      display_mode_page: 'Только страница'
       height_help: 'Высота области сообщений в пикселях. По умолчанию — 320.'
       height_label: 'Высота области сообщений (px)'
   forum:
