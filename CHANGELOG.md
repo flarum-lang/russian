@@ -11,6 +11,11 @@ CHANGELOG
 * [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget)
 
 
+**Обновленные переводы расширений**:
+
+* [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
+
+
 Все изменения: [2.0.31...2.0.32](https://github.com/flarum-lang/russian/compare/2.0.31...2.0.32).
 
 
