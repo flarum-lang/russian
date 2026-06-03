@@ -2,6 +2,32 @@ CHANGELOG
 =========
 
 
+2.0.33 (XXXX-XX-XX)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`ernestdefoe/cross-references`](https://github.com/ernestdefoe/cross-references)
+* [`linkrobins/post-num`](https://github.com/linkrobins/post-num)
+* [`ramon/auth-modals`](https://github.com/ram0ng1/auth-modals)
+* [`ramon/guest-cta`](https://github.com/ram0ng1/guest-cta)
+
+
+**Обновленные переводы расширений**:
+
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`flarum/flags`](https://github.com/flarum/flags)
+* [`linkrobins/blog`](https://github.com/linkrobins/blog)
+* [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
+* [`linkrobins/referral`](https://github.com/linkrobins/referral)
+* [`ralkage/flarum-ext-profile-messages`](https://github.com/Ralkage/flarum-ext-profile-messages)
+* [`ramon/point-system`](https://github.com/ram0ng1/point-system)
+* [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating)
+
+
+Все изменения: [2.0.32...2.0.33](https://github.com/flarum-lang/russian/compare/2.0.32...2.0.33).
+
+
 2.0.32 (2026-06-03)
 -------------------
 
