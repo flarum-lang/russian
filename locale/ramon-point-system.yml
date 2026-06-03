@@ -369,12 +369,12 @@ ramon-point-system:
       amount_help: 'При добавлении увеличивает баланс и сумму за всё время. При снятии уменьшает только баланс.'
       amount_label: Количество
       current_balance: 'Текущий баланс'
-      current_lifetime: 'Всего за всё время'
+      current_lifetime: 'За всё время'
       reason_label: 'Причина — по желанию'
       reason_placeholder: 'Например, полезный вклад'
       remove: Снять
       removed: 'Снято {amount} очков у пользователя {name}.'
-      title: 'Управление очками {name}'
+      title: 'Очки {name}'
     badge:
       tooltip: '{balance} {currency} (всего: {lifetime})'
     confirm:
@@ -564,7 +564,7 @@ ramon-point-system:
       title: Обмены
       your_side: 'Вы предлагаете'
     user_controls:
-      award_points: 'Управление очками'
+      award_points: Очки
       trade: Обмен
     user_profile:
       trades_link: 'История обменов'

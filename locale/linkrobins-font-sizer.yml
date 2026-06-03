@@ -27,6 +27,6 @@ linkrobins-font-sizer:
       reading_text_hint: 'Влияет на текст сообщений и заголовки дискуссий.'
       reading_text_value: '{percent}%'
       reset_button: Сбросить
-      title: 'Размер текста и интерфейса'
+      title: 'Изменение размера текста'
       ui_default: 'По умолчанию'
       ui_large: Крупный

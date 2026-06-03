@@ -143,6 +143,7 @@ linkrobins-blog:
     blog: Блог
     edit_post:
       body_placeholder: 'Пишите в Markdown. **жирный**, *курсив*, [ссылки](https://...) и так далее.'
+      body_placeholder_click: 'Нажмите, чтобы написать пост…'
       body_upload_status: 'Загрузка {index} из {total}…'
       cancel_button: Отменить
       category_label: Категория
@@ -163,6 +164,7 @@ linkrobins-blog:
       cover_url_placeholder: 'https://example.com/image.jpg'
       delete_button: 'Удалить пост'
       delete_confirm: 'Удалить «{title}»? Это действие нельзя отменить.'
+      discard_confirm: 'У вас есть несохранённые изменения в этом посте. Отменить их?'
       editor_not_available: 'Редактор постов недоступен.'
       error_label: ошибка
       excerpt_help: 'Краткое описание, отображаемое в списках и письмах. Оставьте пустым для автоматической генерации из содержимого.'
@@ -189,6 +191,7 @@ linkrobins-blog:
       snippet_spoiler: 'скрытый текст'
       snippet_table_cell: Ячейка
       snippet_table_column: Столбец
+      title_body_required: 'Перед сохранением добавьте заголовок и содержимое.'
       title_create: 'Новый пост'
       title_edit: 'Править пост'
       title_label: Заголовок
