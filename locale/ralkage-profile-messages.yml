@@ -36,7 +36,7 @@ ralkage-profile-messages:
       report_button: Пожаловаться
       show_replies: '{count, plural, one {Показать {count} ответ} few {Показать {count} ответа} many {Показать {count} ответов} other {Показать {count} ответа}}'
     notification:
-      new_profile_message_reply_text: '{username} ответил(а) на ваше сообщение на стене пользователя {profileOwner}.'
+      new_profile_message_reply_text: '{username} ответил(а) вам на стене {profileOwner}.'
       new_profile_message_text: '{username} оставил(а) сообщение у вас на стене.'
     report:
       already_reported: 'Вы уже пожаловались на это сообщение.'
