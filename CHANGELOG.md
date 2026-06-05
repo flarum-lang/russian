@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`ernestdefoe/cross-references`](https://github.com/ernestdefoe/cross-references)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
 * [`linkrobins/post-num`](https://github.com/linkrobins/post-num)
 * [`ramon/auth-modals`](https://github.com/ram0ng1/auth-modals)
 * [`ramon/guest-cta`](https://github.com/ram0ng1/guest-cta)
