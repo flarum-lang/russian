@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.34 (XXXX-XX-XX)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`ralkage/flarum-ext-profile-messages`](https://github.com/Ralkage/flarum-ext-profile-messages)
+
+
+Все изменения: [2.0.33...2.0.34](https://github.com/flarum-lang/russian/compare/2.0.33...2.0.34).
+
+
 2.0.33 (2026-06-05)
 -------------------
 
