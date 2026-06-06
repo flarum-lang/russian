@@ -7,6 +7,7 @@ CHANGELOG
 
 **Обновленные переводы расширений**:
 
+* [`flarum/messages`](https://github.com/flarum/messages)
 * [`ralkage/flarum-ext-profile-messages`](https://github.com/Ralkage/flarum-ext-profile-messages)
 
 
