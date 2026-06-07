@@ -201,6 +201,6 @@ walsgit_discussion_cards:
       options_heading: 'Discussion Cards'
   forum:
     console:
-      postUpdateCardImageError: 'Произошла ошибка при обновлении изображения карточки дискуссии для этой дискуссии. '
+      postUpdateCardImageError: 'Ошибка при обновлении изображения карточки темы. '
     replies: 'Ответов: {count}'
     unreadReplies: 'Непрочитанных ответов: {count}'

@@ -7,12 +7,12 @@ ekumanov-post-search:
     settings:
       authorQuickFilter: 'Быстрый фильтр по автору'
       authorQuickFilterHelp: 'Добавить кнопку в действия сообщения для фильтра по автору.'
-      dropdownAccess: 'Доступ через меню дискуссии'
-      dropdownAccessHelp: 'Показывать кнопку «Поиск по дискуссии» в меню действий дискуссии.'
+      dropdownAccess: 'Доступ через меню темы'
+      dropdownAccessHelp: 'Показывать кнопку «Поиск по теме» в меню действий темы.'
       originalPosterBadge: 'Метка автора дискуссии'
       originalPosterBadgeHelp: 'Показывать кликабельную метку «Автор дискуссии» рядом с сообщениями автора. Нажатие фильтрует сообщения.'
-      sideNavAccess: 'Доступ через боковую панель дискуссии'
-      sideNavAccessHelp: 'Показывать кнопку «Поиск по дискуссии» в боковой панели.'
+      sideNavAccess: 'Доступ через боковую панель темы'
+      sideNavAccessHelp: 'Показывать кнопку «Поиск по теме» в боковой панели.'
   forum:
     cannotGoToPost:
       action: 'Попробуйте сбросить фильтры'

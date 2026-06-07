@@ -32,7 +32,7 @@ fof-merge-discussions:
       ordering_suffix_label: 'Добавить сообщения в конец дискуссии'
       search_discussions_placeholder: 'Поиск дискуссий…'
       submit_button: '=> fof-merge-discussions.ref.merge'
-      title: 'Объединить дискуссии'
+      title: 'Объединить темы'
       type_from_help_text: 'Выберите дискуссию, в которую объединить {title}.'
       type_from_label: 'Объединить эту дискуссию с другой'
       type_heading: 'Тип объединения'

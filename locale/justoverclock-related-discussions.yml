@@ -4,10 +4,10 @@
 
 justoverclock-related-discussions:
   admin:
-    DiscussionPageLayout: 'Показывать похожие дискуссии внизу страницы дискуссии'
+    DiscussionPageLayout: 'Показывать похожие темы внизу страницы темы'
     relatedLimit: 'Число похожих дискуссий для отображения (по умолчанию 4)'
     relatedLimit-help: 'введите здесь число дискуссий для отображения (т.е., "4")'
-    relatedTitle: 'Заголовок для «Похожие дискуссии»'
+    relatedTitle: 'Заголовок для блока «Похожие темы»'
     relatedTitle-help: 'Заменить стандартный заголовок похожих дискуссий на свой'
     showExcerpt: 'Показывать краткое описание'
     showTooltip: 'Показывать всплывающую подсказку с кратким описанием'
@@ -20,5 +20,5 @@ justoverclock-related-discussions:
     participants: участники
     postedOn: 'в:'
     postnumber: 'количество ответов'
-    reldiscussion: 'Предложенные дискуссии:'
+    reldiscussion: 'Предложенные темы:'
     repliedOn: 'последний ответ'

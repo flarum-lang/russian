@@ -6,10 +6,10 @@ ernestdefoe-facebook-post:
   admin:
     settings:
       destination_type_group: 'Группа Facebook'
-      destination_type_help: 'Выберите, куда публиковать новые дискуссии: на страницу Facebook или в группу Facebook.'
+      destination_type_help: 'Выберите, куда публиковать новые темы: на страницу Facebook или в группу Facebook.'
       destination_type_label: 'Тип назначения'
       destination_type_page: 'Страница Facebook'
-      enabled_help: 'Если включено, новые дискуссии будут автоматически публиковаться в выбранном месте назначения Facebook.'
+      enabled_help: 'Если включено, новые темы будут автоматически публиковаться в выбранном месте назначения Facebook.'
       enabled_label: 'Включить автопубликацию в Facebook'
       graph_api_version_help: 'Версия Facebook Graph API, используемая расширением, например, v19.0, v20.0. Обновляйте её, когда Meta объявляет о прекращении поддержки текущей версии — журнал изменений и график окончания поддержки доступны по адресу https://developers.facebook.com/docs/graph-api/changelog.'
       graph_api_version_label: 'Версия Graph API'

@@ -7,7 +7,7 @@ flarum-approval:
     permissions:
       approve_posts_label: 'Одобрять сообщения'
       reply_without_approval_label: 'Отвечать без одобрения'
-      start_discussions_without_approval_label: 'Создавать дискуссии без одобрения'
+      start_discussions_without_approval_label: 'Создавать темы без одобрения'
   forum:
     badge:
       awaiting_approval_tooltip: '=> flarum-approval.ref.awaiting_approval'

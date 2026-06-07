@@ -22,9 +22,9 @@ ianm-syndication:
     autodiscovery:
       discussion_last_posts: 'Эта дискуссия'
       forum_activity: 'Активность форума'
-      forum_new_discussions: 'Новые дискуссии форума'
+      forum_new_discussions: 'Новые темы форума'
       tag_activity: 'Активность для тега {tag}'
-      tag_new_discussions: 'Дискуссии в теге {tag}'
+      tag_new_discussions: 'Темы в теге {tag}'
       user_last_posts: 'Посты и комментарии этого пользователя'
     discussion:
       feed_link: Лента
