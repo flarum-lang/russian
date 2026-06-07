@@ -19,10 +19,10 @@ sycho-move-posts:
       move_old_post_to_newer_discussion: '=> sycho-move-posts.ref.status.old_to_new_move'
     modal:
       check: 'Проверить тип операции'
-      destination: 'Дискуссия, в которую перемещаем'
+      destination: 'Тема, в которую перемещаем'
       discussion_help: 'Теги исходной темы сохранятся и могут быть изменены после создания.'
       discussion_name: '=> core.forum.composer_discussion.title_placeholder'
-      new_discussion: 'Новая дискуссия'
+      new_discussion: 'Новая тема'
       selected_posts: '{count, plural, one {Одно сообщение выбрано} other {{count} Сообщений выбрано}}'
       status:
         complex_move: 'Сложный перенос: сообщения будут вставлены между существующими, из-за чего изменятся старые ссылки на сообщения целевой темы.'

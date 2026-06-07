@@ -52,7 +52,7 @@ huseyinfiliz-leaderboard:
       section_reactions: Реакции
       sync_step_badge_earned: 'Сканирование полученных значков…'
       sync_step_best_answer: 'Сканирование лучших ответов…'
-      sync_step_discussion_started: 'Сканирование дискуссий…'
+      sync_step_discussion_started: 'Сканирование тем…'
       sync_step_like_given: 'Сканирование поставленных лайков…'
       sync_step_like_received: 'Сканирование полученных лайков…'
       sync_step_post_created: 'Сканирование сообщений…'

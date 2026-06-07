@@ -10,14 +10,14 @@ cnsearch:
 gitzaai-cnsearch:
   admin:
     buttons:
-      help: 'Используйте эти инструменты для проверки подключения и перестроения индекса дискуссий Meilisearch.'
+      help: 'Используйте эти инструменты для проверки подключения и перестроения индекса тем Meilisearch.'
       indexed_count: 'Документов в Meilisearch: {count}'
       last_sync: 'Последняя переиндексация: {time}'
       not_synced: 'Синхронизация ещё не выполнялась'
       reindex: 'Перестроить индекс'
       reindex_failed: 'Не удалось выполнить переиндексацию. Проверьте журналы.'
       reindex_success: 'Запрос на переиндексацию успешно отправлен.'
-      source_discussions: 'Исходных дискуссий: {count}'
+      source_discussions: 'Исходных тем: {count}'
       source_posts: 'Проиндексированных сообщений: {count}'
       status_connected: Подключено
       status_disconnected: 'Нет подключения'

@@ -20,7 +20,7 @@ fof-follow-tags:
         body: "Пользователь {actor_display_name} создал тему в теге, на который вы подписаны: [{discussion_title}]({discussion_url})\n"
       plain:
         body: "Пользователь {actor_display_name} создал тему в теге, на который вы подписаны: {discussion_title}\n\nЧтобы посмотреть её, перейдите по ссылке:\n{discussion_url}\n\n---\n\n{content}\n"
-      subject: '[Тег | Новая дискуссия] {title}'
+      subject: '[Тег | Новая тема] {title}'
     newDiscussionTag:
       html:
         body: "{actor_display_name} изменил(а) тег в теме пользователя {author_display_name} на тег, на который вы подписаны: [{discussion_title}]({discussion_url})\n"

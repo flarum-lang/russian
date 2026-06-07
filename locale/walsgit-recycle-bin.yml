@@ -6,7 +6,7 @@ walsgit-recycle-bin:
   admin:
     actions: Действия
     author: Автор
-    bulk_actions: 'Действия для выбранных дискуссий: '
+    bulk_actions: 'Действия для выбранных тем: '
     bulk_delete_label: 'Удалить выбранные темы'
     bulk_post_actions: 'Действия для выбранных сообщений: '
     bulk_post_delete_label: 'Удалить выбранные сообщения'
@@ -16,7 +16,7 @@ walsgit-recycle-bin:
     delete_discussion:
       confirmation: '<u>Навсегда удалить</u> эту тему — действие нельзя отменить:'
       delete_button: 'Навсегда удалить эту тему'
-      success: 'Дискуссия успешно удалена'
+      success: 'Тема удалена'
       title: 'Удалить навсегда'
     delete_post:
       confirmation: 'Вы уверены, что хотите <u>навсегда удалить</u> это сообщение (необратимо):'
@@ -74,7 +74,7 @@ walsgit-recycle-bin:
     restore_discussion:
       confirmation: 'Восстановить тему:'
       restore_button: 'Восстановить эту тему'
-      success: 'Дискуссия успешно восстановлена'
+      success: 'Тема восстановлена'
       title: 'Восстановить тему'
     restore_post:
       confirmation: 'Восстановить это сообщение из темы '

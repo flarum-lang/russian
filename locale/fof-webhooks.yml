@@ -52,7 +52,7 @@ fof-webhooks:
             renamed: '=> fof-webhooks.ref.renamed'
             restored: '=> fof-webhooks.ref.restored'
             started: Создание
-            title: Дискуссия
+            title: Тема
           group:
             created: Создание
             deleted: '=> fof-webhooks.ref.deleted'

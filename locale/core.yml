@@ -785,7 +785,7 @@ core:
       posts:
         discussion:
           hint: 'ID темы'
-          key: дискуссия
+          key: тема
       users:
         email:
           hint: example@machine.local

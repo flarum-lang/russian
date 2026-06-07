@@ -14,7 +14,7 @@ fof-user-directory:
       use-small-cards: 'Маленькие карточки участников'
   forum:
     header:
-      back_to_user_directory_tooltip: 'Назад к списку участников'
+      back_to_user_directory_tooltip: 'К списку участников'
     hero:
       title: '=> fof-user-directory.forum.page.nav'
     page:
@@ -24,7 +24,7 @@ fof-user-directory:
       nav: 'Список участников'
       refresh_tooltip: '=> core.forum.index.refresh_tooltip'
       usercard:
-        discussion-count: '{count, plural, one { {count} дискуссия} other {{count} дискуссий}}'
+        discussion-count: '{count, plural, one {{count} тема} few {{count} темы} many {{count} тем} other {{count} тем}}'
         post-count: '{count, plural, one { {count} сообщение} other {{count} сообщений}}'
     search:
       field:
@@ -36,12 +36,12 @@ fof-user-directory:
   lib:
     sort:
       default: 'По умолчанию'
-      least_discussions: 'Мало дискуссий'
-      least_posts: 'Мало сообщений'
-      most_discussions: 'Много дискуссий'
-      most_posts: 'Много сообщений'
+      least_discussions: 'Меньше всех тем'
+      least_posts: 'Меньше всех сообщений'
+      most_discussions: 'Больше всех тем'
+      most_posts: 'Больше всех сообщений'
       newest: 'По убыванию'
-      not_specified: 'Как в Flarum'
+      not_specified: 'Стандартный вариант'
       oldest: 'По возрастанию'
       username_az: 'Имя пользователя (a-z)'
       username_za: 'Имя пользователя (z-a)'

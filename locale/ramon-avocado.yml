@@ -36,7 +36,7 @@ ramon-avocado:
       banner_image_label: Баннер
       categories_heading_label: 'Заголовок секции категорий'
       colored_border_style_full: 'Полная граница'
-      colored_border_style_help: 'Добавить цветную границу к карточкам дискуссий, используя основной цвет тега.'
+      colored_border_style_help: 'Добавить цветную границу к карточкам тем, используя основной цвет тега.'
       colored_border_style_label: 'Стиль границы карточки темы'
       colored_border_style_left: 'Левая граница'
       colored_border_style_none: Нет
@@ -55,7 +55,7 @@ ramon-avocado:
       featured_tags_label: 'Выделенные категории'
       fixed_avatar_effect_help: 'Закреплять аватар сообщения при чтении длинных комментариев на компьютере.'
       fixed_avatar_effect_label: 'Включить закрепление аватара'
-      following_heading_label: 'Заголовок отслеживаемых дискуссий'
+      following_heading_label: 'Заголовок отслеживаемых тем'
       hero_deco_divider_help: 'Отображать иконку в промежутке между двумя декоративными иконками — например, символ «vs» для спортивных сайтов.'
       hero_deco_divider_icon_help: 'Класс Font Awesome для иконки-разделителя, например: fas fa-times или fas fa-circle.'
       hero_deco_divider_icon_label: 'Класс иконки-разделителя'
@@ -79,7 +79,7 @@ ramon-avocado:
       logo_enabled_label: 'Включить уникальный логотип'
       logo_svg_help: 'Загрузите собственный SVG-логотип для форума.'
       logo_svg_label: SVG-логотип
-      popular_heading_label: 'Заголовок популярных дискуссий'
+      popular_heading_label: 'Заголовок популярных тем'
       post_cta_position_1: 'После сообщения №1'
       post_cta_position_2: 'После сообщения №2'
       post_cta_position_3: 'После сообщения №3'
@@ -114,7 +114,7 @@ ramon-avocado:
       show_post_cta_label: 'Показывать гостям приглашение присоединиться после первого сообщения'
       show_share_help: 'Добавить кнопку «Поделиться» к каждому сообщению.'
       show_share_label: 'Показывать кнопку «Поделиться» в сообщениях'
-      showcase_count_help: 'Отображать от 1 до 5 карточек дискуссий в витрине.'
+      showcase_count_help: 'Отображать от 1 до 5 карточек тем в витрине.'
       showcase_count_label: 'Количество элементов витрины'
       showcase_enabled_help: 'Показывать слайдер с дискуссиями из выбранных тегов на главной странице.'
       showcase_enabled_label: 'Включить витрину'
@@ -138,7 +138,7 @@ ramon-avocado:
       team_groups_label: 'Группы для отображения'
       team_title_label: 'Заголовок страницы'
       threads_style_help: 'Отображать первый пост как карточку и делать отступы ответов с левой границей, как в приложении Threads.'
-      threads_style_label: 'Включить оформление дискуссий в стиле Threads'
+      threads_style_label: 'Включить оформление тем в стиле Threads'
   forum:
     actions:
       share: Поделиться
@@ -187,9 +187,9 @@ ramon-avocado:
       composer_preview_empty: 'Нечего показывать.'
       composer_submitting: Публикация…
       composer_title_placeholder: 'Заголовок темы…'
-      discussion_plural_card: '{count} дискуссий'
-      discussion_singular: дискуссия
-      discussion_singular_card: '1 дискуссия'
+      discussion_plural_card: '{count} тем'
+      discussion_singular: тема
+      discussion_singular_card: '1 тема'
       discussions: темы
       filter_tags: 'Фильтр тегов'
       following_heading: Отслеживаемые
@@ -198,11 +198,11 @@ ramon-avocado:
       like_count_singular: '1 лайк'
       log_in: Войти
       more: ещё
-      new_discussion: 'Новая дискуссия'
+      new_discussion: 'Новая тема'
       no_tags_found: 'Теги не найдены'
       or: или
       popular_heading: 'Популярные темы'
-      popular_no_discussions: 'Дискуссий пока нет.'
+      popular_no_discussions: 'Тем пока нет.'
       post_plural: '{count} сообщений'
       post_singular: '1 сообщение'
       replies: Ответы
@@ -240,7 +240,7 @@ ramon-avocado:
       filtered_by: 'Отфильтровано по'
       hero_sub: 'Поиск по дискуссиям, сообщениям и участникам'
       hero_title: 'Что вы ищете?'
-      no_discussions_filter: 'Нет дискуссий по этим фильтрам.'
+      no_discussions_filter: 'Нет тем по этим фильтрам.'
       no_discussions_query: 'Темы по запросу "{q}" не найдены.'
       no_posts_found: 'По запросу «{q}» ничего не найдено.'
       no_posts_match: 'Нет сообщений, соответствующих этим фильтрам.'
@@ -267,8 +267,8 @@ ramon-avocado:
     tags:
       all_discussions: 'Все темы'
       discussion_plural: темы
-      discussion_singular: дискуссия
-      empty: 'В этой категории пока нет дискуссий.'
+      discussion_singular: тема
+      empty: 'В этой категории пока нет тем.'
       featured: Избранные
       home: Главная
       load_more: 'Загрузить ещё'
@@ -287,7 +287,7 @@ ramon-avocado:
       posts: сообщения
       title: 'Наша команда'
     user:
-      discussions_empty: 'Пока нет дискуссий.'
+      discussions_empty: 'Пока нет тем.'
       likes_empty: 'Пока нет понравившихся сообщений.'
       load_more: 'Загрузить ещё'
       mentions_empty: 'Пока нет упоминаний.'

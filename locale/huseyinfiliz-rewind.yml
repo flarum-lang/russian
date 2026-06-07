@@ -38,7 +38,7 @@ huseyinfiliz-rewind:
       community_slide_peak_hour: 'Пиковые часы'
       community_slide_star_post: 'Лучшее сообщение'
       community_slide_top_contributors: 'Самые активные участники'
-      community_slide_top_discussion: 'Популярная дискуссия'
+      community_slide_top_discussion: 'Популярная тема'
       community_slide_top_tag: 'Самый популярный тег'
       community_slide_total_words: 'Написано слов'
       community_slide_year-overview: 'Итоги в цифрах'
@@ -95,9 +95,9 @@ huseyinfiliz-rewind:
       regenerate_confirm: 'Это перепишет текущие данные итогов сообщества за этот год. Продолжить?'
       regenerate_short: Пересоздать
       title: 'Главное в сообществе'
-      top_discussion: 'Самая активная дискуссия'
+      top_discussion: 'Самая активная тема'
       top_tag: 'Самый популярный тег'
-      total_discussions: 'Создано дискуссий'
+      total_discussions: 'Создано тем'
       total_posts: 'Всего сообщений'
       view_slideshow: 'Посмотреть итоги'
       watch_slideshow: 'Посмотрите итоги сообщества за {year}'
@@ -113,8 +113,8 @@ huseyinfiliz-rewind:
       busiest_month: 'Самый активный месяц'
       busiest_month_desc: 'Пик активности — {count} сообщений'
       busiest_month_label: 'Самый активный месяц'
-      discussions: Дискуссий
-      hot_discussion: 'Самая активная дискуссия'
+      discussions: Тем
+      hot_discussion: 'Самая активная тема'
       hot_discussion_desc: 'Целых {count} сообщений в этой теме'
       intro_label: 'ИТОГИ СООБЩЕСТВА'
       most_loved: 'Самые популярные'
@@ -189,7 +189,7 @@ huseyinfiliz-rewind:
         average: 'На уровне среднего по сообществу'
         below_average: 'Ниже среднего по сообществу'
       discussion_count:
-        description: 'Начато {count} новых дискуссий'
+        description: 'Начато {count} новых тем'
         messages:
           tier_1: 'Всё начинается с первого сообщения'
           tier_2: 'Вы зажигаете обсуждения тут и там'

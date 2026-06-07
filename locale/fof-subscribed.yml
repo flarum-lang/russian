@@ -5,7 +5,7 @@
 fof-subscribed:
   admin:
     permission:
-      subscribe_to_discussion_created: 'Получать уведомления о создании дискуссий'
+      subscribe_to_discussion_created: 'Получать уведомления о создании темы'
       subscribe_to_post_created: 'Получать уведомления о новых сообщениях и ответах'
       subscribe_to_post_flagged: 'Получать уведомления о новых пометках'
       subscribe_to_post_unapproved: 'Получать уведомления о неподтверждённых сообщениях'
@@ -18,7 +18,7 @@ fof-subscribed:
       postFlagged: "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} установил(а) пометку на сообщение в {discussion_title}\n\nЧтобы посмотреть сообщение, пройдите по следующей ссылке:\n{post_url}\n"
       postUnapproved: "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} опубликовал(а) сообщение, требующее подтверждения в {discussion_title}\n\nЧтобы посмотреть неподтверждённое сообщение, пройдите по следующей ссылке:\n{post_url}\n\n---\n\n{post_content}\n"
     subject:
-      newDiscussion: '[Подписка | Новая дискуссия] {title}'
+      newDiscussion: '[Подписка | Новая тема] {title}'
       newUser: '[Подписка | Новый пользователь] {username}'
       postCreated: '[Подписки | Новое сообщение] {username} отправил новое сообщение в {title}'
       postFlagged: '[Подписки | Новая отметка] {username} отметил сообщение в {title}'

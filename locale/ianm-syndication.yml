@@ -20,7 +20,7 @@ ianm-syndication:
         label: 'Форматирование в лентах'
   forum:
     autodiscovery:
-      discussion_last_posts: 'Эта дискуссия'
+      discussion_last_posts: 'Эта тема'
       forum_activity: 'Активность форума'
       forum_new_discussions: 'Новые темы форума'
       tag_activity: 'Активность для тега {tag}'

@@ -8,14 +8,14 @@ justoverclock-related-discussions:
     relatedLimit: 'Число похожих тем для отображения — по умолчанию 4'
     relatedLimit-help: 'Введите число тем для отображения. Например, 4'
     relatedTitle: 'Заголовок для блока «Похожие темы»'
-    relatedTitle-help: 'Заменить стандартный заголовок похожих дискуссий на свой'
+    relatedTitle-help: 'Заменить стандартный заголовок похожих тем на свой'
     showExcerpt: 'Показывать краткое описание'
     showTooltip: 'Показывать всплывающую подсказку с кратким описанием'
   forum:
     avatarTooltip: 'написал(а) сообщение'
     deleted: Удалено
     hasBestAnswer: Решено
-    hasBestAnswer-title: 'Эта дискуссия отмечена как решённая'
+    hasBestAnswer-title: 'Эта тема отмечена как решённая'
     noRelatedFound: 'Похожие темы не найдены…'
     participants: участники
     postedOn: 'в:'

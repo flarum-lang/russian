@@ -9,8 +9,8 @@ antoinefr-money:
       metric_name: Монетки
     autoremove:
       - 'Никогда не снимать монетки'
-      - 'Когда дискуссия/запись скрыта или восстановлена (по умолчанию)'
-      - 'Когда дискуссия/сообщение удаляется'
+      - 'Когда тема или сообщение скрыто или восстановлено — по умолчанию'
+      - 'Когда тема или сообщение удаляется'
     permissions:
       disable_money_label: 'Отключить монетки'
       edit_money_label: 'Править монетки'
@@ -30,7 +30,7 @@ antoinefr-money:
       title: Настройки
   forum:
     modal:
-      current: 'Текущие:'
+      current: 'Сейчас:'
       submit_button: '=> core.ref.save_changes'
       title: 'монеток у {username}'
     user_controls:

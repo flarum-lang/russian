@@ -30,7 +30,7 @@ datlechin-birthdays:
     nav:
       nav_item: 'Дни рождения сегодня'
     page:
-      discussion_count: '{count, plural, one {Дискуссия: #} other {Дискуссий: #}}'
+      discussion_count: '{count, plural, one {Тем: #} few {Темы: #} many {Тем: #} other {Тем: #}}'
       post_count: '{count, plural, one {Сообщение: #} other {Сообщений: #}}'
     settings:
       change_dob_label: 'Изменить дату рождения'

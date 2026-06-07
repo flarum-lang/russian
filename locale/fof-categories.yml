@@ -15,7 +15,7 @@ fof-categories:
     help:
       child_bare_icon: 'Показывать иконки подкатегорий без круглого фона?'
       full_page_desktop: 'Свернуть меню навигации в боковой панели в одну строку, как на странице тегов? При этом виджеты, например Friends of Flarum Forum Statistics, будут скрыты из навигации категорий.'
-      small_forum_optimized: 'Это обеспечит более точный подсчёт дискуссий и сообщений, но может значительно замедлить работу средних и крупных форумов.'
+      small_forum_optimized: 'Это обеспечит более точный подсчёт тем и сообщений, но может значительно замедлить работу средних и крупных форумов.'
     labels:
       child_bare_icon: 'Иконки подкатегорий без фона?'
       compact_mobile_mode: 'Компактный мобильный режим'
@@ -36,7 +36,7 @@ fof-categories:
     index:
       categories_link: '=> fof-categories.ref.categories'
     last_discussion_widget:
-      no_discussions: 'Дискуссий пока нет'
+      no_discussions: 'Тем пока нет'
     stat-widgets:
       discussion_label: Темы
       post_label: Сообщения

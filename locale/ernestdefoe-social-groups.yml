@@ -50,7 +50,7 @@ ernestdefoe-social-groups:
       delete_post_confirm: 'Удалить это сообщение?'
       edit: Править
       edited: (отредактировано)
-      empty: 'Пока нет дискуссий. Создайте первую!'
+      empty: 'Пока нет тем. Создайте первую!'
       feed_placeholder: 'Что у вас на уме?'
       hide_comments: 'Скрыть комментарии'
       like: Лайк
@@ -60,7 +60,7 @@ ernestdefoe-social-groups:
       load_more_short: 'Загрузить ещё'
       locked: Закрыто
       more_options: 'Дополнительные параметры'
-      new_button: 'Новая дискуссия'
+      new_button: 'Новая тема'
       next_page: 'Следующая страница'
       pin_reply: 'Закрепить этот ответ'
       pinned: Закреплено
