@@ -10,7 +10,7 @@ fof-split:
     modal:
       new_discussion_label: 'Укажите название новой темы'
       submit_button: Разделить
-      title: 'Разделить дискуссию'
+      title: 'Разделить тему'
     post:
       was_split_from: '{count, plural, one {{count} сообщение было перемещено из {target}.} other {{count} сообщений было перемещено из {target}.}}'
       was_split_to: '{count, plural, one {{count} сообщение было перемещено в {target}.} other {{count} сообщений было перемещено в {target}.}}'

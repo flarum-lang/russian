@@ -25,7 +25,7 @@ fof-subscribed:
       postUnapproved: '[Подписка | Неподтверждённое сообщение] {username} опубликовал(а) в {title}'
   forum:
     notifications:
-      discussion_created_text: '{username} создал(а) новую дискуссию'
+      discussion_created_text: '{username} создал(а) новую тему'
       post_created_text: '{username} написал новое сообщение'
       post_flagged_text: '{username} пометил сообщение'
       post_unapproved_text: '{username} опубликовал(а) сообщение, которое требует подтверждения'

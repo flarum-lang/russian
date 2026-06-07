@@ -107,7 +107,7 @@ resofire-digest-mail:
       rarest_count_plural: 'Только у {count} участников есть этот значок'
       rarest_count_singular: 'Только у {count} участника есть этот значок'
     featured:
-      author_label: 'Автор дискуссии'
+      author_label: 'Автор темы'
       badge: Рекомендуемое
       cta: 'Присоединиться к обсуждению'
     footer:
@@ -124,7 +124,7 @@ resofire-digest-mail:
       col_rank: '#'
       col_score: Очки
       new_badge: НОВЫЙ
-      rankings_note: 'Рейтинг на основе общего количества очков за сообщения, дискуссии, лайки, значки и ежедневные входы.'
+      rankings_note: 'Рейтинг на основе общего количества очков за сообщения, темы, лайки, значки и ежедневные входы.'
       spot_plural: позиции
       spot_singular: позиция
     members:
@@ -164,19 +164,19 @@ resofire-digest-mail:
       newly_added: 'Недавно добавленные'
       top_genres: 'Популярные жанры за {period}'
     sections:
-      active_discussions: 'Активные дискуссии'
+      active_discussions: 'Активные темы'
       badges: Значки
-      favorites: 'Избранные дискуссии'
+      favorites: 'Избранные темы'
       gamepedia: Gamepedia
       leaderboard: 'Таблица лидеров'
-      new_discussions: 'Новые дискуссии'
+      new_discussions: 'Новые темы'
       new_members: 'Новые участники'
       pickem: Прогнозы
       picks: 'Прогнозы CFB'
       unread: 'Это вы ещё не видели'
     stats:
       active_users: 'Активные пользователи'
-      discussions: Дискуссии
+      discussions: Темы
       new_members: 'Новые участники'
       posts: Сообщения
     subject: '{forum} — ваш дайджест ({frequency})'

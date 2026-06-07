@@ -355,11 +355,11 @@ core:
     permissions:
       allow_hide_own_posts_label: 'Разрешить удалять свои сообщения'
       allow_post_editing_label: 'Разрешить изменять сообщение'
-      allow_renaming_label: 'Разрешить изменять название дискуссии'
+      allow_renaming_label: 'Изменять название темы'
       create_access_token_label: 'Создать токен'
       create_heading: Создание
-      delete_discussions_forever_label: 'Удалять дискуссии (навсегда)'
-      delete_discussions_label: 'Удалять дискуссии'
+      delete_discussions_forever_label: 'Удалять темы навсегда'
+      delete_discussions_label: 'Удалять темы'
       delete_posts_forever_label: 'Удалять сообщения (навсегда)'
       delete_posts_label: 'Удалять сообщения'
       description: 'Настройка прав доступа к различным местам и функциям форума.'
@@ -377,10 +377,10 @@ core:
       remove_scope_confirmation: 'Удалить разрешение {scope}?'
       remove_scope_label: 'Удалить разрешение {scope}'
       rename_discussions_label: 'Изменять название дискуссий'
-      reply_to_discussions_label: 'Отвечать в дискуссии'
+      reply_to_discussions_label: 'Отвечать в теме'
       search_users_label: 'Искать пользователей'
       sign_up_label: 'Регистрация пользователей'
-      start_discussions_label: 'Создавать дискуссии'
+      start_discussions_label: 'Создавать темы'
       title: Разрешения
       view_forum_label: 'Смотреть форум (дискуссий и пользователей)'
       view_hidden_groups_label: 'Смотреть скрытые группы'
@@ -499,7 +499,7 @@ core:
       discard_confirmation: 'Вы не создали дискуссию. Вы хотите отменить дискуссию?'
       submit_button: Создать
       title: '=> core.ref.start_a_discussion'
-      title_placeholder: 'Название дискуссии'
+      title_placeholder: 'Название темы'
     composer_edit:
       discard_confirmation: 'Вы не сохранили изменения. Вы хотите отказаться от них?'
       edited_message: 'Ваши правки сохранены.'
@@ -514,7 +514,7 @@ core:
       view_button: '=> core.ref.view'
     discussion_controls:
       cannot_reply_button: 'Нельзя ответить'
-      cannot_reply_text: 'У вас нет разрешения для публикации ответа в этой дискуссии.'
+      cannot_reply_text: 'У вас нет разрешения для публикации ответа в этой теме.'
       delete_button: '=> core.ref.delete'
       delete_confirmation: 'Вы уверены, что хотите удалить дискуссию?'
       delete_forever_button: '=> core.ref.delete_forever'
@@ -554,7 +554,7 @@ core:
     index:
       all_discussions_link: '=> core.ref.all_discussions'
       cannot_start_discussion_button: 'Нельзя создать'
-      mark_all_as_read_confirmation: 'Вы уверены, что хотите отметить все дискуссии прочитанными?'
+      mark_all_as_read_confirmation: 'Отметить все темы прочитанными?'
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
       meta_title_text: '=> core.ref.all_discussions'
       refresh_tooltip: '=> core.ref.refresh'
@@ -674,7 +674,7 @@ core:
       notifications_heading: '=> core.ref.notifications'
       notify_by_email_heading: '=> core.ref.email'
       notify_by_web_heading: Web
-      notify_discussion_renamed_label: 'Изменение названия моей дискуссии'
+      notify_discussion_renamed_label: 'Кто-то изменил название моей темы'
       privacy_disclose_online_label: 'Показывать мой статус online'
       privacy_heading: Конфиденциальность
       title: '=> core.ref.settings'
@@ -784,7 +784,7 @@ core:
         is: статус
       posts:
         discussion:
-          hint: 'ID дискуссии'
+          hint: 'ID темы'
           key: дискуссия
       users:
         email:
@@ -853,7 +853,7 @@ core:
     username:
       deleted_text: '[удалено]'
   ref:
-    all_discussions: 'Все дискуссии'
+    all_discussions: 'Все темы'
     change_email: 'Изменить email'
     change_password: 'Изменить пароль'
     color: Цвет
@@ -868,7 +868,7 @@ core:
     dark_mode_label: Тёмный
     delete: Удалить
     delete_forever: 'Удалить (навсегда)'
-    discussions: Дискуссии
+    discussions: Темы
     edit: Править
     edit_user: 'Изменить пользователя'
     email: Email

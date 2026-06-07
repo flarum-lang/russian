@@ -12,9 +12,9 @@ ernestdefoe-cross-references:
   forum:
     event_post:
       post_specific: ' (конкретное сообщение)'
-      text: '{username} упомянул(а) эту дискуссию в {ref}'
+      text: '{username} упомянул(а) эту тему в {ref}'
     notification:
-      text: 'Упомянул(а) вашу дискуссию в {discussion}'
+      text: 'Упомянул(а) вашу тему в {discussion}'
     post_number:
       copied: 'Ссылка {ref} скопирована в буфер обмена.'
       copy_failed: 'Не удалось скопировать. Ссылка: {ref}.'

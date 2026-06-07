@@ -21,7 +21,7 @@ antoinefr-money:
       helpmoneyname: 'Используйте <code>[money]</code>, чтобы подставить значение'
       helppostminimumlength: 'Введите 0, чтобы отключить ограничение'
       ignore_notifying_users: 'При проверке количества слов в ответах обращать внимание только на раздел содержимого'
-      moneyfordiscussion: 'Монеток получено за новую дискуссию'
+      moneyfordiscussion: 'Монеток получено за новую тему'
       moneyforlike: 'Монеток получено если сообщение одобрили'
       moneyforpost: 'Монеток получено за новое сообщение'
       moneyname: 'Название валюты'

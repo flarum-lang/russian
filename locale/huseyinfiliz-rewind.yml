@@ -194,7 +194,7 @@ huseyinfiliz-rewind:
           tier_1: 'Всё начинается с первого сообщения'
           tier_2: 'Вы зажигаете обсуждения тут и там'
           tier_3: 'Движущая сила сообщества'
-        title: Дискуссии
+        title: Темы
       likes_given:
         description: 'Поставили {count} лайков на форуме'
         messages:

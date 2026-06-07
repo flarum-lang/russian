@@ -19,7 +19,7 @@ fof-move-posts:
       move_posts: '=> fof-move-posts.ref.move_posts'
     error:
       move_old_post_to_newer_discussion: '=> fof-move-posts.ref.status.old_to_new_move'
-      move_posts_to_same_discussion: 'Нельзя переносить сообщения в ту же дискуссию.'
+      move_posts_to_same_discussion: 'Нельзя переносить сообщения в ту же тему.'
     modal:
       check: 'Выберите тип переноса'
       confirm_move_all_to_new_discussion: 'Вы собираетесь переместить все сообщения из этой темы в новую. В большинстве случаев разумнее отредактировать существующую тему, изменить её название, теги или другие параметры. Продолжить?'

@@ -145,17 +145,17 @@ ramon-avocado:
     discussion:
       hero_image_add: 'Добавить изображение'
       hero_image_remove: 'Удалить изображение'
-      hero_image_remove_confirm: 'Удалить обложку из этой дискуссии?'
+      hero_image_remove_confirm: 'Удалить обложку из этой темы?'
       hero_image_replace: 'Заменить изображение'
       participant_plural: участники
       participant_singular: участник
       post_plural: сообщения
       post_singular: сообщение
     discussions:
-      empty: 'Дискуссии не найдены.'
+      empty: 'Темы не найдены.'
       home: 'На главную'
       load_more: 'Загрузить ещё'
-      title: 'Все дискуссии'
+      title: 'Все темы'
     header:
       back: Назад
       back_home: 'На главную'
@@ -163,7 +163,7 @@ ramon-avocado:
       search: Поиск
     home:
       all_categories: 'Все категории'
-      all_title: 'Все дискуссии'
+      all_title: 'Все темы'
       back_home: Главная
       badge_following: Отслеживаемые
       badge_sticky: Закреплённые
@@ -181,16 +181,16 @@ ramon-avocado:
       composer_hero_image_label: 'Обложка — по желанию'
       composer_hero_image_picked: 'Изображение выбрано'
       composer_hero_image_remove: 'Удалить изображение'
-      composer_hero_image_upload_failed: 'Не удалось загрузить обложку. Попробуйте ещё раз на странице дискуссии.'
+      composer_hero_image_upload_failed: 'Не удалось загрузить обложку. Попробуйте ещё раз на странице темы.'
       composer_post: 'Создать дискуссию'
       composer_preview: Предпросмотр
       composer_preview_empty: 'Нечего показывать.'
       composer_submitting: Публикация…
-      composer_title_placeholder: 'Заголовок дискуссии…'
+      composer_title_placeholder: 'Заголовок темы…'
       discussion_plural_card: '{count} дискуссий'
       discussion_singular: дискуссия
       discussion_singular_card: '1 дискуссия'
-      discussions: дискуссии
+      discussions: темы
       filter_tags: 'Фильтр тегов'
       following_heading: Отслеживаемые
       like: Нравится
@@ -201,7 +201,7 @@ ramon-avocado:
       new_discussion: 'Новая дискуссия'
       no_tags_found: 'Теги не найдены'
       or: или
-      popular_heading: 'Популярные дискуссии'
+      popular_heading: 'Популярные темы'
       popular_no_discussions: 'Дискуссий пока нет.'
       post_plural: '{count} сообщений'
       post_singular: '1 сообщение'
@@ -233,7 +233,7 @@ ramon-avocado:
       op_badge: 'Автор темы'
     post_cta:
       or: или
-      text: 'Понравилось обсуждение? Присоединяйтесь к дискуссии!'
+      text: 'Понравилось обсуждение? Присоединяйтесь к теме!'
     search:
       clear: Очистить
       enter_search_term: 'Введите поисковый запрос, чтобы найти пользователей.'
@@ -241,7 +241,7 @@ ramon-avocado:
       hero_sub: 'Поиск по дискуссиям, сообщениям и участникам'
       hero_title: 'Что вы ищете?'
       no_discussions_filter: 'Нет дискуссий по этим фильтрам.'
-      no_discussions_query: 'Дискуссии по запросу "{q}" не найдены.'
+      no_discussions_query: 'Темы по запросу "{q}" не найдены.'
       no_posts_found: 'По запросу «{q}» ничего не найдено.'
       no_posts_match: 'Нет сообщений, соответствующих этим фильтрам.'
       no_users_found: 'По запросу «{q}» пользователи не найдены.'
@@ -258,15 +258,15 @@ ramon-avocado:
       sort_oldest: 'Сначала старые'
       sort_relevance: 'По релевантности'
       sort_top: Топ
-      tab_discussions: Дискуссии
+      tab_discussions: Темы
       tab_posts: Сообщения
       tab_users: Пользователи
       tip: 'Подсказка: добавьте префикс '
       tip_suffix: ' чтобы фильтровать по тегу'
       title: Поиск
     tags:
-      all_discussions: 'Все дискуссии'
-      discussion_plural: дискуссии
+      all_discussions: 'Все темы'
+      discussion_plural: темы
       discussion_singular: дискуссия
       empty: 'В этой категории пока нет дискуссий.'
       featured: Избранные
@@ -278,7 +278,7 @@ ramon-avocado:
       title: Категории
     team:
       disabled: 'Эта страница недоступна.'
-      discussions: дискуссии
+      discussions: темы
       empty: 'Участники не найдены.'
       member_plural: участники
       member_since: С
