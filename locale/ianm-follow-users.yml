@@ -33,12 +33,12 @@ ianm-follow-users:
       html:
         body: '{user_display_name} оставил(а) сообщение в [{discussion_title}]({post_url}).'
       plain:
-        body: "{user_display_name} оставил(а) сообщение в {discussion_title}.\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nВы больше не будете получать уведомления об этой дискуссии, пока не просмотрите все новые сообщения.\n"
+        body: "{user_display_name} оставил(а) сообщение в {discussion_title}.\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nВы больше не будете получать уведомления из этой темы, пока не просмотрите все новые сообщения.\n"
       subject: '{user_display_name} оставил(а) сообщение в {discussion_title}'
   forum:
     badge:
       label:
-        follow: 'Отслеживаемые дискуссии'
+        follow: 'Отслеживаемые темы'
         lurk: 'Подписаться на всех'
     filter:
       following: 'Пользователи, на которых я подписан'
@@ -83,9 +83,9 @@ ianm-follow-users:
     follow_levels:
       follow:
         description: "Получать уведомления, когда <em>{username}</em> открывает новую дискуссию.\n"
-        name: 'Подписаться на дискуссии'
+        name: 'Подписаться на темы'
       lurk:
-        description: "Получать уведомления, когда <em>{username}</em> открывает новую дискуссию или публикует сообщение в любой дискуссии.\n"
+        description: "Получать уведомления, когда <em>{username}</em> создаёт тему или публикует сообщение в любой теме.\n"
         name: 'Подписаться на все'
       unfollow:
         description: "Не получать уведомлений о действиях <em>{username}</em>'.\n"

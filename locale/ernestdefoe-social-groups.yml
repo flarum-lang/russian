@@ -91,7 +91,7 @@ ernestdefoe-social-groups:
       save_edit: Сохранить
       start_button: 'Создать дискуссию'
       submit: Создать
-      title: Дискуссии
+      title: Темы
       title_label: Заголовок
       title_placeholder: 'Что у вас на уме?'
       unpin_reply: 'Открепить этот ответ'

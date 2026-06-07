@@ -18,7 +18,7 @@ flarum-lock:
       discussion_locked_text: '{username} закрыл(а) дискуссию {time}.'
       discussion_unlocked_text: '{username} открыл(а) дискуссию {time}.'
     settings:
-      notify_discussion_locked_label: 'Закрытие моей дискуссии'
+      notify_discussion_locked_label: 'Кто-то закрыл мою тему'
   lib:
     gambits:
       discussions:

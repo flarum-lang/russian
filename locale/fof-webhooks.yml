@@ -5,12 +5,12 @@
 fof-webhooks:
   actions:
     discussion:
-      deleted: 'Удаление дискуссии `{1}`'
+      deleted: 'Удаление темы `{1}`'
       hidden: 'Скрытие темы `{1}`'
       renamed:
         description: 'Новое название: {1}'
         title: 'Изменение темы `{1}`'
-      restored: 'Восстановление дискуссии `{1}`'
+      restored: 'Восстановление темы `{1}`'
       started: 'Создание темы `{1}`'
     group:
       created: 'Создание группы `{1}`'

@@ -16,7 +16,7 @@ antoinefr-money:
       edit_money_label: 'Править монетки'
     settings:
       autoremove: 'Автоматическое обновление монеток'
-      cascaderemove: 'Снимать монетки за публикации при удалении дискуссии'
+      cascaderemove: 'Снимать монетки за публикации при удалении темы'
       helpextensionlikes: 'Требуется расширение <code>flarum/likes</code>'
       helpmoneyname: 'Используйте <code>[money]</code>, чтобы подставить значение'
       helppostminimumlength: 'Введите 0, чтобы отключить ограничение'

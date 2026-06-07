@@ -5,16 +5,16 @@
 huseyinfiliz-stickiest:
   admin:
     permissions:
-      stickiest_label: 'Закреплять дискуссии приоритетно'
+      stickiest_label: 'Закреплять темы приоритетно'
       super_sticky_discussions_label: 'Закреплять дискуссии приоритетно'
       tag_sticky_discussions_label: 'Закреплять дискуссии в теге'
-      tag_sticky_label: 'Закреплять дискуссии по тегу'
+      tag_sticky_label: 'Закреплять темы по тегу'
     settings:
       badge_icon_label: 'Иконка приоритетного закрепления'
       badge_icon_text: '=> core.ref.icon_text'
       display_tag_sticky_label: 'Показывать закреплённые в теге дискуссии на странице всех дискуссий'
       display_tag_sticky_text: 'Они будут отображаться как обычные дискуссии без закрепления вверху списка.'
-      show_sticky_highlight_help: 'Если включено, закреплённые дискуссии будут отображаться с цветной полосой слева и фоновым оттенком в списке дискуссий.'
+      show_sticky_highlight_help: 'Если включено, закреплённые темы будут отображаться с цветной полосой слева и фоновым оттенком в списке тем.'
       show_sticky_highlight_label: 'Выделять закреплённые цветом'
       show_tag_sticky_help: 'Если отключено, закреплённые по тегу темы будут отображаться только при просмотре соответствующего тега.'
       show_tag_sticky_label: 'Показывать закреплённые по тегу темы на странице всех тем'
@@ -35,7 +35,7 @@ huseyinfiliz-stickiest:
       discussion_stickiest_text: '{username} отметил(а) дискуссию приоритетной.'
       discussion_super_stickied_text: '{username} отметил(а) дискуссию приоритетной.'
       discussion_unstickied_text: '=> flarum-sticky.forum.post_stream.discussion_unstickied_text'
-      discussion_unstickiest_text: '{username} снял(а) приоритет с дискуссии.'
+      discussion_unstickiest_text: '{username} снял(а) приоритет с темы.'
     stickiest_modal:
       sticky_label: '=> flarum-sticky.ref.sticky'
       sticky_text: 'Закреплённые дискуссии будут отображаться вверху страницы всех дискуссий, если они не прочитаны. При просмотре конкретного тега, к которому относится дискуссия, они всегда будут закреплены вверху.'

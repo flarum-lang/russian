@@ -9,8 +9,8 @@ ekumanov-post-search:
       authorQuickFilterHelp: 'Добавить кнопку в действия сообщения для фильтра по автору.'
       dropdownAccess: 'Доступ через меню темы'
       dropdownAccessHelp: 'Показывать кнопку «Поиск по теме» в меню действий темы.'
-      originalPosterBadge: 'Метка автора дискуссии'
-      originalPosterBadgeHelp: 'Показывать кликабельную метку «Автор дискуссии» рядом с сообщениями автора. Нажатие фильтрует сообщения.'
+      originalPosterBadge: 'Метка автора темы'
+      originalPosterBadgeHelp: 'Показывать кликабельную метку «Автор темы» рядом с сообщениями автора. Нажатие фильтрует сообщения.'
       sideNavAccess: 'Доступ через боковую панель темы'
       sideNavAccessHelp: 'Показывать кнопку «Поиск по теме» в боковой панели.'
   forum:
@@ -18,14 +18,14 @@ ekumanov-post-search:
       action: 'Попробуйте сбросить фильтры'
       message: 'Не удалось перейти к сообщению'
     discussionControls:
-      searchInDiscussion: 'Поиск по дискуссии'
+      searchInDiscussion: 'Поиск по теме'
     post:
-      opBadge: 'Автор дискуссии'
+      opBadge: 'Автор темы'
       opBadgeTooltip: 'Нажмите, чтобы показать только ответы этого пользователя'
     postControls:
       authorFilter: 'Показать только ответы этого автора'
     stream:
-      noResults: 'Нет сообщений, соответствующих запросу в этой дискуссии'
+      noResults: 'Нет сообщений по запросу в этой теме'
       otherAuthorsGap: '{count, plural, one {Скрыто 1 сообщение другого автора} few {Скрыто # сообщения других авторов} many {Скрыто # сообщений других авторов} other {Скрыто # сообщений других авторов}}'
       unmatchedGap: '{count, plural, one {Скрыто 1 неподходящее сообщение} few {Скрыто # неподходящих сообщения} many {Скрыто # неподходящих сообщений} other {Скрыто # неподходящих сообщений}}'
     toolbar:
@@ -33,5 +33,5 @@ ekumanov-post-search:
       clear: 'Сбросить фильтры'
       close: 'Сбросить фильтры и закрыть панель'
       pin: 'Всегда показывать панель фильтров в дискуссиях'
-      searchPlaceholder: 'Поиск в дискуссии…'
+      searchPlaceholder: 'Поиск в теме…'
       summary: '{matching} из {total}'

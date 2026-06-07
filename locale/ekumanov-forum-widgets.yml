@@ -25,7 +25,7 @@ ekumanov-forum-widgets:
       expanded_panel_width_full_bar: 'На всю ширину строки'
       expanded_panel_width_help: 'Полная строка: панель занимает всю ширину строки, раскрывается при клике в любом месте. Ячейка онлайн: панель появляется под счётчиком пользователей в сети и раскрывается по клику на него.'
       expanded_panel_width_online_cell: 'Только в ячейке пользователей в сети'
-      ignore_private_discussions: 'Игнорировать приватные дискуссии в подсчёте'
+      ignore_private_discussions: 'Игнорировать переписки в подсчёте'
       include_guests_in_total: 'Учитывать гостей при подсчёте общего числа в сети'
       include_guests_in_total_help: 'Если включено, число в панели и в заголовке секции внутри раскрытой панели суммирует авторизованных пользователей и гостей. При этом строки детализации в раскрытой панели по-прежнему показывают каждую категорию отдельно. Отключите, чтобы число в панели отражало только авторизованных пользователей.'
       last_seen_interval: 'Интервал последней активности (в минутах)'
@@ -72,8 +72,8 @@ ekumanov-forum-widgets:
       overflow_more: ещё
       title: 'В сети'
     stats:
-      discussions_count: 'Дискуссии: {count}'
-      label_discussions: '{count, plural, one {дискуссия} few {дискуссии} many {дискуссий} other {дискуссии}}'
+      discussions_count: 'Темы: {count}'
+      label_discussions: '{count, plural, one {тема} few {темы} many {тем} other {темы}}'
       label_online: '{count, plural, one {в сети} few {в сети} many {в сети} other {в сети}}'
       label_online_over_total: '{online} в сети из {total}'
       label_posts: '{count, plural, one {сообщение} few {сообщения} many {сообщений} other {сообщения}}'
@@ -81,7 +81,7 @@ ekumanov-forum-widgets:
       latest_registration: 'Последняя регистрация:'
       posts_count: 'Сообщения: {count}'
       title: 'Статистика форума'
-      tooltip_discussions: Дискуссии
+      tooltip_discussions: Темы
       tooltip_latest_registration: 'Последняя регистрация: {name}'
       tooltip_online: 'Пользователи в Сети'
       tooltip_posts: Сообщения

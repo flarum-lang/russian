@@ -24,7 +24,7 @@ fof-drafts:
       schedule_on_one_server: 'Использовать директиву ''onOneServer()'' для планировщика задач (требуется Redis/Memcache)'
       title: Черновики
   console:
-    no_title_error: 'Черновик пропущен — нет заголовка дискуссии.'
+    no_title_error: 'Черновик пропущен — нет заголовка темы.'
     scheduled_drafts_disabled: 'Расписание черновиков отключено в настройках.'
   forum:
     composer:
@@ -45,7 +45,7 @@ fof-drafts:
       title: Черновики
       tooltip: '=> fof-drafts.forum.dropdown.title'
     schedule_draft_modal:
-      no_title_error: 'Укажите заголовок дискуссии, чтобы отложить публикацию.'
+      no_title_error: 'Укажите заголовок темы, чтобы отложить публикацию.'
       reschedule_button: Перенести
       schedule_button: Запланировать
       schedule_time_preview: 'Черновик будет автоматически опубликован в <b>{datetime}</b>.'

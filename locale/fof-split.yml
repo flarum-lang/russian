@@ -8,7 +8,7 @@ fof-split:
       split_discussion_label: 'Перемещать сообщения'
   forum:
     modal:
-      new_discussion_label: 'Укажите название новой дискуссии'
+      new_discussion_label: 'Укажите название новой темы'
       submit_button: Разделить
       title: 'Разделить дискуссию'
     post:

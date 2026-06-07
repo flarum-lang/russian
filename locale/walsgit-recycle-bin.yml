@@ -7,11 +7,11 @@ walsgit-recycle-bin:
     actions: Действия
     author: Автор
     bulk_actions: 'Действия для выбранных дискуссий: '
-    bulk_delete_label: 'Удалить выбранные дискуссии'
+    bulk_delete_label: 'Удалить выбранные темы'
     bulk_post_actions: 'Действия для выбранных сообщений: '
     bulk_post_delete_label: 'Удалить выбранные сообщения'
     bulk_post_restore_label: 'Восстановить выбранные сообщения'
-    bulk_restore_label: 'Восстановить выбранные дискуссии'
+    bulk_restore_label: 'Восстановить выбранные темы'
     created_at: Создано
     delete_discussion:
       confirmation: 'Вы уверены, что хотите <u>окончательно удалить</u> эту дискуссию (действие нельзя отменить):'
@@ -27,19 +27,19 @@ walsgit-recycle-bin:
     delete_tooltip: 'Удалить дискуссию #{discussionId}'
     discussion_id: ID
     discussion_link_tooltip: 'Просмотреть дискуссию'
-    discussion_title: 'Заголовок дискуссии'
+    discussion_title: 'Заголовок темы'
     discussions_bin: 'Корзина дискуссий'
     empty_list: 'В корзине нет дискуссий.'
     grid:
       invalid_column_content: 'Недопустимый контент!'
     hidden_at: Скрыто
-    hidden_discussions: 'Скрытые дискуссии'
+    hidden_discussions: 'Скрытые темы'
     mass_delete_modal:
-      submit_button: 'Окончательно удалить эти дискуссии'
-      success: 'Выбранные дискуссии успешно удалены'
-      text_end: ' выбранные дискуссии?'
+      submit_button: 'Окончательно удалить эти темы'
+      success: 'Выбранные темы удалены'
+      text_end: ' выбранные темы?'
       text_start: 'Вы уверены, что хотите <u>удалить навсегда</u> эти '
-      title: 'Окончательно удалить эти дискуссии'
+      title: 'Окончательно удалить эти темы'
     mass_delete_post_modal:
       submit_button: 'Навсегда удалить эти сообщения'
       success: 'Успешно удалены выбранные сообщения'
@@ -48,11 +48,11 @@ walsgit-recycle-bin:
       title: 'Удалите навсегда эти сообщения'
     mass_help_text: 'Пожалуйста ждите обновления страницы после подтверждения группового удаления или восстановления'
     mass_restore_modal:
-      submit_button: 'Восстановить эти дискуссии'
-      success: 'Выбранные дискуссии успешно восстановлены'
-      text_end: ' выбранные дискуссии?'
+      submit_button: 'Восстановить эти темы'
+      success: 'Выбранные темы восстановлены'
+      text_end: ' выбранные темы?'
       text_start: 'Вы уверены, что хотите восстановить эти '
-      title: 'Восстановить выбранные дискуссии'
+      title: 'Восстановить выбранные темы'
     mass_restore_post_modal:
       submit_button: 'Восстановить эти сообщения'
       success: 'Выбранные сообщения успешно восстановлены'
@@ -77,7 +77,7 @@ walsgit-recycle-bin:
       success: 'Дискуссия успешно восстановлена'
       title: 'Восстановить дискуссию'
     restore_post:
-      confirmation: 'Вы уверены, что хотите восстановить это сообщение из дискуссии '
+      confirmation: 'Восстановить это сообщение из темы '
       restore_button: 'Восстановить это сообщение'
       success: 'Сообщение успешно восстановлено'
       title: 'Восстановить сообщение'
@@ -87,7 +87,7 @@ walsgit-recycle-bin:
     search_placeholder: 'Поиск темы'
     search_post_help_text: 'Поиск слов в скрытых сообщениях'
     search_post_placeholder: 'Поиск сообщения'
-    total_hidden_discussions: 'Полностью скрытые дискуссии'
+    total_hidden_discussions: 'Полностью скрытые темы'
     total_hidden_posts: 'Всего скрытых сообщений'
     unknown_date: 'Неизвестная дата'
     unknown_user: 'Неизвестный пользователь'

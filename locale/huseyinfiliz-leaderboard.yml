@@ -15,7 +15,7 @@ huseyinfiliz-leaderboard:
       already_running: 'Пересчёт уже выполняется. Дождитесь его завершения.'
       excluded_groups_help: 'Пользователи из выбранных групп не будут отображаться в таблице лидеров.'
       excluded_groups_label: 'Исключённые группы'
-      excluded_tags_help: 'Дискуссии с выбранными тегами не будут приносить баллы.'
+      excluded_tags_help: 'Темы из этих тегов не будут приносить баллы.'
       excluded_tags_label: 'Исключённые теги'
       extension_not_enabled: 'Это расширение не включено.'
       leaderboard_name_label: 'Название таблицы лидеров'
@@ -23,19 +23,19 @@ huseyinfiliz-leaderboard:
       points_best_answer_label: 'Баллы за лучший ответ'
       points_changed_notice: 'Значения баллов изменены. Выполните синхронизацию, чтобы применить новые значения.'
       points_daily_login_label: 'Баллы за ежедневный вход'
-      points_discussion_started_label: 'Баллы за создание дискуссии'
+      points_discussion_started_label: 'Баллы за создание темы'
       points_downvote_received_label: 'Баллы за получение дизлайка'
       points_label_label: 'Название баллов'
       points_like_given_label: 'Баллы за поставленный лайк'
       points_like_received_label: 'Баллы за получение лайка'
-      points_post_created_label: 'Баллы за ответ в дискуссии'
+      points_post_created_label: 'Баллы за ответ в теме'
       points_reaction_given_label: 'Баллы за отправленную реакцию'
       points_reaction_received_label: 'Баллы за получение реакции'
       points_upvote_received_label: 'Баллы за получение лайка'
       recalculate_points_button: Пересчитать
       recalculate_points_confirm: 'Будет выполнено повторное сканирование всех исходных данных и полное пересоздание записей о баллах. На крупных форумах это может занять некоторое время.'
       recalculate_points_failed: 'Не удалось выполнить пересчёт. Попробуйте снова.'
-      recalculate_points_help: 'Повторно проверяет все исходные данные — дискуссии, сообщения, лайки и другие — удаляет несвязанные записи, добавляет недостающие и пересчитывает все итоговые значения. Используйте после изменения исключённых тегов или если данные выглядят некорректно.'
+      recalculate_points_help: 'Повторно проверяет все исходные данные — темы, сообщения, лайки и другие — удаляет несвязанные записи, добавляет недостающие и пересчитывает все итоговые значения. Используйте после изменения исключённых тегов или если данные выглядят некорректно.'
       recalculate_points_retry: 'Попробовать снова'
       recalculate_points_success: 'Вся активность пересчитана.'
       recalculate_points_title: 'Пересчитать всю активность'
@@ -88,5 +88,5 @@ huseyinfiliz-leaderboard:
       second: '2 место'
       stat_badges: Значки
       stat_comments: Комментарии
-      stat_discussions: Дискуссии
+      stat_discussions: Темы
       third: '3 место'

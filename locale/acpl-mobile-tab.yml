@@ -26,7 +26,7 @@ acpl-mobile-tab:
       toggle_label: 'Переключать видимость при прокрутке'
   lib:
     item:
-      all_discussions: Дискуссии
+      all_discussions: Темы
       categories: Категории
       fof-byobu: Переписки
       home: Главная
