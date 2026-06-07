@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.35 (2026-06-07)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
+
+
+Все изменения: [2.0.34...2.0.35](https://github.com/flarum-lang/russian/compare/2.0.34...2.0.35).
+
+
 2.0.34 (2026-06-06)
 -------------------
 
