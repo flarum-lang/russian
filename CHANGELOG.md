@@ -5,6 +5,11 @@ CHANGELOG
 2.0.36 (XXXX-XX-XX)
 -------------------
 
+**Общие изменения**:
+
+* Обновленные переводы ядра Flarum.
+
+
 **Обновленные переводы расширений**:
 
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
@@ -29,6 +34,7 @@ CHANGELOG
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/categories`](https://github.com/FriendsOfFlarum/categories)
@@ -63,6 +69,7 @@ CHANGELOG
 * [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha)
 * [`ramon/avocado`](https://github.com/ram0ng1/avocado)
 * [`ramon/guest-cta`](https://github.com/ram0ng1/guest-cta)
+* [`ramon/point-system`](https://github.com/ram0ng1/point-system)
 * [`resofire/digest-mail`](https://github.com/ResofireV2/digest-mail)
 * [`resofire/menu-control`](https://github.com/ResofireV2/menu-control)
 * [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
