@@ -26,7 +26,7 @@ flarum-mentions:
       html:
         body: '{mentioner_display_name} упомянул(а) вас в сообщении в теме [{title}]({url}).'
       plain:
-        body: "{mentioner_display_name} упомянул(а) вас в сообщении темы «{title}».\n\n{url}\n\n---\n\n{content}\n"
+        body: "Пользователь {mentioner_display_name} упомянул вас в сообщении темы «{title}».\n\n{url}\n\n---\n\n{content}\n"
       subject: '{mentioner_display_name} упомянул(а) вас в {title}'
   forum:
     composer:

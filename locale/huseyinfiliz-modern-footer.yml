@@ -25,7 +25,7 @@ huseyinfiliz-modern-footer:
       general: Главное
       hide_everywhere: 'Скрыть на всех страницах'
       hide_except_index: 'Показывать только на главной'
-      hide_on_discussions: 'Скрыть в дискуссиях'
+      hide_on_discussions: 'Скрыть в темах'
       link: Ссылка
       manage_footer_sections: 'Управление разделами'
       mobile_tab_height: 'Высота для мобильных устройств'

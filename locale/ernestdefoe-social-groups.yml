@@ -43,9 +43,9 @@ ernestdefoe-social-groups:
       comments_empty: 'Пока нет комментариев. Оставьте первый!'
       content_label: 'Первое сообщение'
       content_placeholder: 'Напишите что-нибудь…'
-      create_title: 'Создать дискуссию'
-      delete: 'Удалить дискуссию'
-      delete_confirm: 'Удалить эту дискуссию и все ответы в ней?'
+      create_title: 'Создать тему'
+      delete: 'Удалить тему'
+      delete_confirm: 'Удалить эту тему и все ответы в ней?'
       delete_post: Удалить
       delete_post_confirm: 'Удалить это сообщение?'
       edit: Править
@@ -89,7 +89,7 @@ ernestdefoe-social-groups:
       reply_count: '{count, plural, one {# ответ} few {# ответа} many {# ответов} other {# ответов}}'
       reply_placeholder: 'Напишите ответ…'
       save_edit: Сохранить
-      start_button: 'Создать дискуссию'
+      start_button: 'Создать тему'
       submit: Создать
       title: Темы
       title_label: Заголовок

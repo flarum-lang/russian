@@ -32,7 +32,7 @@ huseyinfiliz-stickiest:
     post_stream:
       discussion_common_stickied_text: '{username} снял(а) приоритет с дискуссии.'
       discussion_stickied_text: '=> flarum-sticky.forum.post_stream.discussion_stickied_text'
-      discussion_stickiest_text: '{username} отметил(а) дискуссию приоритетной.'
+      discussion_stickiest_text: '{username} отметил(а) тему приоритетной.'
       discussion_super_stickied_text: '{username} отметил(а) дискуссию приоритетной.'
       discussion_unstickied_text: '=> flarum-sticky.forum.post_stream.discussion_unstickied_text'
       discussion_unstickiest_text: '{username} снял(а) приоритет с темы.'

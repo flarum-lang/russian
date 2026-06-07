@@ -90,7 +90,7 @@ ralkage-ad-management:
       allowed_image_formats: 'Разрешённые форматы изображений'
       allowed_image_formats_help: 'Список допустимых расширений изображений через запятую. Например: jpg, jpeg, png, webp, gif.'
       between_posts_interval: 'Интервал между рекламой'
-      between_posts_interval_help: 'Показывать рекламу после каждых N сообщений в дискуссиях. Установите 0, чтобы отключить.'
+      between_posts_interval_help: 'Показывать рекламу после каждых N сообщений в темах. Установите 0, чтобы отключить.'
       compression_method: 'Метод сжатия'
       compression_method_help: 'PHP GD встроен. reSmush использует внешний API для оптимизации без потерь — требуется curl.'
       compression_quality: 'Качество сжатия'
@@ -157,7 +157,7 @@ ralkage-ad-management:
         footer: Подвал
         header: Шапка
         sidebar: 'Боковая панель'
-      shortcode_help: 'Вставьте этот тег в сообщение или дискуссию, чтобы вывести рекламу из выбранной зоны прямо в тексте.'
+      shortcode_help: 'Вставьте этот тег в сообщение или тему, чтобы вывести рекламу из выбранной зоны прямо в тексте.'
       shortcode_title: 'Шорткод для поста:'
       sort_order: 'Порядок сортировки'
       title: 'Рекламные зоны'

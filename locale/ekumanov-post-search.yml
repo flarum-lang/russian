@@ -32,6 +32,6 @@ ekumanov-post-search:
       authorPlaceholder: 'Фильтр по автору…'
       clear: 'Сбросить фильтры'
       close: 'Сбросить фильтры и закрыть панель'
-      pin: 'Всегда показывать панель фильтров в дискуссиях'
+      pin: 'Всегда показывать панель фильтров в темах'
       searchPlaceholder: 'Поиск в теме…'
       summary: '{matching} из {total}'
