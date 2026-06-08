@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+2.0.37 (XXXX-XX-XX)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+
+
+Все изменения: [2.0.36...2.0.37](https://github.com/flarum-lang/russian/compare/2.0.36...2.0.37).
+
+
 2.0.36 (2026-06-08)
 -------------------
 
