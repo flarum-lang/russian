@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`flarum/mentions`](https://github.com/flarum/mentions)
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
 
 
 Все изменения: [2.0.36...2.0.37](https://github.com/flarum-lang/russian/compare/2.0.36...2.0.37).
