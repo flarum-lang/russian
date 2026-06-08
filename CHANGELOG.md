@@ -5,6 +5,11 @@ CHANGELOG
 2.0.37 (XXXX-XX-XX)
 -------------------
 
+**Общие изменения**:
+
+* Обновленные переводы ядра Flarum.
+
+
 **Обновленные переводы расширений**:
 
 * [`flarum/mentions`](https://github.com/flarum/mentions)
