@@ -21,7 +21,7 @@ fof-forum-statistics-widget:
       widget_order_label: 'Позиция виджета'
   forum:
     navbar:
-      discussions_count: 'Дискуссий: {discussionsCount}'
+      discussions_count: 'Тем: {discussionsCount}'
       latest_member: 'Новый пользователь: '
       posts_count: 'Сообщений: {postsCount}'
       users_count: 'Пользователей: {usersCount}'

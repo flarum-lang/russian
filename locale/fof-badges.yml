@@ -77,7 +77,7 @@ fof-badges:
     manual: Ручные
     metrics:
       best_answers_received: 'Полученные лучшие ответы'
-      discussion_count: 'Созданные дискуссии'
+      discussion_count: 'Созданные темы'
       downvotes_given: 'Поставленные отрицательные голоса'
       downvotes_received: 'Полученные отрицательные голоса'
       edit_count: 'Отредактированные сообщения'
@@ -91,7 +91,7 @@ fof-badges:
       polls_created: 'Созданные опросы'
       polls_voted: 'Голосования в опросах'
       post_count: 'Количество сообщений'
-      private_discussions_created: 'Созданные личные дискуссии'
+      private_discussions_created: 'Созданные переписки'
       reactions_given: 'Поставленные реакции'
       reactions_received: 'Полученные реакции'
       tag_posts: 'Сообщения в теге'

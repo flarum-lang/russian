@@ -5,30 +5,30 @@
 antoinefr-money:
   admin:
     automoderator:
-      action_name: 'Давайте монетки'
+      action_name: 'Начислить монетки'
       metric_name: Монетки
     autoremove:
       - 'Никогда не снимать монетки'
-      - 'Когда дискуссия/запись скрыта или восстановлена (по умолчанию)'
-      - 'Когда дискуссия/сообщение удаляется'
+      - 'Когда тема или сообщение скрыто или восстановлено — по умолчанию'
+      - 'Когда тема или сообщение удаляется'
     permissions:
       disable_money_label: 'Отключить монетки'
       edit_money_label: 'Править монетки'
     settings:
       autoremove: 'Автоматическое обновление монеток'
-      cascaderemove: 'Снимать монетки за публикации при удалении дискуссии'
+      cascaderemove: 'Снимать монетки за публикации при удалении темы'
       helpextensionlikes: 'Требуется расширение <code>flarum/likes</code>'
       ignore_notifying_users: 'При проверке количества слов в ответах обращать внимание только на раздел содержимого'
-      moneyfordiscussion: 'Монеток получено за новую дискуссию'
+      moneyfordiscussion: 'Монеток получено за новую тему'
       moneyforlike: 'Монеток получено если сообщение одобрили'
       moneyforpost: 'Монеток получено за новое сообщение'
-      moneyname: 'Название монеток (например: [money] очков)'
+      moneyname: 'Название валюты'
       noshowzero: 'Не отображать нулевое значение'
-      postminimumlength: 'Минимальная длина сообщения для получения монеток (0 - запретить)'
+      postminimumlength: 'Минимальная длина сообщения для получения валюты'
       title: Настройки
   forum:
     modal:
-      current: 'Текущие:'
+      current: 'Сейчас:'
       submit_button: '=> core.ref.save_changes'
       title: 'монеток у {username}'
     user_controls:
