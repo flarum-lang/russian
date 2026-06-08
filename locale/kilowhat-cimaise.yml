@@ -12,7 +12,7 @@ kilowhat-cimaise:
       title: '=> kilowhat-cimaise.ref.albums'
     album-show:
       community: 'Альбом сообщества'
-      discussion: 'Перейти к дискуссии'
+      discussion: 'Перейти к теме'
       empty: 'Изображений нет'
       loading: '=> kilowhat-cimaise.ref.loading'
       personal: 'Личный альбом пользователя <a>{username}</a>'

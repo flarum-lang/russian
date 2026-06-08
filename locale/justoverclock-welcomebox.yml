@@ -15,7 +15,7 @@ flarum-ext-welcomebox:
     lastSeen: 'Последнее посещение'
     notregistered: 'Вы не зарегистрированы на этом форуме.'
     npost: '=> core.ref.posts'
-    tooltipDisclist: 'Мой список дискуссий'
+    tooltipDisclist: 'Мой список тем'
     tooltipMentions: Упоминания
     tooltipProfile: Профиль
     wback: 'Добро пожаловать,'

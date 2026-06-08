@@ -5,4 +5,4 @@
 club-1-cross-references:
   forum:
     post_stream:
-      discussion_referenced_text: '{username} сослался на эту дискуссию из {source}'
+      discussion_referenced_text: '{username} упомянул(а) эту тему в {source}'

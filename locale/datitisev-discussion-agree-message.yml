@@ -7,5 +7,5 @@ datitisev-discussion-agree-message:
     settings:
       agreement_label: 'Текст соглашения'
       description_label: Описание
-      disable_inputs_label: 'Запретить ввод заголовка и содержимого дискуссии, пока не принято соглашение.'
+      disable_inputs_label: 'Запретить ввод заголовка и содержимого темы, пока не принято соглашение.'
       title_label: Заголовок

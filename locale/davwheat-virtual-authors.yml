@@ -5,7 +5,7 @@
 davwheat-virtual-authors:
   admin:
     permissions:
-      set_virtual_authors: 'Добавить виртуальных авторов в дискуссии'
+      set_virtual_authors: 'Добавлять виртуальных авторов в темы'
       view_virtual_authors_page: 'Показывать страницу детализации всех виртуальных авторов'
     settings:
       authors_in_sidebar: 'Показать авторов в боковой панели, а не над первым сообщением'
@@ -14,7 +14,7 @@ davwheat-virtual-authors:
       create_new: 'Создать нового виртуального автора'
       discussion_badge: 'Показать жетон на дискуссиях с Виртуальными авторами'
       errored: 'Не удалось загрузить виртуальных авторов с сервера.'
-      link_to_va_from_discussion: 'Показать ссылку на все дискуссии от виртуального автора в поле "Автор"'
+      link_to_va_from_discussion: 'Показать ссылку на все темы виртуального автора в поле автора'
       next: 'Следующая страница'
       prev: 'Предыдущая страница'
       search_placeholder: 'Поиск по имени'
@@ -37,7 +37,7 @@ davwheat-virtual-authors:
       added_button: Добавлено
       credit_placeholder: 'Авторство (опционально)'
       delete_button: Удалить
-      delete_confirmation: 'Удалить виртуального автора из дискуссии?'
+      delete_confirmation: 'Удалить виртуального автора из темы?'
       existing: 'Существующие виртуальные авторы'
       no_description: '=> davwheat-virtual-authors.ref.no_description'
       none_existing: 'Виртуальные авторы не выбраны.'
@@ -46,7 +46,7 @@ davwheat-virtual-authors:
       title: 'Установить виртуальных авторов'
       virtual_author_exists: 'Уже выбрано!'
     virtual_author_page:
-      credited_discussions: 'Дискуссии, созданные {displayName}'
+      credited_discussions: 'Темы, созданные {displayName}'
       discussion_count: '=> davwheat-virtual-authors.ref.discussion_count'
       meta_title: '{displayName} - Авторы'
     virtual_authors_list:
@@ -60,7 +60,7 @@ davwheat-virtual-authors:
     virtual_authors_panel:
       error: 'Не удалось загрузить авторов.'
       heading: Авторы
-      item_link_tooltip: 'Показать все дискуссии от {displayName}'
+      item_link_tooltip: 'Показать все темы от {displayName}'
   lib:
     discussion-badge: '{count, plural, one {имеет Виртуального автора}, other {имеет Виртуальных авторов}}'
     edit_modal:
@@ -72,5 +72,5 @@ davwheat-virtual-authors:
       title_edit: 'Править виртуального автора'
       title_new: 'Новый виртуальный автор'
   ref:
-    discussion_count: '{count, plural, one {# дискуссии}, other {# дискуссий}}'
+    discussion_count: '{count, plural, one {# темы}, other {# тем}}'
     no_description: '(описание не установлено)'

@@ -12,7 +12,7 @@ fof-share-social:
   forum:
     discussion:
       share_button: Поделиться
-      share_dropdown_accessible_label: 'Переключить меню «Поделиться» для дискуссии'
+      share_dropdown_accessible_label: 'Переключить меню «Поделиться» для темы'
     modal:
       copy_button: Копировать
       title: Поделиться

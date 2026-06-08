@@ -17,7 +17,7 @@ huseyinfiliz-traderfeedback:
       title: 'Ожидает одобрения'
       unknown_user: Неизвестно
       user_id_format: 'Пользователь #{id}'
-      view_discussion: 'Посмотреть дискуссию'
+      view_discussion: 'Посмотреть тему'
     dashboard:
       negative_feedbacks: 'Негативные отзывы'
       neutral_feedbacks: 'Нейтральные отзывы'
@@ -72,7 +72,7 @@ huseyinfiliz-traderfeedback:
       badge_format_letters: 'Буквенный формат'
       badge_format_percentage: 'Только процент'
       badge_format_symbols: 'Символьный формат'
-      badge_only_first_post_help: 'Если включено, бейджик будет отображаться только в первом сообщении дискуссии'
+      badge_only_first_post_help: 'Если включено, значок будет отображаться только в первом сообщении темы'
       badge_only_first_post_label: 'Показывать значок только в первом сообщении'
       badge_preview_label: 'Предварительный просмотр:'
       badge_preview_sample: 'Пример: 5 положительных, 2 нейтральных, 1 отрицательный (рейтинг 88%)'
@@ -88,7 +88,7 @@ huseyinfiliz-traderfeedback:
       feedback_action_tag_filter_label: 'Показывать кнопки отзывов только в этих тегах'
       feedback_only_when_locked_help: 'Если включено, кнопки отзывов будут отображаться только в закрытых дискуссиях (требуется расширение flarum-lock)'
       feedback_only_when_locked_label: 'Показывать только в закрытых дискуссиях'
-      footer_only_first_post_help: 'Если включено, кнопка отзыва внизу сообщения будет отображаться только у первого сообщения в дискуссии'
+      footer_only_first_post_help: 'Если включено, кнопка отзыва внизу темы будет отображаться только у первого сообщения в теме'
       footer_only_first_post_label: 'Показывать кнопку внизу только у первого сообщения'
       help_text: 'Настроить систему отзывов'
       max_length_label: 'Максимальная длина комментария'
@@ -97,11 +97,11 @@ huseyinfiliz-traderfeedback:
       min_length_label: 'Минимальная длина комментария'
       min_posts_help: 'Пользователь должен иметь не менее указанного количества сообщений, чтобы оставить отзыв (0 — без ограничения)'
       min_posts_label: 'Минимальное количество сообщений'
-      one_per_discussion_help: 'Разрешить пользователям оставлять только один отзыв для дискуссии между теми же участниками'
-      one_per_discussion_label: 'Один отзыв на дискуссию'
+      one_per_discussion_help: 'Разрешить пользователям оставлять только один отзыв для темы между теми же участниками'
+      one_per_discussion_label: 'Один отзыв на тему'
       require_approval_label: 'Требовать одобрение отзывов'
-      require_discussion_help: 'Пользователи должны указать ссылку на дискуссию при оставлении отзыва'
-      require_discussion_label: 'Требовать URL/ID дискуссии'
+      require_discussion_help: 'Пользователи должны указать ссылку на тему при оставлении отзыва'
+      require_discussion_label: 'Требовать URL/ID темы'
       section_badge_display: 'Настройки отображения значков'
       section_comment: 'Настройки комментариев'
       section_discussion: 'Настройки дискуссий'
@@ -110,7 +110,7 @@ huseyinfiliz-traderfeedback:
       section_requirements: 'Требования к пользователю'
       show_badge_in_posts_help: 'Отображать рейтинг пользователя рядом с его именем в сообщениях на форуме'
       show_badge_in_posts_label: 'Показывать бейджик в сообщениях'
-      show_feedback_below_reply_help: 'Добавляет кнопку отзыва под кнопками «Ответить» и «Подписаться» в боковой панели дискуссии'
+      show_feedback_below_reply_help: 'Добавляет кнопку отзыва под кнопками «Ответить» и «Подписаться» в боковой панели темы'
       show_feedback_below_reply_label: 'Показывать кнопку «Оставить отзыв» под кнопками «Ответить» и «Подписаться»'
       show_feedback_in_post_footer_help: 'Добавляет кнопку отзыва в нижний левый угол каждого сообщения (не отображается в собственных сообщениях)'
       show_feedback_in_post_footer_label: 'Показывать кнопку «Оставить отзыв» в нижней части сообщения'
@@ -124,10 +124,10 @@ huseyinfiliz-traderfeedback:
       settings: Настройки
   api:
     validation:
-      already_given: 'Вы уже оставили отзыв для этой дискуссии.'
+      already_given: 'Вы уже оставили отзыв для этой темы.'
       already_reported: 'Вы уже пожаловались на этот отзыв.'
-      discussion_not_found: 'Указанная дискуссия не существует.'
-      discussion_required: 'Для отзыва нужно указать URL или ID дискуссии.'
+      discussion_not_found: 'Указанная тема не существует.'
+      discussion_required: 'Для отзыва нужно указать URL или ID темы.'
       min_days: 'Вы должны быть участником не менее {days} дней, чтобы оставить отзыв.'
       min_posts: 'У вас должно быть минимум {posts} сообщений, чтобы оставить отзыв.'
       negative_not_allowed: 'Нельзя оставлять негативные отзывы.'
@@ -144,7 +144,7 @@ huseyinfiliz-traderfeedback:
       continue: Продолжить
       give_feedback: 'Оставить отзыв'
       no_matching_users: 'Пользователи не найдены'
-      no_users_found: 'В этой дискуссии не найдено других пользователей'
+      no_users_found: 'В этой теме нет других пользователей'
       search_user_placeholder: 'Найти пользователей...'
       select_user_label: 'Выбрать пользователя'
       select_user_title: 'Выберите пользователя, чтобы оставить ему отзыв'
@@ -158,10 +158,10 @@ huseyinfiliz-traderfeedback:
       delete_button: Удалить
       delete_error: 'Ошибка при удалении отзыва'
       delete_success: 'Отзыв удалён'
-      discussion_deleted: 'Дискуссия удалена'
-      discussion_link: 'Посмотреть дискуссию'
+      discussion_deleted: 'Тема удалена'
+      discussion_link: 'Посмотреть тему'
       discussion_link_short: Посмотреть
-      discussion_locked: 'Дискуссия закрыта'
+      discussion_locked: 'Тема закрыта'
       edit_button: Редактировать
       no_comment: 'Комментарий не добавлен'
       no_permission_report: 'Не хватает прав для выполнения этого действия'
@@ -192,10 +192,10 @@ huseyinfiliz-traderfeedback:
     form:
       comment_label: Комментарий
       comment_placeholder: 'Опишите свой опыт сделки с этим пользователем'
-      discussion_help: 'Введите URL или ID дискуссии по этой сделке'
-      discussion_label: 'URL/ID дискуссии'
+      discussion_help: 'Введите URL или ID темы по этой сделке'
+      discussion_label: 'URL/ID темы'
       discussion_placeholder: 'например: https://forum.com/d/155 или 155'
-      error_discussion_required: 'Укажите URL или ID дискуссии'
+      error_discussion_required: 'Укажите URL или ID темы'
       error_submit: 'Ошибка при оставлении отзыва'
       error_too_long: 'Комментарий должен содержать не более {max} символов'
       error_too_short: 'Комментарий должен содержать не менее {min} символов'

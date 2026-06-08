@@ -5,8 +5,8 @@
 clarkwinkelmann-author-change:
   admin:
     permissions:
-      edit-date: 'Изменять дату дискуссии и сообщения'
-      edit-user: 'Изменять автора дискуссии и сообщения'
+      edit-date: 'Изменять дату темы и сообщения'
+      edit-user: 'Изменять автора темы и сообщения'
   forum:
     controls:
       edit: 'Изменить автора и дату'
@@ -15,10 +15,10 @@ clarkwinkelmann-author-change:
       created_at: 'Время публикации'
       edited_at: 'Время редактирования'
       submit: Сохранить
-      sync-impossible: 'Не удалось найти первое сообщение. Попробуйте подняться к началу дискуссии.'
-      sync-with-discussion: 'Синхронизировать с дискуссией'
+      sync-impossible: 'Не удалось найти первое сообщение. Попробуйте подняться к началу темы.'
+      sync-with-discussion: 'Синхронизировать с темой'
       sync-with-post: 'Синхронизировать с первым сообщением'
-      title-discussion: 'Изменение автора дискуссии'
+      title-discussion: 'Изменение автора темы'
       title-post: 'Изменение автора сообщения'
       user: Автор
     search:

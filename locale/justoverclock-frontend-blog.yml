@@ -7,17 +7,17 @@ justoverclock-frontend-blog:
     numberOfPost: 'Число сообщений'
     numberOfPost-help: 'Введите здесь число сообщений, которые должны отображаться'
     setBlogIndexPage: 'Установить расширение Frontend Blog как главную страницу форума'
-    showPinnedDiscussions: 'Показать последние 3 закрепленные дискуссии'
+    showPinnedDiscussions: 'Показать последние 3 закрепленные темы'
     sorting: 'Свежие или активные обсуждения? (по умолчанию свежие)'
   forum:
     allDiscussions: Форум
-    linkToDiscussion: ' Ссылка на дискуссию'
+    linkToDiscussion: ' Ссылка на тему'
     loginButton: Логин
     menuButton: Меню
     post: '{count, plural, one {# сообщение} other {# сообщений}}'
     postedOn: ' Отправлено в: '
     readMore: 'Читать далее'
-    recentDiscussions: 'Последние дискуссии:'
+    recentDiscussions: 'Последние темы:'
     signupButton: Подписка
-    stickyTitle: 'Закрепленные дискуссии'
-    titlePage: 'Дискуссии форума'
+    stickyTitle: 'Закреплённые темы'
+    titlePage: 'Темы форума'

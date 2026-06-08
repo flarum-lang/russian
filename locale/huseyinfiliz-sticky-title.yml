@@ -11,7 +11,7 @@ huseyinfiliz-sticky-title:
       fof_pages_header_label: 'Показывать заголовок страницы в мобильной шапке'
       fof_pages_section_title: 'Настройки FoF Pages'
       mobile_scroll_help: 'Выберите, когда показывать заголовок обсуждения в мобильной шапке'
-      mobile_scroll_label: 'Отображение заголовка дискуссии на мобильных устройствах'
+      mobile_scroll_label: 'Отображение заголовка темы на мобильных устройствах'
       mobile_scroll_options:
         always: 'Показывать всегда'
         never: 'Никогда не показывать'

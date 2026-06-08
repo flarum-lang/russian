@@ -4,17 +4,20 @@
 
 justoverclock-related-discussions:
   admin:
-    DiscussionPageLayout: 'Показывать похожие дискуссии внизу страницы дискуссии'
-    relatedLimit: 'Число похожих дискуссий для отображения (по умолчанию 4)'
-    relatedLimit-help: 'введите здесь число дискуссий для отображения (т.е., "4")'
-    relatedTitle: 'Заголовок для «Похожие дискуссии»'
-    relatedTitle-help: 'Заменить стандартный заголовок похожих дискуссий на свой'
+    DiscussionPageLayout: 'Показывать похожие темы внизу страницы темы'
+    relatedLimit: 'Число похожих тем для отображения — по умолчанию 4'
+    relatedLimit-help: 'Введите число тем для отображения. Например, 4'
+    relatedTitle: 'Заголовок для блока «Похожие темы»'
+    relatedTitle-help: 'Заменить стандартный заголовок похожих тем на свой'
     showExcerpt: 'Показывать краткое описание'
     showTooltip: 'Показывать всплывающую подсказку с кратким описанием'
   forum:
     avatarTooltip: 'написал(а) сообщение'
     deleted: Удалено
     hasBestAnswer: Решено
-    hasBestAnswer-title: 'Эта дискуссия отмечена как решённая'
+    hasBestAnswer-title: 'Эта тема отмечена как решённая'
+    participants: участники
     postedOn: 'в:'
-    reldiscussion: 'Предложенные дискуссии:'
+    postnumber: 'количество ответов'
+    reldiscussion: 'Предложенные темы:'
+    repliedOn: 'последний ответ'

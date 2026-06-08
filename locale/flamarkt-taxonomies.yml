@@ -51,7 +51,7 @@ flamarkt-taxonomies:
         edit: 'Править таксономию'
         new: 'Создать таксономию'
       type-options:
-        discussions: Дискуссии
+        discussions: Темы
         products: Products
         users: Пользователи
       validation-options:

@@ -28,7 +28,7 @@ huseyinfiliz-modern-footer:
       general: Главное
       hide_everywhere: 'Скрыть на всех страницах'
       hide_except_index: 'Показывать только на главной'
-      hide_on_discussions: 'Скрыть в дискуссиях'
+      hide_on_discussions: 'Скрыть в темах'
       js: 'Пользовательский JS'
       js-help: 'Пример кода для Google Analytics'
       link: Ссылка

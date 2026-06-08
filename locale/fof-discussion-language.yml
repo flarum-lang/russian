@@ -15,10 +15,10 @@ fof-discussion-language:
       native_label: 'Собственные названия языков'
       show_any_lang_opt_label: 'Показать пункт выбора "Любой язык".'
       show_flag_label: 'Флаги стран рядом с названиями языков'
-      tags_page_discussion_locale_label: 'Показывать только дискуссии на текущем языке пользователя на странице тегов'
+      tags_page_discussion_locale_label: 'Показывать только темы на текущем языке пользователя на странице тегов'
   api:
     discussion:
-      validation_error: 'Вы должны выбрать язык дискуссии.'
+      validation_error: 'Вы должны выбрать язык темы.'
   forum:
     change_language:
       edit_title: 'Редактировать язык для {title}'

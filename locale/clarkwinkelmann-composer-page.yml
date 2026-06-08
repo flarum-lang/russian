@@ -10,7 +10,7 @@ clarkwinkelmann-composer-page:
   forum:
     nav:
       cancel: 'Выйти из редактора'
-      continue: 'Продолжить дискуссию'
+      continue: 'Продолжить тему'
     page:
-      heading: 'Начать дискуссию'
-      title: 'Начать дискуссию'
+      heading: 'Создать тему'
+      title: 'Создать тему'
