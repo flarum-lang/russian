@@ -2,6 +2,99 @@ CHANGELOG
 =========
 
 
+2.0.36 (2026-06-08)
+-------------------
+
+**Общие изменения**:
+
+* Обновленные переводы ядра Flarum.
+
+
+**Обновленные переводы расширений**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`dashzeveg/flarum-ads-manager`](https://github.com/dashzeveg/flarum-ads-manager)
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`datlechin/flarum-more-discussions`](https://github.com/datlechin/flarum-more-discussions)
+* [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
+* [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
+* [`ekumanov/flarum-ext-post-search`](https://github.com/ekumanov/flarum-ext-post-search)
+* [`ernestdefoe/aurora`](https://github.com/ernestdefoe/aurora)
+* [`ernestdefoe/cross-references`](https://github.com/ernestdefoe/cross-references)
+* [`ernestdefoe/flarum-facebook-post`](https://github.com/ernestdefoe/flarum-facebook-post)
+* [`ernestdefoe/social-groups`](https://github.com/ernestdefoe/social-groups)
+* [`flarum/approval`](https://github.com/flarum/approval)
+* [`flarum/flags`](https://github.com/flarum/flags)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/pusher`](https://github.com/flarum/pusher)
+* [`flarum/realtime`](https://github.com/flarum/realtime)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/categories`](https://github.com/FriendsOfFlarum/categories)
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
+* [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
+* [`fof/discussion-thumbnail`](https://github.com/FriendsOfFlarum/discussion-thumbnail)
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
+* [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
+* [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`fof/split`](https://github.com/FriendsOfFlarum/split)
+* [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
+* [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
+* [`gitzaai/cnsearch`](https://github.com/gitzaai/cnsearch)
+* [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
+* [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind)
+* [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest)
+* [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`ianm/syndication`](https://github.com/imorland/syndication)
+* [`justoverclock/related-discussions`](https://flarum.org/extension/justoverclock/related-discussions)
+* [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox)
+* [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+* [`quasimo/flarum-ext-llms-txt`](https://github.com/Quasimo/flarum-ext-llms-txt)
+* [`ralkage/flarum-ext-ad-management`](https://github.com/Ralkage/flarum-ext-ad-management)
+* [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado)
+* [`ramon/guest-cta`](https://github.com/ram0ng1/guest-cta)
+* [`ramon/point-system`](https://github.com/ram0ng1/point-system)
+* [`resofire/blog-cards`](https://github.com/ResofireV2/blog-cards)
+* [`resofire/digest-mail`](https://github.com/ResofireV2/digest-mail)
+* [`resofire/discussion-participants`](https://github.com/ResofireV2/discussion-participants)
+* [`resofire/menu-control`](https://github.com/ResofireV2/menu-control)
+* [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
+* [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
+* [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
+* [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
+
+
+Все изменения: [2.0.35...2.0.36](https://github.com/flarum-lang/russian/compare/2.0.35...2.0.36).
+
+
 2.0.35 (2026-06-07)
 -------------------
 
