@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+2.0.39 (XXXX-XX-XX)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+
+
+Все изменения: [2.0.38...2.0.39](https://github.com/flarum-lang/russian/compare/2.0.38...2.0.39).
+
+
 2.0.38 (2026-06-09)
 -------------------
 
