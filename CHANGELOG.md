@@ -10,9 +10,16 @@ CHANGELOG
 * Обновленные переводы ядра Flarum.
 
 
+**Добавлена поддержка новых расширений**:
+
+* [`fof/signature`](https://github.com/FriendsOfFlarum/signature)
+
+
 **Обновленные переводы расширений**:
 
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 
 
 Все изменения: [2.0.41...2.0.42](https://github.com/flarum-lang/russian/compare/2.0.41...2.0.42).
