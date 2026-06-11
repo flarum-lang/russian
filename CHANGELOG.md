@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.59.69 (XXXX-XX-XX)
+--------------------
+
+**Обновленные переводы расширений**:
+
+* [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
+
+
+Все изменения: [1.59.68...1.59.69](https://github.com/flarum-lang/russian/compare/1.59.68...1.59.69).
+
+
 1.59.68 (2026-06-11)
 --------------------
 
