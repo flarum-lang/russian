@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.42 (XXXX-XX-XX)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
+
+
+Все изменения: [2.0.41...2.0.42](https://github.com/flarum-lang/russian/compare/2.0.41...2.0.42).
+
+
 2.0.41 (2026-06-11)
 -------------------
 
