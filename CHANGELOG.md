@@ -5,6 +5,11 @@ CHANGELOG
 2.0.42 (XXXX-XX-XX)
 -------------------
 
+**Общие изменения**:
+
+* Обновленные переводы ядра Flarum.
+
+
 **Обновленные переводы расширений**:
 
 * [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
