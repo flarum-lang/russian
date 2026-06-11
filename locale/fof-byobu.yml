@@ -23,7 +23,7 @@ fof-byobu:
         heading: 'Общие настройки'
         help: 'Эти настройки управляют основными функциями byobu.'
       hide_from_all_discussions_page: 'Скрыть переписки на странице всех тем'
-      hide_from_all_discussions_page_help: 'Переписки будут доступны только на странице "Переписки" или в профиле пользователя'
+      hide_from_all_discussions_page_help: 'Переписки будут доступны только на странице «Переписки» или в профиле пользователя'
       icon:
         heading: 'Настройки иконки'
         help: 'Эти настройки управляют иконками, используемыми byobu на форуме.'
@@ -60,7 +60,7 @@ fof-byobu:
     hero:
       title: '=> fof-byobu.forum.nav.nav_item'
     input:
-      search_recipients: 'Поиск участников, указав первые три символа...'
+      search_recipients: 'Поиск участников по первым 3 символам...'
     labels:
       recipients: '{count, plural, one {{count} Участник} other {{count} Участников}}'
     modal:
