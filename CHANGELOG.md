@@ -20,6 +20,7 @@ CHANGELOG
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
 * [`fof/pretty-mail`](https://github.com/FriendsOfFlarum/pretty-mail)
 * [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
+* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
 * [`justoverclock/best-answer-badge`](https://github.com/justoverclockl/best-answer-badge)
 * [`neoncube/flarum-private-messages`](https://github.com/neoncube2/flarum-private-messages)
