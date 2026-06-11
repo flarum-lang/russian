@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.59.68 (XXXX-XX-XX)
+--------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
+
+
+**Обновленные переводы расширений**:
+
+* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
+
+
+Все изменения: [1.59.67...1.59.68](https://github.com/flarum-lang/russian/compare/1.59.67...1.59.68).
+
+
 1.59.67 (2026-06-11)
 --------------------
 
