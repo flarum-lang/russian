@@ -2,6 +2,33 @@ CHANGELOG
 =========
 
 
+1.59.67 (2026-06-11)
+--------------------
+
+**Общие изменения**:
+
+* Обновленные переводы ядра Flarum.
+
+
+**Обновленные переводы расширений**:
+
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/pretty-mail`](https://github.com/FriendsOfFlarum/pretty-mail)
+* [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
+* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`justoverclock/best-answer-badge`](https://github.com/justoverclockl/best-answer-badge)
+* [`neoncube/flarum-private-messages`](https://github.com/neoncube2/flarum-private-messages)
+
+
+Все изменения: [1.59.66...1.59.67](https://github.com/flarum-lang/russian/compare/1.59.66...1.59.67).
+
+
 1.59.66 (2026-06-10)
 --------------------
 
