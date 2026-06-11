@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+2.0.40 (2026-06-11)
+-------------------
+
+**Общие изменения**:
+
+* Обновленные переводы ядра Flarum.
+
+
+**Обновленные переводы расширений**:
+
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
+
+
+Все изменения: [2.0.39...2.0.40](https://github.com/flarum-lang/russian/compare/2.0.39...2.0.40).
+
+
 2.0.39 (2026-06-10)
 -------------------
 
