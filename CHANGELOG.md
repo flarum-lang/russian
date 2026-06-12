@@ -13,6 +13,7 @@ CHANGELOG
 **Добавлена поддержка новых расширений**:
 
 * [`fof/signature`](https://github.com/FriendsOfFlarum/signature)
+* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
 
 
 **Обновленные переводы расширений**:
