@@ -5,6 +5,11 @@ CHANGELOG
 1.59.69 (XXXX-XX-XX)
 --------------------
 
+**Общие изменения**:
+
+* Обновленные переводы ядра Flarum.
+
+
 **Добавлена поддержка новых расширений**:
 
 * [`fof/mailing`](https://github.com/FriendsOfFlarum/mailing)
