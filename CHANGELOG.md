@@ -12,6 +12,7 @@ CHANGELOG
 
 **Добавлена поддержка новых расширений**:
 
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 * [`fof/mailing`](https://github.com/FriendsOfFlarum/mailing)
 * [`fof/signature`](https://github.com/FriendsOfFlarum/signature)
 
