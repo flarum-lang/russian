@@ -46,6 +46,8 @@ CHANGELOG
 **Обновленные переводы расширений**:
 
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
