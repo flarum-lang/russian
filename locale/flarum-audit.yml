@@ -46,12 +46,15 @@ flarum-audit:
         filterUser: 'Показать действия этого пользователя'
         hideRaw: 'Скрыть сырой журнал'
         showRaw: 'Показать сырой журнал'
+        title: Управления
+      core: ядро
       deletedResource:
         discussion: 'Тема #{id}'
         group: 'Группа #{id}'
         post: 'Сообщение #{id}'
         tag: 'Тег #{id}'
         user: 'Пользователь #{id}'
+      developer_token_created: 'Создан токен доступа для разработчиков "{title}" для {username}'
       discussion:
         create_date_changed: 'Дата создания темы {discussion} изменена с {old_date} на {new_date}'
         created: 'Создана тема {discussion}'
@@ -86,6 +89,10 @@ flarum-audit:
       genericResource:
         comment: Комментарий
         post: Сообщение
+      group:
+        created: 'Созданна группа {name}'
+        deleted: 'Группа удалена {name}'
+        renamed: 'Группа переименована с {old_name} на {new_name}'
       help:
         multiple: 'Объединяйте значения через запятую, чтобы искать любое из них, например: action:post.created,post.deleted'
         negate: 'Добавьте перед фильтром знак минус, чтобы исключить совпадения, например: -client:cli'
@@ -109,6 +116,7 @@ flarum-audit:
       refresh: Обновить
       setting_changed: 'Изменена настройка {key}'
       setting_changed_with_values: 'Изменена настройка {key}: {old_value} → {new_value}'
+      settings_reset: 'Сбросить настройки {keys} для {extension}'
       user:
         activated: 'Аккаунт {username} активирован вручную'
         activated_with_email: 'Аккаунт {username} активирован через ссылку подтверждения'

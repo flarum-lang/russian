@@ -92,6 +92,7 @@ fof-geoip:
     copy_ip_label: 'Копировать IP-адрес'
     custom_flag:
       none: 'Пользовательский флаг отсутствует'
+      placeholder: 'Поиск страны…'
     map_button_label: 'Данные IP'
     map_modal:
       as: ASN

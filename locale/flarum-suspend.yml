@@ -7,6 +7,7 @@ flarum-audit:
     browser:
       user:
         suspended: 'Пользователь {username} заблокирован до {until}'
+        unsuspended: 'Восстановлен {username}'
 flarum-suspend:
   admin:
     permissions:
