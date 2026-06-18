@@ -20,7 +20,7 @@ antoinefr-money:
       helpextensionlikes: 'Требуется расширение <code>flarum/likes</code>'
       ignore_notifying_users: 'При проверке количества слов в ответах обращать внимание только на раздел содержимого'
       moneyfordiscussion: 'Монеток получено за новую тему'
-      moneyforlike: 'Монеток получено если сообщение одобрили'
+      moneyforlike: 'Монеток получено при одобрении сообщения'
       moneyforpost: 'Монеток получено за новое сообщение'
       moneyname: 'Название валюты'
       noshowzero: 'Не отображать нулевое значение'

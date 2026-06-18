@@ -11,7 +11,7 @@ askvortsov-markdown-tables:
         insert_column_before: 'Вставить столбец перед'
         insert_row_after: 'Вставить строку ниже'
         insert_row_before: 'Вставить строку выше'
-        label_cells: '# Обозначить ячейки?'
+        label_cells: 'Сделать ячейки заголовками?'
         num_cols: '# Столбцов'
         num_rows: '# Строк (включая заголовок)'
         remove_column: 'Удалить столбец'

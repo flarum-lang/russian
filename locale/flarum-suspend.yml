@@ -9,10 +9,10 @@ flarum-suspend:
   email:
     no_reason_given: 'Причина блокировки не указана.'
     suspended:
-      body: "Здравствуйте, {recipient_display_name}!\n\nВаш аккаунт был заблокирован по следующей причине:\n\n---\n{suspension_message}\n---\n"
+      body: "Здравствуйте, {recipient_display_name}!\n\nВаш аккаунт заблокирован по следующей причине:\n\n---\n{suspension_message}\n---\n"
       subject: 'Ваш аккаунт заблокирован'
     unsuspended:
-      body: "Здравствуйте, {recipient_display_name}!\n\nВаш аккаунт был разблокирован. Вы можете вернуться на форум, нажав на ссылку:\n\n{forum_url}\n"
+      body: "Здравствуйте, {recipient_display_name}!\n\nВаш аккаунт разблокирован. Вы можете вернуться на форум по ссылке:\n\n{forum_url}\n"
       subject: 'Ваш аккаунт разблокирован'
   forum:
     notifications:
