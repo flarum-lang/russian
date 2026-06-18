@@ -17,6 +17,7 @@ CHANGELOG
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr)
 * [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`flarum/realtime`](https://github.com/flarum/realtime)
 
 
 Все изменения: [2.0.43...2.0.44](https://github.com/flarum-lang/russian/compare/2.0.43...2.0.44).
