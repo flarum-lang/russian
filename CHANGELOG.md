@@ -45,6 +45,7 @@ CHANGELOG
 
 **Обновленные переводы расширений**:
 
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
