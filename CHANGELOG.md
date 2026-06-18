@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+2.0.44 (XXXX-XX-XX)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`flarum/audit`](https://github.com/flarum/audit)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+
+
+Все изменения: [2.0.43...2.0.44](https://github.com/flarum-lang/russian/compare/2.0.43...2.0.44).
+
+
 2.0.43 (2026-06-18)
 -------------------
 
