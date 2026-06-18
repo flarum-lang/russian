@@ -5,8 +5,14 @@ CHANGELOG
 2.0.44 (XXXX-XX-XX)
 -------------------
 
+**Общие изменения**:
+
+* Обновленные переводы ядра Flarum.
+
+
 **Обновленные переводы расширений**:
 
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
 * [`flarum/audit`](https://github.com/flarum/audit)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr)
