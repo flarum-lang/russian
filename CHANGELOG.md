@@ -23,6 +23,7 @@ CHANGELOG
 * [`flarum/sticky`](https://github.com/flarum/sticky)
 * [`flarum/suspend`](https://github.com/flarum/suspend)
 * [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 
 
 Все изменения: [2.0.43...2.0.44](https://github.com/flarum-lang/russian/compare/2.0.43...2.0.44).
