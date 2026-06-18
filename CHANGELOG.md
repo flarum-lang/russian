@@ -45,9 +45,15 @@ CHANGELOG
 
 **Обновленные переводы расширений**:
 
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-automod)
+* [`askvortsov/flarum-markdown-tables`](https://github.com/askvortsov1/flarum-markdown-tables)
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`blomstra/fontawesome`](https://github.com/blomstra/flarum-ext-fontawesome)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr)
 * [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
