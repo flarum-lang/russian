@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-flags/ru/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      post:
+        dismissed_flags: 'Отклонены флаги в сообщении пользователя {postuser} в разделе {discussion}'
+        flagged: 'Сообщение пользователя {postuser} помечено как {reason} в {discussion}'
 flarum-flags:
   admin:
     permissions:

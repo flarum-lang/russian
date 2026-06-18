@@ -2,9 +2,21 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-tags/ru/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        tagged: 'Обновлены теги {discussion} с {old_tags} на {new_tags}'
+      tag:
+        created: 'Тег создан {tag}'
+        deleted: 'Тег удален {tag}'
+        updated: 'Тег обновлен {tag}'
 flarum-tags:
   admin:
     basics:
+      slug_driver_options:
+        default: 'По умолчанию'
+        id_with_slug: 'ID с slug'
       tags_label: '=> flarum-tags.ref.tags'
     edit_tag:
       color_label: '=> core.ref.color'
