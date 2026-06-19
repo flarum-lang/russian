@@ -2,6 +2,33 @@ CHANGELOG
 =========
 
 
+2.0.44 (2026-06-19)
+-------------------
+
+**Общие изменения**:
+
+* Обновленные переводы ядра Flarum.
+
+
+**Обновленные переводы расширений**:
+
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`flarum/approval`](https://github.com/flarum/approval)
+* [`flarum/audit`](https://github.com/flarum/audit)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/flags`](https://github.com/flarum/flags)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`flarum/realtime`](https://github.com/flarum/realtime)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+
+
+Все изменения: [2.0.43...2.0.44](https://github.com/flarum-lang/russian/compare/2.0.43...2.0.44).
+
+
 2.0.43 (2026-06-18)
 -------------------
 
