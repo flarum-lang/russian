@@ -5,7 +5,7 @@
 fof-news-widget:
   admin:
     settings:
-      add_line: 'Добавить строку новости'
+      add_line: 'Добавить новость'
       html_warning: 'Будьте осторожны: любой HTML будет отображаться.'
-      lines: 'Строки новостей'
-      remove_line: 'Удалить строку'
+      lines: Новости
+      remove_line: 'Удалить новость'

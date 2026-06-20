@@ -13,4 +13,4 @@ fof-online-users-widget:
   forum:
     widget:
       empty: 'Сейчас никого нет.'
-      title: 'Пользователи в сети'
+      title: 'В сети'
