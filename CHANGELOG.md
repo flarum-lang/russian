@@ -10,6 +10,11 @@ CHANGELOG
 * [`ernestdefoe/google-fonts`](https://github.com/ernestdefoe/google-fonts)
 
 
+**Обновленные переводы расширений**:
+
+* [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
+
+
 Все изменения: [2.0.44...2.0.45](https://github.com/flarum-lang/russian/compare/2.0.44...2.0.45).
 
 
