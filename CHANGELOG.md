@@ -40,7 +40,12 @@ CHANGELOG
 * [`flarum/audit`](https://github.com/flarum/audit)
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 * [`fof/mailing`](https://github.com/FriendsOfFlarum/mailing)
+* [`fof/news-widget`](https://github.com/FriendsOfFlarum/news-widget)
+* [`fof/online-users-widget`](https://github.com/FriendsOfFlarum/online-users-widget)
+* [`fof/photoswipe`](https://github.com/FriendsOfFlarum/photoswipe)
 * [`fof/signature`](https://github.com/FriendsOfFlarum/signature)
+* [`fof/top-posters-widget`](https://github.com/FriendsOfFlarum/top-posters-widget)
+* [`ianm/oauth-amazon`](https://github.com/imorland/flarum-ext-oauth-amazon)
 
 
 **Обновленные переводы расширений**:
@@ -59,6 +64,8 @@ CHANGELOG
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`forumaker/magicread`](https://github.com/forumaker/magicread)
+* [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
 
 
 Все изменения: [1.59.68...1.59.69](https://github.com/flarum-lang/russian/compare/1.59.68...1.59.69).
