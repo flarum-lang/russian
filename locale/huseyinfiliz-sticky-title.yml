@@ -27,6 +27,12 @@ huseyinfiliz-sticky-title:
       scrubber_replace_original_help: 'Выберите, где отображать заголовок обсуждения вместо «Original Post»'
       scrubber_replace_original_label: 'Заменить «Original Post» на заголовок обсуждения'
       scrubber_section_title: 'Настройки панели навигации'
+      tag_color_style_help: 'Выберите способ отображения цветов тегов на боковой панели'
+      tag_color_style_label: 'Стиль цвета тегов'
+      tag_color_style_options:
+        background: 'Цвет фона — по умолчанию'
+        border: 'Только цвет рамки'
+        text: 'Только цвет текста'
       title: 'Настройки закреплённого заголовка'
       web_scrubber_title_help: 'Отображает заголовок обсуждения над панелью навигации на десктопе'
       web_scrubber_title_label: 'Показывать заголовок над панелью навигации'
