@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.45 (XXXX-XX-XX)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`ernestdefoe/google-fonts`](https://github.com/ernestdefoe/google-fonts)
+
+
+Все изменения: [2.0.44...2.0.45](https://github.com/flarum-lang/russian/compare/2.0.44...2.0.45).
+
+
 2.0.44 (2026-06-19)
 -------------------
 
