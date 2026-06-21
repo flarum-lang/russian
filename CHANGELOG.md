@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.46 (XXXX-XX-XX)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+
+
+Все изменения: [2.0.45...2.0.46](https://github.com/flarum-lang/russian/compare/2.0.45...2.0.46).
+
+
 2.0.45 (2026-06-21)
 -------------------
 
