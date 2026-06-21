@@ -8,6 +8,9 @@ CHANGELOG
 **Обновленные переводы расширений**:
 
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`ernestdefoe/google-fonts`](https://github.com/ernestdefoe/google-fonts)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
 
 
 Все изменения: [2.0.45...2.0.46](https://github.com/flarum-lang/russian/compare/2.0.45...2.0.46).
