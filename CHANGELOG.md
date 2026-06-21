@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+2.0.45 (2026-06-21)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`ernestdefoe/google-fonts`](https://github.com/ernestdefoe/google-fonts)
+
+
+**Обновленные переводы расширений**:
+
+* [`fof/news-widget`](https://github.com/FriendsOfFlarum/news-widget)
+* [`fof/online-users-widget`](https://github.com/FriendsOfFlarum/online-users-widget)
+* [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
+
+
+Все изменения: [2.0.44...2.0.45](https://github.com/flarum-lang/russian/compare/2.0.44...2.0.45).
+
+
 2.0.44 (2026-06-19)
 -------------------
 
