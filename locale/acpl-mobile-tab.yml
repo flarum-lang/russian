@@ -32,6 +32,7 @@ acpl-mobile-tab:
       home: Главная
       log_in: Войти
       messages: Сообщения
+      new_discussion: 'Новая тема'
       notifications: Уведомления
       profile: Профиль
       search: Поиск
