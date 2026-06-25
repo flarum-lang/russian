@@ -12,6 +12,7 @@ CHANGELOG
 
 **Обновленные переводы расширений**:
 
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
 * [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
