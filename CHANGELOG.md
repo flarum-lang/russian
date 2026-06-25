@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+2.0.48 (XXXX-XX-XX)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`linkrobins/support`](https://github.com/linkrobins/support)
+
+
+**Обновленные переводы расширений**:
+
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
+* [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
+* [`ramon/point-system`](https://github.com/ram0ng1/point-system)
+
+
+Все изменения: [2.0.47...2.0.48](https://github.com/flarum-lang/russian/compare/2.0.47...2.0.48).
+
+
 2.0.47 (2026-06-23)
 -------------------
 
