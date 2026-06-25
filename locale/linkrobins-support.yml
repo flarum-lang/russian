@@ -4,5 +4,44 @@
 
 linkrobins-support:
   admin:
+    appeal_bans:
+      column_email: Email
+      column_username: 'Имя пользователя'
+      load_more: 'Загрузить ещё'
+    categories:
+      appeal_badge: Обращение
+      column_name: Имя
+      column_type: Тип
+      delete_button: Удалить
+      delete_confirm_named: 'Удалить категорию «{name}»? Это действие необратимо.'
+      edit_button: Редактировать
+      empty: 'Категорий пока нет. Создайте хотя бы одну, чтобы начать.'
+      general_badge: Общие
+      heading: 'Категории поддержки'
+      new_button: 'Новая категория'
+      this_category: 'эта категория'
+    category_editor:
+      error_delete: 'Не удалось удалить категорию.'
+      error_load: 'Не удалось загрузить эту категорию.'
+      error_save: 'Не удалось сохранить категорию. Пожалуйста, проверьте поля и повторите попытку.'
+      field_color: Цвет
+      field_color_help: 'Hex цвет (например, #3b82f6), используемый для значка категории.'
+      field_description: Описание
+      field_icon: Иконка
+      field_icon_help: 'Класс Font Awesome, например fas fa-life-ring.'
+      field_name: Имя
+      field_position: Позиция
+      field_position_help: 'Категории упорядочены по этому значению, начиная с наименьшего.'
+      field_slug_help: 'Используется в URL категории. Оставьте поле пустым, чтобы сгенерировать его из названия.'
+      submit_create: 'Создать категорию'
+      submit_update: 'Сохранить изменения'
+      title_edit: 'Редактировать категорию'
+      title_new: 'Новая категория'
+    common:
+      loading: Загрузка…
+      unknown_error: 'Произошла ошибка. Пожалуйста, попробуйте еще раз.'
     nav:
       categories: Категории
+    permissions:
+      force_delete_tickets: 'Безвозвратно удалить заявки в службу поддержки'
+      handle_tickets: 'Обработка заявок в службу поддержки'
