@@ -10,27 +10,65 @@ fof-doorman:
         edit: 'Редактировать код'
         notify: 'Отправьте этот код по электронной почте'
       columns:
-        created_by: Созданный
+        activates_user: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        created_by: 'Кем создан'
+        group: '=> fof-doorman.admin.ref.fields.group.label'
         id: ID
-        manage: Управлять
-        uses: Использует
+        key: '=> fof-doorman.admin.ref.fields.key.label'
+        manage: Управление
+        max_uses: '=> fof-doorman.admin.ref.fields.max_uses.label'
+        uses: Применение
       content:
         delete: 'Вы уверены, что хотите удалить код "{key}"?'
+        invalid_column: '=> core.admin.users.grid.invalid_column_content'
         no_created_by: 'Неизвестный пользователь'
+        no_group: '=> core.admin.users.grid.columns.group_badges.no_badges'
         uses:
           total_uses: '{totalUses, plural, one {Использовано {totalUses} раз} other {Использовано {totalUses} раз/а}}'
+          used_times: '{remaining, plural, =0 {Unlimited uses} one {Осталось {remainingUses} применений} other {Осталось {remainingUses} применений}}'
         warning: 'Этот код был использован максимальное количество раз.'
       heading: 'Пригласительные коды'
+      pagination:
+        back_button: '=> core.lib.pagination.back_button'
+        first_page_button: '=> core.lib.pagination.first_button'
+        go_to_page_textbox_a11y_label: '=> core.lib.pagination.go_to_page_textbox_a11y_label'
+        last_page_button: '=> core.lib.pagination.last_button'
+        next_button: '=> core.lib.pagination.next_button'
+        page_counter: '=> core.lib.pagination.page_counter'
     modals:
       create_doorkey:
+        activates_user:
+          help: '=> fof-doorman.admin.ref.fields.activates_user.help'
+          label: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        group:
+          help: '=> fof-doorman.admin.ref.fields.group.help'
+          label: '=> fof-doorman.admin.ref.fields.group.label'
+        key:
+          help: '=> fof-doorman.admin.ref.fields.key.help'
+          label: '=> fof-doorman.admin.ref.fields.key.label'
+        max_uses:
+          help: '=> fof-doorman.admin.ref.fields.max_uses.help'
+          label: '=> fof-doorman.admin.ref.fields.max_uses.label'
         submit_and_create_another_button: 'Создать и добавить еще один'
         submit_button: 'Создать код'
-        title: 'Создайте новый пригласительный код'
+        title: 'Создайте новый код'
       edit_doorkey:
+        activates_user:
+          help: '=> fof-doorman.admin.ref.fields.activates_user.help'
+          label: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        group:
+          help: '=> fof-doorman.admin.ref.fields.group.help'
+          label: '=> fof-doorman.admin.ref.fields.group.label'
+        key:
+          help: '=> fof-doorman.admin.ref.fields.key.help'
+          label: '=> fof-doorman.admin.ref.fields.key.label'
+        max_uses:
+          help: '=> fof-doorman.admin.ref.fields.max_uses.help'
+          label: '=> fof-doorman.admin.ref.fields.max_uses.label'
         submit_button: 'Сохранить изменения'
         title: 'Редактировать код'
       send_invites:
-        group: 'Отправить для {group} группы'
+        group: 'Отправить для группы "{group}"'
         help: 'Можно использовать список, разделенный запятыми, пробелами или запятыми и пробелами. Введите отдельное электронное письмо или вставьте список, а затем нажмите пробел, чтобы добавить его/их.'
         invalid_emails: 'Следующие электронные письма недействительны: {emails}'
         max_use_conflict: 'Количество электронных писем превышает максимальное количество использований этого кода.'
@@ -51,7 +89,7 @@ fof-doorman:
           label: Ключ
         max_uses:
           help: 'Максимальное количество использований кода. Установите значение 0 для неограниченного количества использований'
-          label: 'Макс. применений'
+          label: 'Максимальное количество применений'
     settings:
       create_doorkey_button: 'Создать код'
       heading: Настройки
