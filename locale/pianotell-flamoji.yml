@@ -80,7 +80,7 @@ pianotell-flamoji:
         symbols: '=> pianotell-flamoji.ref.emoji_categories.symbols'
       category_search: 'Результаты поиска'
       no_emojis_found_message: 'Эмодзи не найдены'
-      no_emojis_found_title: 'Ничего не нашлось'
+      no_emojis_found_title: 'Ничего не нашлось!'
       pick: 'Выберите эмодзи'
       search_placeholder: Поиск
       skin_tone_choose: 'Выберите тон кожи по умолчанию'
