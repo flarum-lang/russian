@@ -16,6 +16,7 @@ CHANGELOG
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
 * [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
+* [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
 * [`ramon/point-system`](https://github.com/ram0ng1/point-system)
 
 
