@@ -5,6 +5,11 @@ CHANGELOG
 2.0.49 (XXXX-XX-XX)
 -------------------
 
+**Добавлена поддержка новых расширений**:
+
+* [`ernestdefoe/hero-builder`](https://github.com/ernestdefoe/hero-builder)
+
+
 **Обновленные переводы расширений**:
 
 * [`flarum/realtime`](https://github.com/flarum/realtime)
