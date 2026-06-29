@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+2.0.49 (2026-06-29)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`ernestdefoe/hero-builder`](https://github.com/ernestdefoe/hero-builder)
+
+
+**Обновленные переводы расширений**:
+
+* [`flarum/realtime`](https://github.com/flarum/realtime)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+
+
+Все изменения: [2.0.48...2.0.49](https://github.com/flarum-lang/russian/compare/2.0.48...2.0.49).
+
+
 2.0.48 (2026-06-26)
 -------------------
 
