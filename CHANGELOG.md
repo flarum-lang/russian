@@ -5,6 +5,11 @@ CHANGELOG
 2.0.51 (XXXX-XX-XX)
 -------------------
 
+**Добавлена поддержка новых расширений**:
+
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+
+
 **Обновленные переводы расширений**:
 
 * [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
