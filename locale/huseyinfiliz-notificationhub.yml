@@ -4,9 +4,14 @@
 
 huseyinfiliz-notificationhub:
   admin:
+    modal_notification:
+      recipients_placeholder: huseyinfiliz-notificationhub.forum.modal_notification.recipients_placeholder
     permissions:
       send_all: 'Отправлять уведомления всем пользователям'
       send_user: 'Отправлять уведомления отдельным пользователям'
+    recipient_kinds:
+      group: huseyinfiliz-notificationhub.forum.recipient_kinds.group
+      user: huseyinfiliz-notificationhub.forum.recipient_kinds.user
     settings:
       add_button: 'Добавить тип уведомления'
       add_notification_type: 'Добавить тип уведомления'
@@ -16,6 +21,7 @@ huseyinfiliz-notificationhub:
         actions: Действия
         active: Активно
         color: Цвет
+        color_invalid: 'Цвет должен быть корректным hex-кодом, например #ff0000 или #f00.'
         default_message_key: 'Сообщение по умолчанию'
         default_recipients: 'Получатели по умолчанию'
         default_url: 'Ссылка по умолчанию'
@@ -24,15 +30,29 @@ huseyinfiliz-notificationhub:
         icon: 'Иконка по умолчанию'
         name: Название
         permission: Разрешение
+        permission_help: 'Выберите группы, которым разрешено отправлять это уведомление. Если не выбрать, его смогут отправлять все модераторы и администраторы.'
+        permission_placeholder: 'Введите название группы...'
+        preview: Предпросмотр
+        preview_placeholder: 'Название типа уведомления'
         sort_order: 'Порядок сортировки'
       no_data: 'Пока что ничего нет.'
       save: Сохранить
     title:
       page_title: 'Типы уведомлений'
   api:
+    field_too_long: 'Это поле слишком длинное.'
+    invalid_color: 'Цвет должен быть корректным hex-кодом — например #ff0000 или #f00.'
+    invalid_url: 'Обнаружен некорректный протокол URL.'
+    invalid_url_scheme: 'Некорректная схема URL. Разрешены только HTTP, HTTPS, mailto, tel или относительные ссылки.'
     message_required: 'Добавьте сообщение.'
+    message_too_long: 'Сообщение не может быть длиннее 5000 символов.'
+    multiple_recipients_not_allowed: 'У вас нет прав отправлять уведомления сразу нескольким получателям.'
+    name_required: 'Требуется название типа уведомления.'
+    name_too_long: 'Название не может быть длиннее 255 символов.'
     no_valid_recipients: 'Нет подходящих получателей.'
+    sort_order_invalid: 'Порядок сортировки должен быть неотрицательным числом.'
     subject_id_required: 'Укажите тип уведомления.'
+    url_too_long: 'URL не может быть длиннее 2048 символов.'
     user_ids_required: 'Укажите ID пользователей.'
   forum:
     links:
@@ -43,6 +63,7 @@ huseyinfiliz-notificationhub:
       no_notification_types: 'Нет активных типов уведомлений.'
       notification_sent_message: 'Уведомление отправлено {recipientsCount} пользователям!'
       notification_type_label: 'Тип уведомления'
+      preview_all_members: 'Все участники'
       preview_message_placeholder: Сообщение...
       preview_title: Превью
       recipients_label: Получатели
