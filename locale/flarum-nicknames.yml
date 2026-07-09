@@ -6,7 +6,7 @@ flarum-audit:
   lib:
     browser:
       user:
-        nickname_changed: 'Изменен никнейм пользователя {username} с {old_nickname} на {new_nickname}'
+        nickname_changed: 'Изменён псевдоним пользователя {username} с {old_nickname} на {new_nickname}'
 flarum-nicknames:
   admin:
     basics:
