@@ -12,7 +12,9 @@ CHANGELOG
 
 **Обновленные переводы расширений**:
 
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
 * [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
+* [`ramon/point-system`](https://github.com/ram0ng1/point-system)
 
 
 Все изменения: [2.0.50...2.0.51](https://github.com/flarum-lang/russian/compare/2.0.50...2.0.51).
