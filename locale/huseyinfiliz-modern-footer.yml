@@ -16,8 +16,10 @@ huseyinfiliz-modern-footer:
       bottom_section: 'Нижняя линия'
       custom: 'Свой вариант'
       custom_html: 'Пользовательский HTML Code'
+      custom_html_help: 'Этот HTML-код отображается без изменений для каждого посетителя. Добавляйте только ту разметку, которой доверяете.'
       custom_js: 'Пользовательский JS'
       custom_js_code: 'Пользовательский JavaScript Code'
+      custom_js_help: 'Этот код выполняется непосредственно в браузере каждого посетителя. Добавляйте только тот код, которому доверяете.'
       display_mode: 'Стиль отображения'
       font_awesome_icon: 'Иконка Font Awesome'
       forum_logo: Логотип

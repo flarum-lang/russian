@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-ban-ips/ru/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      fof_ban_ips:
+        banned: 'Забаненный ip {ip}'
+        unbanned: 'Разбанен ip {ip}'
 flarum-gdpr:
   lib:
     data:
