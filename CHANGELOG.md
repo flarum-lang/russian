@@ -12,7 +12,12 @@ CHANGELOG
 
 **Обновленные переводы расширений**:
 
+* [`flarum/lock`](https://github.com/flarum/lock)
 * [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
+* [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
 * [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
 * [`ramon/point-system`](https://github.com/ram0ng1/point-system)
 
