@@ -2,6 +2,29 @@ CHANGELOG
 =========
 
 
+2.0.51 (2026-07-15)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+
+
+**Обновленные переводы расширений**:
+
+* [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
+* [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
+* [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
+* [`ramon/point-system`](https://github.com/ram0ng1/point-system)
+
+
+Все изменения: [2.0.50...2.0.51](https://github.com/flarum-lang/russian/compare/2.0.50...2.0.51).
+
+
 2.0.50 (2026-07-01)
 -------------------
 
