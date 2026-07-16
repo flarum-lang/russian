@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.52 (XXXX-XX-XX)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki)
+
+
+Все изменения: [2.0.51...2.0.52](https://github.com/flarum-lang/russian/compare/2.0.51...2.0.52).
+
+
 2.0.51 (2026-07-15)
 -------------------
 
