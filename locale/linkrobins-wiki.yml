@@ -121,7 +121,7 @@ linkrobins-wiki:
       deleted_badge: Удалено
       empty: 'Нет статей для показа.'
       empty_own: 'Пока нет статей. Нажмите «Новая статья», чтобы написать одну.'
-      index_label: Индекс
+      index_label: Главная
       new_article: 'Новая статья'
       new_article_tooltip: 'Написать новую статью'
       no_categories: 'Пока нет категорий.'
