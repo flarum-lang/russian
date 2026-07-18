@@ -83,6 +83,7 @@ php flarum cache:clear
 | --- | --- |
 | [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum2/ru/fof-analytics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-analytics/ru/) |
 | [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum2/ru/fof-anti-spam/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-anti-spam/ru/) |
+| [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum2/ru/fof-author-change/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-author-change/ru/) |
 | [`fof/badges`](https://github.com/FriendsOfFlarum/badges) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum2/ru/fof-badges/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-badges/ru/) |
 | [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum2/ru/fof-ban-ips/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-ban-ips/ru/) |
 | [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum2/ru/fof-best-answer/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-best-answer/ru/) |
