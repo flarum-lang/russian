@@ -38,6 +38,7 @@ CHANGELOG
 **Добавлена поддержка новых расширений**:
 
 * [`flarum/audit`](https://github.com/flarum/audit)
+* [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change)
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 * [`fof/mailing`](https://github.com/FriendsOfFlarum/mailing)
 * [`fof/news-widget`](https://github.com/FriendsOfFlarum/news-widget)
@@ -45,7 +46,9 @@ CHANGELOG
 * [`fof/photoswipe`](https://github.com/FriendsOfFlarum/photoswipe)
 * [`fof/signature`](https://github.com/FriendsOfFlarum/signature)
 * [`fof/top-posters-widget`](https://github.com/FriendsOfFlarum/top-posters-widget)
+* [`fof/upgrade-advisor`](https://github.com/FriendsOfFlarum/upgrade-advisor)
 * [`ianm/oauth-amazon`](https://github.com/imorland/flarum-ext-oauth-amazon)
+* [`ramon/colored`](https://github.com/ram0ng1/colored)
 
 
 **Обновленные переводы расширений**:
@@ -55,18 +58,30 @@ CHANGELOG
 * [`askvortsov/flarum-markdown-tables`](https://github.com/askvortsov1/flarum-markdown-tables)
 * [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
 * [`blomstra/fontawesome`](https://github.com/blomstra/flarum-ext-fontawesome)
+* [`blomstra/search`](https://github.com/blomstra/flarum-ext-search)
+* [`clarkwinkelmann/flarum-ext-composer-page`](https://github.com/clarkwinkelmann/flarum-ext-composer-page)
 * [`clarkwinkelmann/flarum-ext-first-post-approval`](https://github.com/clarkwinkelmann/flarum-ext-first-post-approval)
+* [`clarkwinkelmann/flarum-ext-group-invitation`](https://github.com/clarkwinkelmann/flarum-ext-group-invitation)
+* [`clarkwinkelmann/flarum-ext-mass-actions`](https://github.com/clarkwinkelmann/flarum-ext-mass-actions)
 * [`clarkwinkelmann/flarum-ext-popular-discussion-badge`](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr)
 * [`flarum/nicknames`](https://github.com/flarum/nicknames)
 * [`flarum/suspend`](https://github.com/flarum/suspend)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`forumaker/magicread`](https://github.com/forumaker/magicread)
 * [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
 * [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
+* [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
+* [`ralkage/flarum-ext-profile-messages`](https://github.com/Ralkage/flarum-ext-profile-messages)
 
 
 Все изменения: [1.59.68...1.59.69](https://github.com/flarum-lang/russian/compare/1.59.68...1.59.69).
