@@ -7,7 +7,14 @@ CHANGELOG
 
 **Добавлена поддержка новых расширений**:
 
+* [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change)
 * [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki)
+
+
+**Обновленные переводы расширений**:
+
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 
 
 Все изменения: [2.0.51...2.0.52](https://github.com/flarum-lang/russian/compare/2.0.51...2.0.52).
