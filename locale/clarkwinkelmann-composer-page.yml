@@ -5,12 +5,17 @@
 clarkwinkelmann-composer-page:
   admin:
     settings:
+      forPrivateDiscussions: 'Использовать в переписках'
+      forPrivateDiscussionsHelp: 'Интегрирует редактор переписок на страницу'
       onlyInTags: 'Только в следующих тегах (опционально)'
       onlyInTagsHelp: "Перечень тегов, разделяемых запятыми. Оставьте пустым, чтобы всегда использовать эту страницу, даже до выбора любого тега.\n"
   forum:
     nav:
       cancel: 'Выйти из редактора'
       continue: 'Продолжить тему'
+    page-private:
+      heading: 'Создание переписки'
+      title: 'Создать переписку'
     page:
-      heading: 'Создать тему'
+      heading: 'Создание темы'
       title: 'Создать тему'

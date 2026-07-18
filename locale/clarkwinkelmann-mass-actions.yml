@@ -8,14 +8,24 @@ clarkwinkelmann-mass-actions:
       controls: 'Показать элементы управления групповым выбором'
   forum:
     actions:
+      delete: 'Удалить навсегда выбранные'
+      deleteConfirmation: '{count, plural, one {Уалить выбранную тему?} other {Удалить # выбранных тем?}}'
       hide: 'Удалить выбранное'
       lock: 'Заблокировать выбранное'
       markAsRead: 'Пометить выделенное как прочтенное'
       restore: 'Восстановить выбранное'
+      sticky: 'Закрепить выбранные'
       tags: Теги
       tags-add: 'Добавить <em>{tag}</em>'
       tags-edit: 'Править теги'
       unlock: 'Разблокировать выделенное'
+      unsticky: 'Открепить выбранные'
     select:
       all: 'Выбрать всё'
+      hidden: Скрытые
+      locked: Закрытые
       none: 'Снять выделение со всего'
+      read: Прочитанные
+      unlocked: Открытые
+      unread: Непрочитанные
+      visible: 'Не удалённые'

@@ -2,6 +2,14 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-masquerade/ru/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      masquerade:
+        field_created: 'Создано поле профиля'
+        field_deleted: 'Удалено поле профиля'
+        field_updated: 'Обновлено поле профиля'
+        profile_updated: 'Обновлены профильные поля пользователя {username}'
 flarum-gdpr:
   lib:
     data:

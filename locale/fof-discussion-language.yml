@@ -8,12 +8,15 @@ fof-discussion-language:
       allow_change_language_label: 'Разрешить изменять язык'
     settings:
       composer_default_label: 'Язык по умолчанию'
+      config:
+        country_label: 'Страна для отображения флага'
+        language_label: Язык
       errors:
         loading_data: 'При определении языка и страны возникла ошибка. Попробуйте отключить и вновь включить это расширение.'
         missing_assets: 'Не получается загрузить наборы, необходимые для этого расширения. Попробуйте запустить <code>php flarum assets:publish</code> и проверить, не решит ли это проблему.'
       locale_sort_label: 'Использовать обнаруженный язык для фильтрации дискуссий по умолчанию'
       native_label: 'Собственные названия языков'
-      show_any_lang_opt_label: 'Показать пункт выбора "Любой язык".'
+      show_any_lang_opt_label: 'Показывать пункт выбора «Любой язык»'
       show_flag_label: 'Флаги стран рядом с названиями языков'
       tags_page_discussion_locale_label: 'Показывать только темы на текущем языке пользователя на странице тегов'
   api:
@@ -30,3 +33,6 @@ fof-discussion-language:
       change_language_button: 'Установить язык'
     index_language:
       any: Любой
+    sub_controls:
+      subscription_language_help: 'Уведомления будут приходить только на выбранном языке.'
+      subscription_language_label: 'Язык темы'

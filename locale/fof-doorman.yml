@@ -6,6 +6,32 @@ fof-doorman:
   admin:
     doorkey_required: 'Вам необходимо ввести код приглашения'
     invalid_doorkey: 'Код приглашения недействителен.'
+    list:
+      columns:
+        activates_user: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        created_by: 'Кем создан'
+        group: '=> fof-doorman.admin.ref.fields.group.label'
+        id: ID
+        key: '=> fof-doorman.admin.ref.fields.key.label'
+        manage: Управление
+        max_uses: '=> fof-doorman.admin.ref.fields.max_uses.label'
+        uses: Применение
+      content:
+        delete: 'Удалить код "{key}"?'
+        invalid_column: '=> core.admin.users.grid.invalid_column_content'
+        no_created_by: 'Неизвестный пользователь'
+        no_group: '=> core.admin.users.grid.columns.group_badges.no_badges'
+        uses:
+          total_uses: '{totalUses, plural, one {Использовано {totalUses} раз} other {Использовано {totalUses} раз/а}}'
+          used_times: '{remaining, plural, =0 {Unlimited uses} one {Осталось {remainingUses} применений} other {Осталось {remainingUses} применений}}'
+        warning: 'Этот код был использован максимальное количество раз.'
+      pagination:
+        back_button: '=> core.lib.pagination.back_button'
+        first_page_button: '=> core.lib.pagination.first_button'
+        go_to_page_textbox_a11y_label: '=> core.lib.pagination.go_to_page_textbox_a11y_label'
+        last_page_button: '=> core.lib.pagination.last_button'
+        next_button: '=> core.lib.pagination.next_button'
+        page_counter: '=> core.lib.pagination.page_counter'
     modal:
       group: 'Рассылка приглашений для группы {group}'
       help: 'Введите адреса e-mail, разделяя запятыми, пробелами или запятыми с пробелами.'
@@ -15,6 +41,47 @@ fof-doorman:
       send: Отправить
       success: 'Письма успешно отправлены'
       title: 'Рассылка приглашений'
+    modals:
+      create_doorkey:
+        activates_user:
+          help: '=> fof-doorman.admin.ref.fields.activates_user.help'
+          label: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        group:
+          help: '=> fof-doorman.admin.ref.fields.group.help'
+          label: '=> fof-doorman.admin.ref.fields.group.label'
+        key:
+          help: '=> fof-doorman.admin.ref.fields.key.help'
+          label: '=> fof-doorman.admin.ref.fields.key.label'
+        max_uses:
+          help: '=> fof-doorman.admin.ref.fields.max_uses.help'
+          label: '=> fof-doorman.admin.ref.fields.max_uses.label'
+        submit_and_create_another_button: 'Создать и добавить ещё один'
+        submit_button: 'Создать код'
+        title: 'Создайте новый код'
+      edit_doorkey:
+        activates_user:
+          help: '=> fof-doorman.admin.ref.fields.activates_user.help'
+          label: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        group:
+          help: '=> fof-doorman.admin.ref.fields.group.help'
+          label: '=> fof-doorman.admin.ref.fields.group.label'
+        key:
+          help: '=> fof-doorman.admin.ref.fields.key.help'
+          label: '=> fof-doorman.admin.ref.fields.key.label'
+        max_uses:
+          help: '=> fof-doorman.admin.ref.fields.max_uses.help'
+          label: '=> fof-doorman.admin.ref.fields.max_uses.label'
+        submit_button: 'Сохранить изменения'
+        title: 'Редактировать код'
+      send_invites:
+        group: 'Отправить для группы "{group}"'
+        help: 'Можно использовать список, разделённый запятыми, пробелами или запятыми и пробелами. Введите отдельный email или вставьте список, а затем нажмите пробел, чтобы добавить.'
+        invalid_emails: 'Эти почтовые адреса недействительны: {emails}'
+        max_use_conflict: 'Количество писем превышает максимальное количество использований этого кода.'
+        placeholder: 'Введите email'
+        send: 'Отправить письма'
+        success: 'Электронные письма отправлены'
+        title: 'Отправить коды'
     nav:
       desc: 'Создание приглашений для регистрации пользователей и добавления их в определённую группу.'
     page:
@@ -39,6 +106,28 @@ fof-doorman:
         used_times: '{remaining, plural, =0 {Неограниченно} one {{remaining} использования} other {{remaining} использований}}'
         warning: 'Код приглашения уже превысил максимальное количество использований.'
       title: Приглашения
+    ref:
+      fields:
+        activates_user:
+          help: 'Автоматически активирует пользователя после регистрации.'
+          label: 'Активирует пользователя'
+        group:
+          help: 'Группа, в которую будет добавлен пользователь при регистрации с помощью кода приглашения.'
+          label: Группа
+        key:
+          help: 'Код, который пользователь введёт при регистрации.'
+          label: Ключ
+        max_uses:
+          help: 'Максимальное количество использований кода. Установите значение 0 для неограниченного количества использований'
+          label: 'Максимальное количество применений'
+    settings:
+      create_doorkey_button: 'Создать код'
+      optional_usage: 'Сделать код необязательным при регистрации'
+      search: 'Поиск ключей'
+      total_doorkeys: 'Всего ключей: {count}'
+  email:
+    body: "Здравствуйте,\n\nВас пригласили зарегистрироваться на {forum}.\n\nКогда будете готовы создать учётную запись, просто перейдите по следующей ссылке и введите код при регистрации:\n\nСсылка: {url}\nКод: {code}\n\nЕсли вы получили это письмо по ошибке, не обращайте на него внимания.\n"
+    subject: 'Приглашение присоединиться'
   forum:
     email:
       body: "Здравствуйте!\n\nВас пригласили зарегистрироваться на {forum}.\n\nКогда Вы будете готовы зарегистрироваться, пройдите по ссылке ниже и введите код приглашения.\n\nURL: {url}\nКод приглашения: {code}\n\nЕсли Вы получили приглашение по ошибке, пожалуйста, проигнорируйте это сообщение.\n"
