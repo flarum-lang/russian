@@ -21,10 +21,10 @@ clarkwinkelmann-mass-actions:
       unlock: 'Разблокировать выделенное'
       unsticky: 'Открепить выбранные'
     select:
-      all: 'Выбрать всё'
+      all: Все
       hidden: Скрытые
       locked: Закрытые
-      none: 'Снять выделение со всего'
+      none: Ничего
       read: Прочитанные
       unlocked: Открытые
       unread: Непрочитанные

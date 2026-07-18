@@ -3,6 +3,19 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 club-1-cross-references:
+  admin:
+    enable_short_references:
+      help: 'Преобразовывать текст #<ID> в сообщениях — например #42 — в ссылки на соответствующую тему.'
+      label: 'Включить краткие ссылки'
+    retrofit_links_in_frontend:
+      help: "<p><strong>Устарело</strong> (будет удалено в <code>v1.2.0</code>) Рассмотрите использование команды <code>chore:reparse</code> расширения <code>club-1/flarum-ext-chore-commands</code> вместо этого. См.: <code>https://github.com/club-1/flarum-ext-chore-commands</code></p> <p>Показывать заголовки ссылок тем в сообщениях, отправленных когда это расширение было отключено. Это делается в интерфейсе, поэтому может привести к плохому опыту пользователя.</p>\n"
+      label: 'Добавлять ссылки в интерфейс'
+    show_discussion_id:
+      help: 'Добавлять номера ID темы везде, где отображается тема.'
+      label: 'Показывать ID темы'
   forum:
+    comment: сообщение
     post_stream:
+      discussion_referenced_multiple_text: '{username} ссылается на эту тему из нескольких источников: {sources}'
       discussion_referenced_text: '{username} упомянул(а) эту тему в {source}'
+    unknown_discussion: '[неизвестная тема]'

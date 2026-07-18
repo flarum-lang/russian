@@ -4,6 +4,8 @@
 
 fof-upgrade-advisor:
   admin:
+    actions:
+      recheck: 'Повторить проверки'
     categories:
       database: 'База данных'
       environment: 'Окружение сервера'
@@ -25,8 +27,47 @@ fof-upgrade-advisor:
         pass: 'Установлена PHP {current}.'
         title: 'Версия PHP'
         warning: 'Не удалось определить версию PHP.'
+    errors:
+      load_failed: 'Не удалось запустить проверки готовности. Попробуйте ещё раз.'
+    extensions:
+      abandoned: 'Заброшено — нет поддерживаемой замены'
+      abandoned_replacement: 'Заброшено — заменено на {replacement}'
+      abandoned_replacement_not_ready: 'Заброшено — замена {replacement} ещё не готова к 2.0'
+      abandoned_replacement_ready: 'Заброшено — переключитесь на {replacement}, который имеет 2.0-готовный релиз ✓'
+      compatible: 'Совместимо ({version})'
+      contact:
+        forum: 'Тема поддержки'
+        issues: Проблемы
+        label: 'Узнать о планах 2.0:'
+        source: 'Исходный код'
+      incompatible: 'Нет совместимой версии — последняя {version}'
+      installed: Установлено
+      name: Расширение
+      status: Статус
+      superseded_into_core: 'Удалить — теперь встроено в ядро'
+      superseded_replaced: 'Удалить перед обновлением, затем установить {replacement} после завершения обновления'
+      superseded_self: 'Удалить этот помощник как финальный шаг обновления'
+      unknown: 'Не найдено — скорее всего премиум или приватное. Настройте доступ к репозиторию'
     overall:
       fail: 'Ваш форум ещё не готов к обновлению Flarum {version}'
       pass: 'Ваш форум готов к обновлению Flarum {version}'
       subtitle: 'Готовность к обновлению Flarum {version}.'
       warning: 'Ваш форум почти готов к обновлению Flarum {version}'
+    repositories:
+      add_composer: 'Добавить репозиторий'
+      add_floxum: 'Добавить Floxum'
+      empty: 'Нет дополнительных репозиториев.'
+      help: "Добавьте приватные или премиум-репозитории Composer, чтобы помощник мог проверить расширения, которые отсутствуют в публичном Packagist. Поможет, если расширение не найдено на Packagist.\n"
+      remove: 'Удалить репозиторий'
+      test_fail_auth: 'Ошибка аутентификации — проверьте токен'
+      test_fail_invalid: 'Неверный ответ — проверьте URL'
+      test_fail_unreachable: 'Не удалось подключиться к репозиторию'
+      test_ok: Подключено
+      token: Токен
+      type_composer: 'Приватный или пользовательский Packagist'
+      type_floxum: Floxum
+      url: 'URL репозитория'
+      username: 'Имя пользователя'
+    tabs:
+      report: 'Отчёт о готовности'
+      repositories: Репозитории
