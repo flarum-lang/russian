@@ -37,6 +37,11 @@ CHANGELOG
 
 **Добавлена поддержка новых расширений**:
 
+* [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
+* [`clarkwinkelmann/flarum-ext-scout`](https://github.com/clarkwinkelmann/flarum-ext-scout)
+* [`convo-extensions/flarum-ext-guest-posting`](https://github.com/convo-extensions/flarum-ext-guest-posting)
+* [`datlechin/flarum-passkey`](https://github.com/datlechin/flarum-passkey)
+* [`flamarkt/backoffice`](https://github.com/flamarkt/backoffice)
 * [`flarum/audit`](https://github.com/flarum/audit)
 * [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change)
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
@@ -53,6 +58,7 @@ CHANGELOG
 
 **Обновленные переводы расширений**:
 
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 * [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
 * [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-automod)
 * [`askvortsov/flarum-markdown-tables`](https://github.com/askvortsov1/flarum-markdown-tables)
@@ -64,6 +70,7 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-group-invitation`](https://github.com/clarkwinkelmann/flarum-ext-group-invitation)
 * [`clarkwinkelmann/flarum-ext-mass-actions`](https://github.com/clarkwinkelmann/flarum-ext-mass-actions)
 * [`clarkwinkelmann/flarum-ext-popular-discussion-badge`](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge)
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr)
 * [`flarum/nicknames`](https://github.com/flarum/nicknames)
