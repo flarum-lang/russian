@@ -34,6 +34,10 @@ ramon-avocado:
       auth_image_label: 'Изображение окна авторизации'
       banner_image_help: 'Загрузите баннер, отображаемый в верхней части форума.'
       banner_image_label: Баннер
+      bookmarks_enabled_help: 'Кнопка сохранения на карточках, страница сохранённого, заметки, напоминания и уведомления о напоминаниях. Отключение скрывает всё и отключает конечные точки API.'
+      bookmarks_enabled_label: 'Включить систему закладок'
+      cakeday_enabled_help: 'Показывать 🎂 рядом с именем пользователя в годовщину регистрации аккаунта в карточках тем, сообщениях и карточке пользователя.'
+      cakeday_enabled_label: 'Показывать значок годовщины аккаунта'
       categories_heading_label: 'Заголовок секции категорий'
       colored_border_style_full: 'Полная граница'
       colored_border_style_help: 'Добавить цветную границу к карточкам тем, используя основной цвет тега.'
@@ -42,6 +46,8 @@ ramon-avocado:
       colored_border_style_none: Нет
       colored_enabled_help: 'Применять цвет активного тега или темы к основным кнопкам, ссылкам и другим элементам интерфейса по всему форуму.'
       colored_enabled_label: 'Включить цветовые акценты'
+      custom_auth_modal_help: 'Показывать пользовательский дизайн боковой панели в модальных окнах входа, регистрации и восстановления пароля. Отключите, чтобы использовать модальное окно Flarum по умолчанию.'
+      custom_auth_modal_label: 'Использовать пользовательское модальное окно входа / регистрации'
       custom_default_avatar_help: 'Загрузите пользовательский аватар по умолчанию для пользователей без аватара.'
       custom_default_avatar_label: 'Использовать пользовательский аватар по умолчанию'
       custom_hero_enabled_help: 'Заменяет стандартный контент обложки — иконка, заголовок, описание, кнопки входа/регистрации — вашим HTML. Обёртка обложки, фоновое изображение и наложение остаются без изменений. Отображается только для гостей — как и стандартная обложка.'
@@ -87,19 +93,25 @@ ramon-avocado:
       post_cta_position_5: 'После сообщения №5'
       post_cta_position_help: 'Вставляет баннер CTA между этим номером сообщения и следующим.'
       post_cta_position_label: 'Позиция CTA — после какого номера сообщения'
+      presence_enabled_help: 'Живой индикатор «N читают сейчас» в заголовке темы с аватарами читателей. Требует расширения Realtime. Пользователи с отключённой опцией «Показывать мой статус в сети» никогда не указываются.'
+      presence_enabled_label: 'Показывать, кто читает тему'
       search_v1_help: 'Показывать встроенный выпадающий поиск вместо модального окна V2.'
       search_v1_label: 'Включить стиль поиска V1'
       section_auth: 'Вход и регистрация'
+      section_bookmarks: Закладки
+      section_cakeday: 'День рождения аккаунта'
       section_colored: 'Цветная секция'
       section_footer: Подвал
       section_hero_image_tags: 'Обложка темы'
       section_homepage: Главная
       section_logo: Логотип
       section_posts: Сообщения
+      section_presence: Присутствие
       section_search: Поиск
       section_team: 'Страница команды'
       section_titles_heading: 'Заголовки секций'
       section_titles_help: 'Переопределить заголовки секций на главной странице. Оставьте поля пустыми, чтобы использовать значения из языкового пакета по умолчанию.'
+      section_user_card: 'Карточка пользователя'
       show_action_icons_help: 'Отображать иконки Font Awesome в кнопках «Нравится» и «Ответить».'
       show_action_icons_label: 'Показывать иконки в кнопках «Нравится» и «Ответить»'
       show_auth_buttons_help: 'Отображать кнопки входа и регистрации в виде «пилюль» во вторичной навигации шапки для гостей.'
@@ -137,11 +149,40 @@ ramon-avocado:
       team_groups_help: 'Участники выбранных групп будут отображаться на странице команды.'
       team_groups_label: 'Группы для отображения'
       team_title_label: 'Заголовок страницы'
+      team_title_placeholder: 'Наша команда'
       threads_style_help: 'Отображать первый пост как карточку и делать отступы ответов с левой границей, как в приложении Threads.'
       threads_style_label: 'Включить оформление тем в стиле Threads'
+      user_card_enabled_help: 'Показывать мини-профиль в стиле Discourse — биография, значки, статистика, действия — при наведении на аватары и имена пользователей.'
+      user_card_enabled_label: 'Включить карточку при наведении на пользователя'
   forum:
     actions:
       share: Поделиться
+    back: Назад
+    bookmarks:
+      edit: 'Редактировать закладку'
+      empty: 'Вы ещё не сохранили ни одной темы.'
+      guest_prompt: 'Войдите, чтобы сохранять темы и находить их здесь позже.'
+      modal_cancel: Отмена
+      modal_save: Сохранить
+      modal_title: Закладка
+      note_label: Заметка
+      note_placeholder: 'Почему вы сохраняете это? Укажите по желанию'
+      reminder_custom: 'Выбрать дату и время'
+      reminder_invalid: 'Выберите дату в будущем.'
+      reminder_label: 'Напомнить мне'
+      reminder_later: 'Через 4 часа'
+      reminder_none: 'Без напоминания'
+      reminder_tomorrow: 'Завтра утром'
+      reminder_week: 'На следующей неделе'
+      save: Сохранить
+      title: Сохранённое
+      toggle_error: 'Не удалось обновить ваш список сохранённого. Попробуйте ещё раз.'
+      unsave: 'Удалить из сохранённого'
+      update_error: 'Не удалось обновить вашу закладку. Попробуйте ещё раз.'
+    cakeday:
+      aria: 'Годовщина аккаунта'
+      tooltip_plural: 'Годовщина аккаунта — уже целых {years} лет!'
+      tooltip_singular: 'Годовщина аккаунта — целый 1 год!'
     discussion:
       hero_image_add: 'Добавить изображение'
       hero_image_remove: 'Удалить изображение'
@@ -198,6 +239,9 @@ ramon-avocado:
       like_count_singular: '1 лайк'
       log_in: Войти
       more: ещё
+      nav_label: Навигация
+      nav_more: Ещё
+      nav_more_label: 'Показать ещё ссылки навигации'
       new_discussion: 'Новая тема'
       no_tags_found: 'Теги не найдены'
       or: или
@@ -229,14 +273,26 @@ ramon-avocado:
       placeholder: 'Войдите, чтобы открыть ссылку'
     messages:
       deleted_message: 'Сообщение удалено'
+    notifications:
+      bookmark_reminder_text: 'Напоминание о вашей сохранённой теме'
+    online_users:
+      online: 'в сети'
     post:
       op_badge: 'Автор темы'
     post_cta:
       or: или
       text: 'Понравилось обсуждение? Присоединяйтесь к теме!'
+    presence:
+      reading_now: '{count} читают сейчас'
+    profile:
+      joined: 'Регистрация {date}'
+      member_since: 'Участник с {date}'
+      scroll_left: 'Прокрутить влево'
+      scroll_right: 'Прокрутить вправо'
     search:
       clear: Очистить
       enter_search_term: 'Введите поисковый запрос, чтобы найти пользователей.'
+      esc_key: ESC
       filtered_by: 'Отфильтровано по'
       hero_sub: 'Поиск по дискуссиям, сообщениям и участникам'
       hero_title: 'Что вы ищете?'
@@ -264,6 +320,10 @@ ramon-avocado:
       tip: 'Подсказка: добавьте префикс '
       tip_suffix: ' чтобы фильтровать по тегу'
       title: Поиск
+    settings:
+      notify_bookmark_reminder_label: 'Напоминания о закладках'
+    tag_picker:
+      remove: 'Удалить тег'
     tags:
       all_discussions: 'Все темы'
       discussion_plural: темы
@@ -293,3 +353,11 @@ ramon-avocado:
       mentions_empty: 'Пока нет упоминаний.'
       online: 'В сети'
       posts_empty: 'Пока нет сообщений.'
+    user_card:
+      discussions: темы
+      joined_label: регистрация
+      last_seen: 'Видели {time}'
+      message: Написать
+      online: 'В сети'
+      posts: сообщения
+      view_profile: 'Посмотреть профиль'

@@ -34,6 +34,7 @@ forumaker-magicbb:
       bb_justify: 'По ширине'
       bb_spoiler: Спойлер
       bb_table: Таблица
+      bb_video: Видео
       toolbar_group: 'Группировать кнопки MagicBB'
       toolbar_group_help: 'Если включено, все кнопки MagicBB будут объединены внутри одной'
   forum:

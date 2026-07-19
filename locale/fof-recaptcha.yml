@@ -4,6 +4,7 @@
 
 fof-recaptcha:
   admin:
+    maintenance_mode_warning: 'reCAPTCHA отключена на странице входа, когда форум находится в режиме обслуживания.'
     permissions:
       post_without_captcha: 'Публиковать сообщения и темы без reCAPTCHA'
     settings:
@@ -34,5 +35,7 @@ fof-recaptcha:
     rejected: 'Проверка reCAPTCHA не пройдена. Попробуйте ещё раз.'
     unknown_error: 'Неизвестная ошибка. Попробуйте ещё раз.'
 validation:
+  attributes:
+    g-recaptcha-response: reCAPTCHA
   recaptcha: 'Проверка reCAPTCHA не пройдена.'
   recaptcha-unknown: 'Произошла неизвестная ошибка при проверке reCAPTCHA ({errors}).'

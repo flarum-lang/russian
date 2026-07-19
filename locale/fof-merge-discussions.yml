@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-merge-discussions/ru/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        merged_away: 'Объединена {discussion} в {new_discussion}'
+        merged_into: 'Объединено {post_count} сообщений из {original_discussion_ids_count} в {discussion}'
 fof-merge-discussions:
   admin:
     permissions:

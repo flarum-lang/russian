@@ -6,3 +6,15 @@ datlechin-mermaid:
   admin:
     settings:
       description: 'Пока нет настроек. Диаграммы Mermaid автоматически отображаются внутри блоков кода ```mermaid.'
+      font_family_help: 'Любой стек шрифтов CSS, например: «Inter», system-ui, sans-serif. Оставьте пусто, чтобы использовать шрифт, который ваш форум использует для текста сообщений.'
+      font_family_label: 'Семейство шрифтов'
+      font_family_placeholder: 'Как на форуме'
+      theme_help: 'Как раскрашиваются диаграммы. «Как на форуме» использует цвета вашего форума и следует светлому и тёмному режиму.'
+      theme_label: 'Тема диаграммы'
+      theme_options:
+        auto: 'Mermaid светлая и тёмная'
+        dark: 'Mermaid тёмная'
+        default: 'Mermaid по умолчанию'
+        flarum: 'Как на форуме'
+        forest: 'Mermaid лес'
+        neutral: 'Mermaid нейтральная'

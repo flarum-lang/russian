@@ -2,18 +2,30 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-impersonate/ru/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      user:
+        impersonated: 'Вход от имени {username}'
+        impersonation_ended: 'Возвращение к {username}'
 fof-impersonate:
   admin:
     permissions:
       login: 'Входить в аккаунты других пользователей'
     settings:
-      no_settings_available: 'В настоящее время настройки недоступны. Попробуйте установить "fof/moderator-notes"'
+      no_settings_available: 'Настройки недоступны. Попробуйте установить fof/moderator-notes или flarum/audit'
       require_reason: 'Требовать ввода причины перед входом в аккаунт другого пользователя.'
+      require_reason_help: 'Причина записывается в журнал аудита (flarum/audit) и/или как заметки модератора на обоих аккаунтах (fof/moderator-notes), в зависимости от того, что включено.'
       title: Перевоплощение
+  forum:
+    notice:
+      message: 'Сейчас вы под именем {username}.'
+    return:
+      button: 'Вернуться к {username}'
   lib:
     modal:
       impersonate_username: 'Войти как {username}'
-      label: 'С большой силой приходит большая ответственность. Продолжая, вы станете {username}, пока не выйдете из системы.'
+      label: 'С большой силой приходит большая ответственность. Продолжая, вы станете {username}, пока не переключитесь обратно.'
       placeholder_optional: 'Опционально — укажите причину перехода на этого пользователя'
       placeholder_required: 'Прежде чем продолжить, вы должны указать причину переключения на этого пользователя'
       title: 'Войти как другой пользователь'
