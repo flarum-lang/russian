@@ -15,6 +15,7 @@ CHANGELOG
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 * [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
