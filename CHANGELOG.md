@@ -7,6 +7,7 @@ CHANGELOG
 
 **Добавлена поддержка новых расширений**:
 
+* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar)
 * [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change)
 * [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki)
 
@@ -14,13 +15,25 @@ CHANGELOG
 **Обновленные переводы расширений**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`datlechin/flarum-mermaid`](https://github.com/datlechin/flarum-mermaid)
 * [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`flarum/pusher`](https://github.com/flarum/pusher)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
+* [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`fof/signature`](https://github.com/FriendsOfFlarum/signature)
+* [`fof/split`](https://github.com/FriendsOfFlarum/split)
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
 * [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+* [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado)
 * [`tryhackx/flarum-advanced-pages`](https://github.com/TryHackX/flarum-advanced-pages)
 
 
