@@ -79,6 +79,7 @@ datlechin-passkey:
         body: 'Отозвать все {count} passkey? После этого вы не сможете входить с их помощью.'
       description: 'Passkey позволяют входить без пароля с помощью устройства или аппаратного ключа.'
       heading: Passkey
+      invalid_device_name: 'Passkey должен содержать от 1 до 64 символов.'
       list:
         added_label: Добавлен
         device_only: 'Только на этом устройстве'

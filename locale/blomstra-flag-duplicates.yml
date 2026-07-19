@@ -5,14 +5,17 @@
 blomstra-flag-duplicates:
   admin:
     settings:
+      event_post_help: 'Создайте событие-сообщение в теме, где была поднята отметка «дубликат». Это может информировать пользователей о том, что тема потенциально является дубликатом другой, не предоставляя им доступ к общим поднятым отметкам.'
       event_post_label: 'Сообщение о событии'
   forum:
     flags:
       deselect_discussion_a11y_label: 'Отменить выбор темы'
       duplicate_discussion: Тема-дубликат
+      reason_discussion_deleted: '[удалённая тема]'
       reason_duplicate_label: Тема-дубликат
       reason_duplicate_text: 'Эта тема — дубликат другой.'
     post_stream:
+      deleted_discussion: '[удалённая тема]'
       flagged_duplicate_text: '{username} отметил(а) эту тему как возможный дубликат {duplicate}. Модератор скоро рассмотрит это обращение.'
 flarum-flags:
   forum:

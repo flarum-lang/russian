@@ -77,7 +77,7 @@ flamarkt-taxonomies:
         new: 'Создать значение'
     menu:
       discussions: 'Таксономии дискуссий'
-      products: 'Product taxonomies'
+      products: Таксономии
       title: Таксономии
       users: 'Таксономии пользователей'
     page:
@@ -87,7 +87,7 @@ flamarkt-taxonomies:
       reset-term-order: 'Расположить список значений в алфавитном порядке'
       title: Таксономии
     permissions:
-      bypassTermCounts: 'Bypass term count requirements'
+      bypassTermCounts: 'Игнорировать требования к количеству терминов'
       editAnyDiscussion: 'Править таксономии в любых дискуссиях'
       editAnyUser: 'Редактировать таксономии любого пользователя'
       editOwnDiscussion: 'Править таксономии в своих дискуссиях'
@@ -106,7 +106,7 @@ flamarkt-taxonomies:
     error:
       cannot_use_taxonomies_on_model: 'Вам недоступно использовать таксономии в этом контексте'
       discussion_taxonomy_not_in_scope: 'Таксономия "{slug}" не доступна для текущего тэга'
-      invalid_filter_taxonomy: 'Invalid "{type}" taxonomy filter key "{slug}"'
+      invalid_filter_taxonomy: 'Неверный ключ фильтра таксономии "{type}" "{slug}"'
   forum:
     blog:
       widget:
@@ -120,7 +120,7 @@ flamarkt-taxonomies:
       nav: Таксономии
   lib:
     modal:
-      bypassTermCounts: 'Bypass term counts'
+      bypassTermCounts: 'Игнорировать количество терминов'
       custom: 'Использовать {value}'
       placeholder: '{count, plural, one {Выберите значение...} other {Выберите # значения...}}'
       placeholderOptional: Выбрать...

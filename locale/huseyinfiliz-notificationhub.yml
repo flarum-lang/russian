@@ -68,8 +68,8 @@ huseyinfiliz-notificationhub:
       preview_title: Превью
       recipients_label: Получатели
       recipients_placeholder: 'Введите имя пользователя или группы…'
-      submit_button: 'Отправить уведомление'
-      title_text: 'Отправить уведомление'
+      submit_button: Отправить
+      title_text: 'Отправка уведомления'
       url_label: Сссылка
       url_placeholder: 'https://www.пример.com'
     recipient_kinds:
