@@ -77,7 +77,7 @@ fof-byobu:
         update_recipients: 'Изменение участников {title}'
     nav:
       nav_item: Переписки
-      start_button: 'Создать переписку'
+      start_button: Написать
     notifications:
       pd_added_label: 'Кто-то добавил меня в переписку'
       pd_added_text: '{username} добавил(а) вас в переписку'
