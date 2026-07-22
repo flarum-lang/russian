@@ -73,7 +73,8 @@ fof-upload:
         cdn_url: 'URL сети доставки контента (CDN / префиксы файлов)'
         title: 'Настройки локального хранилища'
       preferences:
-        max_file_size: 'Максимальный размер файла (в килобайтах)'
+        max_file_size: 'Максимальный размер файла'
+        max_file_size_equivalent: 'Хранится как <code>{kb}</code> КБ ({value}).'
         mime_type_permission_placeholder: 'Метка разрешения — необязательно, например: «Изображения»'
         mime_type_regex_invalid: 'Недопустимое регулярное выражение. Например, пустые альтернативы ||'
         mime_type_regex_placeholder: 'например: ^image/(jpeg|png|gif)$'
@@ -149,6 +150,7 @@ fof-upload:
       qiniu: QiNiu
     warnings:
       fileinfo_missing: "Расширение PHP <strong>fileinfo</strong> не загружено на этом сервере. FoF Upload всё равно будет работать, однако перекрёстная проверка MIME-типов отключена, что снижает защиту от подмены типов файлов. Включите это расширение в конфигурации PHP для максимальной безопасности.\n"
+      max_file_size_exceeds_php: 'Это превышает лимит загрузки на сервере — <strong>{limit}</strong> (<code>post_max_size={post}</code>, <code>upload_max_filesize={upload}</code>). Файлы больше лимита будут отклонены PHP независимо от этой настройки. Уменьшите значение или увеличьте лимиты в <code>php.ini</code>, а также <code>client_max_body_size</code>, если используется Nginx.'
   api:
     upload_errors:
       cannot_write_to_disk: 'Запись на диск невозможна.'

@@ -20,6 +20,14 @@ ernestdefoe-social-groups:
       stat_reactions: Реакции
       title: Аналитика
       top_posts: 'Сообщения с наибольшим количеством реакций'
+    composer:
+      md_bold: Жирный
+      md_code: 'Встроенный код'
+      md_italic: Курсив
+      md_link: 'Вставить ссылку'
+      md_list: 'Маркированный список'
+      md_quote: Цитата
+      md_strike: Зачёркнутый
     create_modal:
       banner_label: 'Баннер группы'
       color_label: 'Акцентный цвет'
@@ -49,19 +57,23 @@ ernestdefoe-social-groups:
       delete_post: Удалить
       delete_post_confirm: 'Удалить это сообщение?'
       edit: Править
+      edit_failed: 'Не удалось сохранить изменения.'
       edited: (отредактировано)
       empty: 'Пока нет тем. Создайте первую!'
       feed_placeholder: 'Что у вас на уме?'
       hide_comments: 'Скрыть комментарии'
+      join_to_reply: 'Вступите в группу, чтобы ответить.'
       like: Лайк
       load_error: 'Не удалось загрузить сообщения. Попробуйте обновить страницу.'
       load_more: 'Загрузить ещё {count, plural, one {# ответ} few {# ответа} other {# ответов}}'
       load_more_failed: 'Не удалось загрузить ответы. Нажмите, чтобы попробовать снова.'
       load_more_short: 'Загрузить ещё'
       locked: Закрыто
+      log_in_button: Войти
       more_options: 'Дополнительные параметры'
       new_button: 'Новая тема'
       next_page: 'Следующая страница'
+      no_permission: 'У вас нет прав на просмотр сообщений в этой группе.'
       pin_reply: 'Закрепить этот ответ'
       pinned: Закреплено
       pinned_reply: 'Закреплено модератором группы'
@@ -89,6 +101,8 @@ ernestdefoe-social-groups:
       reply_count: '{count, plural, one {# ответ} few {# ответа} many {# ответов} other {# ответов}}'
       reply_placeholder: 'Напишите ответ…'
       save_edit: Сохранить
+      search_empty: 'По запросу «{query}» ничего не найдено.'
+      search_placeholder: 'Поиск сообщений…'
       start_button: 'Создать тему'
       submit: Создать
       title: Темы
@@ -113,6 +127,9 @@ ernestdefoe-social-groups:
       members_empty: 'Участников пока нет.'
       members_load_error: 'Не удалось загрузить участников.'
       members_section: Участники
+      mute_member: 'Замьютить — участник сможет только читать'
+      muted_badge: 'В муте'
+      muted_notice: 'Вас замьютили в этой группе — вы можете всё читать, но не сможете писать, пока модератор группы не снимет ограничение.'
       not_found: 'Группа не найдена.'
       options: 'Настройки группы'
       promote_member: 'Назначить модератором'
@@ -123,6 +140,7 @@ ernestdefoe-social-groups:
       rss_feed: RSS-лента
       tab_media: Медиа
       tab_posts: Сообщения
+      unmute_member: Размьютить
     groups:
       approval: Одобренная
       approval_required: 'Требуется одобрение'
@@ -134,6 +152,7 @@ ernestdefoe-social-groups:
       feature: 'Добавить в избранное'
       featured: Избранная
       featured_heading: 'Избранные группы'
+      generic_error: 'Что-то пошло не так. Попробуйте ещё раз.'
       join: Вступить
       joined: Участник
       leave: Покинуть
@@ -166,19 +185,46 @@ ernestdefoe-social-groups:
       uploading: Загрузка…
       view_post: 'Просмотреть сообщение'
     notifications:
+      join_request: 'хочет вступить в {groupName}'
       new_post: 'опубликовано в {discussionTitle}'
       new_reply: 'ответил на ваш комментарий в {discussionTitle}'
     primary_group:
       empty: 'Вы ещё не вступили ни в одну группу.'
       help: 'Выберите, какая группа будет отображаться в карточке профиля.'
       none: Нет
+      save_failed: 'Не удалось сохранить.'
       saving: Сохранение…
       title: 'Значок группы профиля'
+    profile_groups:
+      empty: 'Вы пока не состоите ни в одной группе.'
+      nav: Группы
+    reactions:
+      angry: Злость
+      haha: Смешно
+      like: Лайк
+      love: Любовь
+      sad: Грустно
+      wow: 'Ух ты'
     requests:
       approve: Одобрить
       reject: Отклонить
       title: 'Заявки на вступление'
+    settings:
+      notify_social_group_join_request_label: 'Запросы на вступление в группы, которыми я управляю'
+      notify_social_group_new_post_label: 'Новые публикации в группах, в которых я участвую'
+      notify_social_group_new_reply_label: 'Ответы на мои комментарии в группах'
+    share_modal:
+      cancel: Отмена
+      comment_placeholder: 'Добавить комментарий'
+      empty: 'Вы не состоите ни в одной другой группе.'
+      group_label: 'Где поделиться?'
+      submit: Поделиться
+      title: 'Поделиться публикацией'
     upload:
       change: Изменить
+      failed: 'Не удалось загрузить файл.'
       invalid_type: 'Недопустимый тип файла. Загрузите изображение в формате JPG, PNG, GIF или WebP.'
+      no_url: 'Файл загружен, но URL не был получен.'
       too_large: 'Файл слишком большой. Максимальный размер — 5 МБ.'
+  lib:
+    shared_from: 'Поделился из {name}'

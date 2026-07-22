@@ -2,7 +2,38 @@
 # Use https://weblate.rob006.net/projects/flarum2/ernestdefoe-calendar/ru/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+ernestdefoe-bespoke:
+  forum:
+    widget_celebrations: Праздники
+    widget_events: 'Ближайшие события'
+    widget_memories: 'В этот день'
+    widget_pulse: Пульс
 ernestdefoe-calendar:
+  admin:
+    categories: 'Категории событий'
+    categories_help: 'Цветовые категории позволяют участникам фильтровать календарь и дают каждому событию цветовой акцент. Изменения сохраняются построчно.'
+    category_add: 'Добавить категорию'
+    category_color: Цвет
+    category_delete_confirm: 'Удалить эту категорию? Данные событий сохранятся, но цветовая метка будет утеряна.'
+    category_name: Название
+    category_saved: 'Категория сохранена.'
+    default_view: 'Вид календаря по умолчанию'
+    hide_nav_link: 'Скрыть календарь в боковой навигации'
+    hide_nav_link_help: 'Календарь останется в виджете «Ближайшие события» и по адресу /calendar — полезно, если навигация перегружена.'
+    index_widget_count: 'Количество событий в виджете на главной'
+    permission_create: 'Создавать события календаря'
+    permission_manage: 'Управлять событиями календаря'
+    settings_title: Календарь
+    show_celebrations_widget: 'Показывать виджет «Сегодняшние праздники» на главной форума'
+    show_index_widget: 'Показывать виджет «Ближайшие события» на главной форума'
+    show_memories_widget: 'Показывать виджет «В этот день» на главной форума'
+    show_pulse_widget: 'Показывать виджет «Пульс» на главной форума'
+    show_pulse_widget_help: 'Тепловая карта активности и рейтинг самых активных участников, показывающие жизнь сообщества. График вклада также отображается в профиле каждого участника'
+    view_list_opt: 'Ближайшие события'
+    view_month_opt: 'Сетка месяца'
+    week_monday: Понедельник
+    week_starts_on: 'Неделя начинается с'
+    week_sunday: Воскресенье
   forum:
     add_event: 'Добавить событие'
     add_to_google: 'Добавить в Google Календарь'
@@ -17,7 +48,22 @@ ernestdefoe-calendar:
     badge_roll: 'На волне'
     badge_week: 'Боец недели'
     badge_year: Круглогодичный
+    birthday_day: День
+    birthday_help: 'Укажите дату рождения — только месяц и день, чтобы сообщество могло вас поздравить.'
+    birthday_month: Месяц
+    birthday_save: Сохранить
+    birthday_saved: 'Дата рождения сохранена.'
+    birthday_section: 'День рождения'
     cancel: Отмена
+    cd_days: д
+    cd_here: 'уже здесь!'
+    cd_hours: ч
+    cd_live: 'Проходит прямо сейчас 🎉'
+    cd_mins: м
+    cd_secs: с
+    celebrations_anniversary: '{years} лет на форуме'
+    celebrations_birthday: 'День рождения 🎂'
+    celebrations_title: 'Сегодняшние праздники'
     cover_error: 'Не удалось загрузить это изображение —попробуйте ещё раз или вставьте URL.'
     cover_or_url: '…или вставьте URL изображения'
     cover_remove: 'Удалить обложку'
@@ -49,10 +95,17 @@ ernestdefoe-calendar:
     heat_more: Больше
     link: Ссылка
     location: Место
+    memories_empty: 'Пока нет воспоминаний за сегодня— самое время их создать!'
+    memories_replies: '{count} ответов'
+    memories_title: 'В этот день'
+    memories_years_ago: '{years} лет назад'
     nav: Календарь
     no_events: 'Нет предстоящих событий.'
     organizer: Организовано
     page_title: Календарь
+    pulse_empty: 'Пока нет активности.'
+    pulse_title: Пульс
+    pulse_total: '{count} сообщений — 120 дней'
     repeat_daily: Ежедневно
     repeat_monthly: Ежемесячно
     repeat_none: 'Не повторяется'
@@ -68,6 +121,7 @@ ernestdefoe-calendar:
     section_details: Подробности
     section_when: Когда
     starts: Начало
+    starts_in: 'Начнётся через'
     subscribe: 'Подписаться — iCal лента'
     today: Сегодня
     upcoming: 'Предстоящие события'
@@ -77,5 +131,7 @@ ernestdefoe-calendar:
     view_list: Список
     view_month: Месяц
     view_week: Неделя
+    widget_celebrations: Праздники
+    widget_memories: 'В этот день'
     widget_pulse: 'Пульс форума'
     widget_title: 'Предстоящие события'
