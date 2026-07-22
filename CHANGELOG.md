@@ -2,6 +2,21 @@ CHANGELOG
 =========
 
 
+2.0.53 (XXXX-XX-XX)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar)
+* [`ernestdefoe/social-groups`](https://github.com/ernestdefoe/social-groups)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
+* [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki)
+
+
+Все изменения: [2.0.52...2.0.53](https://github.com/flarum-lang/russian/compare/2.0.52...2.0.53).
+
+
 2.0.52 (2026-07-20)
 -------------------
 
