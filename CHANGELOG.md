@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+2.0.56 (2026-07-25)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget)
+* [`linkrobins/markdown-widget`](https://github.com/linkrobins/markdown-widget)
+* [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki)
+
+
+Все изменения: [2.0.55...2.0.56](https://github.com/flarum-lang/russian/compare/2.0.55...2.0.56).
+
+
 2.0.55 (2026-07-25)
 -------------------
 
