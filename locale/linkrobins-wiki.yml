@@ -64,6 +64,9 @@ linkrobins-wiki:
     comment_required: 'Комментарий должен содержать текст.'
     comment_soft_delete_first: 'Комментарий необходимо удалить, прежде чем его можно будет удалить навсегда.'
     content_required: 'Требуется содержимое статьи.'
+    faq_too_many: 'В статье может быть не более {max} записей FAQ.'
+    slug_invalid: 'Этот URL зарезервирован. Пожалуйста, выберите другой, не состоящий только из цифр.'
+    slug_taken: 'В другой статье уже используется этот URL.'
     title_required: 'Заголовок статьи обязателен.'
   forum:
     action:
@@ -96,7 +99,16 @@ linkrobins-wiki:
       body_placeholder_edit: 'Нажмите, чтобы продолжить редактирование…'
       category_label: Категория
       discard_confirm: 'У вас есть несохранённая статья. Отменить изменения?'
+      faq_add: 'Добавить вопрос'
+      faq_answer_placeholder: 'Ответ. Поддерживается Markdown.'
+      faq_heading: FAQ
+      faq_help: 'Под статьёй приведены необязательные вопросы и ответы. В ответах поддерживается разметка Markdown.'
+      faq_question_placeholder: Вопрос
+      faq_remove: 'Удалить вопрос'
       no_category: 'Нет категории'
+      slug_help: 'Используется в URL статьи. Оставьте поле пустым, чтобы сгенерировать URL из заголовка.'
+      slug_label: 'URL slug'
+      slug_placeholder: 'например, getting-started'
       submit_create: 'Опубликовать статью'
       submit_update: 'Сохранить изменения'
       title: 'Новая статья'
@@ -135,6 +147,7 @@ linkrobins-wiki:
       diff_initial: 'Начальная версия'
       diff_none: 'Содержимое не изменено.'
       diff_title: Заголовок
+      faq_heading: 'Часто задаваемые вопросы'
       history: 'История ({count})'
       initial_version: создана
       last_edited: 'последние правки от '
