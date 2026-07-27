@@ -43,7 +43,7 @@ fof-reactions:
         react_own_posts_label: 'Пользователи могут реагировать на свои сообщения'
         save_settings: 'Сохранить настройки'
     permissions:
-      delete_post_reactions_label: 'Удалить реакции на сообщения'
+      delete_post_reactions_label: 'Удалять реакции на сообщения'
       react_posts_label: 'Реагировать на сообщения'
       see_reactions_label: 'Смотреть, кто реагировал на сообщения'
   forum:
