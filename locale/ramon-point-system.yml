@@ -114,7 +114,7 @@ ramon-point-system:
       field_is_purchasable: 'Доступно для покупки'
       field_is_purchasable_help: 'Пользователи могут потратить указанное количество очков, чтобы сразу вступить в группу, независимо от общего количества.'
       field_points: 'Стоимость в очках — списывается с баланса при получении'
-      field_points_required: 'Требуемое количество очков за всё время — порог'
+      field_points_required: 'Требуемое количество очков за всё время'
       field_price: 'Цена — списывается при покупке'
       help: 'Открывает доступ к группам через автоматическое повышение по порогу или за очки. Одна группа может поддерживать оба способа.'
       none: 'Пока нет настроенных групп.'
@@ -395,7 +395,7 @@ ramon-point-system:
       price: Цена
       title: 'Подтверждение покупки'
       title_cover: 'Подтверждение покупки'
-      title_purchase: 'Получить доступ к этой группе?'
+      title_purchase: 'Получение доступа'
       title_tier: 'Вступить в эту группу?'
     my_decorations:
       avatar: 'Рамки аватара'
@@ -426,7 +426,7 @@ ramon-point-system:
       points_added: 'Пользователь {admin} начислил вам {amount} очков'
       points_removed: 'Пользователь {admin} снял с вас {amount} очков'
       tier_claimed: 'Вы вступили в группу {name}!'
-      tier_excerpt: 'Порог: {points} очков за всё время'
+      tier_excerpt: 'За {points} очков'
       trade_accepted: 'Пользователь {name} принял обмен — осталось принять с вашей стороны'
       trade_completed: 'Обмен с {name} выполнен'
       trade_requested: 'Пользователь {name} хочет обменяться с вами'
@@ -462,19 +462,19 @@ ramon-point-system:
       tab_post_hl: 'Подсветка сообщений'
       tab_tiers: Группы
       tab_title: Титулы
-      tier_buy: 'Получить доступ'
+      tier_buy: Получить
       tier_buy_cost: 'очков для покупки'
       tier_claim: 'Вступить в группу'
       tier_claim_failed: 'Не удалось получить группу.'
-      tier_claimed: Вступили
-      tier_claimed_alert: 'Вы вступили в {name}!'
+      tier_claimed: Получено
+      tier_claimed_alert: 'Вы вступили в группу {name}!'
       tier_cost: 'очков для вступления'
       tier_locked: Заблокировано
       tier_not_enough: 'Недостаточно очков'
       tier_points: 'очков за всё время'
       tier_threshold: 'очков за всё время для разблокировки'
       tiers_empty: 'Группы пока недоступны.'
-      tiers_help: 'Разблокируйте группы автоматически при достижении порога очков или купите доступ напрямую.'
+      tiers_help: 'Разблокируйте группы автоматически при достижении порога очков или получите доступ напрямую.'
       tiers_title: Группы
       title: Украшения
       toggle_nav_label: 'Переключить меню украшений'
