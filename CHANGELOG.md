@@ -7,6 +7,7 @@ CHANGELOG
 
 **Обновленные переводы расширений**:
 
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`ramon/point-system`](https://github.com/ram0ng1/point-system)
 
 
