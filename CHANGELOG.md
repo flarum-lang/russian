@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.59.70 (XXXX-XX-XX)
+--------------------
+
+**Обновленные переводы расширений**:
+
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+
+
+Все изменения: [1.59.69...1.59.70](https://github.com/flarum-lang/russian/compare/1.59.69...1.59.70).
+
+
 1.59.69 (2026-06-16)
 --------------------
 
