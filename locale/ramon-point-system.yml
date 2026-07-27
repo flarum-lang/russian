@@ -107,7 +107,7 @@ ramon-point-system:
       col_price: Цена
       col_status: Статус
       create: 'Добавить группу'
-      existing: 'Настроенные предложения'
+      existing: 'Настроенные группы'
       field_group: Группа
       field_is_auto: 'Автоматическое назначение при достижении порога'
       field_is_auto_help: 'Пользователи добавляются в эту группу, как только их общее количество очков достигает указанного порога — без покупки.'
@@ -118,7 +118,7 @@ ramon-point-system:
       field_price: 'Цена — списывается при покупке'
       help: 'Открывает доступ к группам через автоматическое повышение по порогу или за очки. Одна группа может поддерживать оба способа.'
       none: 'Пока нет настроенных групп.'
-      title: 'Предложения групп'
+      title: Группы
     manual:
       balance: Баланс
       bulk_awarded: 'Пользователи обновлены'
@@ -219,8 +219,8 @@ ramon-point-system:
       preset_silver-border: '🥈 Серебряная рамка'
       title: 'Подсветка сообщений'
     rules:
-      auto_group_enabled: 'Включить уровни групп'
-      auto_group_enabled_help: 'Автоматически повышать пользователей в группах при достижении порога очков за всё время.'
+      auto_group_enabled: 'Включить группы'
+      auto_group_enabled_help: 'Если включено, добавляет приобретение группы в магазине и автоматическое получение при достижении нужного порога очков.'
       avatar_deco_enabled: 'Включить рамки аватара'
       avatar_deco_enabled_help: 'Добавляет выбранное украшение поверх аватара пользователя везде, где он отображается.'
       avatar_deco_in_lists: 'Рамки аватара в списках тем'
@@ -424,7 +424,7 @@ ramon-point-system:
       item_family_title: титул
       item_granted: 'Пользователь {admin} отправил вам {family} «{item}»'
       points_added: 'Пользователь {admin} начислил вам {amount} очков'
-      points_removed: 'Пользователь {admin} снял с вас {amount} очков'
+      points_removed: 'Пользователь {admin} забрал у вас {amount} очков'
       tier_claimed: 'Вы вступили в группу {name}!'
       tier_excerpt: 'За {points} очков'
       trade_accepted: 'Пользователь {name} принял обмен — осталось принять с вашей стороны'
@@ -520,7 +520,7 @@ ramon-point-system:
       error_cancel_failed: 'Не удалось отменить обмен.'
       error_cannot_trade_with_self: 'Нельзя обмениваться с самим собой.'
       error_duplicate_with_other_side: 'Другой участник уже добавил этот предмет.'
-      error_initiator_insufficient_points: 'У вас недостаточно очков для предложения.'
+      error_initiator_insufficient_points: 'У вас не хватает очков для предложения.'
       error_insufficient_points: 'Обмен отклонён: у другого участника недостаточно очков.'
       error_item_equipped: 'Нельзя обменивать предметы, которые сейчас используются. Снимите их и попробуйте снова.'
       error_item_unavailable: 'Обмен отклонён: один из предметов недоступен. Обновите страницу и сформируйте предложение заново.'
