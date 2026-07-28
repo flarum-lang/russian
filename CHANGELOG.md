@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+2.0.57 (2026-07-28)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`ramon/point-system`](https://github.com/ram0ng1/point-system)
+
+
+Все изменения: [2.0.56...2.0.57](https://github.com/flarum-lang/russian/compare/2.0.56...2.0.57).
+
+
 2.0.56 (2026-07-25)
 -------------------
 
