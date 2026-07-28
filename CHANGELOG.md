@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.58 (2026-07-28)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`shebaoting/flarum-rss`](https://github.com/shebaoting/flarum-rss)
+
+
+Все изменения: [2.0.57...2.0.58](https://github.com/flarum-lang/russian/compare/2.0.57...2.0.58).
+
+
 2.0.57 (2026-07-28)
 -------------------
 
