@@ -5,6 +5,79 @@
 shebaoting-rss:
   admin:
     page:
+      add_new: 'Добавить новый RSS канал'
+      delete: Удалить
+      delete_confirmation: 'Удалить этот RSS канал?'
+      delete_error: 'Не удалось удалить этот RSS канал.'
+      empty_text: 'RSS каналы пока не добавлены.'
       heading:
-        title: 'Заголовок RSS ленты'
+        actions: Действия
+        status: 'Статус одобрения'
+        title: 'Заголовок RSS канала'
+        url: 'URL RSS канала'
+        user: 'Связанный пользователь'
+      load_error: 'Не удалось загрузить RSS каналы.'
+      materialized_tag_help: 'Когда пользователь впервые комментирует RSS статью, создается настоящая тема, которая привязывается к этому тегу Flarum.'
+      materialized_tag_label: 'Тег для обсуждений RSS'
+      materialized_tag_none: 'Без тега'
+      new_title: 'Новый заголовок RSS канала'
+      new_url: 'Новый URL RSS канала'
+      preview_default_title: 'RSS Лента'
+      preview_empty: 'Этот RSS канал не вернул ни одной статьи.'
+      preview_error: 'Не удалось получить этот RSS канал в реальном времени.'
+      preview_open: Открыть
+      preview_title: 'RSS статьи из {title}'
+      save_error: 'Не удалось сохранить этот RSS канал.'
+      show_on_index_help: 'Если этот параметр включен, ссылка на боковую панель «Независимые блоги» будет скрыта, а статьи из RSS каналов будут перемешаны в списке тем на главной странице по времени публикации.'
+      show_on_index_label: 'Показать статьи из RSS в списке на главной странице'
+      status_approved: Одобренный
+      status_pending: 'В ожидании'
       title: 'Настройки RSS агрегатора'
+      user_bind_tooltip: 'Привязать пользователя'
+      user_change_tooltip: 'Изменить связанного пользователя'
+      user_select_title: 'Выберите связанного пользователя'
+      user_unbind_tooltip: 'Удалить связанного пользователя'
+      view: Смотреть
+  forum:
+    comment:
+      cancel_button: Отменить
+      comment_count: '{count} комментариев'
+      login_button: 'Войти, чтобы комментировать'
+      original_link_line: 'Оригинальная статья: {url}'
+      placeholder: 'Напишите свой комментарий...'
+      published_line: 'Опубликовано в: {time}'
+      source_line: 'Источник: {site}'
+      submit_button: 'Оставить комментарий'
+      submit_error: 'Не удалось опубликовать ваш комментарий. Пожалуйста, попробуйте снова.'
+      title: 'Присоединяйтесь к теме'
+      validation_required: 'Комментарий должен содержать текст.'
+      validation_too_long: 'Комментарий слишком длинный.'
+      view_comments: 'Просмотреть комментарии'
+    empty_text: 'Пока нет доступных элементов RSS.'
+    index:
+      submit_feed_tooltip: 'Добавить RSS канал'
+      switch_to_native_tooltip: 'Переключиться на основной список тем'
+      switch_to_rss_tooltip: 'Переключиться на смешанный список RSS'
+    load_error: 'Не удалось загрузить элементы RSS.'
+    load_more: 'Загрузить ещё'
+    open_original: 'Открыть исходную статью'
+    page_title: 'Агрегатор RSS каналов'
+    published_at: 'Опубликовано в'
+    rss_link: 'Независимые Блоги'
+    settings:
+      heading: RSS
+      show_on_index_help: 'Если этот параметр включен, на главной странице по умолчанию отображается смешанный список RSS. Если он выключен, по умолчанию отображается основной список тем.'
+      show_on_index_label: 'Показать статьи RSS на главной странице'
+    submit_feed_button: 'Отправить ленту'
+    submit_modal:
+      load_error: 'Не удалось загрузить ваш RSS канал.'
+      site_title_label: 'Название сайта'
+      site_title_placeholder: 'Введите название сайта'
+      submit_button: Подтвердить
+      submit_error: 'Отправка не удалась. Пожалуйста, попробуйте снова.'
+      success_message: 'RSS канал успешно отправлен.'
+      title: 'Отправить RSS канал'
+      url_label: 'RSS URL'
+      url_placeholder: 'Введите URL RSS канала'
+      validation_error: 'URL адрес RSS и название сайта обязательны.'
+    unknown_site: 'RSS Лента'
