@@ -12,7 +12,7 @@ shebaoting-rss:
       empty_text: 'RSS каналы пока не добавлены.'
       heading:
         actions: Действия
-        status: 'Статус одобрения'
+        status: 'Статус активации'
         title: 'Заголовок RSS канала'
         url: 'URL RSS канала'
         user: 'Связанный пользователь'
@@ -22,7 +22,7 @@ shebaoting-rss:
       materialized_tag_none: 'Без тега'
       new_title: 'Новый заголовок RSS канала'
       new_url: 'Новый URL RSS канала'
-      preview_default_title: 'RSS Лента'
+      preview_default_title: 'RSS канал'
       preview_empty: 'Этот RSS канал не вернул ни одной статьи.'
       preview_error: 'Не удалось получить этот RSS канал в реальном времени.'
       preview_open: Открыть
@@ -45,7 +45,7 @@ shebaoting-rss:
       login_button: 'Войти, чтобы комментировать'
       original_link_line: 'Оригинальная статья: {url}'
       placeholder: 'Напишите свой комментарий...'
-      published_line: 'Опубликовано в: {time}'
+      published_line: 'Опубликовано: {time}'
       source_line: 'Источник: {site}'
       submit_button: 'Оставить комментарий'
       submit_error: 'Не удалось опубликовать ваш комментарий. Пожалуйста, попробуйте снова.'
@@ -62,13 +62,13 @@ shebaoting-rss:
     load_more: 'Загрузить ещё'
     open_original: 'Открыть исходную статью'
     page_title: 'Агрегатор RSS каналов'
-    published_at: 'Опубликовано в'
+    published_at: Опубликовано
     rss_link: 'Независимые Блоги'
     settings:
       heading: RSS
       show_on_index_help: 'Если этот параметр включен, на главной странице по умолчанию отображается смешанный список RSS. Если он выключен, по умолчанию отображается основной список тем.'
       show_on_index_label: 'Показать статьи RSS на главной странице'
-    submit_feed_button: 'Отправить ленту'
+    submit_feed_button: 'Отправить канал'
     submit_modal:
       load_error: 'Не удалось загрузить ваш RSS канал.'
       site_title_label: 'Название сайта'
@@ -80,4 +80,4 @@ shebaoting-rss:
       url_label: 'RSS URL'
       url_placeholder: 'Введите URL RSS канала'
       validation_error: 'URL адрес RSS и название сайта обязательны.'
-    unknown_site: 'RSS Лента'
+    unknown_site: 'RSS Канал'
