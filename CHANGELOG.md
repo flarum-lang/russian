@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.61 (XXXX-XX-XX)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+
+
+Все изменения: [2.0.60...2.0.61](https://github.com/flarum-lang/russian/compare/2.0.60...2.0.61).
+
+
 2.0.60 (2026-07-30)
 -------------------
 
