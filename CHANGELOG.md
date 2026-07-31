@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+2.0.62 (XXXX-XX-XX)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`linkrobins/badge-labels`](https://github.com/linkrobins/flarum-badge-labels)
+* [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye)
+* [`linkrobins/discussion-banners`](https://github.com/linkrobins/flarum-discussion-banners)
+
+
+Все изменения: [2.0.61...2.0.62](https://github.com/flarum-lang/russian/compare/2.0.61...2.0.62).
+
+
 2.0.61 (2026-07-31)
 -------------------
 
