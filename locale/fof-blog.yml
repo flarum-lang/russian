@@ -2,6 +2,15 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-blog/ru/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      article:
+        approved: 'Одобрена {discussion} в блоге'
+        created: 'Создана {discussion} в блоге'
+        featured: 'Закреплена {discussion} в блоге'
+        unfeatured: 'Откреплена {discussion} в блоге'
+        updated: 'Обновлены метаданные {discussion} в блоге'
 fof-blog:
   admin:
     blog: Блог
@@ -18,6 +27,12 @@ fof-blog:
       allow_comments_text: 'По умолчанию разрешить комментарии к статьям блога. Если запретить, можно индивидуально разрешать комментарии для отдельных статей блога. <b>Замечание:</b> изменение этой настройки не повлияет на существующие сообщения в блоге.'
       blog_heading: Блог
       categories_heading: Категории
+      categories_modal:
+        close: Закрыть
+        description: 'Выберите один или несколько тегов, которые являются тегами блога.'
+        no_tags: 'У вас пока нет тегов.'
+        tag_name_column: 'Название тега'
+        visit_blog: 'Посмотреть блог.'
       default_article_image_label: 'Изображение статьи по умолчанию'
       default_article_image_text: 'Выберите изображение статьи по умолчанию, которое будет отображаться, если изображение не задано.'
       featured_count_label: 'Максимальное количество постов'
@@ -28,6 +43,12 @@ fof-blog:
       hide_tags_in_taglist_text: 'Если это расширение включено, оно скроет теги блога с вашей домашней страницы.'
       no_categories_selected: 'Категории не выбраны'
       redirects_heading: Перенаправления
+      redirects_options:
+        both: 'Перенаправлять статьи и теги'
+        discussions_only: 'Перенаправлять только статьи'
+        none: 'Не перенаправлять'
+        tags_only: 'Перенаправлять только теги'
+      redirects_text: 'Перенаправлять оригинальные URL тем и тегов на их аналоги в блоге.'
       require_review_label: 'Сообщения блога требуют просмотра'
       require_review_text: 'При отправке статьи она не отобразится, а потребует одобрения модератора.'
       select_categories_button: 'Выбрать категории блога'
@@ -101,3 +122,7 @@ fof-blog:
         title: 'Перенаправляем на статью нашего блога...'
     validation:
       missing_id: 'Отсутствует идентификатор'
+  lib:
+    gambits:
+      blog:
+        key: блог
