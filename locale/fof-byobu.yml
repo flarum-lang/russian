@@ -105,8 +105,10 @@ fof-byobu:
   lib:
     gambits:
       allows-pd:
+        hint: да
         key: переписки
       byobu:
+        hint: 'имя пользователя или отображаемое имя'
         key: переписки
       private:
         key: приватная
