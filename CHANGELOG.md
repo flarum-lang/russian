@@ -8,6 +8,7 @@ CHANGELOG
 **Обновленные переводы расширений**:
 
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 
 
 Все изменения: [2.0.60...2.0.61](https://github.com/flarum-lang/russian/compare/2.0.60...2.0.61).
