@@ -36,3 +36,5 @@ ralkage-account-lockout:
       unlock_button: 'Разблокировать аккаунт'
     user_badge:
       locked_tooltip: 'Аккаунт заблокирован'
+    user_controls:
+      unlock_button: Разблокировать

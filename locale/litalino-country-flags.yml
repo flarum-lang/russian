@@ -4,6 +4,8 @@
 
 justoverclock-country-flags:
   admin:
+    bind_help: 'Принудительно требовать указать страну у аккаунта, который не указал страну после входа'
+    bind_label: 'Обязательное указание страны'
     countryColumn: Страна
     required_help: 'Вы должны включить опцию Установить страну, чтобы данная опция работала'
     required_label: 'Необходимо указать страну'
@@ -11,6 +13,8 @@ justoverclock-country-flags:
     showFlagsOnPosts: 'Показывать флаги на сообщениях'
     showFlagsOnPosts_text: 'Показывать флаги (текстом) на сообщениях'
   forum:
+    binding_country: 'Мы обнаружили, что вы не указали своё местоположение. Пожалуйста, сначала укажите свою страну. Оставлять сообщения вы сможете только после этого.'
+    binding_country_click: 'Указать сейчас'
     clickToSelectCountry: 'Выберите свою страну'
     countrySaved: 'Страна успешно сохранена!'
     field_placeholder: 'Подтвердить флаги стран'

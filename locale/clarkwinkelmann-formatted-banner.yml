@@ -8,8 +8,10 @@ clarkwinkelmann-formatted-banner:
       dismissible: 'Разрешить отмененный баннер'
       guestContent: 'Форматированный контент гостя'
       guestHtml: 'HTML контент гостя'
+      hideWelcomeHero: 'Скрыть приветственный баннер Welcome Hero'
       memberContent: 'Форматированный контент участника'
       memberHtml: 'HTML контент участника'
+      replaceWelcomeHero: 'Заменить приветственный баннер'
   forum:
     alert:
       login: 'Вы были подключены автоматически.'

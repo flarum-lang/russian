@@ -7,4 +7,14 @@ fof-oauth:
     settings:
       providers:
         line:
+          client_id_label: 'ID канала — Channel ID'
+          client_secret_label: 'Секрет канала — Channel secret'
           description: 'Зарегистрируйте свой форум в LINE Developers Console {link}'
+  forum:
+    log_in:
+      with_line_button: '=> fof-oauth.forum.log_in.with_button'
+    providers:
+      line: '=> fof-oauth.lib.providers.line'
+  lib:
+    providers:
+      line: LINE

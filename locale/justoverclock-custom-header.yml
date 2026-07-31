@@ -5,12 +5,31 @@
 custom-header:
   admin:
     button-text: 'Текст для левой клавиши'
+    button-text-help: 'Введите здесь текст для левой кнопки'
     button2-text: 'Текст для правой клавиши'
+    button2-text-help: 'Введите здесь текст для правой кнопки'
     facebookIcon: 'Ссылка на вашу Facebook-страницу'
     facebookIcon-help: 'Вставьте сюда действующий URL-адрес вашей Facebook-страницы'
     githubIcon: 'Ссылка на вашу GitHub-страницу'
     githubIcon-help: 'Вставьте сюда действующий URL-адрес вашей GitHub-страницы'
+    headerBackgroundImage: 'Фоновое изображение шапки'
+    headerBackgroundImage-help: 'Вставьте сюда URL вашего собственного фонового изображения'
+    headerTagline: 'Слоган шапки'
+    headerTagline-help: 'Здесь вы можете изменить свой слоган'
+    headerTitle: 'Заголовок шапки'
+    headerTitle-help: 'Здесь вы можете изменить основной заголовок вашей шапки'
+    link-button-one: 'Ссылка для левой кнопки'
+    link-button-one-help: 'Укажите здесь корректный URL для левой кнопки'
+    link-button-two: 'Ссылка для правой кнопки'
+    link-button-two-help: 'Укажите здесь корректный URL для правой кнопки'
     twitterIcon: 'Ссылка на вашу Twitter-страницу'
     twitterIcon-help: 'Вставьте сюда действующий URL-адрес вашей Twitter-страницы'
     youtubeIcon: 'Ссылка на вашу Youtube-страницу'
     youtubeIcon-help: 'Вставьте сюда действующий URL-адрес вашей Youtube-страницы'
+  forum:
+    facebook: 'Подписывайтесь на нас в Facebook'
+    github: 'Страница GitHub'
+    login: Вход
+    signup: Регистрация
+    twitter: 'Подписывайтесь на нас в Twitter'
+    youtube: 'Подписывайтесь на нас на Youtube'
