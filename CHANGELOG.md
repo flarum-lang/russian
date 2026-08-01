@@ -2,6 +2,37 @@ CHANGELOG
 =========
 
 
+1.59.72 (2026-08-01)
+--------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`blt950/oauth-generic`](https://github.com/blt950/flarum-ext-oauth-generic)
+* [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting)
+* [`clarkwinkelmann/flarum-ext-discussion-open-position`](https://github.com/clarkwinkelmann/flarum-ext-discussion-open-position)
+* [`clarkwinkelmann/flarum-ext-readonly-profile`](https://github.com/clarkwinkelmann/flarum-ext-readonly-profile)
+* [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed)
+* [`datlechin/flarum-birthdays-widget`](https://github.com/datlechin/flarum-birthdays-widget)
+* [`linkrobins/badge-labels`](https://github.com/linkrobins/flarum-badge-labels)
+* [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye)
+* [`linkrobins/discussion-banners`](https://github.com/linkrobins/flarum-discussion-banners)
+
+
+**Обновленные переводы расширений**:
+
+* [`clarkwinkelmann/flarum-ext-formatted-banner`](https://github.com/clarkwinkelmann/flarum-ext-formatted-banner)
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+* [`fof/mason`](https://github.com/FriendsOfFlarum/mason)
+* [`ianm/oauth-line`](https://github.com/imorland/flarum-ext-oauth-line)
+* [`justoverclock/custom-header`](https://github.com/justoverclockl/custom-header)
+* [`justoverclock/reputation-score`](https://flarum.org/extension/justoverclock/reputation-score)
+* [`litalino/flarum-country-flags`](https://github.com/Litalino/flarum-country-flags)
+* [`ralkage/flarum-ext-account-lockout`](https://github.com/Ralkage/flarum-ext-account-lockout)
+
+
+Все изменения: [1.59.71...1.59.72](https://github.com/flarum-lang/russian/compare/1.59.71...1.59.72).
+
+
 1.59.71 (2026-07-31)
 --------------------
 
