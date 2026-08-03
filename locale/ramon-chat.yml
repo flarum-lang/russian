@@ -47,6 +47,11 @@ ramon-chat:
       subject: 'Вас упомянули в {channel}'
       unknown_author: Кто-то
   forum:
+    bookmarks:
+      empty: 'Вы еще не сохранили ни одного сообщения.'
+      no_text: '(только вложение)'
+      remove: 'Удалить закладку'
+      remove_failed: 'Не удалось удалить закладку.'
     channel:
       archived: 'Этот канал заархивирован.'
       archived_link: 'Просмотреть архивную стенограмму'
@@ -63,33 +68,109 @@ ramon-chat:
       leave_failed: 'Не удалось выйти из канала.'
       members: '{count} участников'
       moderators_only: 'Только модераторы могут публиковать сообщения в этом канале.'
+      muted: Приглушенный
       no_messages: 'Сообщений пока нет. Напишите что-то.'
       no_pinned_messages: 'В этом канале нет закреплённых сообщений.'
       pinned_messages: 'Закрепленные сообщения'
       scroll_to_latest: 'Перейти к последнему сообщению'
       search_in_channel: 'Поиск по этому каналу'
       view_info: 'Информация о канале'
+    composer:
+      attach: 'Прикрепить файл'
+      cancel_edit: Отмена
+      emoji: Эмодзи
+      insert_date: 'Вставить дату'
+      mention_all: 'Уведомить каждого участника'
+      mention_here: 'Уведомить всех здесь'
+      placeholder: 'Сообщение {channel}'
+      placeholder_closed: 'Этот канал закрыт'
+      send: Отправить
+      send_ctrl_enter: 'Отправить (Ctrl+Enter)'
+      send_enter: 'Отправить (Enter)'
+      send_failed: 'Ваше сообщение не удалось отправить.'
+      slow_mode_wait: 'Включен режим «Медленно». Вы сможете писать снова через {duration}.'
+      sticker: 'Вставить стикер'
+      sticker_none: 'Стикеры не найдены.'
+      sticker_search: 'Поиск стикера'
+      too_large: 'Этот файл слишком большой.'
+      too_long_body: 'Сократите сообщение на {over} символов. Этот канал поддерживает до {max} символов.'
+      too_long_dismiss: Ок
+      too_long_title: 'Ваше сообщение слишком длинное.'
+      upload_failed: 'Загрузка не удалась.'
+      uploading: Загрузка…
     drawer:
       close: 'Закрыть чат'
       full_screen: 'Открыть в полноэкранном режиме'
       title: Чат
+    duration:
+      hours: '{count}ч'
+      minutes: '{count}м'
+      seconds: '{count}с'
+    error:
+      render: 'Что-то в чате не отобразилось.'
+      retry: 'Пробовать снова'
+    flag:
+      detail: 'Что-то ещё, что модераторам следует знать (необязательно)'
+      detail_placeholder: 'Это увидят только модераторы.'
+      detail_required: 'Скажите модераторам, что не так'
+      failed: 'Не удалось отправить отчёт.'
+      reasons:
+        harassment: Издевательство
+        inappropriate: Неприличное
+        off_topic: 'Не по теме'
+        other: 'Что-то еще'
+        spam: Спам
+      submit: 'Отправить отчёт'
+      title: 'Пожаловаться на сообщение'
+    flags:
+      action_failed: 'Не удалось выполнить это действие.'
+      delete_message: 'Удалить сообщение'
+      dismiss: Отклонить
+      flarum_item: 'На {username} пожаловались в {em}{channel}{/em} по {reason}'
+      forbidden: 'У вас нет разрешения на просмотр сообщений, на которые поступили жалобы.'
+      go_to: 'Перейти к сообщению'
+      load_failed: 'Не удалось загрузить жалобы.'
+      message_deleted: 'Это сообщение было удалено.'
+      message_gone: 'Указанное сообщение больше не существует.'
+      resolved_by: 'Решено {moderator}'
+    lightbox:
+      close: Закрыть
+      next: 'Следующее изображение'
+      open_original: 'Открыть оригинал'
+      previous: 'Предыдущее изображение'
     message:
       bookmark: Закладка
       copy_link: 'Копировать ссылку'
       copy_text: Копировать
       delete: Удалить
+      delete_confirm: 'Удалить это сообщение?'
+      delete_failed: 'Это сообщение удалить не удалось.'
       deleted: 'Это сообщение было удалено.'
       deleted_by_moderator: 'Это сообщение было удалено модератором.'
       deleted_by_named: 'Это сообщение было удалено {username}.'
       edit: Редактировать
+      edited: отредактировано
+      edited_at: 'отредактировано {ago}'
       flag: 'Пожаловаться на сообщение'
       like: Нравится
+      move: 'Перейти на канал'
       pin: 'Закрепить сообщение'
       pinned: Закреплено
       purge: 'Удалить навсегда'
+      purge_failed: 'Это сообщение удалить не удалось.'
       remove_bookmark: 'Удалить закладку'
       reply: Ответить
+      replying_to: 'Ответ пользователю {username}'
       restore: Восстановить
+      select: Выбрать
+      starting_thread: 'Создание темы обсуждения на основе сообщения пользователя {username}'
+      system:
+        channel_archived: 'Канал был заархивирован.'
+        channel_closed: 'Канал был закрыт.'
+        channel_reopened: 'Канал был вновь открыт.'
+        user_added: '{username} был добавлен {actor}.'
+        user_joined: '{username} присоединился к каналу.'
+        user_left: '{username} покинул канал.'
       unlike: 'Не нравится'
       unpin: 'Открепить сообщение'
     nav:
@@ -97,7 +178,11 @@ ramon-chat:
       unread_channels: '{count} каналов с непрочитанными сообщениями'
       unread_mentions: '{count} непрочитанных упоминаний'
       unread_messages: '{count} непрочитанных сообщений'
+    new_channel:
+      cancel: Отмена
+      subtitle: 'Придумайте название и решите, для кого оно будет. Все остальное можно изменить позже.'
     sidebar:
+      back_to_channels: 'Вернуться к каналам'
       bookmarks: Закладки
       browse_channels: 'Обзор каналов'
       channels: Каналы
@@ -105,6 +190,20 @@ ramon-chat:
       new_channel: 'Новый канал'
       no_channels: 'Вы еще не присоединились ни к одному каналу.'
       search: Поиск
+    stream:
+      jump_to_latest: 'Перейти к последним'
+      new_messages: 'Новые сообщения'
+      today: Сегодня
+      yesterday: Вчера
+    thread:
+      no_replies: 'Пока нет ответов. Будьте первым.'
+      tracking: Уведомления
+      tracking_always: Наблюдение
+      tracking_mentions: 'Только упоминания'
+      tracking_never: Приглушенный
+    typing:
+      one: '{username} печатает…'
+      several: '{count} человек печатают…'
   lib:
     gdpr:
       anonymize_description: 'Ваши сообщения в чате сохраняются, поэтому переписка остается читаемой, но больше не приписываются вам. Вложения, реакции, черновики и информация о членстве в каналах удаляются.'
