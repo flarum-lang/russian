@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.65 (2026-08-04)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks)
+
+
+Все изменения: [2.0.64...2.0.65](https://github.com/flarum-lang/russian/compare/2.0.64...2.0.65).
+
+
 2.0.64 (2026-08-04)
 -------------------
 
