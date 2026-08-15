@@ -2,6 +2,26 @@ CHANGELOG
 =========
 
 
+1.59.74 (XXXX-XX-XX)
+--------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
+
+
+**Обновленные переводы расширений**:
+
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
+* [`linkrobins/badge-labels`](https://github.com/linkrobins/flarum-badge-labels)
+* [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye)
+
+
+Все изменения: [1.59.73...1.59.74](https://github.com/flarum-lang/russian/compare/1.59.73...1.59.74).
+
+
 1.59.73 (2026-08-11)
 --------------------
 
