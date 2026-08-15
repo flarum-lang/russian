@@ -47,6 +47,8 @@ linkrobins-birdseye:
       direct: 'Прямые переходы / неизвестно'
       export: 'Экспортировать в CSV'
       export_all: 'Экспортировать CSV'
+      map_collapse: 'Выйти из полноэкранного режима'
+      map_expand: 'Во весь экран'
       members_word: участников
       new_members: 'Новые участники'
       no_data: 'Пока нет данных.'
@@ -77,3 +79,5 @@ linkrobins-birdseye:
       visitors_per_day: 'Посетители по дням'
       visitors_word: посетителей
       world: Мир
+      zoom_in: Приблизить
+      zoom_out: Отдалить

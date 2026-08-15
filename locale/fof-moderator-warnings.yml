@@ -2,6 +2,14 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-moderator-warnings/ru/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      warning:
+        created: 'Выдано предупреждение пользователю {username}'
+        deleted: 'Навсегда удалено предупреждение пользователя {username}'
+        hidden: 'Удалено предупреждение пользователя {username}'
+        restored: 'Восстановлено предупреждение пользователя {username}'
 fof-moderator-warnings:
   admin:
     permissions:
@@ -47,7 +55,7 @@ fof-moderator-warnings:
       private_comment: 'Приватный комментарий'
       public_comment: Предупреждение
     warning_modal:
-      confirmation_message: 'Предупреждение сохранено. Возможно, вам потребуется обновить страницу, чтобы увидеть предупреждение.'
+      confirmation_message: 'Предупреждение сохранено.'
       heading: 'Предупреждение для <strong>{username}</strong>'
       private_comment_heading: 'За что <strong>{username}</strong> получает предупреждение? Это приватный комментарий, он будет виден ТОЛЬКО модераторам.'
       public_comment_heading: 'За что <strong>{username}</strong> получает предупреждение? Это публичный комментарий, он будет виден пользователю и модераторам.'

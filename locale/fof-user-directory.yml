@@ -43,5 +43,7 @@ fof-user-directory:
       newest: 'По убыванию'
       not_specified: 'Стандартный вариант'
       oldest: 'По возрастанию'
+      seen_oldest: 'Давно не в сети'
+      seen_recent: 'Недавно в сети'
       username_az: 'Имя пользователя (a-z)'
       username_za: 'Имя пользователя (z-a)'
