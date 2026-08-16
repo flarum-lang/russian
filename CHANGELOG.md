@@ -2,6 +2,30 @@ CHANGELOG
 =========
 
 
+2.0.66 (2026-08-16)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+
+
+**Обновленные переводы расширений**:
+
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+* [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`linkrobins/badge-labels`](https://github.com/linkrobins/flarum-badge-labels)
+* [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado)
+* [`ramon/backup`](https://github.com/ram0ng1/backup)
+* [`ramon/point-system`](https://github.com/ram0ng1/point-system)
+
+
+Все изменения: [2.0.65...2.0.66](https://github.com/flarum-lang/russian/compare/2.0.65...2.0.66).
+
+
 2.0.65 (2026-08-04)
 -------------------
 
