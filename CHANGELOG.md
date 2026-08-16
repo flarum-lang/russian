@@ -5,6 +5,11 @@ CHANGELOG
 2.0.66 (XXXX-XX-XX)
 -------------------
 
+**Добавлена поддержка новых расширений**:
+
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+
+
 **Обновленные переводы расширений**:
 
 * [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
