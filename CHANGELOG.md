@@ -13,6 +13,8 @@ CHANGELOG
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`linkrobins/badge-labels`](https://github.com/linkrobins/flarum-badge-labels)
 * [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado)
+* [`ramon/backup`](https://github.com/ram0ng1/backup)
 * [`ramon/point-system`](https://github.com/ram0ng1/point-system)
 
 
