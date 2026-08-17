@@ -7,6 +7,7 @@ CHANGELOG
 
 **Обновленные переводы расширений**:
 
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`ramon/chat`](https://github.com/ram0ng1/chat)
 
 
