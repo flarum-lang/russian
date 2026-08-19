@@ -140,7 +140,7 @@ flarum-extension-manager:
         output_modal:
           cause_unknown: Неизвестно
           command: 'Команда Composer'
-          guessed_cause: Cause
+          guessed_cause: Причина
           output: Вывод
         refresh: 'Обновить список задач'
         statuses:
