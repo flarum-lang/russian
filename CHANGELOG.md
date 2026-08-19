@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+2.0.68 (2026-08-19)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`datlechin/flarum-signup-button`](https://github.com/datlechin/flarum-signup-button)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+
+
+Все изменения: [2.0.67...2.0.68](https://github.com/flarum-lang/russian/compare/2.0.67...2.0.68).
+
+
 2.0.67 (2026-08-19)
 -------------------
 
