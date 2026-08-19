@@ -2,11 +2,29 @@ CHANGELOG
 =========
 
 
-1.59.75 (XXXX-XX-XX)
+1.59.75 (2026-08-19)
 --------------------
 
 **Обновленные переводы расширений**:
 
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+
+
+Все изменения: [1.59.74...1.59.75](https://github.com/flarum-lang/russian/compare/1.59.74...1.59.75).
+
+
+1.59.75 (XXXX-XX-XX)
+--------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`clarkwinkelmann/flarum-ext-default-image-alt`](https://github.com/clarkwinkelmann/flarum-ext-default-image-alt)
+
+
+**Обновленные переводы расширений**:
+
+* [`datlechin/flarum-signup-button`](https://github.com/datlechin/flarum-signup-button)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 
 
