@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+2.0.67 (2026-08-19)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`ramon/chat`](https://github.com/ram0ng1/chat)
+
+
+Все изменения: [2.0.66...2.0.67](https://github.com/flarum-lang/russian/compare/2.0.66...2.0.67).
+
+
 2.0.66 (2026-08-16)
 -------------------
 
