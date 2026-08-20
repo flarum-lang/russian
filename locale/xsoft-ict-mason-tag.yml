@@ -28,6 +28,13 @@ xsoft-mason-tag:
       show_when_empty-help: 'Определяет, показывать ли поле в теме, если в ней нет ответов'
       user_values_allowed: 'Пользовательские значения разрешены'
       validation: 'Одобрение пользовательских значений'
+    permissions:
+      see-other-fields: 'Просмотреть поля во всех существующих темах'
+      see-own-fields: 'Просмотреть поля в существующих темах'
+    titles:
+      field-settings: 'Настройки поля'
+      fields: Поля
+      settings: Настройки
   forum:
     answers-modal:
       edit-title: 'Править поля для {title}'
