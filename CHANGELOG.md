@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.59.76 (XXXX-XX-XX)
+--------------------
+
+**Обновленные переводы расширений**:
+
+* [`xsoft-ict/mason-tag`](https://github.com/xsoft-ict/fof-mason-tag)
+
+
+Все изменения: [1.59.75...1.59.76](https://github.com/flarum-lang/russian/compare/1.59.75...1.59.76).
+
+
 1.59.75 (2026-08-19)
 --------------------
 
