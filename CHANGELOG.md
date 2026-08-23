@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.69 (XXXX-XX-XX)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+
+
+Все изменения: [2.0.68...2.0.69](https://github.com/flarum-lang/russian/compare/2.0.68...2.0.69).
+
+
 2.0.68 (2026-08-19)
 -------------------
 
