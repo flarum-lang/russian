@@ -5,6 +5,11 @@ CHANGELOG
 2.0.69 (XXXX-XX-XX)
 -------------------
 
+**Общие изменения**:
+
+* Обновленные переводы ядра Flarum.
+
+
 **Обновленные переводы расширений**:
 
 * [`flarum/sticky`](https://github.com/flarum/sticky)
