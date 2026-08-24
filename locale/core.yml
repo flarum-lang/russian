@@ -12,6 +12,8 @@ core:
         config_override:
           help: 'Настройки Font Awesome заданы в файле config.php и не могут быть изменены здесь.'
           label: 'Переопределение конфигурации'
+        forced_style_help: 'Принудительно применяет к каждой иконке определённый стиль FontAwesome, например «fa-duotone fa-light» или «fa-regular». Заменяет стили ядра и расширений — при этом иконки брендов никогда не меняются. Источник иконок должен поддерживать нужный стиль: встроенные иконки — это FontAwesome Free, которые вне стиля Solid покрывают лишь несколько сотен иконок, поэтому принудительное указание другого стиля оставит большинство иконок пустыми. Все стили доступны при подключении FontAwesome Pro через CDN или Kit. Оставьте пустым, чтобы отключить.'
+        forced_style_label: 'Стиль иконок'
         kit_url_help: 'URL скрипта вашего набора с kit.fontawesome.com'
         kit_url_label: 'URL набора'
         preview:
@@ -66,6 +68,10 @@ core:
         custom_driver: 'Форум использует драйвер очереди {driver}, предоставленный расширением.'
         memory_help: 'Максимальный объём памяти, который может использовать обработчик очереди перед перезапуском. По умолчанию — 128 MB.'
         memory_label: 'Лимит памяти (MB)'
+        pause_all_label: 'Приостановить все очереди'
+        pause_help: 'Пока обработка приостановлена, воркеры не берут новые задачи из затронутых очередей — задачи накапливаются до возобновления обработки. На уже выполняющиеся задачи это не влияет.'
+        pause_label: 'Приостановить обработку очереди'
+        pause_queue_label: 'Приостановить очередь «{queue}»'
         rest_help: 'Время ожидания между обработкой задач. По умолчанию — 0 секунд.'
         rest_label: 'Время ожидания (в секундах)'
         retries_help: 'Максимальное количество попыток выполнения задачи перед тем, как она будет помечена неудачной. По умолчанию — 1.'
@@ -76,6 +82,8 @@ core:
         timeout_help: 'Максимальное время выполнения одной задачи до принудительного завершения. По умолчанию — 60 секунд.'
         timeout_label: 'Тайм-аут задачи (в секундах)'
       search:
+        cjk_mode_help: 'Включите, если ваш форум на китайском, японском или корейском языке. Полнотекстовый поиск базы данных ищет по словам и не может находить совпадения внутри иероглифического текста, поэтому эта опция переключает его на посимвольное сравнение подстрок. На очень крупных форумах это работает медленнее. Более быстрая альтернатива — настроить на уровне базы данных парсер полнотекстового поиска с поддержкой CJK, например ngram-парсер MySQL/MariaDB.'
+        cjk_mode_label: 'Оптимизировать поиск для CJK'
         driver_heading: 'Драйвер поиска: {model}'
         driver_options:
           default: 'Стандартный поиск в базе данных'
@@ -128,6 +136,8 @@ core:
       logo_dark_mode_text: 'Загрузите альтернативный логотип для тёмной темы.'
       logo_heading: Логотип
       logo_text: 'Загрузите изображение, которое будет отображаться вместо названия форума.'
+      show_theme_selector_help: 'Позволяет переключаться между доступными темами в шапке форума.'
+      show_theme_selector_label: 'Показывать переключатель темы'
       title: Оформление
     basics:
       abandoned_extensions_heading: 'Заброшенные расширения'
@@ -185,6 +195,9 @@ core:
         copy_success: 'Скопировано в буфер обмена'
         title: 'Сведения о системе'
       io_error_message: 'Не удалось записать в файловую систему. Проверьте права доступа к файловой системе и попробуйте ещё раз. Или попробуйте запустить из командной строки.'
+      queue_paused_all_warning: 'Обработка всех очередей приостановлена. Задачи будут накапливаться до возобновления обработки.'
+      queue_paused_manage: Управление
+      queue_paused_warning: 'Обработка очереди {queues} приостановлена. Задачи будут накапливаться до возобновления обработки.'
       status:
         headers:
           queue-driver: 'Драйвер очереди'
@@ -200,6 +213,9 @@ core:
     database-driver-mismatch-warning:
       detail: "Ваш файл <code>config.php</code> настроен на использование драйвера базы данных <code>{configured}</code>, однако Flarum определил, что сервер базы данных использует <code>{actual}</code>.\n\nИспользование неверного драйвера может привести к неочевидным ошибкам. Установите <code>'driver' => ''{actual}''</code> в разделе <code>database</code> файла <code>config.php</code>. Дополнительную информацию можно найти в <link>документации Flarum</link>.\n"
       label: 'Несоответствие драйвера базы данных'
+    database-version-warning:
+      below-recommended-detail: "Ваш сервер {server} работает на версии <code>{version}</code>. Она поддерживается, но для максимальной производительности и получения обновлений рекомендуем {server} <code>{recommended}</code> или новее. Подробнее в <link>документации Flarum</link>.\n"
+      below-recommended-label: 'Версия базы данных устарела'
     debug-warning:
       detail: "При активном режиме <code>отладки</code> Flarum будет перестраивать <code>JavaScript</code> и <code>CSS</code> при каждом запросе. Это может привести к утечке потенциально важной информации, например, паролей баз данных, переменных окружения и другого.\n\nНастоятельно рекомендуется отключить режим <code>отладки</code> в вашем файле <code>config.php</code>. Дополнительную информацию смотрите в <link>документации Flarum</link>.\n"
       label: 'Включён режим отладки'
@@ -315,6 +331,14 @@ core:
       section_suggested_help: 'Расширения Flarum могут использовать другие расширения или пакеты, чтобы добавить новые функции или интеграции.'
       suggested_by: 'Рекомендуется расширением {extension}'
       title: 'Состояние расширений'
+    failed_jobs:
+      delete: Удалить
+      details: Подробности
+      meta: 'Очередь {queue} · сбой {time}'
+      none: 'Неудачных задач нет.'
+      retry: Повторить
+      retry_all: 'Повторить все'
+      title: 'Неудачные задачи'
     header:
       get_help: Помощь
       log_out_button: '=> core.ref.log_out'
@@ -399,6 +423,12 @@ core:
       members_button: '=> core.group.members'
       signup_closed_button: Закрыта
       signup_open_button: Открыта
+    queue_widget:
+      failed: Ошибки
+      pending: 'В ожидании'
+      refresh: Обновить
+      reserved: Выполняется
+      title: Очередь
     search_source:
       general:
         heading: Основное
@@ -554,6 +584,7 @@ core:
       session_dropdown_accessible_label: 'Меню опций сеанса'
       settings_button: '=> core.ref.settings'
       sign_up_link: '=> core.ref.sign_up'
+      theme_switcher_accessible_label: 'Сменить тему'
     index:
       all_discussions_link: '=> core.ref.all_discussions'
       cannot_start_discussion_button: 'Нельзя создать'
@@ -565,12 +596,14 @@ core:
       start_discussion_button: '=> core.ref.start_a_discussion'
       toggle_sidenav_dropdown_accessible_label: 'Меню навигации'
     index_sort:
-      latest_button: 'По обновлению'
+      az_button: '=> core.ref.title_az'
+      latest_button: '=> core.ref.latest'
       newest_button: '=> core.ref.newest'
       oldest_button: '=> core.ref.oldest'
       relevance_button: '=> core.ref.relevance'
       toggle_dropdown_accessible_label: 'Изменить сортировку списка тем'
-      top_button: Популярное
+      top_button: '=> core.ref.top'
+      za_button: '=> core.ref.title_za'
     log_in:
       forgot_password_link: 'Забыли пароль?'
       invalid_login_message: '=> core.ref.invalid_login_message'
