@@ -835,6 +835,14 @@ core:
         group:
           hint: 'название группы или несколько названий групп'
           key: группа
+    index_sort:
+      az_button: '=> core.ref.title_az'
+      latest_button: '=> core.ref.latest'
+      newest_button: '=> core.ref.newest'
+      oldest_button: '=> core.ref.oldest'
+      relevance_button: '=> core.ref.relevance'
+      top_button: '=> core.ref.top'
+      za_button: '=> core.ref.title_za'
     input:
       clear_button: 'Очистить поле'
     loading_indicator:
@@ -848,6 +856,7 @@ core:
       placeholder: 'Выберите несколько вариантов'
     nav:
       drawer_button: 'Открыть панель навигации'
+      pin_pane_button: 'Закрепить список тем'
     notices:
       bisecting: 'Выполняется диагностика расширений для определения причины проблемы.'
       bisecting_continue: 'Продолжить диагностику'
@@ -856,6 +865,8 @@ core:
     number_suffix:
       kilo_text: K
       mega_text: M
+    overflowing_list:
+      toggle_accessible_label: Больше
     pagination:
       back_button: 'Предыдущая страница'
       first_button: 'На первую страницу'
@@ -871,6 +882,7 @@ core:
       options_heading: 'Параметры поиска'
       placeholder: Поиск...
       preview_heading: 'Предпросмотр поиска'
+      search_active_button_accessible_label: 'Изменить поиск: {query}'
       search_clear_button_accessible_label: 'Очистить поиск'
       title: Поиск
     search_source:
@@ -919,6 +931,7 @@ core:
     icon: Иконка
     icon_text: 'Введите название любого класса иконки <a>Font Awesome</a>, <em>включая</em> префикс. Например, <code>fas fa-flag</code> или <code>fa-solid fa-flag</code>.'
     invalid_login_message: 'Указаны неверные данные для входа.'
+    latest: 'По обновлению'
     light_hc_mode_label: 'Контрастная светлая'
     light_mode_label: Светлая
     load_more: 'Показать ещё'
@@ -951,6 +964,9 @@ core:
     sign_up: Регистрация
     some_others: '{count, plural, one {# другой} other {# других}}'
     start_a_discussion: 'Создать тему'
+    title_az: 'Название (А–Я)'
+    title_za: 'Название (Я–А)'
+    top: Топ
     username: 'Имя пользователя'
     username_or_email_placeholder: 'Имя пользователя или Email'
     users: Пользователи
