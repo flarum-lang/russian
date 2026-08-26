@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.72 (XXXX-XX-XX)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
+
+
+Все изменения: [2.0.71...2.0.72](https://github.com/flarum-lang/russian/compare/2.0.71...2.0.72).
+
+
 2.0.71 (2026-08-25)
 -------------------
 
