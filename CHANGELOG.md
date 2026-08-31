@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+2.0.72 (2026-08-31)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
+
+
+Все изменения: [2.0.71...2.0.72](https://github.com/flarum-lang/russian/compare/2.0.71...2.0.72).
+
+
 2.0.71 (2026-08-25)
 -------------------
 
