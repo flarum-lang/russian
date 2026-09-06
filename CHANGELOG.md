@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.73 (XXXX-XX-XX)
+-------------------
+
+**Добавлена поддержка новых расширений**:
+
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+
+
+Все изменения: [2.0.72...2.0.73](https://github.com/flarum-lang/russian/compare/2.0.72...2.0.73).
+
+
 2.0.72 (2026-08-31)
 -------------------
 
