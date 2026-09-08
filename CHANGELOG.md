@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.74 (2026-09-08)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+
+
+Все изменения: [2.0.73...2.0.74](https://github.com/flarum-lang/russian/compare/2.0.73...2.0.74).
+
+
 2.0.73 (2026-09-07)
 -------------------
 
