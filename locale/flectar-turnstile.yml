@@ -16,5 +16,4 @@ flectar-turnstile:
     not_loaded_error: 'Ошибка загрузки Cloudflare Turnstile. Пожалуйста, обновите страницу и проверьте, не включён ли блокировщик рекламы.'
     validation_error: 'Пожалуйста, пройдите проверку Cloudflare Turnstile.'
 validation:
-  required: 'Пожалуйста, пройдите проверку Cloudflare Turnstile.'
   turnstile: 'Не удалось подтвердить, что вы не робот. Пожалуйста, обновите страницу и попробуйте снова.'
