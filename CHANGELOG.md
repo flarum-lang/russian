@@ -2,6 +2,20 @@ CHANGELOG
 =========
 
 
+2.0.75 (XXXX-XX-XX)
+-------------------
+
+**Обновленные переводы расширений**:
+
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`ramon/chat`](https://github.com/ram0ng1/chat)
+* [`ramon/point-system`](https://github.com/ram0ng1/point-system)
+
+
+Все изменения: [2.0.74...2.0.75](https://github.com/flarum-lang/russian/compare/2.0.74...2.0.75).
+
+
 2.0.74 (2026-09-08)
 -------------------
 
