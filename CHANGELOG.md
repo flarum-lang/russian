@@ -9,6 +9,9 @@ CHANGELOG
 
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
+* [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki)
 * [`ramon/chat`](https://github.com/ram0ng1/chat)
 * [`ramon/point-system`](https://github.com/ram0ng1/point-system)
 
