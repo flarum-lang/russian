@@ -60,6 +60,6 @@ forumaker-magicslider:
       section_desktop: Десктоп
       section_mobile: 'Мобильные устройства'
       section_slides: Слайды
-      upload: 'Загрузить изображение'
+      upload: Файл
       upload_error: 'Не удалось загрузить изображение'
       uploading: Загрузка...
