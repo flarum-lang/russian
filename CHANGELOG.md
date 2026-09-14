@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.59.78 (2026-09-14)
+--------------------
+
+**Обновленные переводы расширений**:
+
+* [`forumaker/magicslider`](https://github.com/forumaker/magicslider)
+
+
+Все изменения: [1.59.77...1.59.78](https://github.com/flarum-lang/russian/compare/1.59.77...1.59.78).
+
+
 1.59.77 (2026-09-08)
 --------------------
 
