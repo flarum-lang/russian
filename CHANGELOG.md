@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.59.79 (XXXX-XX-XX)
+--------------------
+
+**Обновленные переводы расширений**:
+
+* [`clarkwinkelmann/flarum-ext-carving-contest`](https://github.com/clarkwinkelmann/flarum-ext-carving-contest)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
+* [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`ralkage/flarum-ext-word-counter`](https://github.com/Ralkage/flarum-ext-word-counter)
+
+
+Все изменения: [1.59.78...1.59.79](https://github.com/flarum-lang/russian/compare/1.59.78...1.59.79).
+
+
 1.59.78 (2026-09-14)
 --------------------
 
