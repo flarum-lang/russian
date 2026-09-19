@@ -26,12 +26,12 @@ fof-doorman:
           used_times: '{remaining, plural, =0 {Unlimited uses} one {Осталось {remainingUses} применений} other {Осталось {remainingUses} применений}}'
         warning: 'Этот код был использован максимальное количество раз.'
       pagination:
-        back_button: '=> core.lib.pagination.back_button'
-        first_page_button: '=> core.lib.pagination.first_button'
-        go_to_page_textbox_a11y_label: '=> core.lib.pagination.go_to_page_textbox_a11y_label'
-        last_page_button: '=> core.lib.pagination.last_button'
-        next_button: '=> core.lib.pagination.next_button'
-        page_counter: '=> core.lib.pagination.page_counter'
+        back_button: '=> core.admin.users.pagination.back_button'
+        first_page_button: '=> core.admin.users.pagination.first_button'
+        go_to_page_textbox_a11y_label: '=> core.admin.users.pagination.go_to_page_textbox_a11y_label'
+        last_page_button: '=> core.admin.users.pagination.last_button'
+        next_button: '=> core.admin.users.pagination.next_button'
+        page_counter: '=> core.admin.users.pagination.page_counter'
     modal:
       group: 'Рассылка приглашений для группы {group}'
       help: 'Введите адреса e-mail, разделяя запятыми, пробелами или запятыми с пробелами.'

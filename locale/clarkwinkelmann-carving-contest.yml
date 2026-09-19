@@ -36,7 +36,7 @@ clarkwinkelmann-carving-contest:
       like: Нравится
       likes:
         liked_by_self_text: '{users} это нравится.'
-        liked_by_text: '{count, plural, one {{users} нравится это.} другим {{users} нравится это.}}'
+        liked_by_text: '{count, plural, one {{users} нравится это.} other {{users} нравится это.}}'
         others_link: '=> core.ref.some_others'
         you_text: '=> core.ref.you'
       load-more: 'Загрузить больше элементов'
