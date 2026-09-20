@@ -5,19 +5,19 @@ CHANGELOG
 1.59.79 (XXXX-XX-XX)
 --------------------
 
-**Обновленные переводы расширений**:
+**Updated translations for extensions**:
 
-* [`clarkwinkelmann/flarum-ext-carving-contest`](https://github.com/clarkwinkelmann/flarum-ext-carving-contest)
-* [`flarum/tags`](https://github.com/flarum/tags)
-* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
-* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
-* [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
-* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
-* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
-* [`ralkage/flarum-ext-word-counter`](https://github.com/Ralkage/flarum-ext-word-counter)
+* [`clarkwinkelmann/flarum-ext-carving-contest`](https://github.com/clarkwinkelmann/flarum-ext-carving-contest) (1 changed)
+* [`flarum/tags`](https://github.com/flarum/tags) (2 changed)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman) (6 changed)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions) (1 changed)
+* [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts) (1 changed)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (1 changed)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) (1 changed)
+* [`ralkage/flarum-ext-word-counter`](https://github.com/Ralkage/flarum-ext-word-counter) (1 changed)
 
 
-Все изменения: [1.59.78...1.59.79](https://github.com/flarum-lang/russian/compare/1.59.78...1.59.79).
+All changes: [1.59.78...1.59.79](https://github.com/flarum-lang/russian/compare/1.59.78...1.59.79).
 
 
 1.59.78 (2026-09-14)
