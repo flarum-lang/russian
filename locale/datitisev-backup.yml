@@ -111,23 +111,18 @@ datitisev-backup:
           label: 'Путь назначения'
       name_label: 'Название расположения'
       sftp:
-        host: '=> datitisev-backup.admin.adapter-settings-modal.ftp.host'
         passphrase:
           description: 'Парольная фраза для закрытого ключа, если используется.'
           label: 'Парольная фраза'
-        password: '=> datitisev-backup.admin.adapter-settings-modal.ftp.password'
         port:
           description: 'Порт SFTP — по умолчанию — 22.'
           label: Порт
         private-key:
           description: 'Путь (желательно абсолютный) к закрытому ключу, используемому для аутентификации SFTP-подключения.'
           label: 'Закрытый ключ'
-        root: '=> datitisev-backup.admin.adapter-settings-modal.ftp.root'
-        timeout: '=> datitisev-backup.admin.adapter-settings-modal.ftp.timeout'
         use-agent:
           description: 'Использовать ли SSH-агент для аутентификации подключения, по умолчанию — нет.'
           toggle: 'Использовать агент'
-        username: '=> datitisev-backup.admin.adapter-settings-modal.ftp.username'
       timestamp_help: "Укажите формат временной метки в именах файлов резервных копий. По умолчанию — <code>U</code> (Unix-временная метка). Используется <a>формат даты PHP</a>. Недопустимые символы в имени файла будут заменены. Имя файла будет иметь вид <code>{forum}-[форматированная временная метка].zip</code>.\n"
       timestamp_label: 'Формат временной метки в имени файла'
       title: 'Конфигурировать {adapter}'

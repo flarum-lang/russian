@@ -34,7 +34,7 @@ ralkage-profile-messages:
       reply_placeholder: 'Написать ответ...'
       reply_submit: Ответить
       report_button: Пожаловаться
-      show_replies: '{count, plural, one {Показать {count} ответ} few {Показать {count} ответа} many {Показать {count} ответов} other {Показать {count} ответа}}'
+      show_replies: '{count, plural, one {Показать # ответ} few {Показать # ответа} many {Показать # ответов} other {Показать # ответа}}'
     notification:
       new_profile_message_reply_text: '{username} ответил(а) вам на стене {profileOwner}.'
       new_profile_message_text: '{username} оставил(а) сообщение у вас на стене.'
