@@ -19,10 +19,12 @@ datitisev-backup:
           description: 'URL конечной точки вашего хранилища.'
           label: 'Конечная точка'
         path-prefix:
+          description: 'Необязательный префикс пути по умолчанию для файлов.'
           label: 'Префикс пути'
       aws:
         bucket:
           description: 'Бакет S3 для загрузки.'
+          label: Бакет
         credentials-key:
           description: 'Ключ доступа AWS'
           label: Ключ
@@ -35,6 +37,7 @@ datitisev-backup:
             label: Ключ
         path-prefix:
           description: 'Необязательный префикс пути по умолчанию для файлов.'
+          label: 'Префикс пути'
         region:
           description: 'Регион вашего бакета.'
           label: Регион
@@ -100,6 +103,7 @@ datitisev-backup:
           test_success_alert: 'Подключено к Google Drive. Сохраните изменения, чтобы запомнить настройки.'
         refresh-token:
           description: "Следуйте инструкциям: https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md, чтобы получить токен обновления для вашего приложения Google OAuth.\n"
+          label: 'Токен обновления'
       local:
         target:
           description: 'Укажите локальный каталог для сохранения резервных копий.'

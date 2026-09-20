@@ -50,6 +50,8 @@ fof-pwa:
         heading: Прочее
         push_notif_preference_default_to_email_label: 'По умолчанию включать push-уведомления там, где включены email-уведомления'
         push_notif_preference_default_to_email_text: 'Если включено, push-уведомления будут по умолчанию активированы для всех типов уведомлений, для которых по умолчанию включены email-уведомления. Если выключено, push-уведомления будут по умолчанию отключены.'
+        share_buttons_label: 'Включить кнопки «Поделиться»'
+        share_buttons_text: 'Если включено, кнопка «Поделиться» будет добавлена к обсуждениям, сообщениям и пользователям.'
         user_max_subscriptions_label: 'Максимальное количество push-подписок на пользователя'
         user_max_subscriptions_text: 'Сколько push-подписок может одновременно иметь один пользователь? При отправке push-уведомления для каждой подписки выполняется отдельный вызов API. Обычно одна подписка соответствует одному браузеру, который использует пользователь.'
         window_controls_overlay_label: 'Включить Window Controls Overlay'
@@ -78,7 +80,7 @@ fof-pwa:
         title: 'Ответ пользователя {username} в теме {title}'
       share_button: Поделиться
     settings:
-      push_header: Push-уведомления
+      push_header: Push
       pwa_notifications:
         access_default: 'Из-за ограничений браузера необходимо разрешить получение push-уведомлений на этом устройстве.'
         access_default_button: Разрешить
