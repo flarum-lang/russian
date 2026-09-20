@@ -7,9 +7,15 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup) (5 removed)
+* [`ekumanov/flarum-ext-post-search`](https://github.com/ekumanov/flarum-ext-post-search) (2 changed)
 * [`flarum/tags`](https://github.com/flarum/tags) (1 changed)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links) (1 removed)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions) (1 changed)
 * [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts) (1 changed)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (1 changed)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) (1 changed)
+* [`ralkage/flarum-ext-profile-messages`](https://github.com/Ralkage/flarum-ext-profile-messages) (1 changed)
 * [`ralkage/flarum-ext-word-counter`](https://github.com/Ralkage/flarum-ext-word-counter) (1 changed)
 
 
