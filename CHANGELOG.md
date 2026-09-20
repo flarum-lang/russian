@@ -5,15 +5,15 @@ CHANGELOG
 2.0.76 (XXXX-XX-XX)
 -------------------
 
-**Обновленные переводы расширений**:
+**Updated translations for extensions**:
 
-* [`flarum/tags`](https://github.com/flarum/tags)
-* [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
-* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
-* [`ralkage/flarum-ext-word-counter`](https://github.com/Ralkage/flarum-ext-word-counter)
+* [`flarum/tags`](https://github.com/flarum/tags) (1 changed)
+* [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts) (1 changed)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (1 changed)
+* [`ralkage/flarum-ext-word-counter`](https://github.com/Ralkage/flarum-ext-word-counter) (1 changed)
 
 
-Все изменения: [2.0.75...2.0.76](https://github.com/flarum-lang/russian/compare/2.0.75...2.0.76).
+All changes: [2.0.75...2.0.76](https://github.com/flarum-lang/russian/compare/2.0.75...2.0.76).
 
 
 2.0.75 (2026-09-14)
