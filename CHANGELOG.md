@@ -9,13 +9,20 @@ CHANGELOG
 
 * [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup) (5 removed)
 * [`ekumanov/flarum-ext-post-search`](https://github.com/ekumanov/flarum-ext-post-search) (2 changed)
+* [`ernestdefoe/aurora`](https://github.com/ernestdefoe/aurora) (1 changed)
 * [`flarum/tags`](https://github.com/flarum/tags) (1 changed)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (2 changed)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (2 changed)
+* [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks) (9 changed)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman) (7 changed)
+* [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors) (4 changed)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links) (1 removed)
 * [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions) (1 changed)
 * [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts) (1 changed)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (1 changed)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) (1 changed)
-* [`ralkage/flarum-ext-profile-messages`](https://github.com/Ralkage/flarum-ext-profile-messages) (1 changed)
+* [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji) (20 changed)
+* [`ralkage/flarum-ext-profile-messages`](https://github.com/Ralkage/flarum-ext-profile-messages) (2 changed)
 * [`ralkage/flarum-ext-word-counter`](https://github.com/Ralkage/flarum-ext-word-counter) (1 changed)
 
 
