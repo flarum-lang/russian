@@ -13,7 +13,7 @@ ernestdefoe-aurora:
       gradient_start: 'Основной градиент — начальный цвет'
   forum:
     palette:
-      apply: 'Применить палитру «{palette}»'
+      apply: 'Применить палитру {palette}'
       aurora: Аврора
       button_label: 'Выбрать цветовую палитру'
       ember: Угли
