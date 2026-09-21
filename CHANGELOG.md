@@ -2,6 +2,39 @@ CHANGELOG
 =========
 
 
+1.59.79 (2026-09-21)
+--------------------
+
+**Added support for new extensions**:
+
+* [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
+* [`quasimo/flarum-ext-carousel-grids`](https://github.com/Quasimo/flarum-ext-carousel-grids)
+
+
+**Updated translations for extensions**:
+
+* [`clarkwinkelmann/flarum-ext-carving-contest`](https://github.com/clarkwinkelmann/flarum-ext-carving-contest) (1 changed)
+* [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup) (4 added)
+* [`flarum/tags`](https://github.com/flarum/tags) (2 changed)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman) (6 changed)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification) (1 changed)
+* [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon) (3 changed)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions) (1 changed)
+* [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts) (1 changed)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (1 changed)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (2 added, 1 changed)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) (1 changed)
+* [`fof/seo`](https://github.com/FriendsOfFlarum/seo) (4 changed)
+* [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars) (1 changed)
+* [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji) (1 changed)
+* [`ralkage/flarum-ext-profile-messages`](https://github.com/Ralkage/flarum-ext-profile-messages) (1 changed)
+* [`ralkage/flarum-ext-word-counter`](https://github.com/Ralkage/flarum-ext-word-counter) (1 changed)
+
+
+All changes: [1.59.78...1.59.79](https://github.com/flarum-lang/russian/compare/1.59.78...1.59.79).
+
+
 1.59.78 (2026-09-14)
 --------------------
 
