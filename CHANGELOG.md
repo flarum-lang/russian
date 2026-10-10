@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+2.0.77 (XXXX-XX-XX)
+-------------------
+
+**Added support for new extensions**:
+
+* [`fof/upgrade-advisor`](https://github.com/FriendsOfFlarum/upgrade-advisor) (33% complete)
+* [`huseyinfiliz/traderfeedback`](https://github.com/huseyinfiliz/traderfeedback) (88% complete)
+
+
+All changes: [2.0.76...2.0.77](https://github.com/flarum-lang/russian/compare/2.0.76...2.0.77).
+
+
 2.0.76 (2026-09-21)
 -------------------
 
