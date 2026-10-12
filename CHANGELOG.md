@@ -7,6 +7,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed) (80% complete)
 * [`fof/upgrade-advisor`](https://github.com/FriendsOfFlarum/upgrade-advisor) (33% complete)
 * [`huseyinfiliz/traderfeedback`](https://github.com/huseyinfiliz/traderfeedback) (88% complete)
 
