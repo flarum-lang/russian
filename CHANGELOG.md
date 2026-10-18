@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.78 (XXXX-XX-XX)
+-------------------
+
+**Added support for new extensions**:
+
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (59% complete)
+
+
+All changes: [2.0.77...2.0.78](https://github.com/flarum-lang/russian/compare/2.0.77...2.0.78).
+
+
 2.0.77 (2026-10-12)
 -------------------
 
