@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+2.0.81 (XXXX-XX-XX)
+-------------------
+
+**Added support for new extensions**:
+
+* [`huseyinfiliz/bump`](https://github.com/huseyinfiliz/bump) (100% complete)
+* [`huseyinfiliz/pickem`](https://github.com/huseyinfiliz/pickem) (100% complete)
+
+
+All changes: [2.0.80...2.0.81](https://github.com/flarum-lang/russian/compare/2.0.80...2.0.81).
+
+
 2.0.80 (2026-11-03)
 -------------------
 
