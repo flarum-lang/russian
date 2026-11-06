@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.82 (XXXX-XX-XX)
+-------------------
+
+**Added support for new extensions**:
+
+* [`huseyinfiliz/custom-profile-page`](https://github.com/huseyinfiliz/custom-profile-page) (100% complete)
+
+
+All changes: [2.0.81...2.0.82](https://github.com/flarum-lang/russian/compare/2.0.81...2.0.82).
+
+
 2.0.81 (2026-11-06)
 -------------------
 
