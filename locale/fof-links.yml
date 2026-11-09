@@ -6,32 +6,71 @@ fof-links:
   admin:
     edit_link:
       delete_link_button: 'Удалить ссылку'
-      delete_link_confirmation: 'Вы уверены, что хотите удалить ссылку?'
+      delete_link_confirmation: 'Вы уверены, что хотите удалить «{title}»?'
       icon_additional_text: 'Для значка бренда можно использовать префикс <code>fab fa-</code>.'
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'
       internal_link: 'Это внутренняя ссылка?'
       open_newtab: 'Открывать в новом окне'
+      options_label: Опции
       submit_button: '=> core.ref.save_changes'
       title: '=> fof-links.ref.create_link'
+      title_child: 'Новая ссылка под {parent}'
       title_label: '=> fof-links.ref.title'
       title_placeholder: '=> fof-links.ref.title'
+      type:
+        external:
+          help: 'Открывает адрес за пределами этого форума.'
+          label: 'Переходит на другой сайт'
+        heading: 'Что делает эта ссылка'
+        internal:
+          help: 'Открывается без перезагрузки страницы.'
+          label: 'Перейти на страницу этого форума'
+        label:
+          help: 'Отображается в виде метки. Используйте ее, чтобы дать название группе ссылок.'
+          label: 'Никуда не ведёт'
       url_description: 'Оставьте пустым для отображения в качестве метки.'
+      url_help:
+        external: 'Полный адрес, включая <code>https://</code>.'
+        internal: 'Часть адреса после {baseUrl}, начинающаяся со слэша.'
       url_label: '=> fof-links.ref.url'
       url_placeholder: '=> fof-links.ref.url'
-      use_rel_me: 'Атрибут <code>rel="me"</code> позволяет подтвердить личность на других сайтах'
+      url_placeholder.external: 'https://example.com'
+      url_placeholder.internal: /tags
+      use_rel_me: 'Добавить атрибут <code>rel="me"</code>'
+      use_rel_me_help: 'Это позволит сайту, на который вы ссылаетесь, проверить, что этот форум принадлежит вам.'
       visibility:
         guest-only:
-          label: 'Только {guest} ?'
-        help: 'По умолчанию ссылки видны только <code>{admin}</code> пользователям. Настройте разрешения, указав, кто может видеть эту ссылку.'
+          help: 'Пользователи, прошедшие авторизацию, не увидят эту ссылку. Вышеуказанное разрешение должно быть установлено для {everyone}.'
+          label: 'Показать только {guest}'
+        help: 'Новая ссылка доступна только пользователям {admin}. Измените права доступа, чтобы сделать ее доступной для всех.'
         help-disabled: 'Сохранить ссылку до изменения настроек видимости.'
-        label: 'Видимость ссылки'
+        label: 'Кто это увидит'
     links:
+      add_child_accessible_label: 'Добавить ссылку под {title}'
+      audience_everyone: 'Видимый для всех'
       create_button: '=> fof-links.ref.create_link'
+      description: 'Они отображаются в навигации вашего форума в том порядке, в котором перечислены здесь.'
+      edit_accessible_label: 'Редактировать {title}'
+      flag:
+        guest_only: 'Только для гостей'
+        new_tab: 'Новая вкладка'
+        rel_me: 'rel="me"'
       links: '=> fof-links.ref.links'
-      preconfigured: 'На этом форуме ссылки сконфигурированы заранее и не могут быть изменены.'
+      moved: '{title} переместился на позицию {position} из {total}.'
+      moved_under: '{title} перемещён в {parent}, позиция {position} из {total}.'
+      no_url: 'Без ссылки, отображается как метка'
+      preconfigured: 'Ссылки на этом форуме были предварительно настроены в коде и не могут быть изменены здесь.'
+      reorder_accessible_label: 'Измените порядок {title}. С помощью клавиш со стрелками переместите его вверх, вниз, на предыдущую ссылку или обратно.'
+      reorder_help: 'Перетаскивайте ссылку за маркер, чтобы изменить ее порядок, или поместите ее под другую ссылку, чтобы вложить. Если маркер выделен, то же самое можно сделать с помощью клавиш со стрелками.'
+      reorder_loading: 'Подготовка списка для изменения порядка…'
     settings:
+      heading: Настройки
       show_icons_only_on_tablet: 'Отображать значки только на экранах планшетов'
+      show_icons_only_on_tablet_help: 'Скрывает заголовки ссылок шириной от 768 до 991 пикселя, где для навигации остается меньше всего места. Заголовки по-прежнему озвучиваются программами чтения с экрана.'
+  forum:
+    header:
+      toggle_dropdown_accessible_label: 'Показать ссылки под {title}'
   ref:
     create_link: 'Создать ссылку'
     links: Ссылки
