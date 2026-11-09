@@ -2,6 +2,29 @@ CHANGELOG
 =========
 
 
+2.0.82 (2026-11-09)
+-------------------
+
+**General changes**:
+
+* Updated Flarum core translations (20 added).
+
+
+**Added support for new extensions**:
+
+* [`huseyinfiliz/custom-profile-page`](https://github.com/huseyinfiliz/custom-profile-page) (100% complete)
+* [`linkrobins/flarum-warble`](https://github.com/linkrobins/warble) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (37 added, 3 changed, 100% complete)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links) (31 added, 6 changed, 100% complete)
+
+
+All changes: [2.0.81...2.0.82](https://github.com/flarum-lang/russian/compare/2.0.81...2.0.82).
+
+
 2.0.81 (2026-11-06)
 -------------------
 
