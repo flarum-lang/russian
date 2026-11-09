@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.83 (2026-11-09)
+-------------------
+
+**Added support for new extensions**:
+
+* [`ernestdefoe/festoon`](https://github.com/ernestdefoe/festoon) (100% complete)
+
+
+All changes: [2.0.82...2.0.83](https://github.com/flarum-lang/russian/compare/2.0.82...2.0.83).
+
+
 2.0.82 (2026-11-09)
 -------------------
 
