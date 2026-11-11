@@ -23,5 +23,5 @@ linkrobins-warble:
       updates_seen: 'Последнее обновление было отправлено {at}.'
       websocket_leftover: 'В config.php все еще есть раздел websocket, вероятно, оставшийся от устаревшего сервиса Warble. Warble его игнорирует. Вы можете его удалить.'
     health_failed: 'Не удалось загрузить проверку работоспособности. Перезагрузите страницу и попробуйте снова.'
-    health_recheck: 'Проверьте еще раз'
-    health_title: 'Здоровье в режиме реального времени'
+    health_recheck: 'Проверить еще раз'
+    health_title: 'Здоровье Realtime'
