@@ -2,17 +2,33 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-messages/ru/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      dialog:
+        posted: 'Отправлено личное сообщение {username}'
+        started: 'Начат личный диалог с {username}'
+flarum-gdpr:
+  lib:
+    data:
+      messages:
+        anonymize_description: 'Адреса, с которых отправлялись ваши личные сообщения, будут удалены. Сообщения сохранятся.'
+        delete_description: 'Ваши личные сообщения будут удалены.'
+        export_description: 'Ваши личные сообщения, когда они были отправлены и с какого адреса.'
 flarum-messages:
   admin:
     permissions:
       delete_own_messages_label: 'Удалять свои сообщения'
+      message_users_without_permission_label: 'Писать пользователям без разрешения на сообщения'
       send_messages_label: 'Отправлять личные сообщения'
+      send_without_throttle_label: 'Отправлять сообщения без ограничений'
+      view_ips_label: 'Просматривать IP-адреса сообщений'
   email:
     message_received:
       html:
-        body: '[Новое сообщение]({url}) от {user_display_name}.'
+        body: "[Новое сообщение]({url}) от {user_display_name}.\n\nВы не будете получать новые письма об этом диалоге, пока не прочитаете его.\n"
       plain:
-        body: "Новое сообщение от {user_display_name}.\n\n{url}\n\n---\n\n{content}\n"
+        body: "Новое сообщение от {user_display_name}.\n\n{url}\n\n---\n\n{content}\n\n---\n\nВы не будете получать новые письма об этом диалоге, пока не прочитаете его.\n"
       subject: 'Новое сообщение от {user_display_name}'
   forum:
     composer:
@@ -24,7 +40,9 @@ flarum-messages:
     dialog_list:
       load_more_button: '=> core.ref.load_more'
       mark_as_read_tooltip: 'Отметить как прочитанное'
+      own_last_message_preview: 'Вы: {content}'
       title: Сообщения
+      unread_count_text: '{count} непрочитанных'
       view_all: 'Все сообщения'
     dialog_section:
       back_label: Назад
@@ -65,7 +83,11 @@ flarum-messages:
     notifications:
       message_received_text: 'Новое сообщение от {user}'
     recipient_selection_modal:
+      cannot_reply_text: 'Нельзя отвечать на сообщения'
       title: 'Выберите получателей сообщения'
+    search_source:
+      conversation_with: 'Диалог с {username}'
+      heading: Сообщения
     settings:
       notify_message_received_label: 'Кто-то отправил мне сообщение'
     user_controls:
@@ -74,3 +96,11 @@ flarum-messages:
   lib:
     dialog:
       title: 'Диалог с {username}'
+    no_other_members_message: 'В этом диалоге никого больше нет.'
+    recipient_cannot_reply_message: '{username} не может отвечать на сообщения.'
+    recipient_unavailable_message: '{username} не может получать сообщения.'
+flarum-statistics:
+  admin:
+    statistics:
+      dialog_replies_heading: 'Ответы в диалогах'
+      dialogs_heading: 'Начатые диалоги'
