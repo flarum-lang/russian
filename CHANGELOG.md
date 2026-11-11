@@ -5,6 +5,11 @@ CHANGELOG
 2.0.84 (XXXX-XX-XX)
 -------------------
 
+**Added support for new extensions**:
+
+* [`flarum/deck`](https://github.com/flarum/deck) (5% complete)
+
+
 **Updated translations for extensions**:
 
 * [`linkrobins/flarum-warble`](https://github.com/linkrobins/warble) (2 changed, 100% complete)
