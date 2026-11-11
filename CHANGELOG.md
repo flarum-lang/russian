@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.84 (XXXX-XX-XX)
+-------------------
+
+**Updated translations for extensions**:
+
+* [`linkrobins/flarum-warble`](https://github.com/linkrobins/warble) (2 changed, 100% complete)
+
+
+All changes: [2.0.83...2.0.84](https://github.com/flarum-lang/russian/compare/2.0.83...2.0.84).
+
+
 2.0.83 (2026-11-09)
 -------------------
 
