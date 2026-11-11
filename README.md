@@ -54,6 +54,7 @@ php flarum cache:clear
 | [`flarum/approval`](https://github.com/flarum/approval) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum2/ru/flarum-approval/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-approval/ru/) |
 | [`flarum/audit`](https://github.com/flarum/audit) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum2/ru/flarum-audit/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-audit/ru/) |
 | [`flarum/bbcode`](https://github.com/flarum/bbcode) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum2/ru/flarum-bbcode/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-bbcode/ru/) |
+| [`flarum/deck`](https://github.com/flarum/deck) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum2/ru/flarum-deck/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-deck/ru/) |
 | [`flarum/emoji`](https://github.com/flarum/emoji) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum2/ru/flarum-emoji/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-emoji/ru/) |
 | [`flarum/extension-manager`](https://github.com/flarum/extension-manager) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum2/ru/flarum-extension-manager/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-extension-manager/ru/) |
 | [`flarum/flags`](https://github.com/flarum/flags) | [![Статус перевода](https://weblate.rob006.net/widgets/flarum2/ru/flarum-flags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-flags/ru/) |
