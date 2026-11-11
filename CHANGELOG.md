@@ -7,12 +7,14 @@ CHANGELOG
 
 **Added support for new extensions**:
 
-* [`flarum/deck`](https://github.com/flarum/deck) (5% complete)
+* [`flarum/deck`](https://github.com/flarum/deck) (100% complete)
 
 
 **Updated translations for extensions**:
 
+* [`flarum/messages`](https://github.com/flarum/messages) (18 added, 2 changed, 100% complete)
 * [`linkrobins/flarum-warble`](https://github.com/linkrobins/warble) (2 changed, 100% complete)
+* [`ramon/chat`](https://github.com/ram0ng1/chat) (225 added, 19 changed, 100% complete)
 
 
 All changes: [2.0.83...2.0.84](https://github.com/flarum-lang/russian/compare/2.0.83...2.0.84).
