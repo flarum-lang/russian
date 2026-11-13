@@ -13,6 +13,8 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`flarum/messages`](https://github.com/flarum/messages) (18 added, 2 changed, 100% complete)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (5 added, 9 changed, 100% complete)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (21 added, 1 changed, 100% complete)
 * [`linkrobins/flarum-warble`](https://github.com/linkrobins/warble) (2 changed, 100% complete)
 * [`ramon/chat`](https://github.com/ram0ng1/chat) (225 added, 19 changed, 100% complete)
 
