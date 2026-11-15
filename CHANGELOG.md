@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.59.80 (2026-11-15)
+--------------------
+
+**General changes**:
+
+* Updated Day.js translations.
+
+
+All changes: [1.59.79...1.59.80](https://github.com/flarum-lang/russian/compare/1.59.79...1.59.80).
+
+
 1.59.79 (2026-09-21)
 --------------------
 
