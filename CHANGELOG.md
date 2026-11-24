@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+2.0.86 (XXXX-XX-XX)
+-------------------
+
+**Added support for new extensions**:
+
+* [`clarkwinkelmann/flarum-ext-popular-discussion-badge`](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge) (100% complete)
+* [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read) (96% complete)
+
+
+All changes: [2.0.85...2.0.86](https://github.com/flarum-lang/russian/compare/2.0.85...2.0.86).
+
+
 2.0.85 (2026-11-15)
 -------------------
 
