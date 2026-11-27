@@ -1,80 +1,41 @@
 {
-  "name": "flarum-lang/russian",
-  "description": "Russian language pack for Flarum.",
-  "type": "flarum-extension",
-  "license": "MIT",
-  "homepage": "https://github.com/flarum-lang/russian",
-  "keywords": [
-    "extension",
-    "flarum",
-    "russian",
-    "language",
-    "locale",
-    "ru-locale",
-    "localization",
-    "translation"
-  ],
-  "authors": [
-    {
-      "name": "Kai Kimera",
-      "homepage": "https://github.com/KaiKimera",
-      "role": "Translator"
-    },
-    {
-      "name": "Flarum Russian Community",
-      "homepage": "https://discuss.flarum.org/d/1545",
-      "role": "Translator"
-    }
-  ],
-  "support": {
-    "source": "https://github.com/flarum-lang/russian",
-    "issues": "https://github.com/flarum-lang/russian/issues",
-    "docs": "https://github.com/flarum-lang/russian/blob/main/README.md",
-    "forum": "https://discuss.flarum.org/d/1545"
-  },
-  "funding": [
-    {
-      "type": "website",
-      "url": "https://flarum.org/donate"
-    },
-    {
-      "type": "github",
-      "url": "https://github.com/sponsors/flarum"
-    },
-    {
-      "type": "opencollective",
-      "url": "https://opencollective.com/flarum"
-    }
-  ],
-  "require": {
-    "flarum/core": "^2.0"
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true,
-  "extra": {
-    "flarum-extension": {
-      "title": "Русский",
-      "category": "language",
-      "info": {
-        "website": "https://github.com/flarum-lang/russian",
-        "support": "https://discuss.flarum.org/d/1545"
-      },
-      "icon": {
-        "image": "icon.svg",
-        "backgroundColor": "#ffffff",
-        "backgroundSize": "cover",
-        "backgroundPosition": "center"
-      }
-    },
-    "flarum-locale": {
-      "code": "ru",
-      "title": "Русский"
-    },
-    "extiverse": {
-      "discuss": "https://discuss.flarum.org/d/1545"
-    },
-    "branch-alias": {
-      "dev-main": "1.x-dev"
-    }
-  }
+	"name": "flarum-lang/russian",
+	"description": "Russian Language Pack for Flarum",
+	"type": "flarum-extension",
+	"keywords": [
+		"flarum-locale"
+	],
+	"homepage": "https://github.com/flarum-lang/russian",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "KaiKimera",
+			"homepage": "https://github.com/KaiKimera",
+			"role": "Maintainer"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/flarum-lang/russian/issues",
+		"forum": "https://discuss.flarum.org/d/1545",
+		"source": "https://github.com/flarum-lang/russian"
+	},
+	"require": {
+		"flarum/core": "^2.0"
+	},
+	"extra": {
+		"flarum-extension": {
+			"title": "Russian",
+			"category": "language",
+			"icon": {
+				"image": "icon.svg",
+				"backgroundColor": "#ffffff",
+				"backgroundSize": "cover",
+				"backgroundPosition": "center"
+			}
+		},
+		"flarum-locale": {
+			"code": "ru",
+			"title": "Русский"
+		}
+	}
 }
